@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+
+# Vercel
+.vercel
+
+# SO
+.DS_Store
+Thumbs.db
+
+# Documentos do fnet: NÃO versionar os PDFs (pesados); manter só o índice
+documentos/**
+!documentos/
+!documentos/indice.json
+
+# Arquivos de trabalho temporários
+preview.html
+synctest.txt
+*.xlsx

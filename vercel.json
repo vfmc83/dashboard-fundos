@@ -1,0 +1,13 @@
+{
+  "cleanUrls": true,
+  "headers": [
+    {
+      "source": "/data.json",
+      "headers": [{ "key": "Cache-Control", "value": "no-cache, max-age=0" }]
+    },
+    {
+      "source": "/documentos/indice.json",
+      "headers": [{ "key": "Cache-Control", "value": "no-cache, max-age=0" }]
+    }
+  ]
+}

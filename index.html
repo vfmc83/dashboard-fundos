@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Engage · Fundos Listados B3</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 47'%3E%3Crect y='0' width='38' height='7' fill='%23004463'/%3E%3Crect y='10' width='20' height='7' fill='%23939598'/%3E%3Crect y='20' width='30' height='7' fill='%23004463'/%3E%3Crect y='30' width='20' height='7' fill='%23939598'/%3E%3Crect y='40' width='38' height='7' fill='%23004463'/%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..500&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --petroleo:#004463; --petroleo-escuro:#00303F; --areia:#F6F3EC;
+    --pedra:#DED6C8; --linha:#D8CFBF; --tinta:#191D1F; --champagne:#A98A5B;
+    --branco:#FFFFFF; --neutro:#5C5A54; --trilho:#ECE6D9;
+    --serif:'Fraunces',Georgia,serif; --sans:'Hanken Grotesk',Calibri,system-ui,sans-serif;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:var(--areia);color:var(--tinta);font-family:var(--sans);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+  a{color:var(--petroleo);text-decoration:none}
+  .kicker{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.22em;color:var(--champagne)}
+  h1,h2,h3{font-family:var(--serif);font-weight:400;letter-spacing:-.01em;color:var(--petroleo);margin:0}
+  .wrap{max-width:1240px;margin:0 auto;padding:0 28px}
+
+  header.top{border-bottom:1px solid var(--linha);background:var(--areia);position:sticky;top:0;z-index:20}
+  .top-inner{display:flex;align-items:center;justify-content:space-between;padding:16px 28px;max-width:1240px;margin:0 auto;flex-wrap:wrap;gap:8px}
+  .brand{display:flex;align-items:center;gap:12px}
+  .brand .sym{height:30px;width:auto;display:block}
+  .brand .mark{font-family:var(--sans);font-weight:700;letter-spacing:.34em;font-size:20px;color:var(--petroleo)}
+  .brand .div{width:1px;height:20px;background:var(--linha)}
+  .brand .sub{font-family:var(--serif);font-size:18px;color:var(--tinta)}
+  .top-note{font-size:11px;color:var(--neutro);letter-spacing:.04em}
+
+  section.hero{padding:34px 0 10px}
+  section.hero h1{font-size:34px;margin-top:6px}
+  .lede{font-size:18px;color:var(--neutro);max-width:62ch;margin-top:8px}
+
+  .chips{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 6px}
+  .chip{border:1px solid var(--linha);background:transparent;color:var(--tinta);padding:7px 14px;border-radius:999px;font-size:13px;font-weight:500;cursor:pointer;transition:.15s;font-family:var(--sans)}
+  .chip:hover{border-color:var(--champagne)}
+  .chip.on{background:var(--petroleo);color:#fff;border-color:var(--petroleo)}
+  .chip .n{opacity:.6;margin-left:6px;font-size:11px}
+  .chips.sub .chip.on{background:var(--champagne);border-color:var(--champagne)}
+
+  .toolbar{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:16px 0}
+  .search{flex:1;min-width:220px;border:1px solid var(--linha);background:#fff;border-radius:6px;padding:10px 14px;font-size:14px;font-family:var(--sans);color:var(--tinta)}
+  .search:focus{outline:none;border-color:var(--champagne)}
+
+  .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:14px 0 8px}
+  .kpi{background:#fff;border:1px solid var(--linha);border-radius:8px;padding:16px 18px}
+  .kpi .k{font-size:11px;text-transform:uppercase;letter-spacing:.14em;color:var(--neutro)}
+  .kpi .v{font-family:var(--serif);font-size:26px;color:var(--petroleo);margin-top:4px}
+
+  .panel{background:#fff;border:1px solid var(--linha);border-radius:8px;padding:18px;margin:14px 0}
+  .panel h3{font-size:16px;margin-bottom:4px}
+  .panel .cap{font-size:12px;color:var(--neutro);margin-bottom:10px}
+
+  .tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+  .tab{padding:7px 13px;border:1px solid var(--linha);border-radius:6px;cursor:pointer;font-size:12.5px;background:#fff;color:var(--tinta);font-weight:500}
+  .tab.on{background:var(--petroleo);color:#fff;border-color:var(--petroleo)}
+  .seg-sel{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+  .seg-sel button{padding:5px 11px;border:1px solid var(--linha);border-radius:999px;background:#fff;font-size:12px;cursor:pointer;color:var(--neutro)}
+  .seg-sel button.on{border-color:var(--champagne);color:var(--petroleo);font-weight:600}
+
+  .legend{display:flex;gap:16px;flex-wrap:wrap;font-size:12px;margin-top:8px;color:var(--neutro);align-items:center}
+  .legend i{width:10px;height:10px;border-radius:50%;display:inline-block;margin-right:6px;vertical-align:middle}
+  .tooltip{position:fixed;background:var(--petroleo-escuro);color:#fff;padding:8px 11px;border-radius:6px;font-size:12px;pointer-events:none;z-index:50;box-shadow:0 4px 14px rgba(0,0,0,.25);max-width:240px}
+  .tooltip b{color:#fff}.tooltip span{color:var(--pedra)}
+
+  .bar-row{display:flex;align-items:center;gap:10px;margin:6px 0;font-size:13px}
+  .bar-row.click{cursor:pointer}.bar-row.click:hover .lab{color:var(--petroleo)}
+  .bar-row .lab{width:160px;text-align:right;color:var(--neutro);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex-shrink:0}
+  .bar-row .track{flex:1;background:var(--trilho);border-radius:4px;height:18px;overflow:hidden}
+  .bar-row .fill{height:100%;border-radius:4px;min-width:2px}
+  .bar-row .val{width:96px;text-align:left;font-variant-numeric:tabular-nums;flex-shrink:0}
+
+  table{width:100%;border-collapse:collapse;font-size:13.5px}
+  thead th{text-align:right;padding:10px 10px;border-bottom:1px solid var(--petroleo);color:var(--petroleo);font-weight:600;cursor:pointer;white-space:nowrap;font-size:12px;text-transform:uppercase;letter-spacing:.04em}
+  thead th.l,tbody td.l{text-align:left}
+  tbody td{padding:9px 10px;border-bottom:1px solid var(--linha);text-align:right;white-space:nowrap}
+  tbody tr{cursor:pointer}
+  tbody tr:hover{background:#FBF9F4}
+  .tk{font-weight:700;color:var(--petroleo);letter-spacing:.02em}
+  .nm{color:var(--tinta);max-width:240px;overflow:hidden;text-overflow:ellipsis}
+  .badge{display:inline-block;padding:2px 9px;border-radius:999px;font-size:11px;font-weight:600;color:#fff}
+  .pos{color:#2E6B43}.neg{color:#9B3B33}
+  .cbx{width:34px;text-align:center}
+  input[type=checkbox]{accent-color:var(--petroleo);width:15px;height:15px;cursor:pointer}
+
+  .cmp-bar{position:fixed;bottom:0;left:0;right:0;background:var(--petroleo-escuro);color:#fff;padding:12px 28px;display:flex;justify-content:space-between;align-items:center;z-index:30}
+  .btn{display:inline-block;border:none;border-radius:6px;padding:9px 18px;font-size:13px;font-weight:600;cursor:pointer;font-family:var(--sans);background:var(--petroleo);color:#fff;transition:.15s}
+  .btn:hover{opacity:.9}.btn.ghost{background:transparent;border:1px solid var(--linha);color:var(--petroleo)}
+  .btn.sm{padding:6px 12px;font-size:12px}
+  .btn[disabled]{opacity:.4;cursor:not-allowed}
+
+  .overlay{position:fixed;inset:0;background:rgba(0,48,63,.45);z-index:40;display:flex;align-items:flex-start;justify-content:center;padding:40px 16px;overflow:auto}
+  .modal{background:var(--areia);border-radius:10px;max-width:1080px;width:100%;padding:26px}
+  .modal .x{float:right;cursor:pointer;border:none;background:none;font-size:22px;color:var(--neutro)}
+
+  .ficha-head{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;flex-wrap:wrap;border-bottom:1px solid var(--linha);padding-bottom:18px;margin-top:8px}
+  .ficha-head h1{font-size:40px}
+  .ficha-head .meta{color:var(--neutro);font-size:14px;margin-top:6px}
+  .links{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}
+  .grid-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px;margin:14px 0}
+  .card{background:#fff;border:1px solid var(--linha);border-radius:8px;padding:14px}
+  .card .k{font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:var(--neutro)}
+  .card .v{font-family:var(--serif);font-size:22px;color:var(--petroleo);margin-top:3px}
+  .note{background:var(--pedra);border-radius:8px;padding:14px 16px;font-size:13px;color:#4a4640;margin:14px 0}
+  .vs-row{margin:12px 0}
+  .vs-row .top{display:flex;justify-content:space-between;font-size:13px;margin-bottom:5px;gap:10px}
+  .vs-row .top b{color:var(--petroleo)}
+  .vs-bars .t2{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--neutro);margin:3px 0}
+  .vs-bars .track{flex:1;background:var(--trilho);border-radius:4px;height:14px;overflow:hidden}
+  .vs-bars .fill{height:100%;border-radius:4px}
+  .cols2{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+
+  footer{border-top:1px solid var(--linha);margin-top:40px;padding:22px 0 90px;color:var(--neutro);font-size:12px}
+  .err{padding:40px;text-align:center}
+  @media(max-width:780px){.kpis{grid-template-columns:repeat(2,1fr)}.hideSm{display:none}.cols2{grid-template-columns:1fr}.bar-row .lab{width:110px}}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<script type="text/babel">
+const {useState,useEffect,useMemo} = React;
+
+const HEX = {'FII':'#004463','Fiagro':'#7E8C59','FI-Infra':'#A98A5B','FIP':'#00303F'};
+const ORDEM_CLASSE = ['FII','Fiagro','FI-Infra','FIP'];
+
+const pct=(v,d=1)=>v==null?'—':(v*100).toFixed(d)+'%';
+const num=(v,d=2)=>v==null?'—':v.toFixed(d);
+const cot=(v)=>v==null?'—':'R$ '+v.toFixed(2);
+const brl=(v)=>{if(v==null)return '—';const a=Math.abs(v);
+  if(a>=1e9)return 'R$ '+(v/1e9).toFixed(2)+' bi';
+  if(a>=1e6)return 'R$ '+(v/1e6).toFixed(0)+' mi';
+  if(a>=1e3)return 'R$ '+(v/1e3).toFixed(0)+' mil';return 'R$ '+v.toFixed(0);};
+const mediana=(arr)=>{const a=arr.filter(x=>x!=null).sort((x,y)=>x-y);if(!a.length)return null;
+  const m=Math.floor(a.length/2);return a.length%2?a[m]:(a[m-1]+a[m])/2;};
+const pctlAcima=(arr,v)=>{const a=arr.filter(x=>x!=null);if(!a.length||v==null)return null;
+  return Math.round(a.filter(x=>x<v).length/a.length*100);};
+
+function Logo(){
+  return (<svg className="sym" viewBox="0 0 40 47" role="img" aria-label="Engage">
+    <rect y="0" width="38" height="7" rx="1.5" fill="var(--petroleo)"/>
+    <rect y="10" width="20" height="7" rx="1.5" fill="#939598"/>
+    <rect y="20" width="30" height="7" rx="1.5" fill="var(--petroleo)"/>
+    <rect y="30" width="20" height="7" rx="1.5" fill="#939598"/>
+    <rect y="40" width="38" height="7" rx="1.5" fill="var(--petroleo)"/>
+  </svg>);
+}
+
+function Header(){
+  return (<header className="top"><div className="top-inner">
+    <div className="brand"><Logo/><span className="mark">ENGAGE</span><span className="div"></span><span className="sub">Fundos Listados</span></div>
+    <span className="top-note">Uso interno · Engage Assessoria de Investimentos · BTG Pactual</span>
+  </div></header>);
+}
+
+function Scatter({fundos,onSel}){
+  const [hv,setHv]=useState(null);
+  const W=920,H=340,pad=46;
+  const pts=fundos.filter(f=>f.pvpa!=null && f.dy_ltm!=null && f.dy_ltm<0.5 && f.pvpa<2.2 && f.pvpa>0);
+  const yMax=Math.max(0.06,Math.min(0.30,Math.max(...pts.map(p=>p.dy_ltm),0.1)*1.1));
+  const xMax=2.2;
+  const X=v=>pad+(v/xMax)*(W-pad*1.4);
+  const Y=v=>H-pad-(v/yMax)*(H-pad*1.6);
+  const classes=[...new Set(pts.map(p=>p.classe))];
+  return (<div>
+    <svg viewBox={`0 0 ${W} ${H}`} style={{width:'100%',height:'auto'}}>
+      <line x1={pad} y1={H-pad} x2={W-20} y2={H-pad} stroke="var(--linha)"/>
+      <line x1={X(1)} y1={20} x2={X(1)} y2={H-pad} stroke="var(--linha)" strokeDasharray="4 4"/>
+      <text x={X(1)} y={16} fontSize="10" textAnchor="middle" fill="var(--neutro)">P/VP = 1,00</text>
+      {[0,0.5,1,1.5,2].map(t=>(<text key={t} x={X(t)} y={H-pad+16} fontSize="10" textAnchor="middle" fill="var(--neutro)">{t.toFixed(1)}</text>))}
+      {[0,0.05,0.1,0.15,0.2,0.25].filter(t=>t<=yMax).map(t=>(<text key={t} x={pad-8} y={Y(t)+3} fontSize="10" textAnchor="end" fill="var(--neutro)">{(t*100).toFixed(0)}%</text>))}
+      <text x={W/2} y={H-6} fontSize="11" textAnchor="middle" fill="var(--neutro)">P/VP →</text>
+      <text x={14} y={20} fontSize="11" fill="var(--neutro)">DY LTM ↑</text>
+      {pts.map(p=>{const on=hv&&hv.f.ticker===p.ticker;return (
+        <circle key={p.ticker} cx={X(p.pvpa)} cy={Y(p.dy_ltm)} r={on?7:4} fill={HEX[p.classe]} fillOpacity={on?1:0.66}
+          stroke={on?'#fff':'none'} strokeWidth={on?1.5:0} style={{cursor:'pointer'}}
+          onMouseMove={e=>setHv({f:p,x:e.clientX,y:e.clientY})} onMouseLeave={()=>setHv(null)} onClick={()=>onSel(p)}/>);})}
+    </svg>
+    <div className="legend">{classes.map(c=>(<span key={c}><i style={{background:HEX[c]}}></i>{c}</span>))}<span style={{marginLeft:'auto'}}>Passe o mouse para ver · clique para abrir</span></div>
+    {hv && <div className="tooltip" style={{left:Math.min(hv.x+14,window.innerWidth-250),top:hv.y+14}}>
+      <b>{hv.f.ticker}</b> · {hv.f.subclasse}<br/><span>{hv.f.nome}</span><br/>P/VP <b>{num(hv.f.pvpa)}</b> · DY <b>{pct(hv.f.dy_ltm)}</b></div>}
+  </div>);
+}
+
+function Bars({items,fmt,onClick}){
+  const max=Math.max(...items.map(i=>Math.abs(i.value)||0),1e-9);
+  return (<div>{items.map(it=>(
+    <div key={it.key} className={'bar-row'+(onClick&&it.ticker?' click':'')} onClick={()=>onClick&&it.ticker&&onClick(it.ticker)}>
+      <span className="lab">{it.label}</span>
+      <span className="track"><span className="fill" style={{width:(Math.abs(it.value)/max*100)+'%',background:it.cor}}></span></span>
+      <span className="val">{fmt(it.value)}</span>
+    </div>))}</div>);
+}
+
+function Analises({fundos,classe,onSel}){
+  const [tab,setTab]=useState('disp');
+  const [mSeg,setMSeg]=useState('dy');
+  const [mRk,setMRk]=useState('dy');
+  const segDefs={dy:['DY LTM mediano',f=>mediana(f.map(x=>x.dy_ltm)),v=>pct(v)],
+    pvpa:['P/VP mediano',f=>mediana(f.map(x=>x.pvpa)),v=>num(v)],
+    pl:['Patrimônio total',f=>f.reduce((s,x)=>s+(x.valor_patrimonial||0),0),v=>brl(v)],
+    ret:['Retorno 12m mediano',f=>mediana(f.map(x=>x.ret_ltm)),v=>pct(v)]};
+  const rkDefs={dy:['Maior DY LTM','dy_ltm',-1,v=>pct(v)],
+    vm:['Maior valor de mercado','valor_mercado',-1,v=>brl(v)],
+    ret:['Maior retorno 12m','ret_ltm',-1,v=>pct(v)],
+    pvpa:['Menor P/VP (desconto)','pvpa',1,v=>num(v)]};
+  const gkey = classe==='Todos'?'classe':'subclasse';
+  const groups={}; fundos.forEach(f=>{(groups[f[gkey]]=groups[f[gkey]]||[]).push(f);});
+  const segItems=Object.entries(groups).map(([k,arr])=>({key:k,label:k+' ('+arr.length+')',
+    value:segDefs[mSeg][1](arr)||0,cor:classe==='Todos'?HEX[k]:HEX[classe]})).sort((a,b)=>b.value-a.value);
+  const rk=rkDefs[mRk]; const acc=rk[1];
+  const rkItems=[...fundos].filter(f=>f[acc]!=null).sort((a,b)=>(a[acc]-b[acc])*rk[2]).slice(0,12)
+    .map(f=>({key:f.ticker,ticker:f.ticker,label:f.ticker+' · '+(f.subclasse||''),value:f[acc],cor:HEX[f.classe]}));
+  return (<div className="panel">
+    <div className="tabs">
+      <button className={'tab'+(tab==='disp'?' on':'')} onClick={()=>setTab('disp')}>Dispersão P/VP × DY</button>
+      <button className={'tab'+(tab==='seg'?' on':'')} onClick={()=>setTab('seg')}>Comparativo por segmento</button>
+      <button className={'tab'+(tab==='rk'?' on':'')} onClick={()=>setTab('rk')}>Rankings</button>
+    </div>
+    {tab==='disp' && <div><div className="cap">Cada ponto é um fundo; cor por classe. Quanto mais alto e à esquerda, maior o yield com menor preço sobre patrimônio.</div><Scatter fundos={fundos} onSel={onSel}/></div>}
+    {tab==='seg' && <div>
+      <div className="seg-sel">{Object.entries(segDefs).map(([k,d])=>(<button key={k} className={mSeg===k?'on':''} onClick={()=>setMSeg(k)}>{d[0]}</button>))}</div>
+      <Bars items={segItems} fmt={segDefs[mSeg][2]}/></div>}
+    {tab==='rk' && <div>
+      <div className="seg-sel">{Object.entries(rkDefs).map(([k,d])=>(<button key={k} className={mRk===k?'on':''} onClick={()=>setMRk(k)}>{d[0]}</button>))}</div>
+      <Bars items={rkItems} fmt={rk[3]} onClick={t=>onSel(fundos.find(f=>f.ticker===t))}/></div>}
+  </div>);
+}
+
+function Tabela({fundos,onSel,comparar,toggleCmp,sortKey,sortDir,setSort}){
+  const cols=[{k:'ticker',t:'Ticker',l:true},{k:'nome',t:'Nome',l:true,sm:true},
+    {k:'subclasse',t:'Segmento',l:true,sm:true},{k:'cotacao',t:'Cotação'},{k:'pvpa',t:'P/VP'},
+    {k:'dy_ltm',t:'DY LTM'},{k:'valor_mercado',t:'Valor Merc.'},{k:'ret_ltm',t:'Ret 12m'}];
+  const arrow=k=>sortKey===k?(sortDir>0?' ▲':' ▼'):'';
+  return (<table>
+    <thead><tr><th className="cbx"></th>
+      {cols.map(c=>(<th key={c.k} className={(c.l?'l ':'')+(c.sm?'hideSm':'')} onClick={()=>setSort(c.k)}>{c.t}{arrow(c.k)}</th>))}
+    </tr></thead>
+    <tbody>{fundos.map(f=>(
+      <tr key={f.ticker} onClick={()=>onSel(f)}>
+        <td className="cbx" onClick={e=>{e.stopPropagation();toggleCmp(f.ticker);}}><input type="checkbox" readOnly checked={comparar.has(f.ticker)} /></td>
+        <td className="l"><span className="tk">{f.ticker}</span></td>
+        <td className="l nm hideSm">{f.nome||'—'}</td>
+        <td className="l hideSm"><span className="badge" style={{background:HEX[f.classe]}}>{f.subclasse}</span></td>
+        <td>{cot(f.cotacao)}</td><td>{num(f.pvpa)}</td><td>{pct(f.dy_ltm)}</td>
+        <td>{brl(f.valor_mercado)}</td>
+        <td className={f.ret_ltm>0?'pos':f.ret_ltm<0?'neg':''}>{pct(f.ret_ltm)}</td>
+      </tr>))}</tbody>
+  </table>);
+}
+
+function Comparar({fundos,onClose}){
+  const linhas=[['Classe',f=>f.classe],['Segmento',f=>f.subclasse],['Gestor',f=>f.gestor||'—'],
+    ['Cotação',f=>cot(f.cotacao)],['P/VP',f=>num(f.pvpa)],['DY LTM',f=>pct(f.dy_ltm)],
+    ['DY anualiz.',f=>pct(f.dy_anualizado)],['Patrimônio',f=>brl(f.valor_patrimonial)],
+    ['Valor mercado',f=>brl(f.valor_mercado)],['Ret. mês',f=>pct(f.ret_mes)],['Ret. ano',f=>pct(f.ret_ano)],
+    ['Ret. 12m',f=>pct(f.ret_ltm)],['Vol. méd. dia',f=>brl(f.vol_medio_3m)],['Part. IFIX',f=>pct(f.part_ifix,2)]];
+  return (<div className="overlay" onClick={onClose}><div className="modal" onClick={e=>e.stopPropagation()}>
+    <button className="x" onClick={onClose}>×</button>
+    <span className="kicker">Comparativo</span>
+    <h2 style={{fontSize:'24px',margin:'4px 0 16px'}}>{fundos.length} fundos lado a lado</h2>
+    <div style={{overflowX:'auto'}}><table>
+      <thead><tr><th className="l">Indicador</th>{fundos.map(f=>(<th key={f.ticker}><span className="tk">{f.ticker}</span></th>))}</tr></thead>
+      <tbody>{linhas.map(([t,fn])=>(<tr key={t} style={{cursor:'default'}}><td className="l" style={{color:'var(--neutro)'}}>{t}</td>
+        {fundos.map(f=>(<td key={f.ticker}>{fn(f)}</td>))}</tr>))}</tbody>
+    </table></div>
+  </div></div>);
+}
+
+function VsPares({f,todos}){
+  const pares=todos.filter(x=>x.classe===f.classe&&x.subclasse===f.subclasse&&x.ticker!==f.ticker);
+  if(pares.length<2)return <div className="note">Poucos pares no segmento {f.subclasse} para comparação estatística.</div>;
+  const defs=[['DY LTM','dy_ltm',pct],['P/VP','pvpa',num],['Retorno 12m','ret_ltm',pct]];
+  return (<div>{defs.map(([t,key,fmt])=>{
+    const val=f[key], med=mediana(pares.map(x=>x[key]));
+    if(val==null||med==null)return null;
+    const max=Math.max(Math.abs(val),Math.abs(med))||1;
+    const p=pctlAcima(pares.map(x=>x[key]),val);
+    const acima=val>med;
+    const txt = key==='pvpa'
+      ? (acima?`prêmio de ${((val/med-1)*100).toFixed(0)}% vs pares`:`desconto de ${((1-val/med)*100).toFixed(0)}% vs pares`)
+      : `${acima?'acima':'abaixo'} de ${p}% dos pares`;
+    return (<div className="vs-row" key={t}>
+      <div className="top"><span>{t}</span><span><b>{fmt(val)}</b> · mediana {fmt(med)} · {txt}</span></div>
+      <div className="vs-bars">
+        <div className="t2"><span style={{width:54}}>Fundo</span><span className="track"><span className="fill" style={{width:(Math.abs(val)/max*100)+'%',background:HEX[f.classe]}}></span></span></div>
+        <div className="t2"><span style={{width:54}}>Pares</span><span className="track"><span className="fill" style={{width:(Math.abs(med)/max*100)+'%',background:'var(--pedra)'}}></span></span></div>
+      </div></div>);})}
+    <div className="cap" style={{marginTop:8}}>Comparação com {pares.length} pares do segmento {f.subclasse}.</div>
+  </div>);
+}
+
+function DocsFundo({f,docs}){
+  if(!docs)return null;
+  const meus=docs.filter(d=>d.ticker===f.ticker).sort((a,b)=>(b.dataEntrega||'').localeCompare(a.dataEntrega||'')).slice(0,50);
+  if(!meus.length)return null;
+  return (<div className="panel"><h3>Documentos · Fundos.NET</h3><div className="cap">{meus.length} documentos coletados (Relatório Gerencial e Fato Relevante).</div>
+    <div style={{maxHeight:300,overflowY:'auto'}}>{meus.map(d=>(
+      <div key={d.id} style={{display:'flex',gap:10,justifyContent:'space-between',borderBottom:'1px solid var(--linha)',padding:'6px 0',fontSize:13}}>
+        <span><span className="badge" style={{background:'var(--champagne)',marginRight:8}}>{d.categoria}</span>{d.especie||d.tipo||''}</span>
+        <span style={{whiteSpace:'nowrap',color:'var(--neutro)'}}>{(d.dataReferencia||d.dataEntrega||'').slice(0,10)} · <a href={d.url} target="_blank" rel="noopener">abrir ↗</a></span>
+      </div>))}</div></div>);
+}
+
+function Ficha({f,onBack,todos,docs}){
+  const cardsAll=[['Cotação',cot(f.cotacao)],['Valor de mercado',brl(f.valor_mercado)],
+    ['Patrimônio líquido',brl(f.valor_patrimonial)],['P/VP',num(f.pvpa)],['P/VP 2025',num(f.pvpa_2025)],
+    ['DY LTM',pct(f.dy_ltm)],['DY anualizado',pct(f.dy_anualizado)],['DY 5 anos',pct(f.dy_5anos)],
+    ['Último provento',f.div_mes!=null?cot(f.div_mes):'—'],['Yield do mês',pct(f.ult_dist_pct)],
+    ['Retorno mês',pct(f.ret_mes)],['Retorno ano',pct(f.ret_ano)],['Retorno 12m',pct(f.ret_ltm)],
+    ['Máxima 52s',cot(f.maximo_52s)],['% da máxima',pct(f.pct_do_maximo)],
+    ['Vol. médio/dia',brl(f.vol_medio_3m)],['Part. IFIX',pct(f.part_ifix,2)]];
+  const cards=cardsAll.filter(c=>c[1]!=='—');
+  const espec={'Tijolo':'Vacância física/financeira, cap rate, ABL, nº de imóveis e inquilinos, contratos típicos/atípicos e WAULT — virão dos relatórios gerenciais.',
+    'Papel (CRI)':'Indexadores (CDI/IPCA), LTV médio, PDD, rating, duration e high grade × high yield — virão dos relatórios gerenciais.',
+    'Híbrido':'Composição tijolo × papel, indexadores e principais ativos — virão dos relatórios gerenciais.',
+    'Infraestrutura':'Indexador, duration, yield to maturity, rating e % de debêntures incentivadas — a integrar.',
+    'Infraestrutura (FIP-IE)':'Carteira de participações/dívida, setor, estágio e TIR — a integrar.'};
+  const ek=espec[f.subclasse]||'Indicadores específicos entram com a planilha de cadastro e os relatórios gerenciais.';
+  const gsearch='https://www.google.com/search?q='+encodeURIComponent(f.ticker+' '+(f.nome||'')+' fundo');
+  return (<div className="wrap">
+    <div style={{padding:'20px 0 0'}}><button className="btn ghost sm" onClick={onBack}>← Voltar ao universo</button></div>
+    <div className="ficha-head">
+      <div><span className="kicker">{f.classe} · {f.subclasse}</span><h1>{f.ticker}</h1>
+        <div style={{fontFamily:'var(--serif)',fontSize:'20px',color:'var(--tinta)'}}>{f.nome||'—'}</div>
+        <div className="meta">Gestor: {f.gestor||'—'} · Administrador: {f.administrador||'—'}{f.cnpj?` · CNPJ ${f.cnpj}`:''}</div></div>
+      <span className="badge" style={{background:HEX[f.classe],fontSize:'13px',padding:'4px 12px'}}>{f.classe}</span>
+    </div>
+    <div className="links">
+      {f.site && <a className="btn" href={f.site} target="_blank" rel="noopener">Site do fundo ↗</a>}
+      {f.fnet && <a className="btn" href={f.fnet} target="_blank" rel="noopener">Fundos.NET (CVM) ↗</a>}
+      {!f.fnet && <button className="btn" disabled>Fundos.NET (CNPJ pendente)</button>}
+      {!f.site && <button className="btn ghost" disabled>Site (a cadastrar)</button>}
+      <a className="btn ghost" href={gsearch} target="_blank" rel="noopener">Pesquisar ↗</a>
+    </div>
+    <div className="grid-cards">{cards.map(([k,v])=>(<div className="card" key={k}><div className="k">{k}</div><div className="v">{v}</div></div>))}</div>
+    <div className="cols2">
+      <div className="panel"><h3>Leitura vs. pares</h3><div className="cap">Como o fundo se posiciona no próprio segmento.</div><VsPares f={f} todos={todos}/></div>
+      <div className="panel"><h3>Indicadores da classe — {f.subclasse}</h3><div className="cap">{ek}</div>
+        {f.fonte && <div className="note" style={{marginBottom:0}}>Fonte deste fundo: {f.fonte}.</div>}</div>
+    </div>
+    <DocsFundo f={f} docs={docs}/>
+  </div>);
+}
+
+function Footer({meta}){
+  return (<footer><div className="wrap">Uso interno · Engage Assessoria de Investimentos (BTG Pactual). Dados: BTG Stock Guide de Fundos (snapshot {meta&&meta.snapshot}) e Investidor10 (FIP).{meta&&meta.cotacoes_em?` Cotações de ${meta.cotacoes_em}.`:''} Não constitui recomendação de investimento.</div></footer>);
+}
+
+function App(){
+  const [data,setData]=useState(null);
+  const [erro,setErro]=useState(null);
+  const [classe,setClasse]=useState('Todos');
+  const [sub,setSub]=useState('Todos');
+  const [busca,setBusca]=useState('');
+  const [sortKey,setSortKey]=useState('valor_mercado');
+  const [sortDir,setSortDir]=useState(-1);
+  const [comparar,setComparar]=useState(new Set());
+  const [showCmp,setShowCmp]=useState(false);
+  const [docs,setDocs]=useState(null);
+  const [sel,setSel]=useState(null);
+
+  useEffect(()=>{
+    if(window.__DATA__){setData(window.__DATA__);}
+    else fetch('./data.json').then(r=>r.json()).then(setData)
+      .catch(()=>setErro('Não foi possível carregar data.json. Rode via servidor local (python -m http.server) ou abra pela URL publicada.'));
+    fetch('./documentos/indice.json').then(r=>r.ok?r.json():null).then(d=>{if(d)setDocs(d);}).catch(()=>{});
+  },[]);
+
+  const fundos=data?data.fundos:[];
+  const contagem=useMemo(()=>{const c={Todos:fundos.length};ORDEM_CLASSE.forEach(k=>c[k]=fundos.filter(f=>f.classe===k).length);return c;},[fundos]);
+  const subclasses=useMemo(()=>classe==='Todos'?[]:[...new Set(fundos.filter(f=>f.classe===classe).map(f=>f.subclasse))].sort(),[fundos,classe]);
+  const filtrados=useMemo(()=>{
+    let r=fundos;
+    if(classe!=='Todos')r=r.filter(f=>f.classe===classe);
+    if(sub!=='Todos')r=r.filter(f=>f.subclasse===sub);
+    if(busca.trim()){const q=busca.toLowerCase();r=r.filter(f=>(f.ticker+' '+(f.nome||'')+' '+(f.gestor||'')).toLowerCase().includes(q));}
+    r=[...r].sort((a,b)=>{const x=a[sortKey],y=b[sortKey];
+      if(x==null&&y==null)return 0;if(x==null)return 1;if(y==null)return -1;
+      if(typeof x==='string')return x.localeCompare(y)*sortDir;return (x-y)*sortDir;});
+    return r;},[fundos,classe,sub,busca,sortKey,sortDir]);
+
+  const setSort=(k)=>{if(sortKey===k)setSortDir(d=>-d);else{setSortKey(k);setSortDir(k==='ticker'||k==='nome'||k==='subclasse'?1:-1);}};
+  const toggleCmp=(t)=>setComparar(s=>{const n=new Set(s);n.has(t)?n.delete(t):(n.size<6&&n.add(t));return n;});
+
+  if(erro)return <div><Header/><div className="err"><h2>Ops.</h2><p style={{color:'var(--neutro)'}}>{erro}</p></div></div>;
+  if(!data)return <div><Header/><div className="err"><p style={{color:'var(--neutro)'}}>Carregando universo…</p></div></div>;
+  if(sel)return <div><Header/><Ficha f={sel} onBack={()=>setSel(null)} todos={fundos} docs={docs}/><Footer meta={data.meta}/></div>;
+
+  const cmpList=fundos.filter(f=>comparar.has(f.ticker));
+  return (<div><Header/>
+    <div className="wrap">
+      <section className="hero"><span className="kicker">Universo</span><h1>Fundos listados na B3</h1>
+        <div className="lede">Selecione a classe, compare e abra a ficha de cada fundo — FII, Fiagro, FI-Infra e FIP em um só lugar.</div></section>
+      <div className="chips">{['Todos',...ORDEM_CLASSE].map(c=>(
+        <button key={c} className={'chip'+(classe===c?' on':'')} onClick={()=>{setClasse(c);setSub('Todos');}}>{c}<span className="n">{contagem[c]||0}</span></button>))}</div>
+      {subclasses.length>0 && <div className="chips sub">
+        <button className={'chip'+(sub==='Todos'?' on':'')} onClick={()=>setSub('Todos')}>Todos os segmentos</button>
+        {subclasses.map(s=>(<button key={s} className={'chip'+(sub===s?' on':'')} onClick={()=>setSub(s)}>{s}</button>))}</div>}
+      <div className="toolbar"><input className="search" placeholder="Buscar por ticker, nome ou gestor…" value={busca} onChange={e=>setBusca(e.target.value)} /></div>
+      <div className="kpis">
+        <div className="kpi"><div className="k">Fundos</div><div className="v">{filtrados.length}</div></div>
+        <div className="kpi"><div className="k">Patrimônio total</div><div className="v">{brl(filtrados.reduce((s,f)=>s+(f.valor_patrimonial||0),0))}</div></div>
+        <div className="kpi"><div className="k">DY LTM mediano</div><div className="v">{pct(mediana(filtrados.map(f=>f.dy_ltm)))}</div></div>
+        <div className="kpi"><div className="k">P/VP mediano</div><div className="v">{num(mediana(filtrados.map(f=>f.pvpa)))}</div></div>
+      </div>
+      <Analises fundos={filtrados} classe={classe} onSel={setSel}/>
+      <div className="panel"><Tabela fundos={filtrados} onSel={setSel} comparar={comparar} toggleCmp={toggleCmp} sortKey={sortKey} sortDir={sortDir} setSort={setSort}/></div>
+    </div>
+    <Footer meta={data.meta}/>
+    {comparar.size>0 && <div className="cmp-bar">
+      <span>{comparar.size} selecionado(s) para comparar {comparar.size>=6?'(máx. 6)':''}</span>
+      <span><button className="btn ghost sm" style={{color:'#fff',borderColor:'rgba(255,255,255,.4)',marginRight:8}} onClick={()=>setComparar(new Set())}>Limpar</button>
+        <button className="btn" onClick={()=>setShowCmp(true)}>Comparar →</button></span></div>}
+    {showCmp && <Comparar fundos={cmpList} onClose={()=>setShowCmp(false)}/>}
+  </div>);
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
+</script>
+</body>
+</html>
