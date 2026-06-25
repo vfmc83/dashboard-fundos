@@ -1,0 +1,28 @@
+name: Indice de documentos (fnet)
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: '0 7 * * 1'   # toda segunda ~04h BRT
+
+permissions:
+  contents: write
+
+jobs:
+  indice:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - name: Gerar indice (sem baixar PDFs)
+        run: python scripts/baixar_fnet.py --so-indice --desde 2024 --max-por-fundo 20 --sleep 0.1
+      - name: Commit indice.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add documentos/indice.json
+          git commit -m "docs: indice fnet $(date -u +%Y-%m-%d)" || echo "sem alteracoes"
+          git push
