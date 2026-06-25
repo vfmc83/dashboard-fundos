@@ -315,7 +315,9 @@ function Ficha({f,onBack,todos,docs}){
     ['Último provento',f.div_mes!=null?cot(f.div_mes):'—'],['Yield do mês',pct(f.ult_dist_pct)],
     ['Retorno mês',pct(f.ret_mes)],['Retorno ano',pct(f.ret_ano)],['Retorno 12m',pct(f.ret_ltm)],
     ['Máxima 52s',cot(f.maximo_52s)],['% da máxima',pct(f.pct_do_maximo)],
-    ['Vol. médio/dia',brl(f.vol_medio_3m)],['Part. IFIX',pct(f.part_ifix,2)]];
+    ['Vol. médio/dia',brl(f.vol_medio_3m)],['Part. IFIX',pct(f.part_ifix,2)],
+    ['Taxa de adm.',pct(f.taxa_adm,2)],['Taxa de perf.',pct(f.taxa_perf,2)],
+    ['Benchmark',f.benchmark?(f.benchmark+(f.bench_spread!=null?' '+pct(f.bench_spread,2):'')):'—']];
   const cards=cardsAll.filter(c=>c[1]!=='—');
   const espec={'Tijolo':'Vacância física/financeira, cap rate, ABL, nº de imóveis e inquilinos, contratos típicos/atípicos e WAULT — virão dos relatórios gerenciais.',
     'Papel (CRI)':'Indexadores (CDI/IPCA), LTV médio, PDD, rating, duration e high grade × high yield — virão dos relatórios gerenciais.',
