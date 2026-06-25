@@ -6,7 +6,10 @@
   "fontes": {
    "BTG Stock Guide de Fundos": "FII/Fiagro/FI-Infra (snapshot 2026-06-23)",
    "Investidor10": "FIP-IE (2026-06)"
-  }
+  },
+  "cotacoes_em": "2026-06-25",
+  "cdi_aa": 14.15,
+  "cdi_em": "2026-06-25"
  },
  "fundos": [
   {
@@ -35,7 +38,8 @@
    "ret_ano": -0.078794231345,
    "ret_ltm": 0.22122781325,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=44625826000111",
-   "site": null
+   "site": null,
+   "cotas": 24037284.0
   },
   {
    "ticker": "ABCP11",
@@ -63,7 +67,8 @@
    "ret_ano": -0.048827363693,
    "ret_ltm": -0.082651456563,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=01201140000190",
-   "site": null
+   "site": null,
+   "cotas": 4709082.0
   },
   {
    "ticker": "AFHF11",
@@ -91,7 +96,8 @@
    "ret_ano": 0.076512179325,
    "ret_ltm": null,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=60077386000161",
-   "site": null
+   "site": null,
+   "cotas": 5000000.0
   },
   {
    "ticker": "AFHI11",
@@ -119,7 +125,8 @@
    "ret_ano": 0.061083400789,
    "ret_ltm": 0.18369235561,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=36642293000158",
-   "site": null
+   "site": null,
+   "cotas": 4789190.0
   },
   {
    "ticker": "AGRX11",
@@ -175,7 +182,8 @@
    "ret_ano": 0.18848277878,
    "ret_ltm": 0.44837958198,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=35765826000126",
-   "site": null
+   "site": null,
+   "cotas": 4824987.0
   },
   {
    "ticker": "AJFI11",
@@ -203,7 +211,8 @@
    "ret_ano": 0.08808008407,
    "ret_ltm": 0.25043660557,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=51472985000199",
-   "site": null
+   "site": null,
+   "cotas": 33625978.00000001
   },
   {
    "ticker": "ALZC11",
@@ -231,7 +240,8 @@
    "ret_ano": 0.042517770613,
    "ret_ltm": 0.040544664802,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=40011324000140",
-   "site": null
+   "site": null,
+   "cotas": 19515485.0
   },
   {
    "ticker": "ALZR11",
@@ -259,7 +269,8 @@
    "ret_ano": -0.047296445205,
    "ret_ltm": 0.061587321481,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=28737771000185",
-   "site": null
+   "site": null,
+   "cotas": 164512251.00307062
   },
   {
    "ticker": "APXM11",
@@ -287,7 +298,8 @@
    "ret_ano": -0.14830881492,
    "ret_ltm": -0.16138378209,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=43010485000107",
-   "site": null
+   "site": null,
+   "cotas": 2829142.0
   },
   {
    "ticker": "AROA11",
@@ -315,7 +327,8 @@
    "ret_ano": 0.30560448551,
    "ret_ltm": 0.4297915298,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=44674528000111",
-   "site": null
+   "site": null,
+   "cotas": 167926831.99999997
   },
   {
    "ticker": "ARRI11",
@@ -343,7 +356,8 @@
    "ret_ano": -0.23649173953,
    "ret_ltm": -0.20732675396,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=32006821000121",
-   "site": null
+   "site": null,
+   "cotas": 20726973.0
   },
   {
    "ticker": "ARXD11",
@@ -371,7 +385,8 @@
    "ret_ano": 0.13423265233,
    "ret_ltm": 0.2134783594,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=44527494000132",
-   "site": null
+   "site": null,
+   "cotas": 8700768.0
   },
   {
    "ticker": "AZPL11",
@@ -399,7 +414,8 @@
    "ret_ano": 0.028133961476,
    "ret_ltm": 0.14806943911,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=51890054000100",
-   "site": null
+   "site": null,
+   "cotas": 41922689.0
   },
   {
    "ticker": "BBFO11",
@@ -427,7 +443,8 @@
    "ret_ano": 0.15598945869,
    "ret_ltm": 0.28050722781,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=37180091000102",
-   "site": null
+   "site": null,
+   "cotas": 4003900.0
   },
   {
    "ticker": "BBGO11",
@@ -455,7 +472,8 @@
    "ret_ano": 0.045042064387,
    "ret_ltm": 0.17790548398,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=42592257000120",
-   "site": null
+   "site": null,
+   "cotas": 4005163.9999999995
   },
   {
    "ticker": "BBIG11",
@@ -483,7 +501,8 @@
    "ret_ano": -0.090548766143,
    "ret_ltm": -0.016852870132,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=54375187000137",
-   "site": null
+   "site": null,
+   "cotas": 99120994.0
   },
   {
    "ticker": "BBRC11",
@@ -511,7 +530,8 @@
    "ret_ano": 0.080575011441,
    "ret_ltm": 0.17648637737,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=12681340000104",
-   "site": null
+   "site": null,
+   "cotas": 1590000.0
   },
   {
    "ticker": "BCIA11",
@@ -539,7 +559,8 @@
    "ret_ano": 0.059091581832,
    "ret_ltm": 0.1729074702,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=20216935000117",
-   "site": null
+   "site": null,
+   "cotas": 3719038.0
   },
   {
    "ticker": "BCRI11",
@@ -567,7 +588,8 @@
    "ret_ano": -0.0680959635,
    "ret_ltm": 0.073035860107,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=22219335000138",
-   "site": null
+   "site": null,
+   "cotas": 6257872.999999999
   },
   {
    "ticker": "BDIF11",
@@ -595,7 +617,8 @@
    "ret_ano": 0.047127038499,
    "ret_ltm": 0.056430136512,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=40502607000194",
-   "site": null
+   "site": null,
+   "cotas": 18124979.0
   },
   {
    "ticker": "BIDB11",
@@ -623,7 +646,8 @@
    "ret_ano": 0.060852340386,
    "ret_ltm": 0.17325067945,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=42294971000131",
-   "site": null
+   "site": null,
+   "cotas": 2495763.0
   },
   {
    "ticker": "BIME11",
@@ -651,7 +675,8 @@
    "ret_ano": -0.11180101599,
    "ret_ltm": -0.17655200678,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=41081356000184",
-   "site": null
+   "site": null,
+   "cotas": 5845602.0
   },
   {
    "ticker": "BINC11",
@@ -679,7 +704,8 @@
    "ret_ano": 0.093570560221,
    "ret_ltm": 0.33305332153,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=55239865000105",
-   "site": null
+   "site": null,
+   "cotas": 4741286.0
   },
   {
    "ticker": "BLCA11",
@@ -707,7 +733,8 @@
    "ret_ano": 0.067479623669,
    "ret_ltm": 0.13490994029,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=41076748000155",
-   "site": null
+   "site": null,
+   "cotas": 1600000.0
   },
   {
    "ticker": "BLMG11",
@@ -735,7 +762,8 @@
    "ret_ano": -0.034082572461,
    "ret_ltm": -0.059603004776,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=34081637000171",
-   "site": null
+   "site": null,
+   "cotas": 4673000.0
   },
   {
    "ticker": "BMLC11",
@@ -763,7 +791,8 @@
    "ret_ano": 0.10178686841,
    "ret_ltm": 0.14771992293,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=14376247000111",
-   "site": null
+   "site": null,
+   "cotas": 998405.0
   },
   {
    "ticker": "BNFS11",
@@ -791,7 +820,8 @@
    "ret_ano": -0.43333105184,
    "ret_ltm": -0.35580228055,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=15570431000160",
-   "site": null
+   "site": null,
+   "cotas": 700000.0
   },
   {
    "ticker": "BODB11",
@@ -819,7 +849,8 @@
    "ret_ano": 0.054169970974,
    "ret_ltm": 0.25790467953,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=41771670000199",
-   "site": null
+   "site": null,
+   "cotas": 64877099.0
   },
   {
    "ticker": "BPML11",
@@ -847,7 +878,8 @@
    "ret_ano": 0.096484959728,
    "ret_ltm": 0.28866398041,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=33046142000149",
-   "site": null
+   "site": null,
+   "cotas": 7441744.999999999
   },
   {
    "ticker": "BRCO11",
@@ -875,7 +907,8 @@
    "ret_ano": 0.0060665849851,
    "ret_ltm": 0.15303626624,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=20748515000181",
-   "site": null
+   "site": null,
+   "cotas": 18021302.999823384
   },
   {
    "ticker": "BRCR11",
@@ -903,7 +936,8 @@
    "ret_ano": -0.026565257434,
    "ret_ltm": 0.12030492829,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=08924783000101",
-   "site": null
+   "site": null,
+   "cotas": 26638202.0
   },
   {
    "ticker": "BRFT11",
@@ -959,7 +993,8 @@
    "ret_ano": 0.061701443959,
    "ret_ltm": 0.22772518215,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=48978859000104",
-   "site": null
+   "site": null,
+   "cotas": 11610812.0
   },
   {
    "ticker": "BSLT11",
@@ -987,7 +1022,8 @@
    "ret_ano": -0.12699905927,
    "ret_ltm": -0.26055776892,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=60373688000187",
-   "site": null
+   "site": null,
+   "cotas": 1350000.0
   },
   {
    "ticker": "BTAG11",
@@ -1043,7 +1079,8 @@
    "ret_ano": 0.09147794926,
    "ret_ltm": 0.22450858842,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=36642244000115",
-   "site": null
+   "site": null,
+   "cotas": 5982736.0
   },
   {
    "ticker": "BTCI11",
@@ -1071,7 +1108,8 @@
    "ret_ano": 0.034404598053,
    "ret_ltm": 0.14683764729,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=09552812000114",
-   "site": null
+   "site": null,
+   "cotas": 99521172.0
   },
   {
    "ticker": "BTHF11",
@@ -1099,7 +1137,8 @@
    "ret_ano": 0.070626899242,
    "ret_ltm": 0.20775220614,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=45188176000157",
-   "site": null
+   "site": null,
+   "cotas": 205846939.99999997
   },
   {
    "ticker": "BTLG11",
@@ -1127,7 +1166,8 @@
    "ret_ano": 0.041665090705,
    "ret_ltm": 0.12124559884,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=11839593000109",
-   "site": null
+   "site": null,
+   "cotas": 69389648.0
   },
   {
    "ticker": "BTRA11",
@@ -1155,7 +1195,8 @@
    "ret_ano": 0.17810435742,
    "ret_ltm": 0.38745398123,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=41076607000132",
-   "site": null
+   "site": null,
+   "cotas": 3364559.0
   },
   {
    "ticker": "CACR11",
@@ -1183,7 +1224,8 @@
    "ret_ano": -0.67798159972,
    "ret_ltm": -0.71303615335,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=32065364000146",
-   "site": null
+   "site": null,
+   "cotas": 4836324.000000001
   },
   {
    "ticker": "CCME11",
@@ -1211,7 +1253,8 @@
    "ret_ano": 0.014553649796,
    "ret_ltm": 0.11925122378,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=43010844000126",
-   "site": null
+   "site": null,
+   "cotas": 67797053.0
   },
   {
    "ticker": "CDII11",
@@ -1239,7 +1282,8 @@
    "ret_ano": -0.030604312735,
    "ret_ltm": 0.14477652459,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=48973783000116",
-   "site": null
+   "site": null,
+   "cotas": 27481138.0
   },
   {
    "ticker": "CEOC11",
@@ -1267,7 +1311,8 @@
    "ret_ano": -0.071373940615,
    "ret_ltm": 0.11234474228,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=15799397000109",
-   "site": null
+   "site": null,
+   "cotas": 1815696.0
   },
   {
    "ticker": "CLIN11",
@@ -1295,7 +1340,8 @@
    "ret_ano": 0.09793783177,
    "ret_ltm": 0.13686810635,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=49005348000160",
-   "site": null
+   "site": null,
+   "cotas": 4346762.999999999
   },
   {
    "ticker": "CNES11",
@@ -1323,7 +1369,8 @@
    "ret_ano": -0.17593712052,
    "ret_ltm": 0.44216339148,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=13551286000145",
-   "site": null
+   "site": null,
+   "cotas": 34134825.0
   },
   {
    "ticker": "CPLG11",
@@ -1351,7 +1398,8 @@
    "ret_ano": -0.055951224525,
    "ret_ltm": 0.11568477659,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=52371756000140",
-   "site": null
+   "site": null,
+   "cotas": 56355750.0
   },
   {
    "ticker": "CPOF11",
@@ -1379,7 +1427,8 @@
    "ret_ano": 0.053315943718,
    "ret_ltm": 0.11097537945,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=48916699000160",
-   "site": null
+   "site": null,
+   "cotas": 5489284.0
   },
   {
    "ticker": "CPSH11",
@@ -1407,7 +1456,8 @@
    "ret_ano": -0.040595176421,
    "ret_ltm": 0.15391476244,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=47896665000199",
-   "site": null
+   "site": null,
+   "cotas": 123163843.99799597
   },
   {
    "ticker": "CPTI11",
@@ -1435,7 +1485,8 @@
    "ret_ano": 0.070912105073,
    "ret_ltm": 0.21848024259,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=38065012000177",
-   "site": null
+   "site": null,
+   "cotas": 13582693.0
   },
   {
    "ticker": "CPTR11",
@@ -1463,7 +1514,8 @@
    "ret_ano": 0.072477385682,
    "ret_ltm": 0.30158173979,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=42537579000176",
-   "site": null
+   "site": null,
+   "cotas": 19824678.0
   },
   {
    "ticker": "CPTS11",
@@ -1491,7 +1543,8 @@
    "ret_ano": 0.0048625923464,
    "ret_ltm": 0.13000146287,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=18979895000113",
-   "site": null
+   "site": null,
+   "cotas": 363503147.0013755
   },
   {
    "ticker": "CPUR11",
@@ -1519,7 +1572,8 @@
    "ret_ano": -0.016799720986,
    "ret_ltm": 0.092586140234,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=34691520000100",
-   "site": null
+   "site": null,
+   "cotas": 67825745.0
   },
   {
    "ticker": "CRAA11",
@@ -1547,7 +1601,8 @@
    "ret_ano": 0.11862431087,
    "ret_ltm": 0.22825844234,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=48903610000121",
-   "site": null
+   "site": null,
+   "cotas": 2369836.0
   },
   {
    "ticker": "CRFF11",
@@ -1575,7 +1630,8 @@
    "ret_ano": 0.10306834057,
    "ret_ltm": 0.112365181,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=31887401000139",
-   "site": null
+   "site": null,
+   "cotas": 690040.0
   },
   {
    "ticker": "CXAG11",
@@ -1603,7 +1659,8 @@
    "ret_ano": 0.04743895928,
    "ret_ltm": 0.19038995915,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=40189596000134",
-   "site": null
+   "site": null,
+   "cotas": 2090621.0
   },
   {
    "ticker": "CXCI11",
@@ -1631,7 +1688,8 @@
    "ret_ano": 0.020186774129,
    "ret_ltm": 0.12120808972,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=42066916000194",
-   "site": null
+   "site": null,
+   "cotas": 2057726.0
   },
   {
    "ticker": "CXCO11",
@@ -1659,7 +1717,8 @@
    "ret_ano": 0.056687217948,
    "ret_ltm": 0.3410124681,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=38658984000175",
-   "site": null
+   "site": null,
+   "cotas": 3924500.0
   },
   {
    "ticker": "CXRI11",
@@ -1687,7 +1746,8 @@
    "ret_ano": -0.023414854114,
    "ret_ltm": 0.10997617743,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=17098794000170",
-   "site": null
+   "site": null,
+   "cotas": 1575760.0
   },
   {
    "ticker": "CYCR11",
@@ -1715,7 +1775,8 @@
    "ret_ano": 0.064638916263,
    "ret_ltm": 0.14349962125,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=36501233000115",
-   "site": null
+   "site": null,
+   "cotas": 36549445.00000001
   },
   {
    "ticker": "DCRA11",
@@ -1743,7 +1804,8 @@
    "ret_ano": -0.087546834213,
    "ret_ltm": -0.025687619923,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=42888360000111",
-   "site": null
+   "site": null,
+   "cotas": 6738904.999999999
   },
   {
    "ticker": "DEVA11",
@@ -1771,7 +1833,8 @@
    "ret_ano": -0.26371628834,
    "ret_ltm": -0.36789834378,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=37087810000137",
-   "site": null
+   "site": null,
+   "cotas": 14044908.0
   },
   {
    "ticker": "DIVS11",
@@ -1799,7 +1862,8 @@
    "ret_ano": 0.089113762584,
    "ret_ltm": 0.16527605521,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=58390457000130",
-   "site": null
+   "site": null,
+   "cotas": 10255616.0
   },
   {
    "ticker": "DVFF11",
@@ -1827,7 +1891,8 @@
    "ret_ano": -0.01776724611,
    "ret_ltm": -0.036438424239,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=39863059000149",
-   "site": null
+   "site": null,
+   "cotas": 11009500.0
   },
   {
    "ticker": "EGAF11",
@@ -1855,7 +1920,8 @@
    "ret_ano": 0.00069973526843,
    "ret_ltm": 0.11066089269,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=41224330000148",
-   "site": null
+   "site": null,
+   "cotas": 3131914.0
   },
   {
    "ticker": "EIRA11",
@@ -1883,7 +1949,8 @@
    "ret_ano": 0.073110638401,
    "ret_ltm": 0.15869542475,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=59202651000107",
-   "site": null
+   "site": null,
+   "cotas": 346289.00000000006
   },
   {
    "ticker": "EMET11",
@@ -1911,7 +1978,8 @@
    "ret_ano": -0.13211338201,
    "ret_ltm": 0.039044636358,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=53523736000100",
-   "site": null
+   "site": null,
+   "cotas": 5000000.0
   },
   {
    "ticker": "EQIR11",
@@ -1939,7 +2007,8 @@
    "ret_ano": 0.082671268649,
    "ret_ltm": 0.23042690759,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=41076380000125",
-   "site": null
+   "site": null,
+   "cotas": 10909315.0
   },
   {
    "ticker": "EURO11",
@@ -1967,7 +2036,8 @@
    "ret_ano": 0.11364655615,
    "ret_ltm": 0.53489241134,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=05437916000127",
-   "site": null
+   "site": null,
+   "cotas": 409883.0
   },
   {
    "ticker": "EXES11",
@@ -1995,7 +2065,8 @@
    "ret_ano": 0.093101618693,
    "ret_ltm": 0.20002060067,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=41076851000103",
-   "site": null
+   "site": null,
+   "cotas": 14101455.0
   },
   {
    "ticker": "FAED11",
@@ -2023,7 +2094,8 @@
    "ret_ano": 0.044374504028,
    "ret_ltm": 0.2092793018,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=11179118000145",
-   "site": null
+   "site": null,
+   "cotas": 692377.0
   },
   {
    "ticker": "FAMB11",
@@ -2051,7 +2123,8 @@
    "ret_ano": -0.25607476635,
    "ret_ltm": 0.020512820513,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=05562312000102",
-   "site": null
+   "site": null,
+   "cotas": 122538.0
   },
   {
    "ticker": "FATN11",
@@ -2079,7 +2152,8 @@
    "ret_ano": -0.0091476809785,
    "ret_ltm": 0.18168460292,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=30567216000102",
-   "site": null
+   "site": null,
+   "cotas": 6758261.0
   },
   {
    "ticker": "FCFL11",
@@ -2107,7 +2181,8 @@
    "ret_ano": 0.024717963021,
    "ret_ltm": 0.047046036756,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=11602654000101",
-   "site": null
+   "site": null,
+   "cotas": 3474010.0
   },
   {
    "ticker": "FGAA11",
@@ -2135,7 +2210,8 @@
    "ret_ano": 0.009051598674,
    "ret_ltm": 0.15666784527,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=42405905000191",
-   "site": null
+   "site": null,
+   "cotas": 45078448.99999999
   },
   {
    "ticker": "FIGS11",
@@ -2163,7 +2239,8 @@
    "ret_ano": 0.11716559319,
    "ret_ltm": 0.24054347564,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=17590518000125",
-   "site": null
+   "site": null,
+   "cotas": 2850000.0
   },
   {
    "ticker": "FIIB11",
@@ -2191,7 +2268,8 @@
    "ret_ano": -0.036512606482,
    "ret_ltm": -0.046165815838,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=14217108000145",
-   "site": null
+   "site": null,
+   "cotas": 685000.0
   },
   {
    "ticker": "FIIP11",
@@ -2219,7 +2297,8 @@
    "ret_ano": -0.084235862351,
    "ret_ltm": -0.0076579385359,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=08696175000197",
-   "site": null
+   "site": null,
+   "cotas": 927161.9999999999
   },
   {
    "ticker": "FLCR11",
@@ -2247,7 +2326,8 @@
    "ret_ano": 0.040495670828,
    "ret_ltm": 0.11654556703,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=33884145000151",
-   "site": null
+   "site": null,
+   "cotas": 751844.0000000001
   },
   {
    "ticker": "FLMA11",
@@ -2275,7 +2355,8 @@
    "ret_ano": 0.010525557205,
    "ret_ltm": 0.28475440596,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=04141645000103",
-   "site": null
+   "site": null,
+   "cotas": 1380670.0
   },
   {
    "ticker": "FLRP11",
@@ -2303,7 +2384,8 @@
    "ret_ano": 0.0051982070381,
    "ret_ltm": 0.13046770464,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=10375382000191",
-   "site": null
+   "site": null,
+   "cotas": 7698952.999999999
   },
   {
    "ticker": "FTCA11",
@@ -2331,7 +2413,8 @@
    "ret_ano": 0.011686056919,
    "ret_ltm": 0.24445107295,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=42537438000153",
-   "site": null
+   "site": null,
+   "cotas": 4459952.000000001
   },
   {
    "ticker": "FVPQ11",
@@ -2359,7 +2442,8 @@
    "ret_ano": -0.14310146657,
    "ret_ltm": -0.088334732639,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=00332266000131",
-   "site": null
+   "site": null,
+   "cotas": 2800149.0
   },
   {
    "ticker": "FYTO11",
@@ -2387,7 +2471,8 @@
    "ret_ano": 0.041464579266,
    "ret_ltm": 0.16046411777,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=18085673000157",
-   "site": null
+   "site": null,
+   "cotas": 15281388.0
   },
   {
    "ticker": "GAME11",
@@ -2415,7 +2500,8 @@
    "ret_ano": 0.063366388962,
    "ret_ltm": 0.18337699641,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=41269052000145",
-   "site": null
+   "site": null,
+   "cotas": 28426127.0
   },
   {
    "ticker": "GARE11",
@@ -2443,7 +2529,8 @@
    "ret_ano": -0.049037296291,
    "ret_ltm": 0.035826258187,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=37295919000160",
-   "site": null
+   "site": null,
+   "cotas": 289186437.99507993
   },
   {
    "ticker": "GCRA11",
@@ -2471,7 +2558,8 @@
    "ret_ano": 0.063000459873,
    "ret_ltm": 0.207650425,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=37037297000170",
-   "site": null
+   "site": null,
+   "cotas": 1750865.0
   },
   {
    "ticker": "GCRI11",
@@ -2499,7 +2587,8 @@
    "ret_ano": 0.10900039852,
    "ret_ltm": 0.22389976827,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=38293897000161",
-   "site": null
+   "site": null,
+   "cotas": 1453858.9999999998
   },
   {
    "ticker": "GGRC11",
@@ -2527,7 +2616,8 @@
    "ret_ano": 0.057967750605,
    "ret_ltm": 0.10446716509,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=26614291000100",
-   "site": null
+   "site": null,
+   "cotas": 214249664.00202638
   },
   {
    "ticker": "GRUL11",
@@ -2555,7 +2645,8 @@
    "ret_ano": -0.033368832448,
    "ret_ltm": 0.16899017654,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=54483412000159",
-   "site": null
+   "site": null,
+   "cotas": 24700000.0
   },
   {
    "ticker": "GSFI11",
@@ -2583,7 +2674,8 @@
    "ret_ano": 0.043957352951,
    "ret_ltm": 0.40043059542,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=11769604000113",
-   "site": null
+   "site": null,
+   "cotas": 96106665.97379914
   },
   {
    "ticker": "GSRF11",
@@ -2639,7 +2731,8 @@
    "ret_ano": 0.01479038113,
    "ret_ltm": 0.17805644764,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=23740527000158",
-   "site": null
+   "site": null,
+   "cotas": 12000000.0
   },
   {
    "ticker": "GZIT11",
@@ -2667,7 +2760,8 @@
    "ret_ano": -0.054688048948,
    "ret_ltm": 0.04473349748,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=15447108000102",
-   "site": null
+   "site": null,
+   "cotas": 23297836.0
   },
   {
    "ticker": "HABT11",
@@ -2695,7 +2789,8 @@
    "ret_ano": 0.012862911844,
    "ret_ltm": 0.022239684227,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=30578417000105",
-   "site": null
+   "site": null,
+   "cotas": 8126783.0
   },
   {
    "ticker": "HCRI11",
@@ -2723,7 +2818,8 @@
    "ret_ano": 0.0084828047075,
    "ret_ltm": 0.2226547503,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=04066582000160",
-   "site": null
+   "site": null,
+   "cotas": 200000.0
   },
   {
    "ticker": "HCTR11",
@@ -2751,7 +2847,8 @@
    "ret_ano": -0.17266297668,
    "ret_ltm": -0.19061785028,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=30248180000196",
-   "site": null
+   "site": null,
+   "cotas": 22084202.904015057
   },
   {
    "ticker": "HFOF11",
@@ -2779,7 +2876,8 @@
    "ret_ano": 0.029662782115,
    "ret_ltm": 0.22520344691,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=18307582000119",
-   "site": null
+   "site": null,
+   "cotas": 219693000.0
   },
   {
    "ticker": "HGBS11",
@@ -2807,7 +2905,8 @@
    "ret_ano": 0.018649094558,
    "ret_ltm": 0.10013340457,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=08431747000106",
-   "site": null
+   "site": null,
+   "cotas": 144355726.00000003
   },
   {
    "ticker": "HGCR11",
@@ -2835,7 +2934,8 @@
    "ret_ano": 0.0010191321071,
    "ret_ltm": 0.12162376184,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=11160521000122",
-   "site": null
+   "site": null,
+   "cotas": 15418106.000432383
   },
   {
    "ticker": "HGLG11",
@@ -2863,7 +2963,8 @@
    "ret_ano": -0.0041930539164,
    "ret_ltm": 0.038558274564,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=11728688000147",
-   "site": null
+   "site": null,
+   "cotas": 45601744.99966758
   },
   {
    "ticker": "HGRE11",
@@ -2891,7 +2992,8 @@
    "ret_ano": 0.058600449918,
    "ret_ltm": 0.18805024179,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=09072017000129",
-   "site": null
+   "site": null,
+   "cotas": 11817767.000239216
   },
   {
    "ticker": "HGRU11",
@@ -2919,7 +3021,8 @@
    "ret_ano": 0.077421373593,
    "ret_ltm": 0.15265338234,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=29641226000153",
-   "site": null
+   "site": null,
+   "cotas": 23238024.000309147
   },
   {
    "ticker": "HLOG11",
@@ -2947,7 +3050,8 @@
    "ret_ano": 0.033559743182,
    "ret_ltm": 0.22338007476,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=27486542000172",
-   "site": null
+   "site": null,
+   "cotas": 42500000.0
   },
   {
    "ticker": "HOFC11",
@@ -2975,7 +3079,8 @@
    "ret_ano": 0.13031914894,
    "ret_ltm": 0.19172800561,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=31894369000119",
-   "site": null
+   "site": null,
+   "cotas": 3779001.0
   },
   {
    "ticker": "HPDP11",
@@ -3003,7 +3108,8 @@
    "ret_ano": -0.0072391339791,
    "ret_ltm": 0.065194007455,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=35586415000173",
-   "site": null
+   "site": null,
+   "cotas": 7050992.0
   },
   {
    "ticker": "HREC11",
@@ -3031,7 +3137,8 @@
    "ret_ano": 0.088198846217,
    "ret_ltm": 0.12441538615,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=35507262000121",
-   "site": null
+   "site": null,
+   "cotas": 51685916.99999999
   },
   {
    "ticker": "HSAF11",
@@ -3059,7 +3166,8 @@
    "ret_ano": 0.053752455608,
    "ret_ltm": 0.15494261616,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=35360687000150",
-   "site": null
+   "site": null,
+   "cotas": 2526360.0
   },
   {
    "ticker": "HSLG11",
@@ -3087,7 +3195,8 @@
    "ret_ano": -0.013895469501,
    "ret_ltm": 0.16027378196,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=32903621000171",
-   "site": null
+   "site": null,
+   "cotas": 12660067.000115247
   },
   {
    "ticker": "HSML11",
@@ -3115,7 +3224,8 @@
    "ret_ano": -0.027584996569,
    "ret_ltm": 0.11876601447,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=32892018000131",
-   "site": null
+   "site": null,
+   "cotas": 21329976.00023261
   },
   {
    "ticker": "HSRE11",
@@ -3143,7 +3253,8 @@
    "ret_ano": -0.15250129522,
    "ret_ltm": -0.057737152752,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=08098114000128",
-   "site": null
+   "site": null,
+   "cotas": 8898724.0
   },
   {
    "ticker": "HTMX11",
@@ -3171,7 +3282,8 @@
    "ret_ano": -0.034590251414,
    "ret_ltm": 0.086348962035,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=08706065000169",
-   "site": null
+   "site": null,
+   "cotas": 2888094.0000000005
   },
   {
    "ticker": "IAAG11",
@@ -3199,7 +3311,8 @@
    "ret_ano": 0.02181281911,
    "ret_ltm": 0.36720572319,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=42692399000169",
-   "site": null
+   "site": null,
+   "cotas": 10454176.0
   },
   {
    "ticker": "IBBP11",
@@ -3227,7 +3340,8 @@
    "ret_ano": -0.056613456796,
    "ret_ltm": 0.10163073035,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=52551605000174",
-   "site": null
+   "site": null,
+   "cotas": 75370654.52
   },
   {
    "ticker": "IBCR11",
@@ -3255,7 +3369,8 @@
    "ret_ano": 0.051984927872,
    "ret_ltm": -0.042769707363,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=40011251000196",
-   "site": null
+   "site": null,
+   "cotas": 958423.0
   },
   {
    "ticker": "ICNE11",
@@ -3283,7 +3398,8 @@
    "ret_ano": null,
    "ret_ltm": null,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=53137434000102",
-   "site": null
+   "site": null,
+   "cotas": 120000.0
   },
   {
    "ticker": "ICRI11",
@@ -3311,7 +3427,8 @@
    "ret_ano": 0.11583678935,
    "ret_ltm": 0.13576254732,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=51294441000184",
-   "site": null
+   "site": null,
+   "cotas": 3857359.0
   },
   {
    "ticker": "IFRA11",
@@ -3339,7 +3456,8 @@
    "ret_ano": -0.012713375252,
    "ret_ltm": 0.081812112516,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=34633510000118",
-   "site": null
+   "site": null,
+   "cotas": 15492047.0
   },
   {
    "ticker": "IFRI11",
@@ -3367,7 +3485,8 @@
    "ret_ano": 0.054382631608,
    "ret_ltm": 0.27818630738,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=53556099000179",
-   "site": null
+   "site": null,
+   "cotas": 9999991.0
   },
   {
    "ticker": "INLG11",
@@ -3395,7 +3514,8 @@
    "ret_ano": -0.12964218538,
    "ret_ltm": -0.0055218212628,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=34598181000111",
-   "site": null
+   "site": null,
+   "cotas": 4512103.0
   },
   {
    "ticker": "INRD11",
@@ -3423,7 +3543,8 @@
    "ret_ano": 0.033521377132,
    "ret_ltm": 0.130002112,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=34835191000123",
-   "site": null
+   "site": null,
+   "cotas": 1129720.0
   },
   {
    "ticker": "IRIF11",
@@ -3451,7 +3572,8 @@
    "ret_ano": 0.023579712768,
    "ret_ltm": 0.17902113878,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=55940336000126",
-   "site": null
+   "site": null,
+   "cotas": 4454548.0
   },
   {
    "ticker": "IRIM11",
@@ -3479,7 +3601,8 @@
    "ret_ano": 0.048656231042,
    "ret_ltm": 0.12587267206,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=41076564000195",
-   "site": null
+   "site": null,
+   "cotas": 35225947.00030239
   },
   {
    "ticker": "ITIP11",
@@ -3507,7 +3630,8 @@
    "ret_ano": 0.076422547196,
    "ret_ltm": 0.15740963247,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=36312772000106",
-   "site": null
+   "site": null,
+   "cotas": 748151.0
   },
   {
    "ticker": "ITIT11",
@@ -3535,7 +3659,8 @@
    "ret_ano": 0.14397955464,
    "ret_ltm": 0.2229051529,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=36293425000183",
-   "site": null
+   "site": null,
+   "cotas": 900494.0000000001
   },
   {
    "ticker": "ITRI11",
@@ -3563,7 +3688,8 @@
    "ret_ano": 0.046940163844,
    "ret_ltm": 0.14892758447,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=52270671000176",
-   "site": null
+   "site": null,
+   "cotas": 6250000.0
   },
   {
    "ticker": "JCCJ11",
@@ -3591,7 +3717,8 @@
    "ret_ano": 0.069955682167,
    "ret_ltm": 0.055425021126,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=50701686000116",
-   "site": null
+   "site": null,
+   "cotas": 5213036.0
   },
   {
    "ticker": "JFLL11",
@@ -3619,7 +3746,8 @@
    "ret_ano": -0.15312544976,
    "ret_ltm": 0.023786079568,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=36501181000187",
-   "site": null
+   "site": null,
+   "cotas": 1500598.0
   },
   {
    "ticker": "JGPX11",
@@ -3647,7 +3775,8 @@
    "ret_ano": -0.10948047892,
    "ret_ltm": 0.12958639502,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=42888292000190",
-   "site": null
+   "site": null,
+   "cotas": 2141248.0
   },
   {
    "ticker": "JMBI11",
@@ -3675,7 +3804,8 @@
    "ret_ano": 0.06292175741,
    "ret_ltm": 0.17682085581,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=55276939000175",
-   "site": null
+   "site": null,
+   "cotas": 4375000.0
   },
   {
    "ticker": "JPPA11",
@@ -3703,7 +3833,8 @@
    "ret_ano": 0.1176292465,
    "ret_ltm": 0.25492904679,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=30982880000100",
-   "site": null
+   "site": null,
+   "cotas": 904049.9999999999
   },
   {
    "ticker": "JSAF11",
@@ -3731,7 +3862,8 @@
    "ret_ano": -0.0025897553151,
    "ret_ltm": 0.079917430689,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=42085661000107",
-   "site": null
+   "site": null,
+   "cotas": 77523290.0
   },
   {
    "ticker": "JSCR11",
@@ -3759,7 +3891,8 @@
    "ret_ano": 0.077389950677,
    "ret_ltm": 0.1529412401,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=54866214000174",
-   "site": null
+   "site": null,
+   "cotas": 22137100.0
   },
   {
    "ticker": "JSRE11",
@@ -3787,7 +3920,8 @@
    "ret_ano": -0.05613494197,
    "ret_ltm": 0.033776593049,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=13371132000171",
-   "site": null
+   "site": null,
+   "cotas": 20767328.000333
   },
   {
    "ticker": "JURO11",
@@ -3815,7 +3949,8 @@
    "ret_ano": -0.012343879832,
    "ret_ltm": 0.084519372833,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=42730834000100",
-   "site": null
+   "site": null,
+   "cotas": 20571677.0
   },
   {
    "ticker": "KCRE11",
@@ -3843,7 +3978,8 @@
    "ret_ano": 0.10235077372,
    "ret_ltm": 0.18141290311,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=42502802000140",
-   "site": null
+   "site": null,
+   "cotas": 36000000.0
   },
   {
    "ticker": "KDIF11",
@@ -3871,7 +4007,8 @@
    "ret_ano": -0.024259810864,
    "ret_ltm": 0.081574833896,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=26324298000189",
-   "site": null
+   "site": null,
+   "cotas": 23485573.392315887
   },
   {
    "ticker": "KDOL11",
@@ -3899,7 +4036,8 @@
    "ret_ano": -0.051451498485,
    "ret_ltm": -0.039820694177,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=51641681000108",
-   "site": null
+   "site": null,
+   "cotas": 670982.0
   },
   {
    "ticker": "KFOF11",
@@ -3927,7 +4065,8 @@
    "ret_ano": -0.0516815113,
    "ret_ltm": 0.079830092691,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=30091444000140",
-   "site": null
+   "site": null,
+   "cotas": 7014565.0
   },
   {
    "ticker": "KISU11",
@@ -3955,7 +4094,8 @@
    "ret_ano": -0.038655630509,
    "ret_ltm": 0.037581497585,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=36669660000107",
-   "site": null
+   "site": null,
+   "cotas": 44196050.0
   },
   {
    "ticker": "KIVO11",
@@ -3983,7 +4123,8 @@
    "ret_ano": -0.008680936804,
    "ret_ltm": 0.024350859307,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=42273325000198",
-   "site": null
+   "site": null,
+   "cotas": 2222736.0
   },
   {
    "ticker": "KNCA11",
@@ -4011,7 +4152,8 @@
    "ret_ano": -0.0087431047759,
    "ret_ltm": 0.085042033892,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=41745701000137",
-   "site": null
+   "site": null,
+   "cotas": 21599919.0
   },
   {
    "ticker": "KNCR11",
@@ -4039,7 +4181,8 @@
    "ret_ano": 0.062571162867,
    "ret_ltm": 0.18230904523,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=16706958000132",
-   "site": null
+   "site": null,
+   "cotas": 107089621.9960788
   },
   {
    "ticker": "KNHF11",
@@ -4067,7 +4210,8 @@
    "ret_ano": 0.041910198159,
    "ret_ltm": 0.17209004258,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=42754342000147",
-   "site": null
+   "site": null,
+   "cotas": 19663234.999469273
   },
   {
    "ticker": "KNHY11",
@@ -4095,7 +4239,8 @@
    "ret_ano": 0.05364328508,
    "ret_ltm": 0.12297699657,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=30130708000128",
-   "site": null
+   "site": null,
+   "cotas": 31173083.00020129
   },
   {
    "ticker": "KNIP11",
@@ -4123,7 +4268,8 @@
    "ret_ano": 0.080639663531,
    "ret_ltm": 0.13815429408,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=24960430000113",
-   "site": null
+   "site": null,
+   "cotas": 80078185.99978313
   },
   {
    "ticker": "KNRI11",
@@ -4151,7 +4297,8 @@
    "ret_ano": 0.01039654564,
    "ret_ltm": 0.12760589776,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=12005956000165",
-   "site": null
+   "site": null,
+   "cotas": 28204047.000200924
   },
   {
    "ticker": "KNSC11",
@@ -4179,7 +4326,8 @@
    "ret_ano": 0.093948094478,
    "ret_ltm": 0.15565897023,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=35864448000138",
-   "site": null
+   "site": null,
+   "cotas": 202202385.00552484
   },
   {
    "ticker": "KNUQ11",
@@ -4207,7 +4355,8 @@
    "ret_ano": 0.070709638174,
    "ret_ltm": 0.16922207927,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=42754362000118",
-   "site": null
+   "site": null,
+   "cotas": 21484730.0
   },
   {
    "ticker": "KOPA11",
@@ -4235,7 +4384,8 @@
    "ret_ano": 0.19714348743,
    "ret_ltm": 0.27609183208,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=51475461000151",
-   "site": null
+   "site": null,
+   "cotas": 354677.0
   },
   {
    "ticker": "KORE11",
@@ -4263,7 +4413,8 @@
    "ret_ano": -0.1048589872,
    "ret_ltm": -0.094879816103,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=52219978000142",
-   "site": null
+   "site": null,
+   "cotas": 9625000.0
   },
   {
    "ticker": "LASC11",
@@ -4291,7 +4442,8 @@
    "ret_ano": 0.059483834273,
    "ret_ltm": 0.32243894217,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=30248158000146",
-   "site": null
+   "site": null,
+   "cotas": 2940298.0000000005
   },
   {
    "ticker": "LIFE11",
@@ -4319,7 +4471,8 @@
    "ret_ano": -0.069800800661,
    "ret_ltm": -0.020529333791,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=39753295000102",
-   "site": null
+   "site": null,
+   "cotas": 39761584.0
   },
   {
    "ticker": "LSAG11",
@@ -4347,7 +4500,8 @@
    "ret_ano": -0.019572169981,
    "ret_ltm": 0.18627534259,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=42592476000109",
-   "site": null
+   "site": null,
+   "cotas": 1009333.9999999999
   },
   {
    "ticker": "LVBI11",
@@ -4375,7 +4529,8 @@
    "ret_ano": -0.027917682233,
    "ret_ltm": 0.12243830618,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=30629603000118",
-   "site": null
+   "site": null,
+   "cotas": 16118564.999522582
   },
   {
    "ticker": "MANA11",
@@ -4403,7 +4558,8 @@
    "ret_ano": 0.07479903664,
    "ret_ltm": 0.24184892138,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=42888583000189",
-   "site": null
+   "site": null,
+   "cotas": 37536140.0
   },
   {
    "ticker": "MAXR11",
@@ -4431,7 +4587,8 @@
    "ret_ano": -0.10486762905,
    "ret_ltm": -0.1076111221,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=11274415000170",
-   "site": null
+   "site": null,
+   "cotas": 1125655.0
   },
   {
    "ticker": "MCCI11",
@@ -4459,7 +4616,8 @@
    "ret_ano": 0.086353243545,
    "ret_ltm": 0.22189524775,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=23648935000184",
-   "site": null
+   "site": null,
+   "cotas": 16960024.0
   },
   {
    "ticker": "MCRE11",
@@ -4487,7 +4645,8 @@
    "ret_ano": 0.043814976074,
    "ret_ltm": 0.22713192071,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=36655973000106",
-   "site": null
+   "site": null,
+   "cotas": 111598920.99999999
   },
   {
    "ticker": "MFII11",
@@ -4515,7 +4674,8 @@
    "ret_ano": -0.28277325217,
    "ret_ltm": -0.26622208134,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=16915968000188",
-   "site": null
+   "site": null,
+   "cotas": 6800000.0
   },
   {
    "ticker": "MXRF11",
@@ -4543,7 +4703,8 @@
    "ret_ano": 0.077245514049,
    "ret_ltm": 0.16642668166,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=97521225000125",
-   "site": null
+   "site": null,
+   "cotas": 460269531.0031024
   },
   {
    "ticker": "NAVT11",
@@ -4571,7 +4732,8 @@
    "ret_ano": 0.11797197946,
    "ret_ltm": 0.18987551086,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=35652252000180",
-   "site": null
+   "site": null,
+   "cotas": 612282.0
   },
   {
    "ticker": "NEWL11",
@@ -4599,7 +4761,8 @@
    "ret_ano": -0.058402861362,
    "ret_ltm": 0.10969272457,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=32527626000147",
-   "site": null
+   "site": null,
+   "cotas": 2810193.0
   },
   {
    "ticker": "NEXG11",
@@ -4627,7 +4790,8 @@
    "ret_ano": 0.063777937541,
    "ret_ltm": 0.27763894529,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=52044477000172",
-   "site": null
+   "site": null,
+   "cotas": 698500.0
   },
   {
    "ticker": "NSLU11",
@@ -4655,7 +4819,8 @@
    "ret_ano": -0.08021568549,
    "ret_ltm": 0.36907080162,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=08014513000163",
-   "site": null
+   "site": null,
+   "cotas": 1293286.0
   },
   {
    "ticker": "OGIN11",
@@ -4683,7 +4848,8 @@
    "ret_ano": -0.0078743780159,
    "ret_ltm": 0.10381238052,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=46420627000100",
-   "site": null
+   "site": null,
+   "cotas": 4667034.0
   },
   {
    "ticker": "OIAG11",
@@ -4711,7 +4877,8 @@
    "ret_ano": 0.040689598829,
    "ret_ltm": 0.28528152841,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=41218352000103",
-   "site": null
+   "site": null,
+   "cotas": 9032999.000000002
   },
   {
    "ticker": "OUJP11",
@@ -4739,7 +4906,8 @@
    "ret_ano": -0.0028663409694,
    "ret_ltm": 0.065580124112,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=26091656000150",
-   "site": null
+   "site": null,
+   "cotas": 3252384.0
   },
   {
    "ticker": "OXRL11",
@@ -4767,7 +4935,8 @@
    "ret_ano": null,
    "ret_ltm": null,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=58561237000121",
-   "site": null
+   "site": null,
+   "cotas": 350204.0
   },
   {
    "ticker": "PATC11",
@@ -4795,7 +4964,8 @@
    "ret_ano": -0.039287200245,
    "ret_ltm": 0.082903112196,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=30048651000112",
-   "site": null
+   "site": null,
+   "cotas": 3477434.0
   },
   {
    "ticker": "PCIP11",
@@ -4823,7 +4993,8 @@
    "ret_ano": 0.002208511627,
    "ret_ltm": 0.091869778065,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=28729197000113",
-   "site": null
+   "site": null,
+   "cotas": 17011707.000375893
   },
   {
    "ticker": "PLAG11",
@@ -4851,7 +5022,8 @@
    "ret_ano": 0.29304298797,
    "ret_ltm": 0.4616871034,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=32754734000152",
-   "site": null
+   "site": null,
+   "cotas": 5452634.000000001
   },
   {
    "ticker": "PLCA11",
@@ -4879,7 +5051,8 @@
    "ret_ano": 0.094843294619,
    "ret_ltm": 0.20359248289,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=41272747000186",
-   "site": null
+   "site": null,
+   "cotas": 557019.0
   },
   {
    "ticker": "PMIS11",
@@ -4907,7 +5080,8 @@
    "ret_ano": -0.041234235407,
    "ret_ltm": 0.12817827544,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=51868778000158",
-   "site": null
+   "site": null,
+   "cotas": 14803242.0
   },
   {
    "ticker": "PMLL11",
@@ -4935,7 +5109,8 @@
    "ret_ano": 0.041262411492,
    "ret_ltm": 0.15020119243,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=26499833000132",
-   "site": null
+   "site": null,
+   "cotas": 13982093.000192752
   },
   {
    "ticker": "PORD11",
@@ -4963,7 +5138,8 @@
    "ret_ano": 0.10349874784,
    "ret_ltm": 0.15460742774,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=17156502000109",
-   "site": null
+   "site": null,
+   "cotas": 37283750.0
   },
   {
    "ticker": "PQAG11",
@@ -4991,7 +5167,8 @@
    "ret_ano": 0.045194872739,
    "ret_ltm": 0.087215732738,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=12978943000172",
-   "site": null
+   "site": null,
+   "cotas": 13991889.999999998
   },
   {
    "ticker": "PQDP11",
@@ -5019,7 +5196,8 @@
    "ret_ano": 0.15063460963,
    "ret_ltm": 0.18755220969,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=10869155000112",
-   "site": null
+   "site": null,
+   "cotas": 244213.0
   },
   {
    "ticker": "PSEC11",
@@ -5047,7 +5225,8 @@
    "ret_ano": -0.069773613986,
    "ret_ltm": -0.014530945862,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=35507457000171",
-   "site": null
+   "site": null,
+   "cotas": 18399377.99929241
   },
   {
    "ticker": "PVBI11",
@@ -5075,7 +5254,8 @@
    "ret_ano": -0.083759157867,
    "ret_ltm": 0.025621924053,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=35652102000176",
-   "site": null
+   "site": null,
+   "cotas": 27130066.999449946
   },
   {
    "ticker": "RBFM11",
@@ -5103,7 +5283,8 @@
    "ret_ano": 0.032866171718,
    "ret_ltm": 0.14239393994,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=17329029000114",
-   "site": null
+   "site": null,
+   "cotas": 18746075.0
   },
   {
    "ticker": "RBHG11",
@@ -5131,7 +5312,8 @@
    "ret_ano": 0.034873518824,
    "ret_ltm": 0.1260848881,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=30647758000187",
-   "site": null
+   "site": null,
+   "cotas": 2167957.0
   },
   {
    "ticker": "RBHY11",
@@ -5159,7 +5341,8 @@
    "ret_ano": 0.050953182899,
    "ret_ltm": 0.098969688441,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=37899479000150",
-   "site": null
+   "site": null,
+   "cotas": 1893505.0
   },
   {
    "ticker": "RBIF11",
@@ -5187,7 +5370,8 @@
    "ret_ano": 0.092350843188,
    "ret_ltm": 0.20452756261,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=38314962000198",
-   "site": null
+   "site": null,
+   "cotas": 867844.0
   },
   {
    "ticker": "RBIR11",
@@ -5215,7 +5399,8 @@
    "ret_ano": -0.013371971331,
    "ret_ltm": 0.16779252186,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=31161410000148",
-   "site": null
+   "site": null,
+   "cotas": 1528615.0
   },
   {
    "ticker": "RBRD11",
@@ -5243,7 +5428,8 @@
    "ret_ano": -0.035456556221,
    "ret_ltm": 0.035192476256,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=09006914000134",
-   "site": null
+   "site": null,
+   "cotas": 1851786.0
   },
   {
    "ticker": "RBRL11",
@@ -5271,7 +5457,8 @@
    "ret_ano": -0.11122641567,
    "ret_ltm": 0.12559606057,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=35705463000133",
-   "site": null
+   "site": null,
+   "cotas": 6687034.999999999
   },
   {
    "ticker": "RBRP11",
@@ -5299,7 +5486,8 @@
    "ret_ano": -0.076837555165,
    "ret_ltm": 0.12006476745,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=21408063000151",
-   "site": null
+   "site": null,
+   "cotas": 12179186.938096205
   },
   {
    "ticker": "RBRR11",
@@ -5327,7 +5515,8 @@
    "ret_ano": -0.048610133686,
    "ret_ltm": 0.0093438134245,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=29467977000103",
-   "site": null
+   "site": null,
+   "cotas": 16300275.0
   },
   {
    "ticker": "RBRS11",
@@ -5355,7 +5544,8 @@
    "ret_ano": 0.20283056268,
    "ret_ltm": 0.01629514944,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=36517660000191",
-   "site": null
+   "site": null,
+   "cotas": 764451.9999999999
   },
   {
    "ticker": "RBRX11",
@@ -5383,7 +5573,8 @@
    "ret_ano": 0.037546448753,
    "ret_ltm": 0.15158192468,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=41088458000121",
-   "site": null
+   "site": null,
+   "cotas": 146354302.00492004
   },
   {
    "ticker": "RBRY11",
@@ -5411,7 +5602,8 @@
    "ret_ano": -0.019641237629,
    "ret_ltm": 0.10927784693,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=30166700000111",
-   "site": null
+   "site": null,
+   "cotas": 12769512.0
   },
   {
    "ticker": "RBVA11",
@@ -5439,7 +5631,8 @@
    "ret_ano": -0.094719104362,
    "ret_ltm": 0.17277637153,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=15576907000170",
-   "site": null
+   "site": null,
+   "cotas": 156143050.0
   },
   {
    "ticker": "RCRB11",
@@ -5467,7 +5660,8 @@
    "ret_ano": 0.015923332081,
    "ret_ltm": 0.19105246643,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=03683056000186",
-   "site": null
+   "site": null,
+   "cotas": 3690695.0
   },
   {
    "ticker": "RCRI11",
@@ -5495,7 +5689,8 @@
    "ret_ano": 0.049385646969,
    "ret_ltm": null,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=60801196000145",
-   "site": null
+   "site": null,
+   "cotas": 422144.0
   },
   {
    "ticker": "RECM11",
@@ -5523,7 +5718,8 @@
    "ret_ano": 0.0025543450247,
    "ret_ltm": 0.10194371183,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=56430935000162",
-   "site": null
+   "site": null,
+   "cotas": 8400517.0
   },
   {
    "ticker": "RECR11",
@@ -5551,7 +5747,8 @@
    "ret_ano": 0.051566407767,
    "ret_ltm": 0.10636772259,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=28152272000126",
-   "site": null
+   "site": null,
+   "cotas": 26441650.0
   },
   {
    "ticker": "RECT11",
@@ -5579,7 +5776,8 @@
    "ret_ano": -0.028570711448,
    "ret_ltm": 0.24406925255,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=32274163000159",
-   "site": null
+   "site": null,
+   "cotas": 8543493.0
   },
   {
    "ticker": "RIFF11",
@@ -5607,7 +5805,8 @@
    "ret_ano": 0.045028602139,
    "ret_ltm": 0.164278519,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=54895184000124",
-   "site": null
+   "site": null,
+   "cotas": 15000000.0
   },
   {
    "ticker": "RINV11",
@@ -5635,7 +5834,8 @@
    "ret_ano": 0.056975222027,
    "ret_ltm": 0.16234047301,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=44625612000145",
-   "site": null
+   "site": null,
+   "cotas": 5031676.0
   },
   {
    "ticker": "RNGO11",
@@ -5663,7 +5863,8 @@
    "ret_ano": 0.061398307205,
    "ret_ltm": 0.24687692791,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=15006286000190",
-   "site": null
+   "site": null,
+   "cotas": 2676000.0
   },
   {
    "ticker": "RPRI11",
@@ -5691,7 +5892,8 @@
    "ret_ano": -0.023617159002,
    "ret_ltm": 0.02912771824,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=42502842000191",
-   "site": null
+   "site": null,
+   "cotas": 3471728.0
   },
   {
    "ticker": "RURA11",
@@ -5719,7 +5921,8 @@
    "ret_ano": 0.013112706794,
    "ret_ltm": 0.18468396404,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=42479593000160",
-   "site": null
+   "site": null,
+   "cotas": 160099509.00485438
   },
   {
    "ticker": "RZAG11",
@@ -5747,7 +5950,8 @@
    "ret_ano": -0.027321535213,
    "ret_ltm": 0.13045729766,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=40413979000144",
-   "site": null
+   "site": null,
+   "cotas": 68040425.0
   },
   {
    "ticker": "RZAK11",
@@ -5775,7 +5979,8 @@
    "ret_ano": 0.052725033955,
    "ret_ltm": 0.17564013851,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=36642219000131",
-   "site": null
+   "site": null,
+   "cotas": 8807885.0
   },
   {
    "ticker": "RZAT11",
@@ -5803,7 +6008,8 @@
    "ret_ano": 0.16295017005,
    "ret_ltm": 0.21047431107,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=28267696000136",
-   "site": null
+   "site": null,
+   "cotas": 4235042.0
   },
   {
    "ticker": "RZLC11",
@@ -5831,7 +6037,8 @@
    "ret_ano": 0.071140343278,
    "ret_ltm": 0.16083768948,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=56212023000114",
-   "site": null
+   "site": null,
+   "cotas": 161963.00000000003
   },
   {
    "ticker": "RZTR11",
@@ -5859,7 +6066,8 @@
    "ret_ano": -0.028528970345,
    "ret_ltm": 0.11627498911,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=36501128000186",
-   "site": null
+   "site": null,
+   "cotas": 18851720.0
   },
   {
    "ticker": "RZZR11",
@@ -5887,7 +6095,8 @@
    "ret_ano": -0.0030094829835,
    "ret_ltm": 0.025719433139,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=35652278000128",
-   "site": null
+   "site": null,
+   "cotas": 5587289.0
   },
   {
    "ticker": "SAPI11",
@@ -5915,7 +6124,8 @@
    "ret_ano": 0.083361972334,
    "ret_ltm": 0.25544830326,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=51646298000142",
-   "site": null
+   "site": null,
+   "cotas": 29563320.999999996
   },
   {
    "ticker": "SEQR11",
@@ -5943,7 +6153,8 @@
    "ret_ano": 0.052692004876,
    "ret_ltm": 0.21322839319,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=09517273000182",
-   "site": null
+   "site": null,
+   "cotas": 1665695.352503882
   },
   {
    "ticker": "SHOP11",
@@ -5971,7 +6182,8 @@
    "ret_ano": -0.30500352641,
    "ret_ltm": 0.0043513135115,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=22459737000100",
-   "site": null
+   "site": null,
+   "cotas": 2523296.0
   },
   {
    "ticker": "SHPH11",
@@ -5999,7 +6211,8 @@
    "ret_ano": -0.012611250389,
    "ret_ltm": -0.022964608977,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=03507519000159",
-   "site": null
+   "site": null,
+   "cotas": 608950.0
   },
   {
    "ticker": "SHPP11",
@@ -6027,7 +6240,8 @@
    "ret_ano": 0.089988776415,
    "ret_ltm": null,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=59090726000105",
-   "site": null
+   "site": null,
+   "cotas": 51067415.0
   },
   {
    "ticker": "SMRE11",
@@ -6055,7 +6269,8 @@
    "ret_ano": -0.12274051269,
    "ret_ltm": -0.20760763751,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=53730029000195",
-   "site": null
+   "site": null,
+   "cotas": 997857.001046729
   },
   {
    "ticker": "SNAG11",
@@ -6083,7 +6298,8 @@
    "ret_ano": -0.017664990908,
    "ret_ltm": 0.21829950332,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=28152777000190",
-   "site": null
+   "site": null,
+   "cotas": 60740353.00000001
   },
   {
    "ticker": "SNCI11",
@@ -6111,7 +6327,8 @@
    "ret_ano": 0.076155517396,
    "ret_ltm": 0.11490585484,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=41076710000182",
-   "site": null
+   "site": null,
+   "cotas": 4200000.0
   },
   {
    "ticker": "SNEL11",
@@ -6139,7 +6356,8 @@
    "ret_ano": 0.032672900199,
    "ret_ltm": 0.11463062616,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=43741171000184",
-   "site": null
+   "site": null,
+   "cotas": 110660070.0
   },
   {
    "ticker": "SNFF11",
@@ -6167,7 +6385,8 @@
    "ret_ano": -0.013662740872,
    "ret_ltm": 0.13378884461,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=40011225000168",
-   "site": null
+   "site": null,
+   "cotas": 4020634.9999999995
   },
   {
    "ticker": "SNFZ11",
@@ -6195,7 +6414,8 @@
    "ret_ano": 0.026793084211,
    "ret_ltm": 0.14272770551,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=53313475000102",
-   "site": null
+   "site": null,
+   "cotas": 12089907.0
   },
   {
    "ticker": "SNID11",
@@ -6223,7 +6443,8 @@
    "ret_ano": 0.043632945446,
    "ret_ltm": 0.24834773675,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=48969881000180",
-   "site": null
+   "site": null,
+   "cotas": 7203840.0
   },
   {
    "ticker": "SNME11",
@@ -6251,7 +6472,8 @@
    "ret_ano": 0.046034804598,
    "ret_ltm": 0.14538888793,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=52227760000130",
-   "site": null
+   "site": null,
+   "cotas": 7418242.999999999
   },
   {
    "ticker": "SPTW11",
@@ -6279,7 +6501,8 @@
    "ret_ano": 0.0612695375,
    "ret_ltm": 0.15992309358,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=15538445000105",
-   "site": null
+   "site": null,
+   "cotas": 1798000.0000000002
   },
   {
    "ticker": "SPXS11",
@@ -6307,7 +6530,8 @@
    "ret_ano": -0.038498579322,
    "ret_ltm": 0.12498729077,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=43010543000100",
-   "site": null
+   "site": null,
+   "cotas": 20189040.0
   },
   {
    "ticker": "STYI11",
@@ -6335,7 +6559,8 @@
    "ret_ano": -0.13738658147,
    "ret_ltm": null,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=59678586000190",
-   "site": null
+   "site": null,
+   "cotas": 86475.0
   },
   {
    "ticker": "TEPP11",
@@ -6363,7 +6588,8 @@
    "ret_ano": -0.0038575065064,
    "ret_ltm": 0.10063822535,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=26681370000125",
-   "site": null
+   "site": null,
+   "cotas": 49616923.0
   },
   {
    "ticker": "TGAR11",
@@ -6391,7 +6617,8 @@
    "ret_ano": -0.38972760508,
    "ret_ltm": -0.32131044425,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=25032881000153",
-   "site": null
+   "site": null,
+   "cotas": 23567968.363636363
   },
   {
    "ticker": "TJKB11",
@@ -6419,7 +6646,8 @@
    "ret_ano": 0.073020187572,
    "ret_ltm": 0.13529727806,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=39714024000148",
-   "site": null
+   "site": null,
+   "cotas": 2134524.0
   },
   {
    "ticker": "TMPS11",
@@ -6447,7 +6675,8 @@
    "ret_ano": 0.07258573648,
    "ret_ltm": 0.20445988812,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=42737077000199",
-   "site": null
+   "site": null,
+   "cotas": 978968.0
   },
   {
    "ticker": "TOPP11",
@@ -6475,7 +6704,8 @@
    "ret_ano": -0.12812284646,
    "ret_ltm": 0.028094599107,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=56805391000176",
-   "site": null
+   "site": null,
+   "cotas": 4528240.0
   },
   {
    "ticker": "TRBL11",
@@ -6503,7 +6733,8 @@
    "ret_ano": -0.049142520961,
    "ret_ltm": 0.1582277571,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=16671412000193",
-   "site": null
+   "site": null,
+   "cotas": 7739092.000000001
   },
   {
    "ticker": "TRXB11",
@@ -6531,7 +6762,8 @@
    "ret_ano": 0.080263446545,
    "ret_ltm": 0.62810444017,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=36368925000137",
-   "site": null
+   "site": null,
+   "cotas": 4066022.0
   },
   {
    "ticker": "TRXF11",
@@ -6559,7 +6791,8 @@
    "ret_ano": -0.0027448717447,
    "ret_ltm": 0.018811302472,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=28548288000152",
-   "site": null
+   "site": null,
+   "cotas": 62430701.99999999
   },
   {
    "ticker": "TRXY11",
@@ -6587,7 +6820,8 @@
    "ret_ano": -0.065899058762,
    "ret_ltm": 0.10292766344,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=43985938000110",
-   "site": null
+   "site": null,
+   "cotas": 35467014.0
   },
   {
    "ticker": "TVRI11",
@@ -6615,7 +6849,8 @@
    "ret_ano": -0.027224266853,
    "ret_ltm": 0.11644641409,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=14410722000129",
-   "site": null
+   "site": null,
+   "cotas": 15919690.0
   },
   {
    "ticker": "URPR11",
@@ -6643,7 +6878,8 @@
    "ret_ano": -0.37829831482,
    "ret_ltm": -0.36935127246,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=34508872000187",
-   "site": null
+   "site": null,
+   "cotas": 11733895.0
   },
   {
    "ticker": "VCJR11",
@@ -6671,7 +6907,8 @@
    "ret_ano": -0.017316684552,
    "ret_ltm": 0.043581358495,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=32400250000105",
-   "site": null
+   "site": null,
+   "cotas": 14723970.0
   },
   {
    "ticker": "VCRA11",
@@ -6699,7 +6936,8 @@
    "ret_ano": 0.05511651336,
    "ret_ltm": 0.1584145167,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=42502827000143",
-   "site": null
+   "site": null,
+   "cotas": 4593918.999999999
   },
   {
    "ticker": "VCRI11",
@@ -6727,7 +6965,8 @@
    "ret_ano": 0.058314411179,
    "ret_ltm": 0.12949238657,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=41081374000166",
-   "site": null
+   "site": null,
+   "cotas": 20543662.999999996
   },
   {
    "ticker": "VCRR11",
@@ -6755,7 +6994,8 @@
    "ret_ano": -0.13102350407,
    "ret_ltm": -0.055514734731,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=40041723000153",
-   "site": null
+   "site": null,
+   "cotas": 2000000.0
   },
   {
    "ticker": "VGHF11",
@@ -6783,7 +7023,8 @@
    "ret_ano": -0.12099582889,
    "ret_ltm": -0.11605700242,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=36771692000119",
-   "site": null
+   "site": null,
+   "cotas": 164721683.0
   },
   {
    "ticker": "VGIA11",
@@ -6811,7 +7052,8 @@
    "ret_ano": 0.064905355395,
    "ret_ltm": 0.28578932061,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=41081088000109",
-   "site": null
+   "site": null,
+   "cotas": 86455117.0
   },
   {
    "ticker": "VGIP11",
@@ -6839,7 +7081,8 @@
    "ret_ano": 0.054027038546,
    "ret_ltm": 0.10200397496,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=34197811000146",
-   "site": null
+   "site": null,
+   "cotas": 11787247.0
   },
   {
    "ticker": "VGIR11",
@@ -6867,7 +7110,8 @@
    "ret_ano": 0.05593845465,
    "ret_ltm": 0.18618518756,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=29852732000191",
-   "site": null
+   "site": null,
+   "cotas": 146101287.00312173
   },
   {
    "ticker": "VGRI11",
@@ -6895,7 +7139,8 @@
    "ret_ano": -0.30062659033,
    "ret_ltm": -0.23877879245,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=53656482000107",
-   "site": null
+   "site": null,
+   "cotas": 35021736.0
   },
   {
    "ticker": "VILG11",
@@ -6923,7 +7168,8 @@
    "ret_ano": -0.0054430030577,
    "ret_ltm": 0.2508692112,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=24853044000122",
-   "site": null
+   "site": null,
+   "cotas": 14997396.000424132
   },
   {
    "ticker": "VINO11",
@@ -6951,7 +7197,8 @@
    "ret_ano": -0.025117659446,
    "ret_ltm": 0.057933957376,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=12516185000170",
-   "site": null
+   "site": null,
+   "cotas": 82826295.0
   },
   {
    "ticker": "VISC11",
@@ -6979,7 +7226,8 @@
    "ret_ano": -0.0043501937189,
    "ret_ltm": 0.082822720353,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=17554274000125",
-   "site": null
+   "site": null,
+   "cotas": 28828640.0
   },
   {
    "ticker": "VIUR11",
@@ -7007,7 +7255,8 @@
    "ret_ano": 0.16154550364,
    "ret_ltm": 0.36746053478,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=36445587000190",
-   "site": null
+   "site": null,
+   "cotas": 26946220.0
   },
   {
    "ticker": "VOTS11",
@@ -7035,7 +7284,8 @@
    "ret_ano": 0.26118528405,
    "ret_ltm": 0.29788741039,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=17870926000130",
-   "site": null
+   "site": null,
+   "cotas": 827912.9999999999
   },
   {
    "ticker": "VPPR11",
@@ -7063,7 +7313,8 @@
    "ret_ano": 0.28544891641,
    "ret_ltm": 0.60805577072,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=30654849000140",
-   "site": null
+   "site": null,
+   "cotas": 7316171.0
   },
   {
    "ticker": "VRTA11",
@@ -7091,7 +7342,8 @@
    "ret_ano": -0.061607144819,
    "ret_ltm": 0.021027146422,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=11664201000100",
-   "site": null
+   "site": null,
+   "cotas": 15592423.999999998
   },
   {
    "ticker": "VRTM11",
@@ -7119,7 +7371,8 @@
    "ret_ano": 0.019803627671,
    "ret_ltm": 0.13633336353,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=51870412000113",
-   "site": null
+   "site": null,
+   "cotas": 46971245.0
   },
   {
    "ticker": "VSHO11",
@@ -7147,7 +7400,8 @@
    "ret_ano": 0.044633180152,
    "ret_ltm": 0.17735191821,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=23740595000117",
-   "site": null
+   "site": null,
+   "cotas": 2098800.0
   },
   {
    "ticker": "VSLH11",
@@ -7175,7 +7429,8 @@
    "ret_ano": -0.15421925399,
    "ret_ltm": -0.33858902052,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=36244015000142",
-   "site": null
+   "site": null,
+   "cotas": 29864091.0
   },
   {
    "ticker": "VVCR11",
@@ -7203,7 +7458,8 @@
    "ret_ano": 0.025357644034,
    "ret_ltm": -0.028737032507,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=23120027000113",
-   "site": null
+   "site": null,
+   "cotas": 18278957.999999996
   },
   {
    "ticker": "VVRI11",
@@ -7231,7 +7487,8 @@
    "ret_ano": -0.054094537626,
    "ret_ltm": 0.13337649176,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=49184940000177",
-   "site": null
+   "site": null,
+   "cotas": 1757140.0000000002
   },
   {
    "ticker": "VXXV11",
@@ -7259,7 +7516,8 @@
    "ret_ano": 0.06388888889,
    "ret_ltm": null,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=30982974000189",
-   "site": null
+   "site": null,
+   "cotas": 477875.0
   },
   {
    "ticker": "WHGR11",
@@ -7287,7 +7545,8 @@
    "ret_ano": 0.056541692453,
    "ret_ltm": 0.20529183397,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=41256643000188",
-   "site": null
+   "site": null,
+   "cotas": 30912378.997842506
   },
   {
    "ticker": "XLPR11",
@@ -7315,7 +7574,8 @@
    "ret_ano": -0.086143985976,
    "ret_ltm": 0.069785550435,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=35689733000160",
-   "site": null
+   "site": null,
+   "cotas": 481756.99999999994
   },
   {
    "ticker": "XPCA11",
@@ -7343,7 +7603,8 @@
    "ret_ano": 0.0055495828146,
    "ret_ltm": 0.16700808774,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=41269527000101",
-   "site": null
+   "site": null,
+   "cotas": 45523076.0
   },
   {
    "ticker": "XPCI11",
@@ -7371,7 +7632,8 @@
    "ret_ano": 0.073370070435,
    "ret_ltm": 0.20823031319,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=28516301000191",
-   "site": null
+   "site": null,
+   "cotas": 8701551.999880454
   },
   {
    "ticker": "XPID11",
@@ -7399,7 +7661,8 @@
    "ret_ano": 0.14359106622,
    "ret_ltm": -0.031624786511,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=37404867000112",
-   "site": null
+   "site": null,
+   "cotas": 3165464.0
   },
   {
    "ticker": "XPIN11",
@@ -7427,7 +7690,8 @@
    "ret_ano": -0.19825323965,
    "ret_ltm": 0.010935806241,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=28516325000140",
-   "site": null
+   "site": null,
+   "cotas": 7150422.0
   },
   {
    "ticker": "XPLG11",
@@ -7455,7 +7719,8 @@
    "ret_ano": -0.10532465176,
    "ret_ltm": 0.021773612756,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=26502794000185",
-   "site": null
+   "site": null,
+   "cotas": 51390097.89333629
   },
   {
    "ticker": "XPML11",
@@ -7483,7 +7748,8 @@
    "ret_ano": 0.012687476521,
    "ret_ltm": 0.14012508711,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=28757546000100",
-   "site": null
+   "site": null,
+   "cotas": 64308055.000480816
   },
   {
    "ticker": "XPSF11",
@@ -7511,7 +7777,8 @@
    "ret_ano": 0.0048269778144,
    "ret_ltm": 0.15279723069,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=30983020000190",
-   "site": null
+   "site": null,
+   "cotas": 43302140.0
   },
   {
    "ticker": "ZAGH11",
@@ -7539,7 +7806,8 @@
    "ret_ano": -0.066145852164,
    "ret_ltm": -0.011856865768,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=45188066000195",
-   "site": null
+   "site": null,
+   "cotas": 22020200.0
   },
   {
    "ticker": "ZAVI11",
@@ -7567,7 +7835,8 @@
    "ret_ano": -0.0082678217095,
    "ret_ltm": 0.21454273887,
    "fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/abrirGerenciadorDocumentosCVM?cnpjFundo=40575940000123",
-   "site": null
+   "site": null,
+   "cotas": 11733220.000000002
   },
   {
    "ticker": "PFIN11",
