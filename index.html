@@ -298,7 +298,8 @@ function VsPares({f,todos}){
 
 function DocsFundo({f,docs}){
   if(!docs)return null;
-  const meus=docs.filter(d=>d.ticker===f.ticker).sort((a,b)=>(b.dataEntrega||'').localeCompare(a.dataEntrega||'')).slice(0,50);
+  const dkey=s=>{const m=(s||'').match(/(\d{2})\/(\d{2})\/(\d{4})(?:\s+(\d{2}):(\d{2}))?/);return m?m[3]+m[2]+m[1]+(m[4]||'00')+(m[5]||'00'):'00000000';};
+  const meus=docs.filter(d=>d.ticker===f.ticker).sort((a,b)=>dkey(b.dataEntrega).localeCompare(dkey(a.dataEntrega))).slice(0,50);
   if(!meus.length)return null;
   return (<div className="panel"><h3>Documentos · Fundos.NET</h3><div className="cap">{meus.length} documentos coletados (Relatório Gerencial e Fato Relevante).</div>
     <div style={{maxHeight:300,overflowY:'auto'}}>{meus.map(d=>(
@@ -348,6 +349,7 @@ function Ficha({f,onBack,todos,docs}){
       <div className="panel"><h3>Análise</h3>
         <div style={{fontSize:'13px',lineHeight:1.7,color:'var(--tinta)'}}>{f.analise||ek}</div>
         {f.analise_qual && <div><div className="kicker" style={{marginTop:12,display:'block'}}>Dos relatórios</div><div style={{fontSize:'13px',lineHeight:1.7,color:'var(--tinta)',marginTop:4}}>{f.analise_qual}</div></div>}
+        {f.risco && <div><div className="kicker" style={{marginTop:12,display:'block'}}>Riscos</div><div style={{fontSize:'13px',lineHeight:1.7,color:'var(--tinta)',marginTop:4}}>{f.risco}</div></div>}
         {f.fonte && <div className="note" style={{marginTop:10,marginBottom:0}}>Fonte: {f.fonte}.</div>}</div>
     </div>
     <DocsFundo f={f} docs={docs}/>
