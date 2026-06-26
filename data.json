@@ -1039,7 +1039,10 @@
    "bench_spread": null,
    "descricao": "Fundo incentivado de infraestrutura, que investe em debêntures incentivadas (rendimentos isentos de IR para pessoa física). Gerido pela Bocaina Capital, administrado por BTG Pactual. Patrimônio de R$ 543 mi, liquidez média (~R$ 1.1 mi/dia).",
    "analise": "Negocia a 0.93x o valor patrimonial — desconto de 2% frente à mediana do segmento (0.95). Dividend yield (12m) de 15.0%, acima da mediana dos pares (14.8%); supera 56% do segmento. Retorno de 25.8% em 12 meses (top 12% do segmento). Liquidez média (~R$ 1.1 mi/dia). Cotação a 99% da máxima de 52 semanas. Base comparativa: 17 pares do segmento Infraestrutura. Análise quantitativa automática — não é recomendação.",
-   "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. "
+   "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. ",
+   "analise_qual": "Relatório de maio/2026: FI-Infra da Bocaina (debêntures incentivadas de infraestrutura, isentas de IR). Carrego de IPCA+10,56% e duration de 5,7 anos; 106,8% do PL alocado em crédito privado. Distribuição de R$ 0,10/cota (yield ~16,3% anualizado sobre a cota de mercado). Cota patrimonial R$ 8,37 vs. mercado R$ 7,90. Objetivo de NTN-B + 1,5-2,5%. Fonte: Relatório Mensal Bocaina (site da gestora), ref. maio/2026.",
+   "pontos_atencao": "Carteira alavancada (106,8% do PL em crédito privado), o que amplifica ganhos e perdas. Negocia com desconto de ~5,6% sobre o valor patrimonial. Duration longa (5,7 anos) e carrego elevado (IPCA+10,56%) indicam maior sensibilidade à curva de juros reais e maior risco de crédito relativo aos pares high grade. [Relatório de maio/2026]",
+   "analise_qual_id": "site-202605"
   },
   {
    "ticker": "BPML11",
@@ -2298,7 +2301,10 @@
    "site_tipo": "gestor",
    "descricao": "Fundo incentivado de infraestrutura, que investe em debêntures incentivadas (rendimentos isentos de IR para pessoa física). Gerido pela Sparta — gestora especializada em crédito, administrado por BNY. Patrimônio de R$ 1.0 bi, liquidez média (~R$ 0.9 mi/dia).",
    "analise": "Negocia a 1.01x o valor patrimonial — prêmio de 6% frente à mediana do segmento (0.95). Retorno de 16.5% em 12 meses (abaixo da mediana do segmento). Liquidez média (~R$ 0.9 mi/dia). Cotação a 93% da máxima de 52 semanas. Base comparativa: 17 pares do segmento Infraestrutura. Análise quantitativa automática — não é recomendação.",
-   "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. "
+   "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. ",
+   "analise_qual": "Relatório de maio/2026: FI-Infra da Sparta indexado à inflação longa (meta IDkA IPCA 5A + 2%), em debêntures incentivadas isentas de IR. PL de R$ 1,0 bi, carrego de IPCA+8,2% e duration de mercado de 5,0 anos. Distribuição de R$ 1,20/cota (DY ~15,2% em 12m). Cota patrimonial R$ 98,31 vs. mercado R$ 102,25. Taxa de adm 1,0%, sem performance. Fonte: Relatório Mensal Sparta (site da gestora), ref. maio/2026.",
+   "pontos_atencao": "Caixa muito elevado (48% do PL): fundo em fase de alocação após crescimento recente (3ª emissão), com spread de crédito mínimo (0,3%), o que limita o prêmio de crédito no curto prazo. A exposição longa ao IDkA IPCA 5A (duration 5,0 anos) gera volatilidade com a curva de juros reais. Negocia com ágio de ~4% sobre o valor patrimonial. [Relatório de maio/2026]",
+   "analise_qual_id": "site-202605"
   },
   {
    "ticker": "DVFF11",
@@ -4409,7 +4415,10 @@
    "site_tipo": "gestor",
    "descricao": "Fundo incentivado de infraestrutura, que investe em debêntures incentivadas (rendimentos isentos de IR para pessoa física). Gerido pela Iridium — gestora especializada em crédito imobiliário, administrado por BTG Pactual. Patrimônio de R$ 46 mi, liquidez baixa (~R$ 0.0 mi/dia).",
    "analise": "Negocia a 0.85x o valor patrimonial — desconto de 10% frente à mediana do segmento (0.95). Dividend yield (12m) de 15.6%, acima da mediana dos pares (14.8%); supera 69% do segmento. Retorno de 17.9% em 12 meses (top 35% do segmento). Liquidez baixa (~R$ 0.0 mi/dia). Cotação a 94% da máxima de 52 semanas. Base comparativa: 17 pares do segmento Infraestrutura. Análise quantitativa automática — não é recomendação.",
-   "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. Liquidez reduzida em bolsa."
+   "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. Liquidez reduzida em bolsa.",
+   "analise_qual": "Relatório de maio/2026: FI-Infra da Iridium (debêntures incentivadas, isentas de IR), ativo desde out/2024. PL pequeno (~R$ 46 mi); ~74% em debêntures incentivadas (taxa nominal ~16%; alocação ~53% IPCA / 34% CDI+). Distribuição de R$ 0,12/cota (DY ~13,3% patrimonial / 15,6% mercado), integralmente como rendimento, com reserva acumulada de R$ 0,37/cota. Cota patrimonial R$ 10,37 vs. mercado R$ 9,60. Taxa de gestão 0,80% + performance 15% sobre 100% do CDI. Fonte: Relatório Gerencial Iridium (site da gestora), ref. maio/2026.",
+   "pontos_atencao": "Patrimônio pequeno (~R$ 46 mi), o que implica menor liquidez na B3. Negocia com desconto de ~7% sobre o VP. Carteira majoritariamente indexada ao IPCA (sensível à abertura da curva real, que pressionou o mês) e com alguns ativos de maior risco/retorno (ex.: Chapada do Piauí IPCA+16,6%, rating B-; SOCICAM sem rating, IPCA+12%). [Relatório de maio/2026]",
+   "analise_qual_id": "site-202605"
   },
   {
    "ticker": "IRIM11",
@@ -5994,7 +6003,10 @@
    "bench_spread": null,
    "descricao": "Fundo incentivado de infraestrutura, que investe em debêntures incentivadas (rendimentos isentos de IR para pessoa física). Gerido pela Órama, administrado por Banco Daycoval. Patrimônio de R$ 45 mi, liquidez baixa (~R$ 0.1 mi/dia).",
    "analise": "Negocia a 0.81x o valor patrimonial — desconto de 15% frente à mediana do segmento (0.95). Dividend yield (12m) de 12.4%, abaixo da mediana dos pares (14.8%); supera 6% do segmento. Retorno de 10.4% em 12 meses (abaixo da mediana do segmento). Liquidez baixa (~R$ 0.1 mi/dia). Cotação a 89% da máxima de 52 semanas. Base comparativa: 17 pares do segmento Infraestrutura. Análise quantitativa automática — não é recomendação.",
-   "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira."
+   "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
+   "analise_qual": "Relatório de maio/2026: FI-Infra da Nikos (debêntures incentivadas, isentas de IR), ativo desde out/2022. Cota patrimonial R$ 9,56 vs. mercado R$ 7,75 (P/VP de 81%). Spread de crédito de 0,90% e duration de 4,16 anos; carteira de boa qualidade (AAA 33%, AA 31%) concentrada em transporte/rodovias (43%) e energia (33%). A taxa implícita na cota de mercado é de ~19% a.a. (CDI+4,1% / IPCA+12,3%); ~3.288 cotistas. Fonte: Relatório Gerencial Nikos (site da gestora), ref. maio/2026.",
+   "pontos_atencao": "O fundo NÃO distribuiu rendimento em maio: a cota patrimonial (R$ 9,56) ficou abaixo da 'linha d'água' (R$ 9,58) devido à remarcação negativa das debêntures incentivadas, com a reserva de lucros zerada/negativa. Negocia com desconto expressivo de ~19% sobre o VP; a retomada da distribuição depende da recuperação da cota patrimonial. [Relatório de maio/2026]",
+   "analise_qual_id": "site-202605"
   },
   {
    "ticker": "OIAG11",
