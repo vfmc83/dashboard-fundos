@@ -3721,7 +3721,10 @@
    "site_tipo": "gestor",
    "descricao": "Fundo imobiliário de tijolo do segmento Renda Urbana, que detém imóveis físicos para geração de renda por aluguel. Gerido pela Patria — gestora global de ativos alternativos, administrado por Genial. Patrimônio de R$ 3.0 bi, liquidez elevada (~R$ 4.7 mi/dia).",
    "analise": "Negocia a 1.00x o valor patrimonial — prêmio de 25% frente à mediana do segmento (0.80). Dividend yield (12m) de 9.7%, abaixo da mediana dos pares (11.2%); supera 31% do segmento. Retorno de 15.3% em 12 meses (top 40% do segmento). Liquidez alta (~R$ 4.7 mi/dia). Cotação a 98% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
-   "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. "
+   "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. ",
+   "analise_qual": "Relatório de 29/11/2024 — Fundo imobiliário de tijolo do segmento Renda Urbana, que detém imóveis físicos para geração de renda por aluguel. Fonte: relatório no Fundos.NET, ref. 29/11/2024. (Resumo automático.)",
+   "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário.",
+   "analise_qual_id": "796727"
   },
   {
    "ticker": "HLOG11",
