@@ -3103,7 +3103,10 @@
    "bench_spread": null,
    "descricao": "Fundo imobiliário de tijolo do segmento Renda Urbana, que detém imóveis físicos para geração de renda por aluguel. Gerido pela Guardian, administrado por Banco Daycoval. Patrimônio de R$ 2.7 bi, liquidez elevada (~R$ 13.1 mi/dia).",
    "analise": "Negocia a 0.88x o valor patrimonial — prêmio de 10% frente à mediana do segmento (0.80). Dividend yield (12m) de 12.3%, acima da mediana dos pares (11.2%); supera 64% do segmento. Retorno de 3.6% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 13.1 mi/dia). Cotação a 94% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
-   "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. "
+   "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. ",
+   "analise_qual": "Relatório de abril/2026: FII de tijolo (renda urbana) Guardian Real Estate, com 33 imóveis e estrutura que combina o GARE11 e os FIIs A22 e A59, cada um com cronograma próprio de amortização de dívida. Distribuição de R$ 0,10/cota no mês (DY ~0,98%). Fonte: Relatório Gerencial Guardian/GARE (Fundos.NET), ref. abril/2026.",
+   "pontos_atencao": "Alavancagem elevada — chegou a ~27% do portfólio, distribuída em três veículos (GARE11, FII A22 e A59) com amortizações distintas, o que aumenta a sensibilidade ao custo da dívida (CDI/IPCA) e exige gestão de caixa. Estrutura mais complexa que a média. [Extraído do relatório de abril/2026]",
+   "analise_qual_id": "1212192"
   },
   {
    "ticker": "GCRA11",
@@ -5102,7 +5105,10 @@
    "site_tipo": "fundo",
    "descricao": "Fiagro do tipo imobiliário, focado em recebíveis e ativos do agronegócio. Gerido pela Kinea — uma das maiores gestoras de fundos listados do Brasil, ligada ao Itaú, administrado por Intrag. Patrimônio de R$ 2.2 bi, liquidez elevada (~R$ 3.9 mi/dia). Taxa de administração de 1.20% a.a., sem taxa de performance, indexado a CDI+.",
    "analise": "Negocia a 0.88x o valor patrimonial — prêmio de 4% frente à mediana do segmento (0.84). Dividend yield (12m) de 14.5%, abaixo da mediana dos pares (16.7%); supera 12% do segmento. Retorno de 8.5% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 3.9 mi/dia). Cotação a 95% da máxima de 52 semanas. Base comparativa: 25 pares do segmento Imobiliário. Análise quantitativa automática — não é recomendação.",
-   "risco": "Riscos típicos: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. "
+   "risco": "Riscos típicos: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. ",
+   "analise_qual": "Relatório de maio/2026: Fiagro de crédito (CRAs) da Kinea, focado em recebíveis do agronegócio, com alocação atual de 88,7% em ativos-alvo e distribuição de R$ 1,10/cota no mês. Fonte: Relatório Gerencial Kinea (Fundos.NET), ref. maio/2026.",
+   "pontos_atencao": "Cerca de 11% do patrimônio ainda em caixa (subalocação) pode pressionar o rendimento até a alocação plena. Carteira de CRAs exposta ao risco de crédito do agronegócio (preços de commodities, clima/safra e endividamento de produtores) e à marcação a mercado/indexadores (CDI/IPCA). [Extraído do relatório de maio/2026]",
+   "analise_qual_id": "1215258"
   },
   {
    "ticker": "KNCR11",
@@ -7282,7 +7288,10 @@
    "site_tipo": "fundo",
    "descricao": "Fiagro do tipo imobiliário, focado em recebíveis e ativos do agronegócio. Gerido pela Itaú Unibanco — asset do maior banco privado do Brasil, administrado por Intrag. Patrimônio de R$ 1.6 bi, liquidez elevada (~R$ 3.4 mi/dia). Taxa de administração de 1.00% a.a., taxa de performance de 20%, indexado a CDI+ 1.00%.",
    "analise": "Negocia a 0.80x o valor patrimonial — desconto de 5% frente à mediana do segmento (0.84). Dividend yield (12m) de 16.2%, abaixo da mediana dos pares (16.7%); supera 36% do segmento. Retorno de 18.5% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 3.4 mi/dia). Cotação a 92% da máxima de 52 semanas. Base comparativa: 25 pares do segmento Imobiliário. Análise quantitativa automática — não é recomendação.",
-   "risco": "Riscos típicos: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira."
+   "risco": "Riscos típicos: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
+   "analise_qual": "Relatório de maio/2026: Fiagro de crédito do agronegócio (CRAs) com carrego de CDI+3,9% e dividend yield de 15,92% sobre a cota de mercado. O relatório acompanha de perto a dinâmica de commodities (lavouras dos EUA e demanda chinesa por soja). Fonte: Relatório Gerencial RURA (Fundos.NET), ref. maio/2026.",
+   "pontos_atencao": "Risco climático no radar: o próprio relatório aponta a formação de El Niño previsto para o 2º semestre de 2026, durante a safra de verão da América do Sul, com potencial impacto na produtividade e na capacidade de pagamento dos produtores. Carteira de CRAs exposta ao risco de crédito do agro e à marcação a mercado. [Extraído do relatório de maio/2026]",
+   "analise_qual_id": "1218323"
   },
   {
    "ticker": "RZAG11",
@@ -8891,7 +8900,10 @@
    "site_tipo": "gestor",
    "descricao": "Fundo imobiliário de tijolo do segmento Shopping Center, que detém imóveis físicos para geração de renda por aluguel. Gerido pela Vinci Compass — grande gestora independente, administrado por BRL Trust. Patrimônio de R$ 3.3 bi, liquidez elevada (~R$ 9.1 mi/dia).",
    "analise": "Negocia a 0.90x o valor patrimonial — prêmio de 12% frente à mediana do segmento (0.80). Dividend yield (12m) de 9.5%, abaixo da mediana dos pares (11.2%); supera 28% do segmento. Retorno de 8.3% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 9.1 mi/dia). Cotação a 94% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
-   "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. "
+   "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. ",
+   "analise_qual": "Relatório de maio/2026: FII de shopping centers da Vinci, com taxa de ocupação de 94,3% e inadimplência líquida de 2,0%. Distribuição de R$ 0,84/cota no mês. Fonte: Relatório Gerencial Vinci Shopping (Fundos.NET), ref. maio/2026.",
+   "pontos_atencao": "Vendas nas mesmas lojas (SSS) recuaram 1,1% no período — sinal de varejo mais fraco. Vacância de ~5,7% (ocupação 94,3%) e inadimplência líquida de 2,0% pressionam a receita; segmento de shoppings sensível a juros altos e ao consumo. [Extraído do relatório de maio/2026]",
+   "analise_qual_id": "1214336"
   },
   {
    "ticker": "VIUR11",
