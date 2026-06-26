@@ -4271,7 +4271,10 @@
    "site_tipo": "gestor",
    "descricao": "Fundo incentivado de infraestrutura, que investe em debêntures incentivadas (rendimentos isentos de IR para pessoa física). Gerido pela Itaú Unibanco — asset do maior banco privado do Brasil, administrado por Intrag. Patrimônio de R$ 1.5 bi, liquidez elevada (~R$ 2.2 mi/dia).",
    "analise": "Negocia a 0.96x o valor patrimonial — prêmio de 1% frente à mediana do segmento (0.95). Dividend yield (12m) de 12.7%, abaixo da mediana dos pares (14.8%); supera 12% do segmento. Retorno de 8.2% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 2.2 mi/dia). Cotação a 93% da máxima de 52 semanas. Base comparativa: 17 pares do segmento Infraestrutura. Análise quantitativa automática — não é recomendação.",
-   "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. "
+   "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. ",
+   "analise_qual": "Relatório de maio/2026: FI-Infra do Itaú indexado à inflação (debêntures incentivadas, isentas de IR; meta NTN-B+0,5-1,0%), par do IFRI11. Rendimento de R$ 1,00/cota no mês. Cota patrimonial ~R$ 95,8 vs. mercado ~R$ 98,4. Fonte: Carta do Gestor Itaú (site da gestora), ref. maio/2026.",
+   "pontos_atencao": "Como os pares de infraestrutura indexados à inflação, está exposto à abertura da curva de juros reais e à forte onda de resgates do setor (R$ 19,6 bi nos fundos abertos em maio), que pressiona a marcação. Negocia com leve ágio (~2,7%) sobre o VP. [Relatório de maio/2026]",
+   "analise_qual_id": "site-202605"
   },
   {
    "ticker": "IFRI11",
