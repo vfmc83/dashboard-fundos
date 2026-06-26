@@ -791,7 +791,10 @@
    "site_tipo": "gestor",
    "descricao": "Fundo incentivado de infraestrutura, que investe em debêntures incentivadas (rendimentos isentos de IR para pessoa física). Gerido pela Inter — asset do Banco Inter, administrado por Inter. Patrimônio de R$ 199 mi, liquidez baixa (~R$ 0.2 mi/dia).",
    "analise": "Negocia a 0.99x o valor patrimonial — prêmio de 4% frente à mediana do segmento (0.95). Dividend yield (12m) de 15.4%, acima da mediana dos pares (14.8%); supera 62% do segmento. Retorno de 17.3% em 12 meses (top 47% do segmento). Liquidez baixa (~R$ 0.2 mi/dia). Cotação a 99% da máxima de 52 semanas. Base comparativa: 17 pares do segmento Infraestrutura. Análise quantitativa automática — não é recomendação.",
-   "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. Liquidez reduzida em bolsa."
+   "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. Liquidez reduzida em bolsa.",
+   "analise_qual": "Relatório de maio/2026: FI-Infra do Inter (estrutura FIC com fundo master), PL de R$ 197 mi, 53 emissores e 12.141 cotistas. Carteira de debêntures incentivadas (isentas de IR) com carrego de IPCA+9,27%, duration de 5,1 anos e indexação mista (IPCA e CDI). Distribuição de R$ 1,00/cota no mês (yield-mês 1,25%) e R$ 12,15/cota em 12 meses (yield 15,19%). Cota patrimonial de R$ 78,85; negocia com leve desconto (~1-2%) sobre o VP. Predomínio de crédito de alta qualidade (AES Cajuína, RGE Sul e Âmbar em AAA), com nomes de energia e transporte como Energisa, Transbrasiliana e Tijoá. Taxa de adm. 0,80% a.a., sem performance; retorno-alvo NTN-B 2032 +1% a 1,5%. Fonte: Relatório Gerencial Inter (site da gestora), ref. maio/2026.",
+   "pontos_atencao": "Exposição a nome estressado: posição em DPGE do BRB (rating CCC+, ~2,1% do PL) — instrumento bancário, não de infraestrutura, que destoa do perfil investment grade do restante da carteira. Carteira marcada a mercado, com a parcela indexada ao IPCA sujeita à abertura de spreads de crédito (impacto em maio). PL médio (R$ 197 mi) e estrutura via fundo master, que adiciona uma camada na análise de risco. [Relatório de maio/2026]",
+   "analise_qual_id": "site-202605"
   },
   {
    "ticker": "BIME11",
@@ -862,7 +865,10 @@
    "site_tipo": "gestor",
    "descricao": "Fundo incentivado de infraestrutura, que investe em debêntures incentivadas (rendimentos isentos de IR para pessoa física). Gerido pela Bradesco Asset Management — asset do Bradesco, administrado por Banco Bradesco. Patrimônio de R$ 478 mi, liquidez média (~R$ 0.6 mi/dia).",
    "analise": "Negocia a 1.02x o valor patrimonial — prêmio de 7% frente à mediana do segmento (0.95). Dividend yield (12m) de 16.2%, acima da mediana dos pares (14.8%); supera 88% do segmento. Retorno de 33.3% em 12 meses (top 0% do segmento). Liquidez média (~R$ 0.6 mi/dia). Cotação a 99% da máxima de 52 semanas. Base comparativa: 17 pares do segmento Infraestrutura. Análise quantitativa automática — não é recomendação.",
-   "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. "
+   "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. ",
+   "analise_qual": "Relatório de maio/2026: FI-Infra do Bradesco indexado ao CDI (alvo CDI+0,5% a 1,0% a.a.), PL de R$ 485 mi e 6.786 cotistas. Carteira com 92,5% do PL em crédito (debêntures incentivadas, isentas de IR), carrego de CDI+1,01% a.a. e duration de 4,8 anos. Distribuição de R$ 1,50/cota no mês (yield anualizado de 20,2% sobre a cota de mercado) e R$ 16,72/cota acumulados em 12 meses. Negocia a R$ 102,02 (mercado) vs. R$ 102,30 de cota patrimonial — praticamente no par. Taxa de adm. 0,80% a.a., sem performance. Principais posições: Ecorodovias (AAA, ~6,0%), Mendes/INEE (sem rating, ~5,7%), Águas do Brasil (AAA, ~5,3%) e Ageo/portos (sem rating). A gestão vê a abertura recente de spreads de crédito como oportunidade de carrego. Fonte: Relatório Mensal Bradesco (site da gestora), ref. maio/2026.",
+   "pontos_atencao": "Liquidez baixa em bolsa: média de apenas R$ 476 mil/dia negociados, o que dificulta montar ou desmontar posição relevante. Há ativos sem rating na carteira (Mendes/INEE ~5,7% e Ageo/portos ~5,0%), que exigem acompanhamento de crédito caso a caso. Carteira sujeita à marcação a mercado — a abertura de spreads de crédito em maio pressionou as cotas, ainda que a gestão a trate como oportunidade. [Relatório de maio/2026]",
+   "analise_qual_id": "site-202605"
   },
   {
    "ticker": "BLCA11",
@@ -4709,7 +4715,10 @@
    "bench_spread": null,
    "descricao": "Fundo incentivado de infraestrutura, que investe em debêntures incentivadas (rendimentos isentos de IR para pessoa física). Gerido pela Jive, administrado por XP. Patrimônio de R$ 442 mi, liquidez média (~R$ 1.0 mi/dia).",
    "analise": "Negocia a 0.84x o valor patrimonial — desconto de 11% frente à mediana do segmento (0.95). Dividend yield (12m) de 17.0%, acima da mediana dos pares (14.8%); supera 94% do segmento. Retorno de 17.7% em 12 meses (top 41% do segmento). Liquidez média (~R$ 1.0 mi/dia). Cotação a 95% da máxima de 52 semanas. Base comparativa: 17 pares do segmento Infraestrutura. Análise quantitativa automática — não é recomendação.",
-   "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira."
+   "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
+   "analise_qual": "Relatório de maio/2026: FI-Infra da JiveMauá (BossaNova), carteira de debêntures incentivadas (isentas de IR) indexada ao CDI via derivativos — imune à volatilidade das NTN-Bs. Guidance de distribuição de 100% a 110% do CDI: no mês distribuiu R$ 1,08/cota (100,6% do CDI líquido) e R$ 14,51/cota em 12 meses (DY 16,58%, equivalente a 112,4% do CDI). 75% do PL em infraestrutura (energia 30%, transporte 27%, telecom 12%) e créditos 100% adimplentes, em boa parte estruturados pela própria gestora. Retorno da cota patrimonial desde o início de CDI+1,15% a.a. Negocia com desconto expressivo (~15%) sobre o VP. CNPJ 55.276.939/0001-75. Fonte: Relatório Mensal JiveMauá (site da gestora), ref. maio/2026.",
+   "pontos_atencao": "Caixa elevado: 25,3% do PL em caixa (apenas 75% alocado em infraestrutura) — carteira ainda em formação, que subaloca o yield potencial até ser investida. Maior desconto entre os FI-Infra acompanhados (~15% sobre o VP), o que pode sinalizar baixa demanda/liquidez secundária. Concentração em ativos estruturados pela própria JiveMauá (originação própria): eleva o carrego, mas reduz a liquidez no secundário e exige confiança no processo de crédito da gestora. [Relatório de maio/2026]",
+   "analise_qual_id": "site-202605"
   },
   {
    "ticker": "JPPA11",
@@ -6651,7 +6660,10 @@
    "site_tipo": "gestor",
    "descricao": "Fundo incentivado de infraestrutura, que investe em debêntures incentivadas (rendimentos isentos de IR para pessoa física). Gerido pela Rio Bravo — gestora pioneira em fundos imobiliários, administrado por Banco Daycoval. Patrimônio de R$ 76 mi, liquidez baixa (~R$ 0.2 mi/dia).",
    "analise": "Negocia a 0.87x o valor patrimonial — desconto de 9% frente à mediana do segmento (0.95). Dividend yield (12m) de 16.1%, acima da mediana dos pares (14.8%); supera 75% do segmento. Retorno de 20.5% em 12 meses (top 29% do segmento). Liquidez baixa (~R$ 0.2 mi/dia). Cotação a 98% da máxima de 52 semanas. Base comparativa: 17 pares do segmento Infraestrutura. Análise quantitativa automática — não é recomendação.",
-   "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. Liquidez reduzida em bolsa."
+   "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. Liquidez reduzida em bolsa.",
+   "analise_qual": "Relatório de abril/2026 (mais recente disponível): FI-Infra ESG da Rio Bravo (estrutura FIC com fundo master), PL de R$ 75,8 mi, apenas 1.784 cotistas, 20 emissores e duration de 5,0 anos. Carteira de debêntures incentivadas (isentas de IR) com carrego de IPCA+10,46% (master) e rating médio ponderado AA-. Cota patrimonial marcada a mercado de R$ 87,3; negocia com desconto relevante (~13%) sobre o VP, o que eleva a TIR líquida isenta para a faixa de IPCA+13% a 14% nos preços correntes. Distribuição no 15º dia útil. Mandato ESG: todos os ativos têm rating independente de crédito. Fonte: Relatório Gerencial Rio Bravo (site da gestora), ref. abril/2026.",
+   "pontos_atencao": "Fundo pequeno e pouco pulverizado: PL de R$ 75,8 mi e apenas 1.784 cotistas implicam baixa liquidez e maior sensibilidade a negociações pontuais. Em abril, a venda de debêntures incentivadas da Vero (telecom) por um único investidor a desconto significativo no secundário foi o principal impacto negativo do mês, derrubando a cota patrimonial via marcação a mercado. Qualidade de crédito média (rating AA-, com cauda relevante em A+/A/A-), inferior a pares AAA. O relatório disponível é de abril — um mês mais defasado que os demais. [Relatório de abril/2026]",
+   "analise_qual_id": "site-202604"
   },
   {
    "ticker": "RBIR11",
