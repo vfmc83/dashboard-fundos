@@ -1,4 +1,4 @@
-name: Analise relatorios (sem custo)
+name: Analise relatorios (semanal, sem custo)
 
 on:
   workflow_dispatch:
@@ -8,15 +8,19 @@ on:
         required: false
         default: ""
   schedule:
-    - cron: '0 8 3 * *'   # dia 3 de cada mes (~05h BRT)
+    - cron: '0 8 * * 1'   # toda segunda-feira ~05h BRT (cada gestora publica em datas diferentes)
 
 permissions:
   contents: write
 
+concurrency:
+  group: analise-relatorios
+  cancel-in-progress: false
+
 jobs:
   analise:
     runs-on: ubuntu-latest
-    timeout-minutes: 330
+    timeout-minutes: 350
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -25,12 +29,15 @@ jobs:
       - name: Instalar Tesseract (OCR de fallback)
         run: sudo apt-get update && sudo apt-get install -y tesseract-ocr tesseract-ocr-por
       - run: pip install requests pymupdf pytesseract pillow
-      - name: Analisar relatorios
+      - name: Atualizar indice de documentos (relatorios recentes)
+        continue-on-error: true
+        run: python scripts/baixar_fnet.py --so-indice --desde 2024 --max-por-fundo 20
+      - name: Analisar relatorios (incremental - so reprocessa relatorio novo)
         run: python scripts/analise_ia.py --apenas "${{ github.event.inputs.apenas }}"
-      - name: Commit data.json
+      - name: Commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data.json
-          git commit -m "analise relatorios $(date -u +%Y-%m-%d)" || echo "sem alteracoes"
+          git add data.json documentos/indice.json
+          git commit -m "analise semanal dos relatorios $(date -u +%Y-%m-%d)" || echo "sem alteracoes"
           git push
