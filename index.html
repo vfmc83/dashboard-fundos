@@ -155,7 +155,7 @@ function Logo(){
 function Header(){
   return (<header className="top"><div className="top-inner">
     <div className="brand"><Logo/><span className="mark">ENGAGE</span><span className="div"></span><span className="sub">Fundos Listados</span></div>
-    <span className="top-note">Uso interno · Engage Assessoria de Investimentos · BTG Pactual</span>
+    <span className="top-note">Uso exclusivo clientes Engage</span>
   </div></header>);
 }
 
@@ -358,7 +358,7 @@ function Ficha({f,onBack,todos,docs}){
 }
 
 function Footer({meta}){
-  return (<footer><div className="wrap">Uso interno · Engage Assessoria de Investimentos (BTG Pactual). Dados: BTG Stock Guide de Fundos (snapshot {meta&&meta.snapshot}) e Investidor10 (FIP).{meta&&meta.cotacoes_em?` Cotações de ${meta.cotacoes_em}.`:''} Não constitui recomendação de investimento.</div></footer>);
+  return (<footer><div className="wrap">Uso exclusivo Engage. Dados: Fundos.NET (CVM) e sites oficiais dos fundos.{meta&&meta.cotacoes_em?` Cotações de ${meta.cotacoes_em}.`:''} Todas as informações foram obtidas de fontes públicas. Não constitui recomendação de investimento.</div></footer>);
 }
 
 function App(){

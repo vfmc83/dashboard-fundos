@@ -752,7 +752,10 @@
    "site_tipo": "gestor",
    "descricao": "Fundo incentivado de infraestrutura, que investe em debêntures incentivadas (rendimentos isentos de IR para pessoa física). Gerido pela BTG Pactual — asset do maior banco de investimentos da América Latina, administrado por BTG Pactual. Patrimônio de R$ 1.5 bi, liquidez elevada (~R$ 2.8 mi/dia).",
    "analise": "Negocia a 0.87x o valor patrimonial — desconto de 9% frente à mediana do segmento (0.95). Dividend yield (12m) de 13.4%, abaixo da mediana dos pares (14.8%); supera 25% do segmento. Retorno de 5.6% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 2.8 mi/dia). Cotação a 95% da máxima de 52 semanas. Base comparativa: 17 pares do segmento Infraestrutura. Análise quantitativa automática — não é recomendação.",
-   "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. "
+   "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. ",
+   "analise_qual": "Relatório de maio/2026: FI-Infra do BTG (debêntures incentivadas, isentas de IR), com PL de R$ 1,48 bi, 99% alocado em debêntures (82 ativos) e carteira majoritariamente investment grade (AAA ~31%, demais AA/A). Carrego de IPCA+11,70% (patrimonial) e distribuição de R$ 0,85/cota (yield ~12,4% patrimonial / 13,6% mercado). Taxa de adm 0,75% + performance de 20% sobre IMA-B+2%. Negocia a R$ 73,55 vs. cota patrimonial de R$ 81,48. Fonte: Relatório Mensal BTG (site da gestora), ref. maio/2026.",
+   "pontos_atencao": "Negocia com desconto de ~9,7% sobre o valor patrimonial. Carteira exposta à marcação a mercado (a curva de juros real subiu mais de 0,10% em maio, pressionando ativos atrelados à inflação). Há nomes estressados/de menor rating na carteira que exigem acompanhamento: Light (taxa de mercado ~16%), Ligga (CPTM15, rating CCC, marcada próxima de zero) e WeClix. [Relatório de maio/2026]",
+   "analise_qual_id": "site-202605"
   },
   {
    "ticker": "BIDB11",
@@ -1574,7 +1577,10 @@
    "site_tipo": "gestor",
    "descricao": "Fundo incentivado de infraestrutura, que investe em debêntures incentivadas (rendimentos isentos de IR para pessoa física). Gerido pela Sparta — gestora especializada em crédito, administrado por BTG Pactual. Patrimônio de R$ 2.8 bi, liquidez elevada (~R$ 7.6 mi/dia).",
    "analise": "Negocia a 1.00x o valor patrimonial — prêmio de 5% frente à mediana do segmento (0.95). Dividend yield (12m) de 17.1%, acima da mediana dos pares (14.8%); supera 100% do segmento. Retorno de 14.5% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 7.6 mi/dia). Cotação a 97% da máxima de 52 semanas. Base comparativa: 17 pares do segmento Infraestrutura. Análise quantitativa automática — não é recomendação.",
-   "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. "
+   "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. ",
+   "analise_qual": "Relatório de maio/2026: FI-Infra da Sparta indexado ao CDI (debêntures incentivadas, isentas de IR), meta de CDI+2%. PL de R$ 2,8 bi, carrego de CDI+0,7%, duration do spread de 4,3 anos e caixa de 12%. Distribuição de R$ 1,00/cota (92% do CDI), DY de 17,6% em 12m. Cota patrimonial R$ 100,85 vs. mercado R$ 100,20 (próximo do par). Taxa de adm 1,0%, sem performance. Fonte: Relatório Mensal Sparta (site da gestora), ref. maio/2026.",
+   "pontos_atencao": "A distribuição foi reduzida (de ~R$ 1,2-1,5 para R$ 1,00/cota, 92% do CDI) e a performance em 12 meses ficou abaixo do CDI (CDI-0,8%). O spread de crédito está comprimido (CDI+0,7%, prêmio baixo) e o caixa elevado (12%, subalocado). Exposição pontual a crédito estressado (ex.: Braskem CCC-). [Relatório de maio/2026]",
+   "analise_qual_id": "site-202605"
   },
   {
    "ticker": "CEOC11",
@@ -1824,7 +1830,10 @@
    "site_tipo": "gestor",
    "descricao": "Fundo incentivado de infraestrutura, que investe em debêntures incentivadas (rendimentos isentos de IR para pessoa física). Gerido pela Capitânia — gestora independente especializada em crédito e imobiliário, administrado por BTG Pactual. Patrimônio de R$ 1.3 bi, liquidez elevada (~R$ 2.5 mi/dia).",
    "analise": "Negocia a 0.94x o valor patrimonial — desconto de 1% frente à mediana do segmento (0.95). Dividend yield (12m) de 14.7%, abaixo da mediana dos pares (14.8%); supera 44% do segmento. Retorno de 21.8% em 12 meses (top 24% do segmento). Liquidez alta (~R$ 2.5 mi/dia). Cotação a 99% da máxima de 52 semanas. Base comparativa: 17 pares do segmento Infraestrutura. Análise quantitativa automática — não é recomendação.",
-   "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. "
+   "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. ",
+   "analise_qual": "Relatório de maio/2026: FI-Infra da Capitânia (debêntures incentivadas, isentas de IR), ativo desde 2021. PL de R$ 1,25 bi, carrego (MTM) de IPCA+9,70% e duration de 2,73 anos. Dividendo de R$ 1,20/cota (DY 9,70%). Cota patrimonial R$ 92,35 vs. mercado R$ 88,90. Taxa de adm 1%, sem performance. Fonte: Relatório Mensal Capitânia (site da gestora), ref. maio/2026.",
+   "pontos_atencao": "Negocia com desconto de ~3,7% sobre o valor patrimonial. Como os pares de infraestrutura, está exposto à marcação a mercado num cenário de alta dos prêmios de crédito das debêntures incentivadas e de juros reais elevados. A duration relativamente curta (2,73 anos) mitiga parte do risco de marcação. [Relatório de maio/2026]",
+   "analise_qual_id": "site-202605"
   },
   {
    "ticker": "CPTR11",
@@ -3721,10 +3730,7 @@
    "site_tipo": "gestor",
    "descricao": "Fundo imobiliário de tijolo do segmento Renda Urbana, que detém imóveis físicos para geração de renda por aluguel. Gerido pela Patria — gestora global de ativos alternativos, administrado por Genial. Patrimônio de R$ 3.0 bi, liquidez elevada (~R$ 4.7 mi/dia).",
    "analise": "Negocia a 1.00x o valor patrimonial — prêmio de 25% frente à mediana do segmento (0.80). Dividend yield (12m) de 9.7%, abaixo da mediana dos pares (11.2%); supera 31% do segmento. Retorno de 15.3% em 12 meses (top 40% do segmento). Liquidez alta (~R$ 4.7 mi/dia). Cotação a 98% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
-   "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. ",
-   "analise_qual": "Relatório de 29/11/2024 — Fundo imobiliário de tijolo do segmento Renda Urbana, que detém imóveis físicos para geração de renda por aluguel. Fonte: relatório no Fundos.NET, ref. 29/11/2024. (Resumo automático.)",
-   "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário.",
-   "analise_qual_id": "796727"
+   "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. "
   },
   {
    "ticker": "HLOG11",
@@ -4864,7 +4870,10 @@
    "site_tipo": "gestor",
    "descricao": "Fundo incentivado de infraestrutura, que investe em debêntures incentivadas (rendimentos isentos de IR para pessoa física). Gerido pela Sparta — gestora especializada em crédito, administrado por BTG Pactual. Patrimônio de R$ 2.1 bi, liquidez elevada (~R$ 5.6 mi/dia).",
    "analise": "Negocia a 0.97x o valor patrimonial — prêmio de 2% frente à mediana do segmento (0.95). Dividend yield (12m) de 11.6%, abaixo da mediana dos pares (14.8%); supera 0% do segmento. Retorno de 8.5% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 5.6 mi/dia). Cotação a 94% da máxima de 52 semanas. Base comparativa: 17 pares do segmento Infraestrutura. Análise quantitativa automática — não é recomendação.",
-   "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. "
+   "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. ",
+   "analise_qual": "Relatório de maio/2026: FI-Infra da Sparta (debêntures incentivadas indexadas à inflação, isentas de IR), meta de IMA-B 5 + 2%. PL de R$ 2,1 bi, carrego de IPCA+9,4%, duration de 3,0 anos, spread de crédito de 1,2% e caixa de 7%; carteira pulverizada e majoritariamente high grade. Cota patrimonial R$ 100,14 vs. mercado R$ 97,00. Taxa de adm 1,0%, sem performance. Fonte: Relatório Mensal Sparta (site da gestora), ref. maio/2026.",
+   "pontos_atencao": "A distribuição foi cortada de R$ 1,00 para R$ 0,50/cota em maio, refletindo a queda da reserva acumulada (apenas R$ 0,14/cota) diante da volatilidade nas debêntures incentivadas. A indústria de fundos abertos da classe teve resgates líquidos acima de R$ 14 bi, pressionando os spreads. Negocia ~3% abaixo do VP; exposição pontual a crédito estressado (ex.: Braskem, rating CCC-). [Relatório de maio/2026]",
+   "analise_qual_id": "site-202605"
   },
   {
    "ticker": "KCRE11",
@@ -4936,7 +4945,10 @@
    "site_tipo": "gestor",
    "descricao": "Fundo incentivado de infraestrutura, que investe em debêntures incentivadas (rendimentos isentos de IR para pessoa física). Gerido pela Kinea — uma das maiores gestoras de fundos listados do Brasil, ligada ao Itaú, administrado por Intrag. Patrimônio de R$ 2.9 bi, liquidez elevada (~R$ 3.4 mi/dia).",
    "analise": "Negocia a 0.99x o valor patrimonial — prêmio de 4% frente à mediana do segmento (0.95). Dividend yield (12m) de 13.0%, abaixo da mediana dos pares (14.8%); supera 19% do segmento. Retorno de 8.2% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 3.4 mi/dia). Cotação a 95% da máxima de 52 semanas. Base comparativa: 17 pares do segmento Infraestrutura. Análise quantitativa automática — não é recomendação.",
-   "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. "
+   "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. ",
+   "analise_qual": "Relatório de maio/2026: FI-Infra da Kinea (debêntures incentivadas indexadas à inflação, isentas de IR), ativo desde 2017. PL de R$ 2,8 bi, 87% alocado em debêntures (70 emissões, 32% AAA), carrego de IPCA+9,84% e duration de 5,8 anos. Rendimento de R$ 1,45/cota (DY ~13% em 12m). Cota patrimonial R$ 120,63 vs. mercado ~R$ 125,00. Taxa de adm 1,11%. Fonte: Relatório Mensal Kinea (site da gestora), ref. maio/2026.",
+   "pontos_atencao": "Negocia com ágio de ~3,6% sobre o valor patrimonial (paga prêmio). A performance ficou abaixo do benchmark (-0,06% no mês vs. IMA-B +0,31%; 8,6% vs. 10,8% em 12m), pressionada pela alta dos prêmios de crédito (+84 bps desde fevereiro, 3º maior movimento da série histórica). Duration longa (5,8 anos) eleva a sensibilidade à curva de juros reais. [Relatório de maio/2026]",
+   "analise_qual_id": "site-202605"
   },
   {
    "ticker": "KDOL11",
