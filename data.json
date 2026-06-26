@@ -1429,7 +1429,10 @@
    "site_tipo": "gestor",
    "descricao": "Fundo imobiliário de tijolo do segmento Galpão Logístico, que detém imóveis físicos para geração de renda por aluguel. Gerido pela BTG Pactual — asset do maior banco de investimentos da América Latina, administrado por BTG Pactual. Patrimônio de R$ 7.1 bi, liquidez elevada (~R$ 11.5 mi/dia).",
    "analise": "Negocia a 0.99x o valor patrimonial — prêmio de 24% frente à mediana do segmento (0.80). Dividend yield (12m) de 9.4%, abaixo da mediana dos pares (11.2%); supera 27% do segmento. Retorno de 12.1% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 11.5 mi/dia). Cotação a 99% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
-   "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. "
+   "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. ",
+   "analise_qual": "Relatório (ref. maio/2026): FII de logística (tijolo) do BTG, com 134 imóveis e ABL de 1,44 mi m², valor de mercado de R$ 5,5 bi e cota patrimonial de R$ 102,47. Vacância financeira baixa (2,6%) e releasing spread positivo (nova locação ~+39% real sobre o aluguel anterior). Distribuição de R$ 0,81/cota (DY ~9,4% anualizado). Fonte: Relatório Gerencial BTG Logística (Fundos.NET), ref. maio/2026.",
+   "pontos_atencao": "Vacância financeira contida (2,6%), sem evento negativo relevante no período. Principal atenção é a alavancagem: LTV de 12,8%, que aumenta a sensibilidade ao custo da dívida num cenário de juros altos. Negocia próximo ao valor patrimonial. [Extraído do relatório de maio/2026]",
+   "analise_qual_id": "1211507"
   },
   {
    "ticker": "BTRA11",
@@ -1893,7 +1896,10 @@
    "site_tipo": "gestor",
    "descricao": "Fundo imobiliário de gestão ativa/multiestratégia, com alocação dinâmica entre tijolo e papel. Gerido pela Capitânia — gestora independente especializada em crédito e imobiliário, administrado por BTG Pactual. Patrimônio de R$ 3.2 bi, liquidez elevada (~R$ 9.8 mi/dia).",
    "analise": "Negocia a 0.83x o valor patrimonial — desconto de 4% frente à mediana do segmento (0.86). Dividend yield (12m) de 14.7%, acima da mediana dos pares (14.3%); supera 53% do segmento. Retorno de 13.0% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 9.8 mi/dia). Cotação a 93% da máxima de 52 semanas. Base comparativa: 16 pares do segmento Gestão ativa. Análise quantitativa automática — não é recomendação.",
-   "risco": "Riscos típicos: decisões de alocação do gestor, maior giro e volatilidade. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira."
+   "risco": "Riscos típicos: decisões de alocação do gestor, maior giro e volatilidade. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
+   "analise_qual": "Relatório de abril/2026 (mais recente disponível): FII de gestão ativa em crédito imobiliário (CRIs e cotas de FIIs) da Capitânia, ativo desde 2014. Carteira de CRIs com TIR de 12,2% a.a. desde o início (vs. 7,7% do IMA-B) e taxa líquida atual de IPCA+10,64%. Valor de mercado R$ 2,88 bi (R$ 7,93/cota) vs. patrimonial R$ 3,22 bi (R$ 8,85/cota). Administrador BTG, gestor Capitânia; performance de 15% sobre o que exceder o CDI. Fonte: Relatório Gerencial Capitânia (Fundos.NET), ref. abril/2026.",
+   "pontos_atencao": "Negocia com desconto relevante de ~10% sobre o valor patrimonial (R$ 7,93 vs R$ 8,85/cota). Carteira de crédito sujeita ao risco dos devedores e à marcação a mercado; carrego atrelado à inflação (IPCA+10,64%, ante 11,47% no mês anterior). O último relatório disponível é de abril/2026. [Extraído do relatório de abril/2026]",
+   "analise_qual_id": "1202474"
   },
   {
    "ticker": "CPUR11",
@@ -3631,7 +3637,10 @@
    "site_tipo": "gestor",
    "descricao": "Fundo imobiliário de tijolo do segmento Galpão Logístico, que detém imóveis físicos para geração de renda por aluguel. Gerido pela Patria — gestora global de ativos alternativos, administrado por Genial. Patrimônio de R$ 7.6 bi, liquidez elevada (~R$ 14.3 mi/dia).",
    "analise": "Negocia a 0.91x o valor patrimonial — prêmio de 13% frente à mediana do segmento (0.80). Dividend yield (12m) de 8.8%, abaixo da mediana dos pares (11.2%); supera 18% do segmento. Retorno de 3.9% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 14.3 mi/dia). Cotação a 97% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
-   "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. "
+   "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. ",
+   "analise_qual": "Relatório de maio/2026: FII de logística (tijolo, gestão ativa) da Pátria, ativo desde 2011, com 41 imóveis, 186 locatários e ABL de 2,22 mi m². WALE de 3,5 anos e aluguel médio de R$ 26,9/m². Fonte: Relatório Gerencial HGLG/Pátria (Fundos.NET), ref. maio/2026.",
+   "pontos_atencao": "Vacância física subiu para 3,9% (financeira 3,3%) e a gestão PROJETA elevação para 4,2% em setembro/2026 — atenção à absorção dos espaços. WALE relativamente curto (3,5 anos) implica renovações mais frequentes. Fundo alavancado (8,8% a 10,4% do portfólio), sensível ao custo da dívida. [Extraído do relatório de maio/2026]",
+   "analise_qual_id": "1218334"
   },
   {
    "ticker": "HGRE11",
@@ -5240,7 +5249,10 @@
    "site_tipo": "gestor",
    "descricao": "Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Gerido pela Kinea — uma das maiores gestoras de fundos listados do Brasil, ligada ao Itaú, administrado por Intrag. Patrimônio de R$ 7.5 bi, liquidez elevada (~R$ 10.2 mi/dia).",
    "analise": "Negocia a 0.99x o valor patrimonial — prêmio de 12% frente à mediana do segmento (0.88). Dividend yield (12m) de 10.5%, abaixo da mediana dos pares (14.5%); supera 0% do segmento. Retorno de 13.8% em 12 meses (top 44% do segmento). Liquidez alta (~R$ 10.2 mi/dia). Cotação a 99% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
-   "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). "
+   "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). ",
+   "analise_qual": "Relatório de maio/2026: FII de papel da Kinea dedicado a CRIs de baixo risco de crédito, predominantemente indexados à inflação (IPCA). PL de R$ 7,48 bi e 72.653 cotistas; carteira com 97,7% em ativos-alvo e taxa média (MTM) de IPCA+10,27% a.a. Cota patrimonial R$ 93,42 vs. mercado R$ 93,02 (praticamente no par). Liquidez ~R$ 9,2 mi/dia. Fonte: Relatório Gerencial Kinea (Fundos.NET), ref. maio/2026.",
+   "pontos_atencao": "Carteira majoritariamente indexada ao IPCA: a desaceleração da inflação reduz o carrego corrente, enquanto a marcação a mercado oscila com a curva de juros reais. Baixo risco de crédito declarado (high grade), sem inadimplência relevante destacada. [Extraído do relatório de maio/2026]",
+   "analise_qual_id": "1216566"
   },
   {
    "ticker": "KNRI11",
@@ -5276,7 +5288,10 @@
    "site_tipo": "gestor",
    "descricao": "Fundo imobiliário híbrido, que combina imóveis físicos e recebíveis (CRI). Gerido pela Kinea — uma das maiores gestoras de fundos listados do Brasil, ligada ao Itaú, administrado por Intrag. Patrimônio de R$ 4.6 bi, liquidez elevada (~R$ 8.3 mi/dia).",
    "analise": "Negocia a 0.92x o valor patrimonial — prêmio de 0% frente à mediana do segmento (0.91). Dividend yield (12m) de 8.4%, abaixo da mediana dos pares (12.3%); supera 12% do segmento. Retorno de 12.8% em 12 meses (top 50% do segmento). Liquidez alta (~R$ 8.3 mi/dia). Cotação a 88% da máxima de 52 semanas. Base comparativa: 9 pares do segmento Híbrido. Análise quantitativa automática — não é recomendação.",
-   "risco": "Riscos típicos: combinação de riscos de crédito (CRI) e de vacância dos imóveis. "
+   "risco": "Riscos típicos: combinação de riscos de crédito (CRI) e de vacância dos imóveis. ",
+   "analise_qual": "Relatório de maio/2026: FII híbrido da Kinea, com portfólio de lajes corporativas e galpões logísticos. Distribuição de R$ 1,10/cota no mês (pagamento em 15/06). Taxa de administração de 1,11% a.a. sobre o valor de mercado (inclui gestão, administração e escrituração). Fonte: Relatório Gerencial Kinea (Fundos.NET), ref. maio/2026.",
+   "pontos_atencao": "Vacância física de 4,09% (em leve queda ante 4,20% no mês anterior), ainda dependente de novas locações para reduzir — uma das torres encerrou o mês ~98% ocupada após nova locação. Exposição a lajes corporativas, segmento sensível ao ciclo econômico. [Extraído do relatório de maio/2026]",
+   "analise_qual_id": "1210027"
   },
   {
    "ticker": "KNSC11",
@@ -5773,7 +5788,10 @@
    "bench_spread": null,
    "descricao": "Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Gerido pela Vista Real Estate, administrado por BTG Pactual. Patrimônio de R$ 4.3 bi, liquidez elevada (~R$ 13.9 mi/dia).",
    "analise": "Negocia a 1.03x o valor patrimonial — prêmio de 17% frente à mediana do segmento (0.88). Dividend yield (12m) de 12.4%, abaixo da mediana dos pares (14.5%); supera 6% do segmento. Retorno de 16.6% em 12 meses (top 28% do segmento). Liquidez alta (~R$ 13.9 mi/dia). Cotação a 98% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
-   "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). "
+   "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). ",
+   "analise_qual": "Relatório de maio/2026: FII de papel (TVM, gestão ativa) da XP Vista, ativo desde 2012, com estratégia de ~80% do PL em CRIs com foco em crédito de boa qualidade. Distribuição de R$ 0,10/cota no mês (yield ~1,0% no mês, ~12,7% anualizado, ~105% do CDI no gross-up). Fonte: Relatório Gerencial Maxi Renda/XP (Fundos.NET), ref. maio/2026.",
+   "pontos_atencao": "Carteira de CRIs sujeita ao risco de crédito dos devedores e à marcação a mercado; parte indexada à inflação, com o relatório citando elevação das projeções de IPCA (5,11% em 2026) e IGP-M (6,10%). Não foram destacados eventos de inadimplência relevantes neste relatório. [Extraído do relatório de maio/2026]",
+   "analise_qual_id": "1227475"
   },
   {
    "ticker": "NAVT11",
@@ -8334,7 +8352,10 @@
    "bench_spread": null,
    "descricao": "Fundo imobiliário de tijolo do segmento Renda Urbana, que detém imóveis físicos para geração de renda por aluguel. Gerido pela TRX Gestora de Recursos, administrado por BRL Trust. Patrimônio de R$ 6.1 bi, liquidez elevada (~R$ 21.6 mi/dia).",
    "analise": "Negocia a 0.94x o valor patrimonial — prêmio de 17% frente à mediana do segmento (0.80). Dividend yield (12m) de 12.8%, acima da mediana dos pares (11.2%); supera 69% do segmento. Retorno de 1.9% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 21.6 mi/dia). Cotação a 97% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
-   "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. "
+   "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. ",
+   "analise_qual": "Relatório de maio/2026: FII de renda urbana/gestão ativa da TRX, com 124 imóveis e ABL de 1,35 mi m² em 17 estados, locados a 383 inquilinos. Receita majoritariamente em contratos atípicos (73,4%) e WALE longo, de 13,2 anos, com reajuste predominante pelo IPCA (~81%). Distribuição de R$ 0,93/cota (DY ~1,0% no mês, ~12,2% anualizado); cota patrimonial R$ 97,41 vs. mercado R$ 91,80. Taxa de adm 1,0% a.a. + performance de 20% sobre IPCA+6%. Fonte: Relatório Gerencial TRX (Fundos.NET), ref. maio/2026.",
+   "pontos_atencao": "Negocia ~6% abaixo do valor patrimonial (R$ 91,80 vs R$ 97,41). Cerca de 26,5% da receita vem de contratos típicos, mais sujeitos a revisão/vacância na renovação; a predominância de reajuste por IPCA expõe a receita à desaceleração da inflação. O relatório não destacou inadimplência relevante. [Extraído do relatório de maio/2026]",
+   "analise_qual_id": "1222785"
   },
   {
    "ticker": "TRXY11",
@@ -9504,7 +9525,10 @@
    "bench_spread": null,
    "descricao": "Fundo imobiliário de tijolo do segmento Shopping Center, que detém imóveis físicos para geração de renda por aluguel. Gerido pela Vista Real Estate, administrado por XP Investimentos. Patrimônio de R$ 7.0 bi, liquidez elevada (~R$ 17.0 mi/dia).",
    "analise": "Negocia a 0.95x o valor patrimonial — prêmio de 19% frente à mediana do segmento (0.80). Dividend yield (12m) de 10.6%, abaixo da mediana dos pares (11.2%); supera 45% do segmento. Retorno de 14.0% em 12 meses (top 44% do segmento). Liquidez alta (~R$ 17.0 mi/dia). Cotação a 95% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
-   "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. "
+   "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. ",
+   "analise_qual": "Relatório de maio/2026: FII de shopping centers (gestão ativa) da XP Vista, com PL de R$ 7,08 bi e 748.369 cotistas. Vendas/m² anuais de R$ 1.625 e NOI caixa de R$ 134/m²/mês, em alta de +7,4% e +6,1% sobre 2025. Distribuição de R$ 0,92/cota no mês (política de distribuir ≥95% do resultado caixa semestral). Fonte: Relatório Gerencial XP Malls (Fundos.NET), ref. maio/2026.",
+   "pontos_atencao": "O próprio relatório aponta cenário macro adverso para o varejo: vendas do varejo brasileiro com retração real de 3,0% no período, refletindo inflação pressionada e maior comprometimento da renda das famílias com o serviço da dívida — o que pode pressionar vendas e aluguéis dos lojistas adiante. Sensibilidade a juros altos. [Extraído do relatório de maio/2026]",
+   "analise_qual_id": "1214209"
   },
   {
    "ticker": "XPSF11",
