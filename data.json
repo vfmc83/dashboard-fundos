@@ -2361,7 +2361,10 @@
    "site_tipo": "fundo",
    "descricao": "Fiagro do tipo imobiliário, focado em recebíveis e ativos do agronegócio. Gerido pela Eco Gestão de Ativos, administrado por Vórtx. Patrimônio de R$ 310 mi, liquidez média (~R$ 1.4 mi/dia). Taxa de administração de 1.20% a.a., taxa de performance de 10%.",
    "analise": "Negocia a 0.88x o valor patrimonial — prêmio de 4% frente à mediana do segmento (0.84). Dividend yield (12m) de 19.4%, acima da mediana dos pares (16.7%); supera 96% do segmento. Retorno de 11.1% em 12 meses (abaixo da mediana do segmento). Liquidez média (~R$ 1.4 mi/dia). Cotação a 91% da máxima de 52 semanas. Base comparativa: 25 pares do segmento Imobiliário. Análise quantitativa automática — não é recomendação.",
-   "risco": "Riscos típicos: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. "
+   "risco": "Riscos típicos: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. ",
+   "analise_qual": "Relatório de maio/2026: Fiagro de crédito do agronegócio com alocação em ativos-alvo de 108,8% e carrego de CDI+1%. Fonte: Relatório Gerencial EGAF (Fundos.NET).",
+   "pontos_atencao": "Alocação acima de 100% (108,8%) sugere alavancagem; spread baixo (CDI+1%) indica carteira mais conservadora, com menor prêmio. Risco de crédito do agro e marcação a mercado. [Extraído do relatório de maio/2026]",
+   "analise_qual_id": "1214556"
   },
   {
    "ticker": "EIRA11",
@@ -2715,7 +2718,10 @@
    "site_tipo": "fundo",
    "descricao": "Fiagro do tipo imobiliário, focado em recebíveis e ativos do agronegócio. Gerido pela FG/A Gestora de Recursos, administrado por BRL Trust. Patrimônio de R$ 424 mi, liquidez média (~R$ 0.9 mi/dia). Taxa de administração de 1.15% a.a., taxa de performance de 10%, indexado a CDI+.",
    "analise": "Negocia a 0.90x o valor patrimonial — prêmio de 7% frente à mediana do segmento (0.84). Dividend yield (12m) de 16.7%, abaixo da mediana dos pares (16.7%); supera 48% do segmento. Retorno de 15.7% em 12 meses (abaixo da mediana do segmento). Liquidez média (~R$ 0.9 mi/dia). Cotação a 94% da máxima de 52 semanas. Base comparativa: 25 pares do segmento Imobiliário. Análise quantitativa automática — não é recomendação.",
-   "risco": "Riscos típicos: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. "
+   "risco": "Riscos típicos: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. ",
+   "analise_qual": "Relatório de maio/2026: Fiagro de crédito do agronegócio com carrego de CDI+4,0%, distribuição de R$ 0,11/cota e yield mensal de ~1,25%. Fonte: Relatório Gerencial FGAA (Fundos.NET).",
+   "pontos_atencao": "Carteira de CRAs exposta ao risco de crédito do agro (preços de commodities, clima/safra e endividamento de produtores) e à marcação a mercado. [Extraído do relatório de maio/2026]",
+   "analise_qual_id": "1224294"
   },
   {
    "ticker": "FIGS11",
@@ -7327,7 +7333,10 @@
    "site_tipo": "fundo",
    "descricao": "Fiagro do tipo imobiliário, focado em recebíveis e ativos do agronegócio. Gerido pela Riza — gestora independente de crédito e imobiliário, administrado por Genial. Patrimônio de R$ 655 mi, liquidez média (~R$ 1.6 mi/dia). Taxa de administração de 1.15% a.a., taxa de performance de 10%, indexado a CDI+.",
    "analise": "Negocia a 0.89x o valor patrimonial — prêmio de 5% frente à mediana do segmento (0.84). Dividend yield (12m) de 17.5%, acima da mediana dos pares (16.7%); supera 76% do segmento. Retorno de 13.0% em 12 meses (abaixo da mediana do segmento). Liquidez média (~R$ 1.6 mi/dia). Cotação a 94% da máxima de 52 semanas. Base comparativa: 25 pares do segmento Imobiliário. Análise quantitativa automática — não é recomendação.",
-   "risco": "Riscos típicos: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. "
+   "risco": "Riscos típicos: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. ",
+   "analise_qual": "Relatório de maio/2026: Fiagro de crédito do agronegócio com patrimônio praticamente todo alocado (102,3%) e yield mensal de 1,34%; rendimento de R$ 0,12/cota. Fonte: Relatório Gerencial RZAG (Fundos.NET).",
+   "pontos_atencao": "Alocação acima de 100% (102,3%) indica uso de alavancagem/compromissos, elevando a sensibilidade ao custo da dívida. Risco de crédito do agro e marcação a mercado. [Extraído do relatório de maio/2026]",
+   "analise_qual_id": "1227199"
   },
   {
    "ticker": "RZAK11",
@@ -7756,7 +7765,10 @@
    "site_tipo": "fundo",
    "descricao": "Fiagro do tipo imobiliário, focado em recebíveis e ativos do agronegócio. Gerido pela Suno — gestora ligada à casa de análise Suno, administrado por Singulare. Patrimônio de R$ 627 mi, liquidez elevada (~R$ 2.0 mi/dia). Taxa de administração de 0.91% a.a., sem taxa de performance, indexado a CDI+.",
    "analise": "Negocia a 0.97x o valor patrimonial — prêmio de 15% frente à mediana do segmento (0.84). Dividend yield (12m) de 15.6%, abaixo da mediana dos pares (16.7%); supera 24% do segmento. Retorno de 21.8% em 12 meses (top 36% do segmento). Liquidez alta (~R$ 2.0 mi/dia). Cotação a 95% da máxima de 52 semanas. Base comparativa: 25 pares do segmento Imobiliário. Análise quantitativa automática — não é recomendação.",
-   "risco": "Riscos típicos: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. "
+   "risco": "Riscos típicos: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. ",
+   "analise_qual": "Relatório (ref. maio/2026): Fiagro de crédito do agronegócio com inadimplência de 0,00% na carteira e yield anualizado de ~14,4%; distribuição de R$ 0,12/cota. Fonte: Relatório Gerencial SNAG (Fundos.NET).",
+   "pontos_atencao": "Sem inadimplência reportada no período (0,00%), mas a carteira de CRAs permanece exposta ao risco de crédito do agro (commodities, clima/safra) e à marcação a mercado. [Extraído do relatório de maio/2026]",
+   "analise_qual_id": "1204482"
   },
   {
    "ticker": "SNCI11",
@@ -8684,7 +8696,10 @@
    "site_tipo": "fundo",
    "descricao": "Fiagro do tipo imobiliário, focado em recebíveis e ativos do agronegócio. Gerido pela Valora — gestora especializada em crédito imobiliário, administrado por BTG Pactual. Patrimônio de R$ 835 mi, liquidez elevada (~R$ 2.4 mi/dia). Taxa de administração de 1.15% a.a., taxa de performance de 10%, indexado a CDI+.",
    "analise": "Negocia a 1.00x o valor patrimonial — prêmio de 18% frente à mediana do segmento (0.84). Dividend yield (12m) de 17.0%, acima da mediana dos pares (16.7%); supera 56% do segmento. Retorno de 28.6% em 12 meses (top 8% do segmento). Liquidez alta (~R$ 2.4 mi/dia). Cotação a 100% da máxima de 52 semanas. Base comparativa: 25 pares do segmento Imobiliário. Análise quantitativa automática — não é recomendação.",
-   "risco": "Riscos típicos: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. "
+   "risco": "Riscos típicos: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. ",
+   "analise_qual": "Relatório de maio/2026: Fiagro de crédito do agronegócio (CRAs) com carrego de CDI+7,0% e distribuição de R$ 0,15/cota no mês. Fonte: Relatório Gerencial VGIA (Fundos.NET), ref. maio/2026.",
+   "pontos_atencao": "Spread de crédito elevado (CDI+7,0%) sinaliza maior risco/retorno da carteira. CRAs expostos ao risco de crédito do agro (preços de commodities, clima/safra e endividamento de produtores) e à marcação a mercado. [Extraído do relatório de maio/2026]",
+   "analise_qual_id": "1211337"
   },
   {
    "ticker": "VGIP11",
@@ -9360,7 +9375,10 @@
    "site_tipo": "fundo",
    "descricao": "Fiagro do tipo imobiliário, focado em recebíveis e ativos do agronegócio. Gerido pela XP — gestora do grupo XP Inc., administrado por XP Investimentos. Patrimônio de R$ 439 mi, liquidez média (~R$ 0.8 mi/dia). Taxa de administração de 1.00% a.a., taxa de performance de 10%, indexado a CDI+.",
    "analise": "Negocia a 0.82x o valor patrimonial — desconto de 3% frente à mediana do segmento (0.84). Dividend yield (12m) de 16.8%, acima da mediana dos pares (16.7%); supera 52% do segmento. Retorno de 16.7% em 12 meses (abaixo da mediana do segmento). Liquidez média (~R$ 0.8 mi/dia). Cotação a 93% da máxima de 52 semanas. Base comparativa: 25 pares do segmento Imobiliário. Análise quantitativa automática — não é recomendação.",
-   "risco": "Riscos típicos: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira."
+   "risco": "Riscos típicos: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
+   "analise_qual": "Relatório (ref. maio/2026): Fiagro de crédito do agronegócio indexado à inflação, com taxa de aquisição implícita de IPCA+18,0% sobre a cota de mercado. Fonte: Relatório Gerencial XPCA (Fundos.NET).",
+   "pontos_atencao": "Taxa implícita elevada (IPCA+18%) reflete desconto/risco percebido da carteira. Exposto ao crédito do agro (commodities, clima/safra), à inflação e à marcação a mercado. [Extraído do relatório de maio/2026]",
+   "analise_qual_id": "1199730"
   },
   {
    "ticker": "XPCI11",
