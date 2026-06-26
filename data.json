@@ -4307,7 +4307,10 @@
    "site_tipo": "gestor",
    "descricao": "Fundo incentivado de infraestrutura, que investe em debêntures incentivadas (rendimentos isentos de IR para pessoa física). Gerido pela Itaú Unibanco — asset do maior banco privado do Brasil, administrado por Intrag. Patrimônio de R$ 992 mi, liquidez média (~R$ 1.7 mi/dia).",
    "analise": "Negocia a 1.03x o valor patrimonial — prêmio de 8% frente à mediana do segmento (0.95). Dividend yield (12m) de 16.1%, acima da mediana dos pares (14.8%); supera 81% do segmento. Retorno de 27.8% em 12 meses (top 6% do segmento). Liquidez média (~R$ 1.7 mi/dia). Cotação a 100% da máxima de 52 semanas. Base comparativa: 17 pares do segmento Infraestrutura. Análise quantitativa automática — não é recomendação.",
-   "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. "
+   "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. ",
+   "analise_qual": "Relatório de maio/2026: FI-Infra do Itaú indexado ao CDI (debêntures incentivadas, isentas de IR), ativo desde 2024. PL de R$ 990 mi, 95% em crédito privado, spread médio de CDI+1,39% e duration de 5,29 anos; carteira high grade e, segundo a gestão, sem intercorrências de crédito. Distribuição de R$ 1,40/cota (130,8% do CDI no mês). Cota patrimonial ~R$ 99 vs. mercado ~R$ 101,5. Taxa de adm 0,85%. Fonte: Carta do Gestor Itaú (site da gestora), ref. maio/2026.",
+   "pontos_atencao": "Rentabilidade dos últimos 12 meses ~1,4% abaixo do CDI. O setor de FI-Infra sofreu resgates líquidos fortes (R$ 19,6 bi nos fundos abertos em maio), pressionando a marcação dos ativos. Negocia com leve ágio (~2,5%) sobre o VP; duration de 5,29 anos eleva a sensibilidade à curva de juros. [Relatório de maio/2026]",
+   "analise_qual_id": "site-202605"
   },
   {
    "ticker": "INLG11",
@@ -7178,7 +7181,10 @@
    "bench_spread": null,
    "descricao": "Fundo incentivado de infraestrutura, que investe em debêntures incentivadas (rendimentos isentos de IR para pessoa física). Gerido pela Paramis, administrado por Santander Caceis. Patrimônio de R$ 137 mi, liquidez baixa (~R$ 0.3 mi/dia).",
    "analise": "Negocia a 0.84x o valor patrimonial — desconto de 12% frente à mediana do segmento (0.95). Dividend yield (12m) de 14.8%, acima da mediana dos pares (14.8%); supera 50% do segmento. Retorno de 16.4% em 12 meses (abaixo da mediana do segmento). Liquidez baixa (~R$ 0.3 mi/dia). Cotação a 98% da máxima de 52 semanas. Base comparativa: 17 pares do segmento Infraestrutura. Análise quantitativa automática — não é recomendação.",
-   "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira."
+   "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
+   "analise_qual": "Relatório de maio/2026: FI-Infra da Paramis (debêntures incentivadas, isentas de IR), ativo desde 2024. PL de R$ 136 mi, carteira muito diversificada (101 emissores; 97,8% em crédito privado), com yield de NTN-B+1,13% (parcela IPCA) e CDI+1,73% (parcela CDI). Distribuição de R$ 0,093/cota (DY ~15% sobre a cota de mercado). Cota patrimonial R$ 9,09 vs. mercado ~R$ 7,74. Taxa de adm 0,84% + performance 20% sobre o IMA-B5. Fonte: Relatório Gerencial Paramis (site da gestora), ref. maio/2026.",
+   "pontos_atencao": "Negocia com desconto de ~15% sobre o valor patrimonial. Parte das distribuições recentes incluiu amortização de capital (não apenas rendimento), o que reduz a cota patrimonial ao longo do tempo. Carteira pulverizada (101 emissores) e majoritariamente indexada ao IPCA, sensível à curva de juros reais. [Relatório de maio/2026]",
+   "analise_qual_id": "site-202605"
   },
   {
    "ticker": "RINV11",
@@ -7975,7 +7981,10 @@
    "site_tipo": "gestor",
    "descricao": "Fundo incentivado de infraestrutura, que investe em debêntures incentivadas (rendimentos isentos de IR para pessoa física). Gerido pela Suno — gestora ligada à casa de análise Suno, administrado por BTG Pactual. Patrimônio de R$ 71 mi, liquidez baixa (~R$ 0.1 mi/dia).",
    "analise": "Negocia a 1.11x o valor patrimonial — prêmio de 16% frente à mediana do segmento (0.95). Dividend yield (12m) de 13.8%, abaixo da mediana dos pares (14.8%); supera 31% do segmento. Retorno de 24.8% em 12 meses (top 18% do segmento). Liquidez baixa (~R$ 0.1 mi/dia). Cotação a 97% da máxima de 52 semanas. Base comparativa: 17 pares do segmento Infraestrutura. Análise quantitativa automática — não é recomendação.",
-   "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. Liquidez reduzida em bolsa. Negocia com prêmio relevante sobre o valor patrimonial (risco de reversão)."
+   "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. Liquidez reduzida em bolsa. Negocia com prêmio relevante sobre o valor patrimonial (risco de reversão).",
+   "analise_qual": "Relatório de abril/2026 (mais recente disponível): FI-Infra da Suno (debêntures incentivadas, isentas de IR), ativo desde 2023. PL de R$ 73 mi, carteira de 49 ativos/39 emissores, carrego de CDI+2,15%, duration de 4,5 anos e rating ponderado AA-. Distribuição de R$ 0,13/cota (DY ~14,6% anualizado). Cota patrimonial R$ 10,13 vs. mercado R$ 11,36 (P/VP 1,12x). Taxa de gestão 0,85%. Fonte: Relatório Gerencial Suno (site da gestora), ref. abril/2026.",
+   "pontos_atencao": "Negocia com PRÊMIO de ~12% sobre o valor patrimonial (P/VP 1,12x), o que reduz o yield efetivo de entrada. O resultado de abril foi negativo (-R$ 0,039/cota) e a distribuição de R$ 0,13 consumiu reserva. Exposição à AEGEA (downgrade de rating AA->A; Águas do Rio com spread +300 bps) e à Vero (remarcação adversa); Braskem (CCC-) em parcela pequena. [Relatório de abril/2026]",
+   "analise_qual_id": "site-202605"
   },
   {
    "ticker": "SNME11",
@@ -9476,7 +9485,10 @@
    "site_tipo": "gestor",
    "descricao": "Fundo incentivado de infraestrutura, que investe em debêntures incentivadas (rendimentos isentos de IR para pessoa física). Gerido pela XP — gestora do grupo XP Inc., administrado por Genial. Patrimônio de R$ 284 mi, liquidez baixa (~R$ 0.2 mi/dia).",
    "analise": "Negocia a 0.55x o valor patrimonial — desconto de 42% frente à mediana do segmento (0.95). Dividend yield (12m) de 14.6%, abaixo da mediana dos pares (14.8%); supera 38% do segmento. Retorno de -3.2% em 12 meses (abaixo da mediana do segmento). Liquidez baixa (~R$ 0.2 mi/dia). Cotação a 77% da máxima de 52 semanas. Base comparativa: 17 pares do segmento Infraestrutura. Análise quantitativa automática — não é recomendação.",
-   "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira."
+   "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
+   "analise_qual": "Relatório de abril/2026 (mais recente disponível): FI-Infra da XP (debêntures incentivadas, isentas de IR), ativo desde 2021. Carteira CONCENTRADA em 6 projetos (~95% do PL) de transmissão, biomassa e PCHs. PL de R$ 283 mi; distribuição de R$ 0,75/cota. Cota patrimonial R$ 89,46 vs. mercado R$ 48,51; TIR líquida implícita na cota de mercado de ~IPCA+20,7%. Taxa de adm 0,95%. Fonte: Relatório XP (site da gestora), ref. abril/2026.",
+   "pontos_atencao": "Risco elevado. Negocia com desconto de ~46% sobre o valor patrimonial e a carteira é concentrada em poucos projetos. O ativo Oxe (biomassa) está em REESTRUTURAÇÃO: rating CCC+, frustração de geração de caixa, postergação de pagamentos (reperfilamento) e stop accrual, com marcação reduzida para 68% do valor na curva (perda de ~R$ 3,92/cota). Fundo pequeno e pouco líquido (ADTV ~R$ 200 mil/dia). [Relatório de abril/2026]",
+   "analise_qual_id": "site-202605"
   },
   {
    "ticker": "XPIN11",
