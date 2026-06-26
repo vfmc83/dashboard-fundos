@@ -1,9 +1,14 @@
-name: Analise IA (relatorios)
+name: Analise relatorios (sem custo)
 
 on:
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      apenas:
+        description: "Tickers separados por virgula (vazio = todos)"
+        required: false
+        default: ""
   schedule:
-    - cron: '0 8 3 * *'   # dia 3 de cada mês (~05h BRT)
+    - cron: '0 8 3 * *'   # dia 3 de cada mes (~05h BRT)
 
 permissions:
   contents: write
@@ -11,20 +16,21 @@ permissions:
 jobs:
   analise:
     runs-on: ubuntu-latest
-    timeout-minutes: 180
+    timeout-minutes: 330
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - run: pip install requests pymupdf anthropic
-      - run: python scripts/analise_ia.py
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      - name: Instalar Tesseract (OCR de fallback)
+        run: sudo apt-get update && sudo apt-get install -y tesseract-ocr tesseract-ocr-por
+      - run: pip install requests pymupdf pytesseract pillow
+      - name: Analisar relatorios
+        run: python scripts/analise_ia.py --apenas "${{ github.event.inputs.apenas }}"
       - name: Commit data.json
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data.json
-          git commit -m "ia: analise dos relatorios $(date -u +%Y-%m-%d)" || echo "sem alteracoes"
+          git commit -m "analise relatorios $(date -u +%Y-%m-%d)" || echo "sem alteracoes"
           git push
