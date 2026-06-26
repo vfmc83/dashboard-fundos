@@ -11,7 +11,8 @@
   "tem_analise": "descricao + analise quantitativa (gerada das métricas)",
   "cotacoes_em": "2026-06-26",
   "cdi_aa": 14.15,
-  "cdi_em": "2026-06-26"
+  "cdi_em": "2026-06-26",
+  "cotacoes_fonte": "Google Sheets (GOOGLEFINANCE)"
  },
  "fundos": [
   {
