@@ -1184,7 +1184,10 @@
    "analise": "Negocia a 0.98x o valor patrimonial — prêmio de 22% frente à mediana do segmento (0.80). Dividend yield (12m) de 9.6%, abaixo da mediana dos pares (11.2%); supera 30% do segmento. Retorno de 15.3% em 12 meses (top 39% do segmento). Liquidez alta (~R$ 7.7 mi/dia). Cotação a 94% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. ",
    "cotas": 18021302.999823384,
-   "cotacao_em": "2026-06-27"
+   "cotacao_em": "2026-06-27",
+   "analise_qual": "Relatório de maio/2026: Bresco Logística FII (BRCO11), portfólio logístico de alto padrão com inquilinos de grau de investimento, PL ~R$ 2,1 bi. Distribuição de R$ 0,95/cota no mês e dividend yield de ~9,6% a.a. sobre a cota de fechamento. Vacância física de ~5,1% e LTV de 12,0% (alavancagem moderada). Fonte: Relatório Gerencial Bresco, ref. maio/2026.",
+   "pontos_atencao": "Vacância física em ~5,1% — monitorar a reocupação de áreas. Alavancagem moderada (LTV 12%), que amplia o resultado mas adiciona sensibilidade a juros. Concentração logística sujeita à renovação de contratos e à expansão da oferta de galpões. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "BRCR11",
@@ -3421,7 +3424,10 @@
    "analise": "Negocia a 0.89x o valor patrimonial — prêmio de 12% frente à mediana do segmento (0.80). Dividend yield (12m) de 12.2%, acima da mediana dos pares (11.2%); supera 63% do segmento. Retorno de 10.4% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 10.5 mi/dia). Cotação a 97% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. ",
    "cotas": 214249664.00202638,
-   "cotacao_em": "2026-06-27"
+   "cotacao_em": "2026-06-27",
+   "analise_qual": "Relatório de maio/2026: Zagros Renda Imobiliária FII (GGRC11), galpões industriais/logísticos majoritariamente monoinquilino (built-to-suit e sale-leaseback), PL ~R$ 2,36 bi. Dividend yield mensal de 0,98% (≈ 11,82% a.a.). Carteira com locatários relevantes — Ambev é o maior (~11% da receita), seguido de nomes como Hering, Covolan e Copobrás. Opera com alavancagem (custo ~8,06% a.a.). Fonte: Relatório de Gestão Zagros, ref. maio/2026.",
+   "pontos_atencao": "Provisão para devedores duvidosos (PDD) de R$ 2,49 mi referente ao inquilino Covolan — sinal de estresse de crédito em locatário; acompanhar. Perfil monoinquilino concentra receita em poucos nomes (Ambev ~11%): saída ou renegociação de um inquilino relevante tem impacto desproporcional. Fundo alavancado (~8% a.a.), o que amplifica resultado e risco. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "GRUL11",
@@ -3950,7 +3956,10 @@
    "analise": "Negocia a 1.00x o valor patrimonial — prêmio de 25% frente à mediana do segmento (0.80). Dividend yield (12m) de 9.7%, abaixo da mediana dos pares (11.2%); supera 31% do segmento. Retorno de 15.3% em 12 meses (top 40% do segmento). Liquidez alta (~R$ 4.7 mi/dia). Cotação a 98% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. ",
    "cotas": 23238024.000309147,
-   "cotacao_em": "2026-06-27"
+   "cotacao_em": "2026-06-27",
+   "analise_qual": "Relatório de maio/2026: Patria Renda Urbana FII (HGRU11, ex-CSHG Renda Urbana), portfólio de varejo (supermercados e lojas) e educacional, com predominância de contratos atípicos de longo prazo. PL ~R$ 3,0 bi. Dividend yield patrimonial de 8,8% a.a. e vacância financeira muito baixa (0,8%). Opera com alavancagem financeira. Fonte: Relatório Gerencial Patria, ref. maio/2026.",
+   "pontos_atencao": "Vacância baixíssima (0,8%) e contratos atípicos dão previsibilidade, mas concentram risco em poucos locatários/redes — o distrato de um contrato atípico relevante tem efeito desproporcional. Alavancagem financeira amplifica resultado e sensibilidade a juros. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "HLOG11",
@@ -4213,7 +4222,10 @@
    "analise": "Negocia a 0.83x o valor patrimonial — prêmio de 3% frente à mediana do segmento (0.80). Dividend yield (12m) de 9.7%, abaixo da mediana dos pares (11.2%); supera 33% do segmento. Retorno de 11.9% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 5.9 mi/dia). Cotação a 91% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "cotas": 21329976.00023261,
-   "cotacao_em": "2026-06-27"
+   "cotacao_em": "2026-06-27",
+   "analise_qual": "Relatório de maio/2026: HSI Malls FII (HSML11), FII de shopping centers sob gestão da HSI, PL ~R$ 2,2 bi. Dividend yield anualizado de ~9,7%, com distribuição de R$ 0,75/cota no mês. Inadimplência líquida em nível controlado. O fundo opera com alavancagem. Fonte: Relatório Gerencial HSI, ref. maio/2026.",
+   "pontos_atencao": "FII de shoppings é sensível ao consumo e ao desempenho de vendas dos lojistas; a inadimplência, ainda que controlada, merece acompanhamento em cenário de juros altos. Opera alavancado, o que amplifica resultado e risco. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "HSRE11",
@@ -10106,7 +10118,10 @@
    "analise": "Negocia a 0.86x o valor patrimonial — prêmio de 7% frente à mediana do segmento (0.80). Dividend yield (12m) de 10.9%, abaixo da mediana dos pares (11.2%); supera 48% do segmento. Retorno de 2.2% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 8.1 mi/dia). Cotação a 89% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. ",
    "cotas": 51390097.89333629,
-   "cotacao_em": "2026-06-27"
+   "cotacao_em": "2026-06-27",
+   "analise_qual": "Relatório de maio/2026: XP Log FII (XP Asset), um dos maiores FIIs logísticos do país (PL ~R$ 5,4 bi, 344.312 cotistas, gestão ativa, ~1,72 mi m² de área construída). Dividend yield anualizado de 10,14% sobre a cota de mercado (R$ 97,00 no fechamento do mês). Vacância física de 8,1% e financeira de 3,9% — elevada em ativos específicos (ex.: CD Leroy ~12%, em expansão) e compensada por galpões 100% locados (ex.: CD MercadoLivre Guarulhos). Inclui a controlada NE Logistic FII. Fonte: Relatório Gerencial XP Asset, ref. maio/2026.",
+   "pontos_atencao": "Vacância física (8,1%) bem acima da financeira (3,9%), concentrada em poucos ativos (CD Leroy ~12%) — acompanhar a reocupação, pois pressiona o resultado distribuível. Gestão ativa logística exposta à dinâmica de e-commerce e à renovação/reajuste de contratos (IPCA/IGP-M). Liquidez alta, mas o yield depende da manutenção da ocupação. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "XPML11",
