@@ -147,6 +147,10 @@ def main():
         if not rel:
             continue
         rid = str(rel["id"])
+        # Não sobrescrever análises manuais ricas (marcadas com "manual-...")
+        if str(f.get("analise_qual_id", "")).startswith("manual"):
+            pulados += 1
+            continue
         if f.get("analise_qual_id") == rid:
             pulados += 1
             continue
