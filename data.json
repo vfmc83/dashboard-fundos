@@ -5688,7 +5688,10 @@
    "analise": "Negocia a 1.03x o valor patrimonial — prêmio de 17% frente à mediana do segmento (0.88). Dividend yield (12m) de 12.5%, abaixo da mediana dos pares (14.5%); supera 9% do segmento. Retorno de 15.6% em 12 meses (top 33% do segmento). Liquidez alta (~R$ 5.4 mi/dia). Cotação a 99% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). ",
    "cotas": 202202385.00552484,
-   "cotacao_em": "2026-06-27"
+   "cotacao_em": "2026-06-27",
+   "analise_qual": "Relatório de maio/2026: Kinea Securities FII (KNSC11), FII de papel/CRI da Kinea, com concentração em CRIs indexados à inflação (IPCA), cota ~R$ 9. No mês, resultado gerado de R$ 0,11/cota e distribuído R$ 0,10/cota, mantendo pequena reserva acumulada (~R$ 0,07/cota). Fonte: Relatório Mensal Kinea, ref. maio/2026.",
+   "pontos_atencao": "Distribui quase todo o resultado gerado (R$ 0,10 de R$ 0,11), com reserva pequena (~R$ 0,07/cota) — menos folga que pares. O relatório cita inadimplência na carteira, com mecanismos de mitigação (ex.: fundo de reserva com obrigação de recomposição pela MRV em CRI relevante) — acompanhar. Exposição ao IPCA torna o rendimento sensível à inflação corrente. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "KNUQ11",
@@ -7347,7 +7350,10 @@
    "analise": "Negocia a 0.89x o valor patrimonial — prêmio de 0% frente à mediana do segmento (0.88). Dividend yield (12m) de 15.5%, acima da mediana dos pares (14.5%); supera 69% do segmento. Retorno de 10.9% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 5.8 mi/dia). Cotação a 94% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). ",
    "cotas": 12769512.0,
-   "cotacao_em": "2026-06-27"
+   "cotacao_em": "2026-06-27",
+   "analise_qual": "Relatório de maio/2026: RBR Crédito Estruturado FII (RBRY11), FII de papel/CRI da RBR. Em maio, resultado distribuível de R$ 1,14/cota; pela política de linearização, distribuiu R$ 1,00/cota, com a reserva de lucro aumentando. Carteira indexada majoritariamente ao CDI (taxa de aquisição ~CDI+4,1%, marcação ~CDI+3,9%, prazo médio ~2,1 anos) e ao IPCA. Fonte: Relatório Gerencial RBR, ref. maio/2026.",
+   "pontos_atencao": "Distribui menos do que gera (R$ 1,00 vs resultado R$ 1,14/cota), acumulando reserva — sinal positivo de sustentabilidade e folga para meses fracos, mas o yield corrente fica abaixo do potencial. Carteira de CRIs sujeita ao risco de crédito dos devedores e à marcação a mercado (spreads). Prazo médio curto (~2,1 anos) reduz a sensibilidade a juros. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "RBVA11",
@@ -8679,7 +8685,10 @@
    "analise": "Negocia a 0.49x o valor patrimonial — desconto de 5% frente à mediana do segmento (0.52). Dividend yield (12m) de 19.9%, acima da mediana dos pares (19.9%); supera 50% do segmento. Retorno de -32.1% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 7.8 mi/dia). Cotação a 60% da máxima de 52 semanas. Base comparativa: 5 pares do segmento Desenvolvimento. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: execução e venda das obras e fluxo de caixa irregular. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "cotas": 23567968.363636363,
-   "cotacao_em": "2026-06-27"
+   "cotacao_em": "2026-06-27",
+   "analise_qual": "Relatório de maio/2026: TG Ativo Real FII (TGAR11), FII de desenvolvimento focado em loteamentos urbanos, projetos Minha Casa Minha Vida (classe equity MCMV) e, mais recentemente, imóveis para renda. PL de ~R$ 2,5 bi em forte expansão — encerrou a 10ª oferta com captação de R$ 503,2 mi e superou 50 mil investidores. No mês, alocou volume recorde de R$ 179,9 mi e fez a primeira aquisição/distribuição da nova classe de imóveis para renda. Fonte: Relatório Gerencial TG Core, ref. maio/2026.",
+   "pontos_atencao": "Perfil de desenvolvimento/loteamento tem risco e retorno mais altos que FIIs de renda: a inadimplência acumulada no urbanismo é estruturalmente elevada (típica de parcelamento de lotes) e o resultado depende do ritmo de vendas e da execução dos projetos. Crescimento acelerado via ofertas sucessivas exige disciplina de alocação. Menos previsível que FIIs de tijolo/papel. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "TJKB11",
