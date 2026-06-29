@@ -159,7 +159,7 @@ function Header(){
   </div></header>);
 }
 
-function Scatter({fundos,onSel}){
+function Scatter({fundos,onSel,comparar}){
   const [hv,setHv]=useState(null);
   const W=920,H=340,pad=46;
   const pts=fundos.filter(f=>f.pvpa!=null && f.dy_ltm!=null && f.dy_ltm<0.5 && f.pvpa<2.2 && f.pvpa>0);
@@ -177,10 +177,13 @@ function Scatter({fundos,onSel}){
       {[0,0.05,0.1,0.15,0.2,0.25].filter(t=>t<=yMax).map(t=>(<text key={t} x={pad-8} y={Y(t)+3} fontSize="10" textAnchor="end" fill="var(--neutro)">{(t*100).toFixed(0)}%</text>))}
       <text x={W/2} y={H-6} fontSize="11" textAnchor="middle" fill="var(--neutro)">P/VP →</text>
       <text x={14} y={20} fontSize="11" fill="var(--neutro)">DY LTM ↑</text>
-      {pts.map(p=>{const on=hv&&hv.f.ticker===p.ticker;return (
-        <circle key={p.ticker} cx={X(p.pvpa)} cy={Y(p.dy_ltm)} r={on?7:4} fill={HEX[p.classe]} fillOpacity={on?1:0.66}
-          stroke={on?'#fff':'none'} strokeWidth={on?1.5:0} style={{cursor:'pointer'}}
-          onMouseMove={e=>setHv({f:p,x:e.clientX,y:e.clientY})} onMouseLeave={()=>setHv(null)} onClick={()=>onSel(p)}/>);})}
+      {pts.map(p=>{const on=hv&&hv.f.ticker===p.ticker;const mk=comparar&&comparar.has(p.ticker);const dim=comparar&&comparar.size>0&&!mk;return (
+        <g key={p.ticker}>
+        <circle cx={X(p.pvpa)} cy={Y(p.dy_ltm)} r={on?7:(mk?6:4)} fill={HEX[p.classe]} fillOpacity={dim?0.14:(on||mk?1:0.66)}
+          stroke={mk?'var(--petroleo)':(on?'#fff':'none')} strokeWidth={mk?2:(on?1.5:0)} style={{cursor:'pointer'}}
+          onMouseMove={e=>setHv({f:p,x:e.clientX,y:e.clientY})} onMouseLeave={()=>setHv(null)} onClick={()=>onSel(p)}/>
+        {mk && <text x={X(p.pvpa)+9} y={Y(p.dy_ltm)+3.5} fontSize="10.5" fontWeight="700" fill="var(--petroleo)" style={{pointerEvents:'none'}}>{p.ticker}</text>}
+        </g>);})}
     </svg>
     <div className="legend">{classes.map(c=>(<span key={c}><i style={{background:HEX[c]}}></i>{c}</span>))}<span style={{marginLeft:'auto'}}>Passe o mouse para ver · clique para abrir</span></div>
     {hv && <div className="tooltip" style={{left:Math.min(hv.x+14,window.innerWidth-250),top:hv.y+14}}>
@@ -198,7 +201,7 @@ function Bars({items,fmt,onClick}){
     </div>))}</div>);
 }
 
-function Analises({fundos,classe,onSel}){
+function Analises({fundos,classe,onSel,comparar}){
   const [tab,setTab]=useState('disp');
   const [mSeg,setMSeg]=useState('dy');
   const [mRk,setMRk]=useState('dy');
@@ -223,7 +226,7 @@ function Analises({fundos,classe,onSel}){
       <button className={'tab'+(tab==='seg'?' on':'')} onClick={()=>setTab('seg')}>Comparativo por segmento</button>
       <button className={'tab'+(tab==='rk'?' on':'')} onClick={()=>setTab('rk')}>Rankings</button>
     </div>
-    {tab==='disp' && <div><div className="cap">Cada ponto é um fundo; cor por classe. Quanto mais alto e à esquerda, maior o yield com menor preço sobre patrimônio.</div><Scatter fundos={fundos} onSel={onSel}/></div>}
+    {tab==='disp' && <div><div className="cap">Cada ponto é um fundo; cor por classe. Quanto mais alto e à esquerda, maior o yield com menor preço sobre patrimônio. Marque fundos na tabela abaixo para destacá-los no gráfico.</div><Scatter fundos={fundos} onSel={onSel} comparar={comparar}/></div>}
     {tab==='seg' && <div>
       <div className="seg-sel">{Object.entries(segDefs).map(([k,d])=>(<button key={k} className={mSeg===k?'on':''} onClick={()=>setMSeg(k)}>{d[0]}</button>))}</div>
       <Bars items={segItems} fmt={segDefs[mSeg][2]}/></div>}
@@ -418,7 +421,7 @@ function App(){
         <div className="kpi"><div className="k">DY LTM mediano</div><div className="v">{pct(mediana(filtrados.map(f=>f.dy_ltm)))}</div></div>
         <div className="kpi"><div className="k">P/VP mediano</div><div className="v">{num(mediana(filtrados.map(f=>f.pvpa)))}</div></div>
       </div>
-      <Analises fundos={filtrados} classe={classe} onSel={setSel}/>
+      <Analises fundos={filtrados} classe={classe} onSel={setSel} comparar={comparar}/>
       <div className="panel"><Tabela fundos={filtrados} onSel={setSel} comparar={comparar} toggleCmp={toggleCmp} sortKey={sortKey} sortDir={sortDir} setSort={setSort}/></div>
     </div>
     <Footer meta={data.meta}/>
