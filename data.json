@@ -5539,7 +5539,10 @@
    "analise": "Negocia a 0.93x o valor patrimonial — prêmio de 8% frente à mediana do segmento (0.86). Dividend yield (12m) de 12.7%, abaixo da mediana dos pares (14.3%); supera 13% do segmento. Retorno de 17.2% em 12 meses (top 13% do segmento). Liquidez alta (~R$ 3.9 mi/dia). Cotação a 95% da máxima de 52 semanas. Base comparativa: 16 pares do segmento Gestão ativa. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: decisões de alocação do gestor, maior giro e volatilidade. ",
    "cotas": 19663234.999469273,
-   "cotacao_em": "2026-06-29"
+   "cotacao_em": "2026-06-29",
+   "analise_qual": "Relatório de maio/2026: Kinea Hedge Fund FII (KNHF11), FII de gestão ativa multiestratégia da Kinea (imóveis físicos, CRIs e posições táticas), PL ~R$ 1,98 bi. No mês, resultado gerado e distribuído em equilíbrio (R$ 1,00/cota), com reserva acumulada confortável (~R$ 0,88/cota). Componente imobiliário com ocupação de 98,0% e NOI anual estimado de ~R$ 43 mi. Fonte: Relatório Mensal Kinea, ref. maio/2026.",
+   "pontos_atencao": "Estratégia multiativo (tijolo + crédito + tático) tem resultado mais volátil e menos transparente que renda pura — exige confiança na gestão. Há inadimplências na carteira de crédito, mitigadas por fundo de reserva. Distribui exatamente o que gera (R$ 1,00), mas a reserva (~R$ 0,88) dá folga. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "KNHY11",
@@ -5738,7 +5741,10 @@
    "analise": "Negocia a 1.04x o valor patrimonial — prêmio de 17% frente à mediana do segmento (0.88). Dividend yield (12m) de 14.5%, acima da mediana dos pares (14.5%); supera 52% do segmento. Retorno de 16.9% em 12 meses (top 27% do segmento). Liquidez alta (~R$ 4.6 mi/dia). Cotação a 100% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). ",
    "cotas": 21484730.0,
-   "cotacao_em": "2026-06-29"
+   "cotacao_em": "2026-06-29",
+   "analise_qual": "Relatório de maio/2026: Kinea Unique HY CDI FII (KNUQ11), FII de papel/CRI 'high yield' da Kinea, indexado ao CDI, cota ~R$ 105. No mês, resultado gerado de R$ 1,28/cota e distribuído R$ 1,17/cota, mantendo robusta reserva acumulada (~R$ 0,74/cota). DY corrente da ordem de ~13% a.a. Fonte: Relatório Mensal Kinea, ref. maio/2026.",
+   "pontos_atencao": "Mandato 'high yield' = CRIs de maior risco/retorno: acompanhar inadimplência e garantias (o fundo cita inadimplências, mitigadas por fundo de reserva). Indexação ao CDI favorece o carrego com Selic alta, mas o risco de crédito é mais elevado que em fundos high grade. Reserva confortável (~R$ 0,74/cota) dá folga à distribuição. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "KOPA11",
@@ -6718,7 +6724,10 @@
    "analise": "Negocia a 0.89x o valor patrimonial — prêmio de 11% frente à mediana do segmento (0.80). Dividend yield (12m) de 10.6%, abaixo da mediana dos pares (11.2%); supera 46% do segmento. Retorno de 15.0% em 12 meses (top 41% do segmento). Liquidez alta (~R$ 4.6 mi/dia). Cotação a 95% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. ",
    "cotas": 13982093.000192752,
-   "cotacao_em": "2026-06-29"
+   "cotacao_em": "2026-06-29",
+   "analise_qual": "Relatório de maio/2026: Patria Malls FII (PMLL11), FII de shopping centers (gestão Patria), PL ~R$ 1,6 bi. Distribuição de R$ 1,00/cota no mês (resultado distribuível de R$ 0,82/cota — distribuiu acima do gerado, usando reserva); média de R$ 0,92/cota em 12 meses. Dividend yield de ~11,2% a.a. (mercado) e ocupação de 96,4%. Acompanha Same Store Sales/Rent. Fonte: Relatório Gerencial Patria, ref. maio/2026.",
+   "pontos_atencao": "Distribui acima do que gera (R$ 1,00 vs R$ 0,82/cota), consumindo reserva — atenção à sustentabilidade. FII de shoppings é sensível ao consumo; monitorar Same Store Sales/Rent e a ocupação (96,4%). [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "PORD11",
@@ -6906,7 +6915,10 @@
    "analise": "Negocia a 0.67x o valor patrimonial — desconto de 16% frente à mediana do segmento (0.80). Dividend yield (12m) de 7.4%, abaixo da mediana dos pares (11.2%); supera 11% do segmento. Retorno de 2.6% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 4.5 mi/dia). Cotação a 88% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "cotas": 27130066.999449946,
-   "cotacao_em": "2026-06-29"
+   "cotacao_em": "2026-06-29",
+   "analise_qual": "Relatório de maio/2026: VBI Prime Properties FII (PVBI11, gestão Patria), FII de lajes corporativas premium (escritórios AAA em São Paulo), PL ~R$ 2,9 bi. Distribuição de R$ 0,40/cota no mês (resultado distribuível de R$ 0,36/cota — distribuiu acima do gerado, usando reserva); média de R$ 0,45/cota em 12 meses. Dividend yield de ~6,5% a.a. (mercado). Fonte: Relatório Gerencial Patria, ref. maio/2026.",
+   "pontos_atencao": "Vacância elevada: física de 17,1% e financeira de 18,9% — risco relevante do setor de escritórios (excesso de oferta e trabalho híbrido), que pressiona receita e resultado. Distribui acima do que gera (R$ 0,40 vs R$ 0,36/cota), consumindo reserva. DY relativamente baixo (~6,5%) para o nível atual de vacância. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "RBFM11",
@@ -7248,7 +7260,10 @@
    "analise": "Negocia a 0.84x o valor patrimonial — desconto de 5% frente à mediana do segmento (0.88). Dividend yield (12m) de 12.6%, abaixo da mediana dos pares (14.5%); supera 12% do segmento. Retorno de 0.9% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 4.1 mi/dia). Cotação a 91% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "cotas": 16300275.0,
-   "cotacao_em": "2026-06-29"
+   "cotacao_em": "2026-06-29",
+   "analise_qual": "Relatório de maio/2026: RBR Rendimento High Grade FII (RBRR11), FII de papel/CRI 'high grade' de gestão ativa (RBR). No mês, resultado distribuível de R$ 1,05/cota (já líquido de impacto extraordinário negativo de R$ 0,04/cota de vendas de CRIs) e rendimento anunciado de R$ 0,95/cota, aumentando a reserva; média de R$ 0,83/cota em 12 meses. Fonte: Relatório Gerencial RBR, ref. maio/2026.",
+   "pontos_atencao": "Distribui menos do que gera (R$ 0,95 vs R$ 1,05/cota), reforçando reserva — positivo para a sustentabilidade. Carteira 'high grade' reduz o risco de crédito, mas há gestão ativa com giro de CRIs (vendas geraram impacto no mês). Como CRI, sujeito à marcação a mercado e ao risco dos devedores. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "RBRS11",
@@ -7324,7 +7339,10 @@
    "analise": "Negocia a 0.83x o valor patrimonial — desconto de 4% frente à mediana do segmento (0.86). Dividend yield (12m) de 13.4%, abaixo da mediana dos pares (14.3%); supera 40% do segmento. Retorno de 15.2% em 12 meses (top 27% do segmento). Liquidez alta (~R$ 6.1 mi/dia). Cotação a 94% da máxima de 52 semanas. Base comparativa: 16 pares do segmento Gestão ativa. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: decisões de alocação do gestor, maior giro e volatilidade. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "cotas": 146354302.00492004,
-   "cotacao_em": "2026-06-29"
+   "cotacao_em": "2026-06-29",
+   "analise_qual": "Relatório de maio/2026: RBR Plus Multiestratégia FII (RBRX11), FII de gestão ativa multiestratégia (CRIs, tijolo, fundos e posições táticas), PL ~R$ 1,43 bi. Negocia com desconto (cota patrimonial R$ 9,76, P/VP ~0,86). No mês, resultado distribuível de R$ 0,05/cota e rendimento distribuído de R$ 0,09/cota (acima do gerado, com apoio de reserva/ganhos). Fonte: Relatório Gerencial RBR, ref. maio/2026.",
+   "pontos_atencao": "Distribui bem acima do resultado corrente (R$ 0,09 vs R$ 0,05/cota) — depende de ganhos de capital/reserva, menos previsível e possivelmente insustentável. Estratégia multiativo tem resultado mais volátil que renda pura. Desconto de ~14% sobre o VP pode ser oportunidade, mas reflete ceticismo com o resultado recorrente. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "RBRY11",
@@ -9345,7 +9363,10 @@
    "analise": "Negocia a 0.98x o valor patrimonial — prêmio de 11% frente à mediana do segmento (0.88). Dividend yield (12m) de 15.9%, acima da mediana dos pares (14.5%); supera 75% do segmento. Retorno de 18.6% em 12 meses (top 17% do segmento). Liquidez alta (~R$ 4.6 mi/dia). Cotação a 99% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). ",
    "cotas": 146101287.00312173,
-   "cotacao_em": "2026-06-29"
+   "cotacao_em": "2026-06-29",
+   "analise_qual": "Relatório de maio/2026: Valora CRI CDI FII (VGIR11), FII de papel/CRI da Valora indexado ao CDI, cota ~R$ 9,6. Distribuição de ~R$ 0,13/cota no mês (R$ 1,53/cota em 12 meses). Rentabilidade da carteira na faixa de CDI+1,5% a CDI+2,2% a.a. No mês, destaque para a amortização parcial do CRI RV Ipiranga 2 (R$ 5,5 mi). Fonte: Relatório Gerencial Valora, ref. maio/2026.",
+   "pontos_atencao": "Carteira de CRIs de bom perfil (spread modesto sobre o CDI, ~CDI+2%) — risco de crédito relativamente controlado, mas o yield acompanha o CDI e cai com a Selic. Acompanhar amortizações/pré-pagamentos (ex.: RV Ipiranga 2) que reduzem a base de ativos rentáveis e exigem realocação. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "VGRI11",
