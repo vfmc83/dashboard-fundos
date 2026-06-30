@@ -1869,7 +1869,10 @@
    "analise": "Negocia a 0.90x o valor patrimonial — prêmio de 13% frente à mediana do segmento (0.80). Dividend yield (12m) de 3.9%, abaixo da mediana dos pares (11.2%); supera 1% do segmento. Retorno de 11.1% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 4.2 mi/dia). Cotação a 100% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. ",
    "cotas": 5489284.0,
-   "cotacao_em": "2026-06-29"
+   "cotacao_em": "2026-06-29",
+   "analise_qual": "Relatório de março/2026: Capitânia Office FII (CPOF11), FII de lajes corporativas (escritórios, gestão Capitânia), PL ~R$ 695 mi. A ocupação saltou para 97,5% (restando praticamente apenas meia laje vaga) — recuperação relevante para um fundo de escritórios. Rendimento de R$ 0,43/cota no mês. Fonte: Relatório Mensal Capitânia, ref. março/2026.",
+   "pontos_atencao": "Setor de escritórios segue sob pressão estrutural (trabalho híbrido, oferta); embora a ocupação tenha melhorado para 97,5%, manter a locação e renovar contratos a bons valores é o principal desafio. Acompanhar a vacância financeira (inclui carência/descontos), normalmente acima da física. Relatório referente a março (defasado ~2 meses). [Relatório de março/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "CPSH11",
@@ -2065,7 +2068,10 @@
    "analise": "Negocia a 1.05x o valor patrimonial — prêmio de 31% frente à mediana do segmento (0.80). Dividend yield (12m) de 10.6%, abaixo da mediana dos pares (11.2%); supera 44% do segmento. Retorno de 9.3% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 4.6 mi/dia). Cotação a 97% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. ",
    "cotas": 67825745.0,
-   "cotacao_em": "2026-06-29"
+   "cotacao_em": "2026-06-29",
+   "analise_qual": "Relatório de abril/2026: Capitânia Renda Urbana FII (CPUR11), FII de renda urbana (gestão Capitânia), PL ~R$ 656 mi. Distribuição de R$ 0,059/cota no mês, equivalente a um dividend yield de ~7,0% a.a. A gestão está em tratativas para aquisição de novos ativos (reposição/reciclagem de portfólio). Fonte: Relatório Mensal Capitânia, ref. abril/2026.",
+   "pontos_atencao": "Dividend yield baixo (~7% a.a.) frente a pares e ao CDI atual — o fundo rende menos que a renda fixa no momento, o que pesa na atratividade. Está em fase de reposição de ativos; o resultado depende da conclusão e qualidade das novas aquisições. Relatório referente a abril (defasado). [Relatório de abril/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "CRAA11",
@@ -4735,7 +4741,10 @@
    "analise": "Negocia a 0.79x o valor patrimonial — desconto de 11% frente à mediana do segmento (0.88). Dividend yield (12m) de 14.8%, acima da mediana dos pares (14.5%); supera 64% do segmento. Retorno de 12.6% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 3.8 mi/dia). Cotação a 91% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "cotas": 35225947.00030239,
-   "cotacao_em": "2026-06-29"
+   "cotacao_em": "2026-06-29",
+   "analise_qual": "Relatório de maio/2026: Iridium Recebíveis Imobiliários FII (IRIM11), FII de papel/CRI da Iridium, PL ~R$ 2,95 bi. Negocia com desconto relevante: cota patrimonial de R$ 83,83 vs cota de mercado de R$ 68,70 (P/VP ~0,82, desconto de ~18%). Carteira de CRIs com movimentações no mês (ex.: aumentos em CRI Faro Energy a IPCA+10,5% e CRI Pátio Malzoni). Fonte: Relatório Gerencial Iridium, ref. maio/2026.",
+   "pontos_atencao": "Há um CRI em atraso cujo efeito financeiro será reconhecido apenas no resultado de junho — inadimplência pontual a acompanhar, que pode pressionar o resultado/distribuição do próximo mês. O desconto de ~18% sobre o VP pode ser oportunidade, mas costuma refletir preocupações do mercado com a carteira de crédito. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "ITIP11",
@@ -7994,7 +8003,10 @@
    "analise": "Negocia a 0.91x o valor patrimonial — prêmio de 14% frente à mediana do segmento (0.80). Dividend yield (12m) de 13.5%, acima da mediana dos pares (11.2%); supera 74% do segmento. Retorno de 11.6% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 3.7 mi/dia). Cotação a 95% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. ",
    "cotas": 18851720.0,
-   "cotacao_em": "2026-06-29"
+   "cotacao_em": "2026-06-29",
+   "analise_qual": "Relatório de abril/2026: Riza Terrax FII (RZTR11), FII de agronegócio focado em terras agrícolas (sale-leaseback/arrendamento, gestão Riza), com fazendas em regiões como Sorriso, Canarana e São José do Xingu (MT). Cota patrimonial de R$ 91,74. Último rendimento pago de R$ 1,00/cota (DY mensal de 1,11%; 14,17% em 12 meses). A colheita da soja foi finalizada com boas condições das lavouras. Fonte: Relatório de Gestão Riza, ref. abril/2026.",
+   "pontos_atencao": "FII de terras agrícolas tem risco ligado ao agronegócio (preço de commodities, clima, capacidade de pagamento dos arrendatários) — acompanhar inadimplência e o desempenho das safras. DY alto (~14%) é atrativo, mas a previsibilidade depende dos contratos de arrendamento e da saúde financeira dos produtores. Relatório referente a abril. [Relatório de abril/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "RZZR11",
@@ -8374,7 +8386,10 @@
    "analise": "Negocia a 1.01x o valor patrimonial — prêmio de 2% frente à mediana do segmento (0.99). Dividend yield (12m) de 14.6%, acima da mediana dos pares (14.0%); supera 75% do segmento. Retorno de 11.5% em 12 meses (top 50% do segmento). Liquidez alta (~R$ 4.5 mi/dia). Cotação a 98% da máxima de 52 semanas. Base comparativa: 7 pares do segmento Outros. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: riscos específicos do segmento de atuação. ",
    "cotas": 110660070.0,
-   "cotacao_em": "2026-06-29"
+   "cotacao_em": "2026-06-29",
+   "analise_qual": "Relatório de abril/2026: SNEL11 (gestão Suno Asset), FII voltado ao setor de geração distribuída de energia (solar), em fase de ramp-up — a ocupação/contratação ponderada da capacidade estava em 38,7%, com início em outubro/2025. PL ~R$ 899 mi. Por estar em maturação, a geração de resultado e a distribuição ainda estão se consolidando. Fonte: Relatório Gerencial Suno, ref. abril/2026.",
+   "pontos_atencao": "Fundo em fase inicial (ramp-up): apenas ~38,7% da capacidade contratada — o resultado e a distribuição ainda são baixos e dependem da entrada em operação dos projetos de geração distribuída. Risco regulatório (ANEEL) e de execução. Perfil diferente de FIIs de renda madura: maior incerteza no curto prazo. [Relatório de abril/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "SNFF11",
@@ -9246,7 +9261,10 @@
    "analise": "Negocia a 0.71x o valor patrimonial — desconto de 17% frente à mediana do segmento (0.86). Dividend yield (12m) de 15.4%, acima da mediana dos pares (14.3%); supera 73% do segmento. Retorno de -11.6% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 3.7 mi/dia). Cotação a 84% da máxima de 52 semanas. Base comparativa: 16 pares do segmento Gestão ativa. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: decisões de alocação do gestor, maior giro e volatilidade. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "cotas": 164721683.0,
-   "cotacao_em": "2026-06-29"
+   "cotacao_em": "2026-06-29",
+   "analise_qual": "Relatório de maio/2026: Valora Hedge Fund FII (VGHF11), FII de gestão ativa multiestratégia da Valora (CRIs e posições táticas), cota ~R$ 8. Distribuição de R$ 0,07/cota no mês (R$ 0,92/cota em 12 meses), com dividend yield anualizado na faixa de ~9,6% a 11,3%. Fonte: Relatório Gerencial Valora, ref. maio/2026.",
+   "pontos_atencao": "Exposição a crédito estressado: os CRIs da Selina (rede de hotéis em dificuldade) seguem marcados a mercado (desvalorizados) — risco de perda/recuperação incerta nessa posição. Estratégia multiativo tem resultado mais volátil; acompanhar a inadimplência da carteira de crédito. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "VGIA11",
