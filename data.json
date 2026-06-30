@@ -1449,7 +1449,10 @@
    "analise": "Negocia a 0.89x o valor patrimonial — prêmio de 0% frente à mediana do segmento (0.88). Dividend yield (12m) de 12.9%, abaixo da mediana dos pares (14.5%); supera 19% do segmento. Retorno de 14.7% em 12 meses (top 39% do segmento). Liquidez alta (~R$ 3.4 mi/dia). Cotação a 98% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). ",
    "cotas": 99521172.0,
-   "cotacao_em": "2026-06-29"
+   "cotacao_em": "2026-06-29",
+   "analise_qual": "Relatório de maio/2026: BTG Pactual Crédito Imobiliário FII (BTCI11), FII de papel/CRI do BTG. Distribuição mensal de R$ 0,095/cota, com dividend yield de 12,8% a.a. (mercado) e 11,8% (patrimonial). Carteira de CRIs sujeita à marcação a mercado. Fonte: Relatório Gerencial BTG, ref. maio/2026.",
+   "pontos_atencao": "DY corrente atrativo (~12,8%), mas é carteira de CRIs sujeita ao risco de crédito dos devedores e à marcação a mercado (variação de spreads impacta a cota patrimonial). Acompanhar a inadimplência da carteira. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "BTHF11",
@@ -3851,7 +3854,10 @@
    "analise": "Negocia a 0.94x o valor patrimonial — prêmio de 6% frente à mediana do segmento (0.88). Dividend yield (12m) de 12.9%, abaixo da mediana dos pares (14.5%); supera 20% do segmento. Retorno de 12.2% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 3.2 mi/dia). Cotação a 95% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). ",
    "cotas": 15418106.000432383,
-   "cotacao_em": "2026-06-29"
+   "cotacao_em": "2026-06-29",
+   "analise_qual": "Relatório de maio/2026: Patria Recebíveis do Brasil FII (HGCR11, ex-CSHG Recebíveis), FII de papel/CRI de gestão ativa (Patria). No mês, resultado distribuível de R$ 0,92/cota e rendimento distribuído de R$ 0,95/cota. Carteira de CRIs com operações estruturadas (ex.: CDI+3,50% a.a.). Fonte: Relatório Gerencial Patria, ref. maio/2026.",
+   "pontos_atencao": "Distribui um pouco acima do que gera (R$ 0,95 vs R$ 0,92/cota), consumindo levemente reserva. Carteira de CRIs sujeita ao risco de crédito e à marcação a mercado; operações estruturadas (CDI+3,5%) carregam risco/retorno acima do high grade puro. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "HGLG11",
@@ -5158,7 +5164,10 @@
    "analise": "Negocia a 0.58x o valor patrimonial — desconto de 27% frente à mediana do segmento (0.80). Dividend yield (12m) de 9.6%, abaixo da mediana dos pares (11.2%); supera 29% do segmento. Retorno de 3.4% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 3.3 mi/dia). Cotação a 89% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "cotas": 20767328.000333,
-   "cotacao_em": "2026-06-29"
+   "cotacao_em": "2026-06-29",
+   "analise_qual": "Relatório de abril/2026: JS Real Estate Multigestão FII (JSRE11, gestão Safra), FII de lajes corporativas premium (escritórios de alto padrão em São Paulo), cota de fechamento ~R$ 64,80. Vacância física estável em ~7% e crescimento real de aluguéis de 9,3% (reajustes/relocações positivos). Fonte: Relatório Gerencial Safra, ref. abril/2026.",
+   "pontos_atencao": "Setor de escritórios sob pressão estrutural (trabalho híbrido, oferta); a vacância de ~7% é controlada (melhor que vários pares) e os aluguéis cresceram em termos reais, mas manter a ocupação e os reajustes é o desafio central. Relatório referente a abril (defasado). [Relatório de abril/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "JURO11",
@@ -5589,7 +5598,10 @@
    "analise": "Negocia a 1.01x o valor patrimonial — prêmio de 14% frente à mediana do segmento (0.88). Dividend yield (12m) de 13.4%, abaixo da mediana dos pares (14.5%); supera 31% do segmento. Retorno de 12.3% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 2.9 mi/dia). Cotação a 99% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). ",
    "cotas": 31173083.00020129,
-   "cotacao_em": "2026-06-29"
+   "cotacao_em": "2026-06-29",
+   "analise_qual": "Relatório de maio/2026: Kinea High Yield FII (KNHY11), FII de papel/CRI 'high yield' da Kinea. No mês, resultado gerado de R$ 1,51/cota e distribuído R$ 1,30/cota, mantendo reserva acumulada (~R$ 0,34/cota) — distribui menos do que gera. Fonte: Relatório Mensal Kinea, ref. maio/2026.",
+   "pontos_atencao": "Mandato 'high yield' = CRIs de maior risco/retorno: acompanhar inadimplência e garantias (o fundo cita inadimplências, mitigadas por fundo de reserva). Distribui abaixo do resultado (R$ 1,30 de R$ 1,51), reforçando reserva — positivo para a sustentabilidade, mas o risco de crédito é mais elevado que high grade. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "KNIP11",
@@ -5979,7 +5991,10 @@
    "analise": "Negocia a 0.87x o valor patrimonial — prêmio de 9% frente à mediana do segmento (0.80). Dividend yield (12m) de 8.6%, abaixo da mediana dos pares (11.2%); supera 16% do segmento. Retorno de 12.2% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 3.4 mi/dia). Cotação a 96% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. ",
    "cotas": 16118564.999522582,
-   "cotacao_em": "2026-06-29"
+   "cotacao_em": "2026-06-29",
+   "analise_qual": "Relatório de maio/2026: VBI Logística FII (LVBI11, gestão Patria), FII de galpões logísticos com vacância física e financeira de 0,0% (portfólio 100% locado). Distribuição de R$ 0,75/cota no mês (resultado distribuível de R$ 0,72 — distribuiu levemente acima do gerado); dividend yield de ~8,3% a.a. (mercado). Fonte: Relatório Gerencial Patria, ref. maio/2026.",
+   "pontos_atencao": "Ocupação plena (0% de vacância) é positiva, mas concentra o risco na renovação de contratos e na reposição de inquilinos. DY de ~8,3% é moderado para logística. Distribui um pouco acima do resultado (R$0,75 vs R$0,72), consumindo levemente a reserva. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "MANA11",
@@ -7579,7 +7594,10 @@
    "analise": "Negocia a 0.91x o valor patrimonial — prêmio de 3% frente à mediana do segmento (0.88). Dividend yield (12m) de 13.3%, abaixo da mediana dos pares (14.5%); supera 27% do segmento. Retorno de 10.6% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 3.3 mi/dia). Cotação a 98% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). ",
    "cotas": 26441650.0,
-   "cotacao_em": "2026-06-29"
+   "cotacao_em": "2026-06-29",
+   "analise_qual": "Relatório de maio/2026: REC Recebíveis Imobiliários FII (RECR11), FII de papel/CRI da REC Gestão. Dividendo de R$ 1,118/cota no mês, equivalente a um dividend yield de 1,354% a.m. (~163% do CDI líquido, ~17,5% a.a.). Negocia com leve desconto: cota de mercado R$ 82,54 vs patrimonial R$ 88,42 (P/VP ~0,93). Fonte: Relatório Mensal REC, ref. maio/2026.",
+   "pontos_atencao": "DY muito elevado (~163% do CDI) sinaliza carteira de CRIs de maior risco/retorno — acompanhar de perto a inadimplência e as garantias (em caso de inadimplência, a securitizadora pode assumir o controle da SPE/ativo). Como CRI, sujeito à marcação a mercado. Desconto de ~7% sobre o VP é modesto. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "RECT11",
@@ -9460,7 +9478,10 @@
    "analise": "Negocia a 0.84x o valor patrimonial — prêmio de 5% frente à mediana do segmento (0.80). Dividend yield (12m) de 9.7%, abaixo da mediana dos pares (11.2%); supera 32% do segmento. Retorno de 25.1% em 12 meses (top 14% do segmento). Liquidez alta (~R$ 3.4 mi/dia). Cotação a 93% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "cotas": 14997396.000424132,
-   "cotacao_em": "2026-06-29"
+   "cotacao_em": "2026-06-29",
+   "analise_qual": "Relatório de maio/2026: Vinci Logística FII (VILG11), FII de galpões logísticos (gestão Vinci), com ocupação de 100% e inquilinos de primeira linha (ex.: DHL, Supera Farma). Distribuição de R$ 0,82/cota em maio, dentro do guidance de rendimentos. Fonte: Relatório Gerencial Vinci, ref. maio/2026.",
+   "pontos_atencao": "Ocupação plena (100%) é positiva, mas concentra risco na renovação de contratos e na manutenção dos inquilinos-âncora. Setor logístico sujeito à dinâmica de e-commerce e à expansão da oferta de galpões; acompanhar reajustes (IPCA/IGP-M). [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "VINO11",
