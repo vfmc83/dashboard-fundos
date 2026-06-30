@@ -3502,7 +3502,10 @@
    "analise": "Negocia a 0.90x o valor patrimonial — prêmio de 13% frente à mediana do segmento (0.80). Retorno de 40.0% em 12 meses (top 6% do segmento). Liquidez alta (~R$ 5.8 mi/dia). Cotação a 100% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. ",
    "cotas": 96106665.97379914,
-   "cotacao_em": "2026-06-29"
+   "cotacao_em": "2026-06-29",
+   "analise_qual": "Relatório de abril/2026 (mais recente): General Shopping & Outlets FII (GSFI11), FII de shoppings/outlets (ex.: Outlet Premium São Paulo, Parque Shopping Barueri), ABL própria de ~140 mil m². No mês, distribuição de R$ 0,00/cota (dividend yield 0,0%) — não houve pagamento de rendimentos. Estrutura com alavancagem relevante. Fonte: Relatório Mensal General Shopping, ref. abril/2026.",
+   "pontos_atencao": "ALERTA: distribuição de R$ 0,00/cota — o fundo não pagou rendimento, sinal de estresse (caixa retido para serviço da dívida/reestruturação). General Shopping é historicamente muito alavancado, com o resultado consumido pelo custo da dívida. Risco elevado e perfil especulativo: a retomada de distribuições depende de desalavancagem e melhora operacional. [Relatório de abril/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "GSRF11",
@@ -3801,7 +3804,10 @@
    "analise": "Negocia a 0.95x o valor patrimonial — prêmio de 19% frente à mediana do segmento (0.80). Dividend yield (12m) de 9.8%, abaixo da mediana dos pares (11.2%); supera 36% do segmento. Retorno de 10.0% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 5.8 mi/dia). Cotação a 94% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. ",
    "cotas": 144355726.00000003,
-   "cotacao_em": "2026-06-29"
+   "cotacao_em": "2026-06-29",
+   "analise_qual": "Relatório de maio/2026: Hedge Brasil Shopping FII (HGBS11), um dos maiores FIIs de shopping centers do país (PL ~R$ 2,94 bi, 144,4 mi de cotas; ex.: Boulevard Shopping Bauru). Distribuição de R$ 0,170/cota em maio (dividend yield da ordem de ~10% a.a. sobre a cota de mercado). Taxa de administração de 0,60% a.a. Inadimplência líquida acompanhada (série de 12 meses) e em patamar controlado. Fonte: Relatório Gerencial Hedge, ref. maio/2026.",
+   "pontos_atencao": "FII de shoppings é sensível ao consumo e às vendas dos lojistas; acompanhar a inadimplência líquida e o efeito de juros altos sobre o varejo. O fundo opera alavancado (desde jun/2023), o que amplifica resultado e risco. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "HGCR11",
@@ -4263,7 +4269,10 @@
    "analise": "Negocia a 0.99x o valor patrimonial — prêmio de 8% frente à mediana do segmento (0.91). Dividend yield (12m) de 13.4%, acima da mediana dos pares (12.3%); supera 62% do segmento. Retorno de -5.8% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 8.5 mi/dia). Cotação a 83% da máxima de 52 semanas. Base comparativa: 9 pares do segmento Híbrido. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: combinação de riscos de crédito (CRI) e de vacância dos imóveis. ",
    "cotas": 8898724.0,
-   "cotacao_em": "2026-06-29"
+   "cotacao_em": "2026-06-29",
+   "analise_qual": "Relatório de maio/2026: HSI Renda Imobiliária FII (HSRE11), FII híbrido da HSI, PL ~R$ 770 mi. Distribuição de R$ 0,85/cota no mês. Portfólio imobiliário físico com ABL de ~105,2 mil m² e ocupação de 100% (sem vacância). Fonte: Relatório Gerencial HSI, ref. maio/2026.",
+   "pontos_atencao": "Fundo de porte menor (PL ~R$ 770 mi) e portfólio físico concentrado em poucos ativos (ABL ~105 mil m²): a saída de um locatário relevante teria impacto desproporcional, embora a ocupação esteja em 100%. Perfil híbrido exige acompanhar a composição e a sustentabilidade da distribuição. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "HTMX11",
@@ -6067,7 +6076,10 @@
    "analise": "Negocia a 0.98x o valor patrimonial — prêmio de 11% frente à mediana do segmento (0.88). Dividend yield (12m) de 12.8%, abaixo da mediana dos pares (14.5%); supera 17% do segmento. Retorno de 22.2% em 12 meses (top 9% do segmento). Liquidez alta (~R$ 5.3 mi/dia). Cotação a 98% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). ",
    "cotas": 16960024.0,
-   "cotacao_em": "2026-06-29"
+   "cotacao_em": "2026-06-29",
+   "analise_qual": "Relatório de junho/2026: Mauá Capital Recebíveis Imobiliários FII (MCCI11), FII de papel/CRI da Mauá Capital. Distribuição de R$ 1,00/cota, equivalente a um dividend yield anualizado de ~13,3% a.a. A gestão guia a distribuição mensal entre R$ 0,90 e R$ 1,00/cota para o 1º semestre de 2026, com expectativa de manutenção. Carteira de CRIs com LTV, subordinação e duration acompanhados. Fonte: Relatório Mensal Mauá Capital, ref. junho/2026.",
+   "pontos_atencao": "DY corrente elevado (~13,3%) sustentado por carteira de CRIs — acompanhar inadimplência, qualidade das garantias (LTV/subordinação) e marcação a mercado dos papéis. O guidance de R$ 0,90–1,00/cota sinaliza possível queda em meses mais fracos. [Relatório de junho/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "MCRE11",
