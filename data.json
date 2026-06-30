@@ -349,7 +349,10 @@
    "analise": "Negocia a 0.92x o valor patrimonial — prêmio de 0% frente à mediana do segmento (0.91). Dividend yield (12m) de 10.4%, abaixo da mediana dos pares (12.3%); supera 38% do segmento. Retorno de 6.2% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 2.8 mi/dia). Cotação a 93% da máxima de 52 semanas. Base comparativa: 9 pares do segmento Híbrido. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: combinação de riscos de crédito (CRI) e de vacância dos imóveis. ",
    "cotas": 164512251.00307062,
-   "cotacao_em": "2026-06-29"
+   "cotacao_em": "2026-06-29",
+   "analise_qual": "Relatório de maio/2026: Alianza Trust Renda Imobiliária FII (ALZR11), FII de tijolo com portfólio em contratos atípicos de longo prazo (Built-to-Suit e Sale&Leaseback) e ocupação de 100%. Em maio houve reajuste de aluguel do ativo Scala. Gestão Alianza. Fonte: Relatório Gerencial Alianza, ref. maio/2026.",
+   "pontos_atencao": "Contratos atípicos (BTS/SLB) dão alta previsibilidade de receita e proteção contra vacância, mas concentram risco no crédito dos poucos locatários — a saída ou inadimplência de um inquilino relevante tem impacto desproporcional. Acompanhar a qualidade dos locatários e os vencimentos dos contratos atípicos. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "APXM11",
@@ -1490,7 +1493,10 @@
    "analise": "Negocia a 0.91x o valor patrimonial — prêmio de 5% frente à mediana do segmento (0.86). Dividend yield (12m) de 12.9%, abaixo da mediana dos pares (14.3%); supera 20% do segmento. Retorno de 20.8% em 12 meses (top 7% do segmento). Liquidez alta (~R$ 3.1 mi/dia). Cotação a 98% da máxima de 52 semanas. Base comparativa: 16 pares do segmento Gestão ativa. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: decisões de alocação do gestor, maior giro e volatilidade. ",
    "cotas": 205846939.99999997,
-   "cotacao_em": "2026-06-29"
+   "cotacao_em": "2026-06-29",
+   "analise_qual": "Relatório de maio/2026: BTG Pactual Real Estate Hedge Fund FII (BTHF11), FII de gestão ativa multiestratégia do BTG (combina imóveis, CRIs e posições táticas, inclusive em ações), PL ~R$ 2,1 bi, 320 mil cotistas, cota de mercado ~R$ 9,27. Rendimento de R$ 0,101/cota no mês, com dividend yield de ~13,1% a.a. Fonte: Relatório Gerencial BTG, ref. maio/2026.",
+   "pontos_atencao": "Estratégia 'hedge fund' multiativo (imóveis + crédito + ações + tático) tem resultado mais volátil e menos previsível que FIIs de renda — o próprio mês teve destaque para resultado com operações em ações. Sujeito à marcação a mercado e ao risco das posições táticas; exige confiança na gestão. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "BTLG11",
@@ -1913,7 +1919,10 @@
    "analise": "Negocia a 0.86x o valor patrimonial — prêmio de 8% frente à mediana do segmento (0.80). Dividend yield (12m) de 13.3%, acima da mediana dos pares (11.2%); supera 72% do segmento. Retorno de 15.4% em 12 meses (top 38% do segmento). Liquidez alta (~R$ 3.9 mi/dia). Cotação a 95% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. ",
    "cotas": 123163843.99799597,
-   "cotacao_em": "2026-06-29"
+   "cotacao_em": "2026-06-29",
+   "analise_qual": "Relatório de abril/2026: Capitânia Shoppings FII (CPSH11), FII de participações em shopping centers (ex.: Iguatemi Alpha), ABL própria de ~36 mil m², gestão Capitânia. Distribuição de R$ 0,11/cota no mês, com dividend yield de 13,31% a.a. Ocupação de 100%. Opera com alavancagem. Fonte: Relatório Mensal Capitânia, ref. abril/2026.",
+   "pontos_atencao": "DY elevado (~13,3%) para um fundo de shoppings sugere alavancagem e/ou componente não recorrente — acompanhar a sustentabilidade. Detém participações (muitas vezes minoritárias) em shoppings, o que limita a ingerência na gestão dos ativos. Sensível ao consumo; relatório referente a abril (defasado). [Relatório de abril/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "CPTI11",
@@ -4091,7 +4100,10 @@
    "analise": "Negocia a 0.92x o valor patrimonial — prêmio de 15% frente à mediana do segmento (0.80). Dividend yield (12m) de 8.8%, abaixo da mediana dos pares (11.2%); supera 19% do segmento. Retorno de 6.5% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 4.1 mi/dia). Cotação a 92% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. ",
    "cotas": 7050992.0,
-   "cotacao_em": "2026-06-29"
+   "cotacao_em": "2026-06-29",
+   "analise_qual": "Relatório de maio/2026: Hedge Shopping Parque Dom Pedro FII (HPDP11), FII monoativo do Shopping Parque Dom Pedro (Campinas/SP), gestão Hedge. Distribuição de R$ 0,61/cota em maio. Vacância muito baixa (1,5%) e inadimplência líquida controlada. Fonte: Relatório Gerencial Hedge, ref. maio/2026.",
+   "pontos_atencao": "Fundo MONOATIVO: toda a receita vem de um único shopping (Parque Dom Pedro) — risco concentrado; qualquer evento específico do ativo (concorrência, obras, perda de âncoras) afeta integralmente o fundo. A vacância está baixa (1,5%) e a inadimplência controlada, mas a falta de diversificação é o ponto central. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "HREC11",
@@ -6183,7 +6195,10 @@
    "analise": "Negocia a 0.52x o valor patrimonial — prêmio de 1% frente à mediana do segmento (0.52). Dividend yield (12m) de 24.7%, acima da mediana dos pares (19.9%); supera 100% do segmento. Retorno de -26.6% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 2.8 mi/dia). Cotação a 67% da máxima de 52 semanas. Base comparativa: 5 pares do segmento Desenvolvimento. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: execução e venda das obras e fluxo de caixa irregular. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "cotas": 6800000.0,
-   "cotacao_em": "2026-06-29"
+   "cotacao_em": "2026-06-29",
+   "analise_qual": "Relatório de maio/2026: Mérito Desenvolvimento Imobiliário FII (MFII11), FII de desenvolvimento imobiliário (incorporação/loteamentos), gestão Mérito. Rendimento de R$ 0,91/cota no mês (DY mensal de 1,69%; ~23,1% em 12 meses). Fonte: Relatório Mensal Mérito, ref. maio/2026.",
+   "pontos_atencao": "DY muito alto (~23% em 12 meses) é típico de fundo de DESENVOLVIMENTO — retorno elevado, mas risco e volatilidade altos: o resultado depende do ritmo de vendas, da entrega das obras e do ciclo imobiliário. Menos previsível que FIIs de renda; parte do rendimento pode incluir devolução de capital. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "MXRF11",
@@ -6636,7 +6651,10 @@
    "analise": "Negocia a 0.96x o valor patrimonial — prêmio de 20% frente à mediana do segmento (0.80). Dividend yield (12m) de 10.3%, abaixo da mediana dos pares (11.2%); supera 39% do segmento. Retorno de 46.2% em 12 meses (top 3% do segmento). Liquidez alta (~R$ 3.8 mi/dia). Cotação a 92% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. ",
    "cotas": 5452634.000000001,
-   "cotacao_em": "2026-06-29"
+   "cotacao_em": "2026-06-29",
+   "analise_qual": "Relatório de maio/2026: PLAG11 (gestão Patria), FII com portfólio imobiliário físico totalmente ocupado (vacância de 0,0%), PL ~R$ 358 mi. Distribuição de R$ 0,65/cota no mês, com dividend yield de ~12,4% a.a. (mercado); média de R$ 0,54/cota em 12 meses. Fonte: Relatório Gerencial Patria, ref. maio/2026.",
+   "pontos_atencao": "ALERTA de sustentabilidade: o resultado distribuível recorrente foi de apenas R$ 0,22/cota, mas o fundo distribuiu R$ 0,65/cota — quase 3x o gerado, apoiado em ganhos não recorrentes/reserva. Esse nível de distribuição não se sustenta com o resultado atual; o DY de ~12,4% pode cair de forma relevante quando a reserva se esgotar. Fundo pequeno (PL ~R$ 358 mi). [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "PLCA11",
@@ -6902,7 +6920,10 @@
    "analise": "Negocia a 0.76x o valor patrimonial — desconto de 12% frente à mediana do segmento (0.86). Dividend yield (12m) de 13.9%, abaixo da mediana dos pares (14.3%); supera 47% do segmento. Retorno de -1.5% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 3.0 mi/dia). Cotação a 92% da máxima de 52 semanas. Base comparativa: 16 pares do segmento Gestão ativa. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: decisões de alocação do gestor, maior giro e volatilidade. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "cotas": 18399377.99929241,
-   "cotacao_em": "2026-06-29"
+   "cotacao_em": "2026-06-29",
+   "analise_qual": "Relatório de maio/2026: Patria Securities FII (PSEC11), FII de papel/CRI da Patria, PL ~R$ 1,37 bi. Negocia com desconto relevante: cota patrimonial de R$ 74,66 e P/VP de ~0,79 (desconto de ~21%). No mês, resultado distribuível de R$ 0,57/cota e rendimento distribuído de R$ 0,55/cota (distribui um pouco abaixo do gerado, reforçando reserva). Fonte: Relatório Gerencial Patria, ref. maio/2026.",
+   "pontos_atencao": "Desconto de ~21% sobre o VP é dos maiores entre os pares — pode ser oportunidade, mas costuma refletir preocupações do mercado com a carteira de crédito (qualidade dos CRIs/devedores). Acompanhar inadimplência e marcação a mercado. Por outro lado, distribui menos do que gera, o que ajuda a sustentabilidade. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "PVBI11",
