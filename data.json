@@ -3784,7 +3784,10 @@
    "analise": "Negocia a 0.83x o valor patrimonial — prêmio de 1% frente à mediana do segmento (0.83). Dividend yield (12m) de 10.7%, abaixo da mediana dos pares (13.2%); supera 13% do segmento. Retorno de 22.5% em 12 meses (top 7% do segmento). Liquidez alta (~R$ 2.7 mi/dia). Cotação a 95% da máxima de 52 semanas. Base comparativa: 15 pares do segmento FoF. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: desempenho e taxas dos FIIs investidos e dupla camada de custos. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "cotas": 219693000.0,
-   "cotacao_em": "2026-06-29"
+   "cotacao_em": "2026-06-29",
+   "analise_qual": "Relatório de maio/2026: Hedge Top FOFII 3 FII (HFOF11), um fundo de fundos (FoF) que investe em cotas de outros FIIs, gestão Hedge. PL ~R$ 1,71 bi, 94 mil cotistas. Negocia com desconto: cota patrimonial de R$ 7,77 vs cota de mercado de R$ 6,72 (P/VP ~0,87). Fonte: Relatório Gerencial Hedge, ref. maio/2026.",
+   "pontos_atencao": "Como FoF, o desempenho depende da carteira de outros FIIs e há dupla camada de taxas (do HFOF + dos fundos investidos). O desconto de ~13% sobre o VP soma-se aos descontos dos FIIs da carteira (desconto sobre desconto) — pode ser oportunidade, mas reflete o momento fraco da indústria de FIIs. A marcação a mercado das cotas investidas gera volatilidade. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "HGBS11",
@@ -6158,7 +6161,10 @@
    "analise": "Negocia a 0.88x o valor patrimonial — prêmio de 2% frente à mediana do segmento (0.86). Dividend yield (12m) de 14.7%, acima da mediana dos pares (14.3%); supera 60% do segmento. Retorno de 22.7% em 12 meses (top 0% do segmento). Liquidez alta (~R$ 2.8 mi/dia). Cotação a 94% da máxima de 52 semanas. Base comparativa: 16 pares do segmento Gestão ativa. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: decisões de alocação do gestor, maior giro e volatilidade. ",
    "cotas": 111598920.99999999,
-   "cotacao_em": "2026-06-29"
+   "cotacao_em": "2026-06-29",
+   "analise_qual": "Relatório de junho/2026: MCRE11 (gestão Mauá Capital), FII híbrido que combina CRIs (CDI+4,1% e IPCA+8,9%), imóveis e FIIs estruturados (~44% da carteira). Distribuição de R$ 0,11/cota, com dividend yield anualizado de 15,3% a.a. Ativo imobiliário (operador logístico) com vacância de 0,0%. Fonte: Relatório Mensal Mauá Capital, ref. junho/2026.",
+   "pontos_atencao": "DY elevado (~15,3%) reflete estratégia híbrida com componentes de maior risco (CRIs estruturados, FIIs estruturados, IPCA+8,9%) — acompanhar inadimplência e marcação a mercado. A parcela de 'FIIs estruturados' e imóveis adiciona complexidade e dependência da gestão ativa. Parte do retorno pode incluir ganhos não recorrentes. [Relatório de junho/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "MFII11",
@@ -6614,7 +6620,10 @@
    "analise": "Negocia a 0.86x o valor patrimonial — desconto de 3% frente à mediana do segmento (0.88). Dividend yield (12m) de 13.6%, abaixo da mediana dos pares (14.5%); supera 36% do segmento. Retorno de 9.2% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 2.8 mi/dia). Cotação a 95% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). ",
    "cotas": 17011707.000375893,
-   "cotacao_em": "2026-06-29"
+   "cotacao_em": "2026-06-29",
+   "analise_qual": "Relatório de maio/2026: Patria Crédito Índice de Preços FII (PCIP11), FII de papel/CRI da Patria com carteira majoritariamente indexada à inflação (IPCA+). Rendimento distribuído de R$ 0,89/cota no mês. Taxa de administração de 1,0% a.a. Fonte: Relatório Gerencial Patria, ref. maio/2026.",
+   "pontos_atencao": "Carteira de CRIs indexados ao IPCA — o rendimento é sensível à inflação corrente (cai se a inflação desacelerar) e os papéis sofrem marcação a mercado com a variação de juros reais. Risco de crédito dos devedores dos CRIs; acompanhar inadimplência. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "PLAG11",
@@ -9149,7 +9158,10 @@
    "analise": "Negocia a 0.80x o valor patrimonial — desconto de 10% frente à mediana do segmento (0.88). Dividend yield (12m) de 14.2%, abaixo da mediana dos pares (14.5%); supera 44% do segmento. Retorno de 4.4% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 2.6 mi/dia). Cotação a 94% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "cotas": 14723970.0,
-   "cotacao_em": "2026-06-29"
+   "cotacao_em": "2026-06-29",
+   "analise_qual": "Relatório de maio/2026: Vectis Juros Real FII (VCJR11, gestão Patria), FII de papel/CRI com carteira indexada a juros reais/inflação (IPCA+). Rendimento distribuído de R$ 1,00/cota no mês. Fonte: Relatório Gerencial Patria, ref. maio/2026.",
+   "pontos_atencao": "Carteira de CRIs indexada à inflação (IPCA+) — rendimento sensível à inflação corrente e à marcação a mercado dos papéis com a variação de juros reais. Parte do resultado tem componente não recorrente (a receita recorrente é inferior ao distribuído no mês). Acompanhar inadimplência e a qualidade dos CRIs. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "VCRA11",
