@@ -237,7 +237,10 @@
    "analise": "Negocia a 0.80x o valor patrimonial — prêmio de 0% frente à mediana do segmento (0.80). Dividend yield (12m) de 6.7%, abaixo da mediana dos pares (11.2%); supera 6% do segmento. Retorno de 44.8% em 12 meses (top 4% do segmento). Liquidez média (~R$ 1.7 mi/dia). Cotação a 98% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "cotas": 4824987.0,
-   "cotacao_em": "2026-07-01"
+   "cotacao_em": "2026-07-01",
+   "analise_qual": "Relatório de maio/2026: Arch Edifícios Corporativos FII (AIEC11, ex-Autonomy), FII de lajes corporativas em recuperação. Distribuição de R$ 0,34/cota. O portfólio atingiu ~92% de ocupação, mas com parte relevante dos novos contratos ainda em carência/desconto de 1º ano — a receita plena desses contratos ainda não se reflete no resultado. Fonte: Relatório Gerencial Arch, ref. maio/2026.",
+   "pontos_atencao": "Fundo de escritórios em RECUPERAÇÃO após vacância elevada: apesar da ocupação ter subido para ~92%, os novos contratos estão em carência/desconto, então a distribuição atual (R$ 0,34/cota) é baixa e só deve melhorar quando as carências terminarem. Risco de execução da retomada somado à pressão estrutural do setor de escritórios. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "AJFI11",
@@ -1228,7 +1231,10 @@
    "analise": "Negocia a 0.53x o valor patrimonial — desconto de 34% frente à mediana do segmento (0.80). Dividend yield (12m) de 11.6%, acima da mediana dos pares (11.2%); supera 57% do segmento. Retorno de 12.0% em 12 meses (abaixo da mediana do segmento). Liquidez média (~R$ 1.8 mi/dia). Cotação a 88% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "cotas": 26638202.0,
-   "cotacao_em": "2026-07-01"
+   "cotacao_em": "2026-07-01",
+   "analise_qual": "Relatório de maio/2026: BTG Pactual Corporate Office Fund (BRCR11, o antigo BC Fund), um dos maiores FIIs de lajes corporativas do país (9 imóveis, PL ~R$ 2,28 bi, 112 mil cotistas). Rendimento de R$ 0,41/cota no mês, com dividend yield de ~11% a.a. sobre a cota de mercado (R$ 44,82). Vacância financeira de 8,8%. Fonte: Relatório Gerencial BTG, ref. maio/2026.",
+   "pontos_atencao": "Setor de escritórios sob pressão estrutural (trabalho híbrido, oferta) — a vacância financeira de 8,8% precisa recuar para sustentar o resultado. DY de ~11% é atrativo, mas depende da manutenção da ocupação e dos reajustes de aluguel. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "BRFT11",
@@ -1612,7 +1618,10 @@
    "analise": "Negocia a 0.25x o valor patrimonial — desconto de 72% frente à mediana do segmento (0.88). Dividend yield (12m) de 55.4%, acima da mediana dos pares (14.5%); supera 100% do segmento. Retorno de -71.3% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 2.5 mi/dia). Cotação a 28% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "cotas": 4836324.000000001,
-   "cotacao_em": "2026-07-01"
+   "cotacao_em": "2026-07-01",
+   "analise_qual": "Relatório de maio/2026: Cartesia Recebíveis Imobiliários FII (CACR11), FII de papel/CRI com carteira indexada à inflação (IPCA/IBGE). Destaque para a baixa inadimplência (< 1% acima de 90 dias), indicando carteira de bom perfil de crédito. Fonte: Relatório Gerencial Cartesia, ref. maio/2026.",
+   "pontos_atencao": "Carteira de CRIs indexada ao IPCA — rendimento sensível à inflação corrente e à marcação a mercado (juros reais). A inadimplência está baixa (<1%), o que é positivo, mas o risco de crédito dos devedores e de eventos pontuais permanece. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "CCME11",
@@ -1764,7 +1773,10 @@
    "analise": "Negocia a 0.92x o valor patrimonial — prêmio de 4% frente à mediana do segmento (0.88). Dividend yield (12m) de 13.1%, abaixo da mediana dos pares (14.5%); supera 23% do segmento. Retorno de 13.7% em 12 meses (top 45% do segmento). Liquidez alta (~R$ 2.4 mi/dia). Cotação a 99% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). ",
    "cotas": 4346762.999999999,
-   "cotacao_em": "2026-07-01"
+   "cotacao_em": "2026-07-01",
+   "analise_qual": "Relatório de maio/2026: Clave Índices de Preços FII (CLIN11), FII de papel/CRI indexado à inflação (IPCA), gestão Clave. Distribuição de R$ 0,95/cota no mês, com dividend yield de 12,84% a.a. (mercado). Inadimplência da carteira baixa (ex.: MRV Flex I e III em ~2,7%). Cobra taxa de performance de 20% sobre o excedente ao benchmark. Fonte: Relatório Mensal Clave, ref. maio/2026.",
+   "pontos_atencao": "Carteira de CRIs indexada ao IPCA — rendimento sensível à inflação e à marcação a mercado (juros reais). Há taxa de performance (20%), que reduz o retorno líquido em meses fortes. A inadimplência está baixa, mas concentrações como MRV (~2,7%) merecem acompanhamento. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "CNES11",
@@ -3948,7 +3960,10 @@
    "analise": "Negocia a 0.85x o valor patrimonial — prêmio de 6% frente à mediana do segmento (0.80). Dividend yield (12m) de 10.0%, abaixo da mediana dos pares (11.2%); supera 38% do segmento. Retorno de 18.8% em 12 meses (top 27% do segmento). Liquidez alta (~R$ 2.3 mi/dia). Cotação a 96% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. ",
    "cotas": 11817767.000239216,
-   "cotacao_em": "2026-07-01"
+   "cotacao_em": "2026-07-01",
+   "analise_qual": "Relatório de maio/2026: Patria Real Estate FII (HGRE11, ex-CSHG Real Estate), FII de lajes corporativas (escritórios). Distribuição de R$ 0,85/cota (resultado distribuível de R$ 0,89 — distribui abaixo do gerado, reforçando reserva); dividend yield de ~7,8% a.a. (mercado). Vacância física de 5,8% e financeira de 4,4%. Fonte: Relatório Gerencial Patria, ref. maio/2026.",
+   "pontos_atencao": "Setor de escritórios sob pressão estrutural (trabalho híbrido, oferta); a vacância física de 5,8% é moderada. DY de ~7,8% é baixo frente ao CDI atual. Positivo: distribui abaixo do resultado (R$0,85 de R$0,89), reforçando reserva. Acompanhar a manutenção da ocupação e os reajustes. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "HGRU11",
@@ -9394,7 +9409,10 @@
    "analise": "Negocia a 0.87x o valor patrimonial — desconto de 2% frente à mediana do segmento (0.88). Dividend yield (12m) de 12.7%, abaixo da mediana dos pares (14.5%); supera 14% do segmento. Retorno de 10.2% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 2.5 mi/dia). Cotação a 99% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). ",
    "cotas": 11787247.0,
-   "cotacao_em": "2026-07-01"
+   "cotacao_em": "2026-07-01",
+   "analise_qual": "Relatório de maio/2026: Valora CRI Índice de Preço FII (VGIP11), FII de papel/CRI da Valora indexado à inflação (IPCA+). Distribuição de R$ 0,73/cota no mês (ante ~R$ 1,05–1,08 nos meses anteriores; R$ 10,09/cota em 12 meses). Fonte: Relatório Gerencial Valora, ref. maio/2026.",
+   "pontos_atencao": "Distribuição indexada ao IPCA oscila com a inflação corrente — o rendimento caiu para R$ 0,73/cota (de ~R$ 1,05), refletindo menor inflação no período; tende a variar mês a mês. Carteira de CRIs sujeita a risco de crédito e marcação a mercado. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "VGIR11",
@@ -9742,7 +9760,10 @@
    "analise": "Negocia a 0.87x o valor patrimonial — desconto de 2% frente à mediana do segmento (0.88). Dividend yield (12m) de 14.0%, abaixo da mediana dos pares (14.5%); supera 41% do segmento. Retorno de 2.1% em 12 meses (abaixo da mediana do segmento). Liquidez média (~R$ 1.7 mi/dia). Cotação a 94% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). ",
    "cotas": 15592423.999999998,
-   "cotacao_em": "2026-07-01"
+   "cotacao_em": "2026-07-01",
+   "analise_qual": "Relatório de maio/2026: Fator Verità FII (VRTA11), um dos FIIs de papel/CRI mais tradicionais (gestão Fator), com carteira indexada à inflação e spread de ~CDI+4,5%. Distribuição de R$ 0,85/cota no mês (R$ 10,20 em 12 meses). No mês adquiriu mais R$ 1,8 mi do CRI Summus (IPCA+11,5% a.a.). Fonte: Relatório Mensal Fator, ref. maio/2026.",
+   "pontos_atencao": "Distribui acima do resultado: o rendimento de R$ 0,85/cota superou o resultado gerado em ~R$ 0,28/cota, consumindo reserva — atenção à sustentabilidade se o padrão persistir. Carteira de CRIs sujeita a risco de crédito e marcação a mercado; alocações recentes em papéis de maior spread (IPCA+11,5%) elevam retorno e risco. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "VRTM11",
