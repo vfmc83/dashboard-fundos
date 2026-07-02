@@ -1153,7 +1153,10 @@
    "analise": "Negocia a 0.71x o valor patrimonial — desconto de 11% frente à mediana do segmento (0.80). Dividend yield (12m) de 15.0%, acima da mediana dos pares (11.2%); supera 88% do segmento. Retorno de 28.9% em 12 meses (top 12% do segmento). Liquidez média (~R$ 1.2 mi/dia). Cotação a 92% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "cotas": 7441744.999999999,
-   "cotacao_em": "2026-07-02"
+   "cotacao_em": "2026-07-02",
+   "analise_qual": "Relatório de maio/2026: BTG Pactual Shoppings FII (BPML11), FII de shopping centers (8 shoppings), ~R$ 655 mi de valor de mercado, 6.242 cotistas. Rendimento de R$ 0,92/cota no mês, com dividend yield de 12,55% a.a. Ocupação de 93,3% e vendas de ~R$ 1.259/m², impulsionadas pelo Dia das Mães (+8,6%). Inadimplência controlada. Fonte: Relatório Gerencial BTG, ref. maio/2026.",
+   "pontos_atencao": "FII de shoppings sensível ao consumo; a ocupação de 93,3% tem margem para melhorar e a inadimplência está controlada. DY de ~12,5% é atrativo. Acompanhar as vendas nas mesmas lojas (SSS) e o efeito de juros altos sobre o varejo. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "BRCO11",
@@ -3686,7 +3689,10 @@
    "analise": "Negocia a 0.76x o valor patrimonial — desconto de 15% frente à mediana do segmento (0.88). Dividend yield (12m) de 16.4%, acima da mediana dos pares (14.5%); supera 81% do segmento. Retorno de 2.2% em 12 meses (abaixo da mediana do segmento). Liquidez média (~R$ 1.3 mi/dia). Cotação a 94% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "cotas": 8126783.0,
-   "cotacao_em": "2026-07-02"
+   "cotacao_em": "2026-07-02",
+   "analise_qual": "Relatório de maio/2026: Habitat Recebíveis Pulverizados FII (HABT11, gestão Habitat/XP), FII de papel/CRI focado em recebíveis pulverizados (crédito imobiliário fragmentado, tipicamente residencial/loteamento). Rendimento distribuído de R$ 0,95/cota, com yield anualizado de ~19,95% (142% do CDI, com gross-up). Fonte: Relatório Gerencial Habitat, ref. maio/2026.",
+   "pontos_atencao": "DY muito elevado (~142% do CDI) reflete carteira de recebíveis pulverizados de ALTO risco/retorno — crédito residencial/loteamento com maior inadimplência estrutural, ainda que pulverizado reduza o impacto individual. Acompanhar de perto a inadimplência e a recuperação de garantias. Perfil bem mais arriscado que CRIs high grade. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "HCRI11",
@@ -5123,7 +5129,10 @@
    "analise": "Negocia a 0.79x o valor patrimonial — desconto de 5% frente à mediana do segmento (0.83). Dividend yield (12m) de 13.7%, acima da mediana dos pares (13.2%); supera 67% do segmento. Retorno de 8.0% em 12 meses (abaixo da mediana do segmento). Liquidez média (~R$ 1.8 mi/dia). Cotação a 94% da máxima de 52 semanas. Base comparativa: 15 pares do segmento FoF. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: desempenho e taxas dos FIIs investidos e dupla camada de custos. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "cotas": 77523290.0,
-   "cotacao_em": "2026-07-02"
+   "cotacao_em": "2026-07-02",
+   "analise_qual": "Relatório de abril/2026: JS Ativos Financeiros FII (JSAF11, gestão Safra), fundo de fundos/multiestratégia (investe em cotas de outros FIIs e ativos), PL ~R$ 727 mi. Dividend yield anualizado de ~9,4%. Em abril teve variação patrimonial de -1,12%. Fonte: Relatório Gerencial Safra, ref. abril/2026.",
+   "pontos_atencao": "Como FoF/multiestratégia, o desempenho depende da carteira de outros FIIs e há dupla camada de taxas. A cota patrimonial oscila com a marcação a mercado dos fundos investidos. Menos previsível que FIIs de renda direta. Relatório referente a abril (defasado). [Relatório de abril/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "JSCR11",
@@ -5396,7 +5405,10 @@
    "analise": "Negocia a 0.85x o valor patrimonial — prêmio de 2% frente à mediana do segmento (0.83). Dividend yield (12m) de 12.2%, abaixo da mediana dos pares (13.2%); supera 33% do segmento. Retorno de 8.0% em 12 meses (abaixo da mediana do segmento). Liquidez média (~R$ 1.4 mi/dia). Cotação a 94% da máxima de 52 semanas. Base comparativa: 15 pares do segmento FoF. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: desempenho e taxas dos FIIs investidos e dupla camada de custos. ",
    "cotas": 7014565.0,
-   "cotacao_em": "2026-07-02"
+   "cotacao_em": "2026-07-02",
+   "analise_qual": "Relatório de maio/2026: Kinea Fundo de Fundos de FII (KFOF11), fundo de fundos que investe em cotas de outros FIIs (gestão Kinea), iniciado em set/2018. Renda mensal de R$ 0,80/cota (yield-mês de ~1,37%). Fonte: Relatório Gerencial Kinea, ref. maio/2026.",
+   "pontos_atencao": "Como FoF, depende da carteira de outros FIIs e há dupla camada de taxas. Parte do retorno vem de ganhos de capital com o giro das posições (menos previsível). A cota oscila com a marcação a mercado dos fundos investidos. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "KISU11",
@@ -6067,7 +6079,10 @@
    "analise": "Negocia a 0.99x o valor patrimonial — prêmio de 12% frente à mediana do segmento (0.88). Dividend yield (12m) de 14.4%, abaixo da mediana dos pares (14.5%); supera 47% do segmento. Retorno de 24.2% em 12 meses (top 5% do segmento). Liquidez média (~R$ 1.5 mi/dia). Cotação a 100% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). ",
    "cotas": 37536140.0,
-   "cotacao_em": "2026-07-02"
+   "cotacao_em": "2026-07-02",
+   "analise_qual": "Relatório de maio/2026: Manatí Hedge Fund FII (MANA11), FII de gestão ativa multiestratégia (posições em shoppings, lajes, logística e fundos de recebíveis, com viés tático). Cota de fechamento de R$ 9,26, com yield de ~16,7% a.a. (isento de IR). Fonte: Relatório Gerencial Manatí, ref. maio/2026.",
+   "pontos_atencao": "DY alto (~16,7%) reflete estratégia hedge/tática de maior risco e volatilidade — o resultado depende de acertos de alocação e de ganhos de capital, menos previsível que renda pura. Sujeito à marcação a mercado dos ativos investidos. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "MAXR11",
@@ -7297,7 +7312,10 @@
    "analise": "Negocia a 0.61x o valor patrimonial — desconto de 33% frente à mediana do segmento (0.91). Dividend yield (12m) de 9.7%, abaixo da mediana dos pares (12.3%); supera 25% do segmento. Retorno de 12.0% em 12 meses (abaixo da mediana do segmento). Liquidez média (~R$ 1.1 mi/dia). Cotação a 92% da máxima de 52 semanas. Base comparativa: 9 pares do segmento Híbrido. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: combinação de riscos de crédito (CRI) e de vacância dos imóveis. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "cotas": 12179186.938096205,
-   "cotacao_em": "2026-07-02"
+   "cotacao_em": "2026-07-02",
+   "analise_qual": "Relatório de maio/2026: RBR Properties FII (RBRP11, gestão RBR), FII de imóveis corporativos (lajes/escritórios, multiproperty). Distribuição de R$ 0,40/cota (resultado distribuível R$ 0,41 — em equilíbrio); dividend yield de ~9,3% a.a. (mercado). Fonte: Relatório Gerencial RBR, ref. maio/2026.",
+   "pontos_atencao": "ALERTA de vacância: física de 23,8% e financeira de 21,4% — muito elevada, pressiona fortemente a receita e o resultado. Setor de escritórios sob pressão estrutural; a recuperação da ocupação é o fator central. DY de ~9,3% (mercado) vs. ~6,0% (patrimonial) reflete o desconto da cota. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "RBRR11",
@@ -7537,7 +7555,10 @@
    "analise": "Negocia a 0.69x o valor patrimonial — desconto de 14% frente à mediana do segmento (0.80). Dividend yield (12m) de 8.3%, abaixo da mediana dos pares (11.2%); supera 15% do segmento. Retorno de 19.1% em 12 meses (top 25% do segmento). Liquidez média (~R$ 1.2 mi/dia). Cotação a 97% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "cotas": 3690695.0,
-   "cotacao_em": "2026-07-02"
+   "cotacao_em": "2026-07-02",
+   "analise_qual": "Relatório de maio/2026: Rio Bravo Renda Corporativa FII (RCRB11), um dos FIIs de lajes corporativas mais tradicionais (edifícios premium como o JK Financial Center), PL ~R$ 736 mi, carteira pulverizada em ~55 inquilinos. Distribuição de R$ 1,07/cota (DY anualizado de ~9,1%). Fonte: Relatório Gerencial Rio Bravo, ref. maio/2026.",
+   "pontos_atencao": "Setor de escritórios sob pressão estrutural (trabalho híbrido, oferta). Positivo: a carteira é diversificada (~55 inquilinos), o que reduz a concentração vs. fundos monoativos. Acompanhar a vacância e os reajustes; DY de ~9,1% é razoável, mas depende da manutenção da ocupação. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "RCRI11",
