@@ -278,7 +278,10 @@
    "analise": "Negocia a 0.76x o valor patrimonial — desconto de 5% frente à mediana do segmento (0.80). Dividend yield (12m) de 7.2%, abaixo da mediana dos pares (11.2%); supera 10% do segmento. Retorno de 25.0% em 12 meses (top 15% do segmento). Liquidez média (~R$ 1.0 mi/dia). Cotação a 99% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "cotas": 33625978.00000001,
-   "cotacao_em": "2026-07-02"
+   "cotacao_em": "2026-07-02",
+   "analise_qual": "Relatório de abril/2026: AJ Malls FII (AJFI11, gestão Capitânia), FII de shopping centers (participações), ativos de ~R$ 358 mi. Distribuição de R$ 0,05/cota, com dividend yield de 7,4% a.a. Ocupação de 100%. Fonte: Relatório Mensal Capitânia, ref. abril/2026.",
+   "pontos_atencao": "DY de ~7,4% a.a. está abaixo do CDI atual, reduzindo a atratividade. Fundo menor de participações em shoppings — sensível ao consumo e com menor ingerência sobre os ativos. Relatório referente a abril (defasado). [Relatório de abril/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "ALZC11",
@@ -1311,7 +1314,10 @@
    "analise": "Negocia a 0.51x o valor patrimonial — desconto de 36% frente à mediana do segmento (0.80). Dividend yield (12m) de 11.3%, acima da mediana dos pares (11.2%); supera 54% do segmento. Retorno de 22.8% em 12 meses (top 19% do segmento). Liquidez média (~R$ 1.0 mi/dia). Cotação a 92% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "cotas": 11610812.0,
-   "cotacao_em": "2026-07-02"
+   "cotacao_em": "2026-07-02",
+   "analise_qual": "Relatório de maio/2026: BR Office FII (BROF11, gestão BGR Asset), FII de lajes corporativas (escritórios). Dividend yield anualizado de ~12,5% e vacância física de 5,6%. No mês, destaque para a assinatura de aditivo com a SBM do Brasil, prevendo expansão/nova locação de ~3.031 m². Fonte: Relatório Gerencial BGR, ref. maio/2026.",
+   "pontos_atencao": "Setor de escritórios sob pressão estrutural; a vacância de 5,6% é moderada e a nova locação (SBM) é positiva. DY de ~12,5% é atrativo, mas o fundo é menor e depende de poucos contratos — acompanhar renovações e reajustes. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "BSLT11",
@@ -3614,7 +3620,10 @@
    "analise": "Negocia a 0.78x o valor patrimonial — desconto de 3% frente à mediana do segmento (0.80). Dividend yield (12m) de 13.6%, acima da mediana dos pares (11.2%); supera 79% do segmento. Retorno de 17.8% em 12 meses (top 30% do segmento). Liquidez média (~R$ 0.9 mi/dia). Cotação a 93% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "cotas": 12000000.0,
-   "cotacao_em": "2026-07-02"
+   "cotacao_em": "2026-07-02",
+   "analise_qual": "Relatório de maio/2026: Green Towers FII (GTWR11), FII praticamente monoativo do complexo Green Towers em Brasília (torres corporativas, tendo o Banco do Brasil como principal ocupante), PL ~R$ 0,99 bi. Resultado caixa de R$ 0,89/cota no mês. Vacância física de 13,06%. Fonte: Relatório Gerencial, ref. maio/2026.",
+   "pontos_atencao": "Risco duplo de concentração: praticamente MONOATIVO (Green Towers) e altamente dependente de um inquilino-âncora (Banco do Brasil). A vacância física de 13,06% é elevada — a redução de espaço pelo inquilino principal pressiona diretamente a receita. Setor de escritórios sob pressão estrutural. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "GZIT11",
@@ -3767,7 +3776,10 @@
    "analise": "Negocia a 0.16x o valor patrimonial — desconto de 82% frente à mediana do segmento (0.88). Dividend yield (12m) de 22.1%, acima da mediana dos pares (14.5%); supera 97% do segmento. Retorno de -19.1% em 12 meses (abaixo da mediana do segmento). Liquidez média (~R$ 0.8 mi/dia). Cotação a 74% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "cotas": 22084202.904015057,
-   "cotacao_em": "2026-07-02"
+   "cotacao_em": "2026-07-02",
+   "analise_qual": "Relatório de março/2026: Hectare CE FII (HCTR11), FII de papel/CRI de alto rendimento (recebíveis pulverizados/estruturados) que passou por forte reestruturação após problemas de crédito. Distribuição de R$ 0,23/cota, com dividend yield de ~1,10% a.m. — bem abaixo do patamar histórico do fundo. Inadimplência acumulada de 3,8% e fundo de reserva reduzido (~R$ 271 mil). Fonte: Relatório Gerencial Hectare, ref. março/2026.",
+   "pontos_atencao": "ALERTA: fundo que enfrentou eventos de crédito relevantes e cortou fortemente a distribuição (de patamares históricos bem mais altos para R$ 0,23/cota). Carteira de CRIs de ALTO risco (estruturados/pulverizados) com inadimplência de 3,8% e reserva pequena. A recuperação depende da resolução dos ativos problemáticos — perfil especulativo/alto risco. [Relatório de março/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "HFOF11",
@@ -4242,7 +4254,10 @@
    "analise": "Negocia a 0.79x o valor patrimonial — desconto de 1% frente à mediana do segmento (0.80). Dividend yield (12m) de 9.7%, abaixo da mediana dos pares (11.2%); supera 35% do segmento. Retorno de 16.0% em 12 meses (top 35% do segmento). Liquidez média (~R$ 0.9 mi/dia). Cotação a 92% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "cotas": 12660067.000115247,
-   "cotacao_em": "2026-07-02"
+   "cotacao_em": "2026-07-02",
+   "analise_qual": "Relatório de maio/2026: HSI Logística FII (HSLG11), FII de galpões logísticos last-mile (100% dos ativos a até 30 km da capital, com property management próprio), PL ~R$ 1,14 bi (cota patrimonial R$ 90). Distribuição de R$ 0,74/cota, com dividend yield anualizado de ~9,9%. Fonte: Relatório Gerencial HSI, ref. maio/2026.",
+   "pontos_atencao": "Foco em logística last-mile (perto dos centros urbanos) tende a ter demanda resiliente pelo e-commerce, mas depende da renovação de contratos e da vacância. DY de ~9,9% é razoável. Acompanhar ocupação e reajustes. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "HSML11",
@@ -10005,7 +10020,10 @@
    "analise": "Negocia a 0.94x o valor patrimonial — prêmio de 2% frente à mediana do segmento (0.91). Dividend yield (12m) de 6.1%, abaixo da mediana dos pares (12.3%); supera 0% do segmento. Retorno de 13.3% em 12 meses (top 38% do segmento). Liquidez média (~R$ 0.9 mi/dia). Cotação a 88% da máxima de 52 semanas. Base comparativa: 9 pares do segmento Híbrido. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: combinação de riscos de crédito (CRI) e de vacância dos imóveis. ",
    "cotas": 1757140.0000000002,
-   "cotacao_em": "2026-07-02"
+   "cotacao_em": "2026-07-02",
+   "analise_qual": "Relatório de abril/2026: V2 Renda Imobiliária FII (VVRI11, gestão V2 Investimentos), FII híbrido de menor porte. Rendimento em torno de R$ 0,35/cota, com dividend yield mensal baixo e irregular (variando de ~0,00% a ~0,38% ao mês nos últimos meses). Fonte: Relatório Gerencial V2, ref. abril/2026.",
+   "pontos_atencao": "Distribuição baixa e irregular — houve mês com rendimento próximo de zero, sinal de resultado fraco/instável. Fundo pequeno e de baixa previsibilidade; acompanhar a capacidade de geração de renda recorrente. Relatório referente a abril (defasado). [Relatório de abril/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "VXXV11",
@@ -10275,7 +10293,10 @@
    "analise": "Negocia a 0.84x o valor patrimonial — prêmio de 5% frente à mediana do segmento (0.80). Dividend yield (12m) de 14.5%, acima da mediana dos pares (11.2%); supera 84% do segmento. Retorno de 1.1% em 12 meses (abaixo da mediana do segmento). Liquidez média (~R$ 0.9 mi/dia). Cotação a 80% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "cotas": 7150422.0,
-   "cotacao_em": "2026-07-02"
+   "cotacao_em": "2026-07-02",
+   "analise_qual": "Relatório de abril/2026: inVista Industrial FII (XPIN11, ex-XP Industrial), FII de galpões/condomínios industriais e logísticos (ABL construído de ~259 mil m²), gestão inVista. Fonte: Relatório Gerencial inVista, ref. abril/2026.",
+   "pontos_atencao": "Fundo de imóveis industriais/logísticos — o resultado depende da ocupação e da renovação de contratos com inquilinos industriais (setor sensível à atividade econômica). Passou por troca de gestão (XP → inVista); acompanhar a nova estratégia. Relatório referente a abril (defasado). [Relatório de abril/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "XPLG11",
