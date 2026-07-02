@@ -4436,7 +4436,10 @@
    "analise": "Negocia a 0.87x o valor patrimonial — prêmio de 8% frente à mediana do segmento (0.80). Dividend yield (12m) de 11.2%, acima da mediana dos pares (11.2%); supera 52% do segmento. Retorno de 10.2% em 12 meses (abaixo da mediana do segmento). Liquidez média (~R$ 1.2 mi/dia). Cotação a 60% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. ",
    "cotas": 75370654.52,
-   "cotacao_em": "2026-07-02"
+   "cotacao_em": "2026-07-02",
+   "analise_qual": "Relatório de maio/2026: inVista Brazilian Business Park FII (IBBP11), FII de parques empresariais/industriais e logísticos (condomínios de galpões), gestão inVista. Ocupação física de 96% e adimplência de 95,6%. Fonte: Relatório de Gestão inVista, ref. maio/2026.",
+   "pontos_atencao": "Adimplência de 95,6% implica ~4,4% de inadimplência — acima do ideal para tijolo; acompanhar a recuperação junto aos inquilinos. Ocupação física boa (96%), mas parques empresariais/industriais dependem da renovação de contratos e da demanda por espaço logístico/industrial. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "IBCR11",
@@ -4903,7 +4906,10 @@
    "analise": "Negocia a 0.86x o valor patrimonial — prêmio de 0% frente à mediana do segmento (0.86). Dividend yield (12m) de 13.0%, abaixo da mediana dos pares (14.3%); supera 33% do segmento. Retorno de 14.9% em 12 meses (top 33% do segmento). Liquidez média (~R$ 1.2 mi/dia). Cotação a 92% da máxima de 52 semanas. Base comparativa: 16 pares do segmento Gestão ativa. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: decisões de alocação do gestor, maior giro e volatilidade. ",
    "cotas": 6250000.0,
-   "cotacao_em": "2026-07-02"
+   "cotacao_em": "2026-07-02",
+   "analise_qual": "Relatório de maio/2026: Itaú Total Return FII (ITRI11), FII de gestão ativa multiestratégia (CRIs e cotas de FIIs), gestão Itaú. Distribuição de R$ 0,85/cota, com dividend yield de 12,80% a.a. (mercado) e 11,24% (patrimonial). Fonte: Relatório Gerencial Itaú, ref. maio/2026.",
+   "pontos_atencao": "Estratégia multiativo (crédito + FIIs) tem resultado mais volátil que renda pura. Há atenção com inadimplência em posições específicas (ex.: CRI Urba I). Sujeito à marcação a mercado, especialmente em meses de abertura de juros. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "JCCJ11",
@@ -5926,7 +5932,10 @@
    "analise": "Negocia a 0.84x o valor patrimonial — prêmio de 6% frente à mediana do segmento (0.80). Dividend yield (12m) de 10.5%, abaixo da mediana dos pares (11.2%); supera 41% do segmento. Retorno de 32.2% em 12 meses (top 11% do segmento). Liquidez média (~R$ 1.2 mi/dia). Cotação a 96% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "cotas": 2940298.0000000005,
-   "cotacao_em": "2026-07-02"
+   "cotacao_em": "2026-07-02",
+   "analise_qual": "Relatório de maio/2026: Legatus Shoppings FII (LASC11), FII de shopping centers (gestão Legatus). Distribuição de R$ 0,61/cota, com yield mensal de 0,54% (~6,48% a.a.). A inadimplência líquida recuou para 5,1% em maio. Fonte: Relatório Gerencial Legatus, ref. maio/2026.",
+   "pontos_atencao": "DY baixo (~6,5% a.a.), abaixo do CDI atual, reduz a atratividade no momento. A inadimplência líquida, embora em queda, ainda é elevada (5,1%) — sinal de lojistas com dificuldade; acompanhar. FII de shoppings menor, sensível ao consumo. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "LIFE11",
@@ -5963,7 +5972,10 @@
    "analise": "Negocia a 0.76x o valor patrimonial — desconto de 14% frente à mediana do segmento (0.88). Dividend yield (12m) de 19.7%, acima da mediana dos pares (14.5%); supera 92% do segmento. Retorno de -2.1% em 12 meses (abaixo da mediana do segmento). Liquidez média (~R$ 1.2 mi/dia). Cotação a 85% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "cotas": 39761584.0,
-   "cotacao_em": "2026-07-02"
+   "cotacao_em": "2026-07-02",
+   "analise_qual": "Relatório de maio/2026: Life Capital Partners FII (LIFE11), FII de crédito imobiliário de alto rendimento, cota patrimonial R$ 9,00 (mercado R$ 8,68, P/VP ~0,96). Rendimento de R$ 0,12/cota, com dividend yield de ~17,2% a.a. (~144% do CDI líquido). Inadimplência acumulada em níveis reduzidos. Fonte: Relatório Gerencial Life Capital, ref. maio/2026.",
+   "pontos_atencao": "DY muito elevado (~144% do CDI) indica carteira de maior risco/retorno (crédito imobiliário/empreendimentos) — apesar da inadimplência atualmente baixa, o perfil é mais arriscado que CRIs high grade; acompanhar de perto a evolução dos créditos e das garantias. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "LSAG11",
@@ -7274,7 +7286,10 @@
    "analise": "Negocia a 0.80x o valor patrimonial — desconto de 0% frente à mediana do segmento (0.80). Dividend yield (12m) de 11.1%, abaixo da mediana dos pares (11.2%); supera 49% do segmento. Retorno de 12.6% em 12 meses (top 49% do segmento). Liquidez média (~R$ 1.2 mi/dia). Cotação a 86% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "cotas": 6687034.999999999,
-   "cotacao_em": "2026-07-02"
+   "cotacao_em": "2026-07-02",
+   "analise_qual": "Relatório de maio/2026: RBR Log FII (RBRL11, gestão RBR), FII de galpões logísticos. Distribuição de R$ 0,60/cota (resultado distribuível de R$ 0,64 — distribui abaixo do gerado, reforçando reserva); dividend yield de ~8,5% a.a. (mercado). Fonte: Relatório Gerencial RBR, ref. maio/2026.",
+   "pontos_atencao": "DY de ~8,5% é moderado para logística. Positivo: distribui abaixo do resultado (R$0,60 de R$0,64), reforçando reserva — sinal de sustentabilidade. Setor logístico sujeito à renovação de contratos e à oferta de galpões; acompanhar a ocupação. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "RBRP11",
@@ -9137,7 +9152,10 @@
    "analise": "Negocia a 0.88x o valor patrimonial — prêmio de 10% frente à mediana do segmento (0.80). Dividend yield (12m) de 13.7%, acima da mediana dos pares (11.2%); supera 81% do segmento. Retorno de 11.6% em 12 meses (abaixo da mediana do segmento). Liquidez média (~R$ 1.2 mi/dia). Cotação a 93% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. ",
    "cotas": 15919690.0,
-   "cotacao_em": "2026-07-02"
+   "cotacao_em": "2026-07-02",
+   "analise_qual": "Relatório de maio/2026: Tivio Renda Imobiliária FII (TVRI11), FII híbrido (imóveis físicos + crédito), PL ~R$ 1,48 bi. Distribuiu R$ 1,05/cota no mês, encerrando com saldo de rendimento não distribuído (reserva) de R$ 0,56/cota. Rentabilidade de 14,6% em 12 meses, acima do IFIX (12,0%). Fonte: Relatório Gerencial Tivio, ref. maio/2026.",
+   "pontos_atencao": "Vacância física de 13,56% na parcela imobiliária é elevada e pressiona a receita — acompanhar a reocupação. Há inadimplência pontual em tratativa com o devedor. Perfil híbrido exige acompanhar a composição (tijolo vs crédito); positivo: reserva confortável (R$ 0,56/cota) e desempenho acima do IFIX. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "URPR11",
