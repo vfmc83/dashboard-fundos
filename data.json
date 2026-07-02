@@ -163,7 +163,10 @@
    "analise": "Negocia a 1.00x o valor patrimonial — prêmio de 13% frente à mediana do segmento (0.88). Dividend yield (12m) de 12.7%, abaixo da mediana dos pares (14.5%); supera 16% do segmento. Retorno de 18.4% em 12 meses (top 19% do segmento). Liquidez média (~R$ 0.7 mi/dia). Cotação a 100% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). ",
    "cotas": 4789190.0,
-   "cotacao_em": "2026-07-02"
+   "cotacao_em": "2026-07-02",
+   "analise_qual": "Relatório de abril/2026: AF Invest CRI FII (AFHI11), FII de papel/CRI (gestão AF Invest), com carteira sensível à inflação. Distribuição de R$ 1,10/cota, com dividend yield de 1,06% a.m. (~13,5% a.a.), e reserva de resultado de inflação não distribuído (~R$ 0,25/cota). Fonte: Relatório de Gestão AF Invest, ref. abril/2026.",
+   "pontos_atencao": "Carteira de CRIs sensível à inflação — parte do rendimento vem da correção de IPCA, que varia com a inflação corrente; há reserva acumulada que dá alguma folga. Risco de crédito dos devedores e marcação a mercado. Relatório referente a abril (defasado). [Relatório de abril/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "AGRX11",
@@ -2364,7 +2367,10 @@
    "analise": "Negocia a 0.93x o valor patrimonial — prêmio de 5% frente à mediana do segmento (0.88). Dividend yield (12m) de 14.6%, acima da mediana dos pares (14.5%); supera 55% do segmento. Retorno de 14.3% em 12 meses (top 42% do segmento). Liquidez média (~R$ 0.7 mi/dia). Cotação a 98% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). ",
    "cotas": 36549445.00000001,
-   "cotacao_em": "2026-07-02"
+   "cotacao_em": "2026-07-02",
+   "analise_qual": "Relatório de maio/2026: Cyrela Crédito FII (CYCR11), FII de papel/CRI focado em crédito imobiliário residencial/de construção (estruturas ligadas a incorporadoras como Cyrela e MRV). Distribuição de R$ 0,11/cota, com dividend yield anualizado de ~15,1%. Fonte: Relatório Mensal Cyrela Crédito, ref. maio/2026.",
+   "pontos_atencao": "DY elevado (~15,1%) reflete carteira de crédito imobiliário residencial/de obra, de maior risco — depende da conclusão das obras e da capacidade de pagamento/recompra das incorporadoras (ex.: mecanismo de recompra pela MRV). Acompanhar de perto a inadimplência e o andamento dos projetos. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "DCRA11",
@@ -4217,7 +4223,10 @@
    "analise": "Negocia a 0.88x o valor patrimonial — prêmio de 0% frente à mediana do segmento (0.88). Dividend yield (12m) de 14.4%, abaixo da mediana dos pares (14.5%); supera 48% do segmento. Retorno de 15.5% em 12 meses (top 34% do segmento). Liquidez média (~R$ 0.9 mi/dia). Cotação a 97% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). ",
    "cotas": 2526360.0,
-   "cotacao_em": "2026-07-02"
+   "cotacao_em": "2026-07-02",
+   "analise_qual": "Relatório de maio/2026: HSI Ativos Financeiros FII (HSAF11), FII de gestão ativa multiestratégia da HSI (combina CRIs — ex.: CDI+4,7% —, cotas de outros FIIs de recebíveis e tijolo, e renda fixa). Distribuição de R$ 0,95/cota no mês. Fonte: Relatório Gerencial HSI, ref. maio/2026.",
+   "pontos_atencao": "Estratégia multiativo (CRIs + FIIs + renda fixa) tem resultado mais volátil e menos transparente que renda pura — depende da alocação e de ganhos de capital. Exposição a crédito (CRIs) com risco dos devedores e a cotas de FIIs sujeitas à marcação a mercado. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "HSLG11",
@@ -4567,7 +4576,10 @@
    "analise": "Negocia a 0.93x o valor patrimonial — prêmio de 6% frente à mediana do segmento (0.88). Dividend yield (12m) de 12.6%, abaixo da mediana dos pares (14.5%); supera 11% do segmento. Retorno de 13.6% em 12 meses (top 47% do segmento). Liquidez média (~R$ 0.8 mi/dia). Cotação a 96% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). ",
    "cotas": 3857359.0,
-   "cotacao_em": "2026-07-02"
+   "cotacao_em": "2026-07-02",
+   "analise_qual": "Relatório de maio/2026: Itaú Crédito Imobiliário IPCA FII (ICRI11), FII de papel/CRI indexado à inflação (IPCA), gestão Itaú. Distribuição de R$ 1,10/cota, com dividend yield de 14,65% a.a. (mercado) e 13,69% (patrimonial). Fonte: Relatório Gerencial Itaú, ref. maio/2026.",
+   "pontos_atencao": "Carteira de CRIs indexada ao IPCA — rendimento sensível à inflação e à marcação a mercado (juros reais, que abriram no mês). Acompanhar a inadimplência (houve liquidação de um CRI BTS no início de junho). [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "IFRA11",
@@ -7892,7 +7904,10 @@
    "analise": "Negocia a 0.77x o valor patrimonial — desconto de 12% frente à mediana do segmento (0.88). Dividend yield (12m) de 14.8%, acima da mediana dos pares (14.5%); supera 62% do segmento. Retorno de 2.9% em 12 meses (abaixo da mediana do segmento). Liquidez média (~R$ 0.8 mi/dia). Cotação a 91% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "cotas": 3471728.0,
-   "cotacao_em": "2026-07-02"
+   "cotacao_em": "2026-07-02",
+   "analise_qual": "Relatório de maio/2026: RPRI11 (gestão Patria), FII de papel/CRI. No mês, resultado distribuível de R$ 0,80/cota e rendimento distribuído de R$ 0,90/cota (distribui acima do gerado, consumindo reserva); média de R$ 0,96/cota em 12 meses. Fonte: Relatório Gerencial Patria, ref. maio/2026.",
+   "pontos_atencao": "Distribui acima do resultado recorrente (R$ 0,90 vs R$ 0,80/cota), consumindo reserva — atenção à sustentabilidade. O relatório cita inadimplência em CRI da carteira; acompanhar a evolução do crédito e as garantias. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "RURA11",
@@ -8975,7 +8990,10 @@
    "analise": "Negocia a 0.59x o valor patrimonial — desconto de 26% frente à mediana do segmento (0.80). Dividend yield (12m) de 16.2%, acima da mediana dos pares (11.2%); supera 90% do segmento. Retorno de 2.8% em 12 meses (abaixo da mediana do segmento). Liquidez média (~R$ 0.7 mi/dia). Cotação a 85% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "cotas": 4528240.0,
-   "cotacao_em": "2026-07-02"
+   "cotacao_em": "2026-07-02",
+   "analise_qual": "Relatório de maio/2026: TOPP11 (gestão Patria), FII de tijolo com portfólio 100% locado (vacância 0,0%). No mês distribuiu R$ 0,84/cota (acima do resultado distribuível de R$ 0,58 — consumindo reserva); média de R$ 0,84 em 12 meses. Negocia com desconto profundo: DY de ~16% a.a. na cota de mercado vs ~9,6% na patrimonial, implicando P/VP de ~0,60. Fonte: Relatório Gerencial Patria, ref. maio/2026.",
+   "pontos_atencao": "Dois sinais de atenção: (1) distribui bem acima do resultado recorrente (R$ 0,84 vs R$ 0,58/cota), consumindo reserva — insustentável no atual patamar; (2) desconto profundo (~40%) sobre o VP, que costuma refletir ceticismo do mercado apesar da vacância zero. Pode ser oportunidade de valor, mas exige entender por que o mercado penaliza tanto. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "TRBL11",
@@ -9563,7 +9581,10 @@
    "analise": "Negocia a 0.62x o valor patrimonial — desconto de 22% frente à mediana do segmento (0.80). Dividend yield (12m) de 24.1%, acima da mediana dos pares (11.2%); supera 99% do segmento. Retorno de -23.9% em 12 meses (abaixo da mediana do segmento). Liquidez média (~R$ 0.7 mi/dia). Cotação a 66% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "cotas": 35021736.0,
-   "cotacao_em": "2026-07-02"
+   "cotacao_em": "2026-07-02",
+   "analise_qual": "Relatório de maio/2026: Valora Renda Imobiliária FII (VGRI11), FII híbrido da Valora (imóveis físicos — inclui lajes corporativas — e crédito). Distribuição de ~R$ 0,075/cota no mês (R$ 1,31 em 12 meses), com dividend yield anualizado de ~10,3%. Fonte: Relatório Gerencial Valora, ref. maio/2026.",
+   "pontos_atencao": "Perfil híbrido (tijolo + crédito) com resultado menos previsível — acompanhar a vacância na parcela de escritórios e a inadimplência na carteira (o relatório lista inadimplências por locatário). Fundo menor; a distribuição depende do equilíbrio entre locação e crédito. [Relatório de maio/2026]",
+   "analise_qual_id": "manual-rg-202605"
   },
   {
    "ticker": "VILG11",
