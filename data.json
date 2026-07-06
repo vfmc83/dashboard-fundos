@@ -92,7 +92,10 @@
    "analise": "Negocia a 0.66x o valor patrimonial — desconto de 18% frente à mediana do segmento (0.80). Dividend yield (12m) de 10.5%, abaixo da mediana dos pares (11.2%); supera 43% do segmento. Retorno de -8.3% em 12 meses (abaixo da mediana do segmento). Liquidez baixa (~R$ 0.1 mi/dia). Cotação a 84% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "cotas": 4709082.0,
-   "cotacao_em": "2026-07-03"
+   "cotacao_em": "2026-07-03",
+   "analise_qual": "Relatório de 31/05/2026 — Fundo imobiliário de tijolo do segmento Shopping Center, que detém imóveis físicos para geração de renda por aluguel. Indicadores extraídos: distribuição foi de R$ 0,55. Fonte: relatório no Fundos.NET, ref. 31/05/2026. (Resumo automático.)",
+   "pontos_atencao": "Indicadores de atenção no relatório: Same Store Sale) foi negativo em -0,7%. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
+   "analise_qual_id": "1226732"
   },
   {
    "ticker": "AFHF11",
@@ -1085,9 +1088,9 @@
    "descricao": "Fundo imobiliário de tijolo do segmento Laje Corporativa, que detém imóveis físicos para geração de renda por aluguel. Gerido pela BTG Pactual — asset do maior banco de investimentos da América Latina, administrado por BTG Pactual. Patrimônio de R$ 108 mi, liquidez baixa (~R$ 0.1 mi/dia).",
    "analise": "Negocia a 0.95x o valor patrimonial — prêmio de 19% frente à mediana do segmento (0.80). Dividend yield (12m) de 8.3%, abaixo da mediana dos pares (11.2%); supera 14% do segmento. Retorno de 14.8% em 12 meses (top 43% do segmento). Liquidez baixa (~R$ 0.1 mi/dia). Cotação a 99% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa.",
-   "analise_qual": "Relatório de 29/05/2026 — Fundo imobiliário de tijolo do segmento Laje Corporativa, que detém imóveis físicos para geração de renda por aluguel. Indicadores extraídos: rendimentos em maio/2026 foi de R$ 0,74. Fonte: relatório no Fundos.NET, ref. 29/05/2026. (Resumo automático.)",
+   "analise_qual": "Relatório de 30/06/2026 — Fundo imobiliário de tijolo do segmento Laje Corporativa, que detém imóveis físicos para geração de renda por aluguel. Indicadores extraídos: rendimentos em junho/2026 foi de R$ 0,75. Fonte: relatório no Fundos.NET, ref. 30/06/2026. (Resumo automático.)",
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa.",
-   "analise_qual_id": "1215292",
+   "analise_qual_id": "1239773",
    "cotas": 998405.0,
    "cotacao_em": "2026-07-03"
   },
@@ -2019,7 +2022,7 @@
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. ",
    "analise_qual": "Relatório de 29/05/2026 — Fundo imobiliário de tijolo do segmento Shopping Center, que detém imóveis físicos para geração de renda por aluguel. Indicadores extraídos: distribuível atingiu R$ 16,82; dividend yield anualizado de 13,9%; IPCA + 6%. Fonte: relatório no Fundos.NET, ref. 29/05/2026. (Resumo automático.)",
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário.",
-   "analise_qual_id": "1237807",
+   "analise_qual_id": "1239769",
    "cotas": 123163843.99799597,
    "cotacao_em": "2026-07-03"
   },
@@ -8646,9 +8649,9 @@
    "descricao": "Fundo imobiliário de tijolo do segmento Shopping Center, que detém imóveis físicos para geração de renda por aluguel. Gerido pela Rio Bravo — gestora pioneira em fundos imobiliários, administrado por Rio Bravo. Patrimônio de R$ 632 mi, liquidez baixa (~R$ 0.1 mi/dia).",
    "analise": "Negocia a 0.87x o valor patrimonial — prêmio de 9% frente à mediana do segmento (0.80). Dividend yield (12m) de 6.6%, abaixo da mediana dos pares (11.2%); supera 4% do segmento. Retorno de -2.3% em 12 meses (abaixo da mediana do segmento). Liquidez baixa (~R$ 0.1 mi/dia). Cotação a 91% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa.",
-   "analise_qual": "Relatório de 31/05/2026 — Fundo imobiliário de tijolo do segmento Shopping Center, que detém imóveis físicos para geração de renda por aluguel. Indicadores extraídos: distribuição de R$5,30. Fonte: relatório no Fundos.NET, ref. 31/05/2026. (Resumo automático.)",
-   "pontos_atencao": "Indicadores de atenção no relatório: Inadimplência: 3,4%. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa.",
-   "analise_qual_id": "1225815",
+   "analise_qual": "Relatório de 30/06/2026 — Fundo imobiliário de tijolo do segmento Shopping Center, que detém imóveis físicos para geração de renda por aluguel. Indicadores extraídos: distribuição de R$12,00. Fonte: relatório no Fundos.NET, ref. 30/06/2026. (Resumo automático.)",
+   "pontos_atencao": "Indicadores de atenção no relatório: Inadimplência: 5,4%. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa.",
+   "analise_qual_id": "1239617",
    "cotas": 608950.0,
    "cotacao_em": "2026-07-03"
   },
