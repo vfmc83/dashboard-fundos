@@ -68338,5 +68338,77 @@
   "dataEntrega": "01/07/2026 18:13",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1237519&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "BMLC11",
+  "cnpj": "14376247000111",
+  "id": "1239773",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/06/2026",
+  "dataEntrega": "03/07/2026 21:11",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1239773&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "CPSH11",
+  "cnpj": "47896665000199",
+  "id": "1239769",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "29/05/2026",
+  "dataEntrega": "03/07/2026 21:04",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1239769&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "HGRU11",
+  "cnpj": "29641226000153",
+  "id": "796727",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "29/11/2024",
+  "dataEntrega": "09/12/2024 20:21",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=796727&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "SHPH11",
+  "cnpj": "03507519000159",
+  "id": "1239617",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/06/2026",
+  "dataEntrega": "03/07/2026 18:56",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1239617&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "TRXF11",
+  "cnpj": "28548288000152",
+  "id": "1239614",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/06/2026",
+  "dataEntrega": "03/07/2026 18:52",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1239614&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "XPCA11",
+  "cnpj": "41269527000101",
+  "id": "1238892",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/05/2026",
+  "dataEntrega": "03/07/2026 15:22",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1238892&cvm=true",
+  "arquivo": null
  }
 ]
