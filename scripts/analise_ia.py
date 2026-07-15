@@ -128,6 +128,29 @@ def analisa(f, t, ref):
     return aq, pa
 
 
+# Overrides manuais a partir de noticias/fatos relevantes (pesquisa web). Protegidos com "manual-".
+OVERRIDES = {
+    "HCTR11": "Exposicao relevante ao Grupo Gramado Parks (recuperacao judicial desde abr/2023): ~11% da carteira inadimplente e ~74% em carencia de juros; assembleias aprovaram waivers de CRIs (GPK/Brasil Parques ate jul/2026, Resort do Lago ate set/2026). Tambem citado em inadimplencia de CRI do Shopping Feira da Madrugada, com execucao de garantias. Distribuicao e cota fortemente pressionadas. (Noticias e fatos relevantes, 2025-2026.)",
+    "DEVA11": "Inadimplencia da carteira de CRIs em ~11-12% (jan/2026), concentrada no Grupo Gramado Parks (maior devedor, em recuperacao judicial); ~64% da carteira em carencia de juros. Distribuicao cortada para R$0,30/cota e cota em forte desconto. Execucao de garantias aprovada (Forte Securitizadora). Fundo em reestruturacao. (Noticias e fatos relevantes, 2025-2026.)",
+    "VSLH11": "CRIs inadimplentes do Grupo Gramado Parks (recuperacao judicial) e do Shopping Feira da Madrugada; vencimento antecipado e execucao de garantias aprovados. Distribuicao colapsou (~R$0,03-0,04/cota em 2026) por inadimplencia recorrente e diferimentos sucessivos de juros a devedores relevantes. (Noticias e fatos relevantes, 2025-2026.)",
+    "URPR11": "Inadimplencia de CRIs residenciais agravada pela Selic a 15%; gestao renegociou e diferiu juros de varios devedores, reduzindo a distribuicao. Cortes sucessivos de dividendo (R$0,40 em ago/2025, menor patamar desde 2020, ante ~R$2,00 no passado); cota caiu de ~R$38 para ~R$20 em 2026. (Noticias e fatos relevantes, 2025-2026.)",
+}
+
+
+def aplica_overrides(doc):
+    idx = {f.get("ticker"): f for f in doc["fundos"]}
+    n = 0
+    for tk, pa in OVERRIDES.items():
+        f = idx.get(tk)
+        if not f:
+            continue
+        f["pontos_atencao"] = pa
+        f["analise_qual"] = "Leitura de noticias e fatos relevantes publicos (midia especializada, 2025-2026)."
+        f["analise_qual_id"] = "manual-noticias-202607"
+        n += 1
+    return n
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--apenas")
@@ -141,6 +164,10 @@ def main():
     idx = json.loads(IDX.read_text(encoding="utf-8"))
     if not isinstance(idx, list):
         idx = idx.get("docs") or idx.get("documentos") or []
+    novos_ov = aplica_overrides(doc)
+    if novos_ov:
+        DATA.write_text(json.dumps(doc, ensure_ascii=False, indent=1), encoding="utf-8")
+        print(f"overrides manuais aplicados: {novos_ov}")
     alvo = {x.strip().upper() for x in a.apenas.split(",")} if a.apenas else None
     feitos = pulados = falhas = 0
     for f in doc["fundos"]:
