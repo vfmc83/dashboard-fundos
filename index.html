@@ -199,19 +199,29 @@ const PERFIL_RISCO={"Desenvolvimento":88,"Crédito (FIDC)":70,"Papel (CRI)":60,"
 const FAIXAS=[{n:'Muito baixo',c:'#4A7C59'},{n:'Baixo',c:'#7E8C59'},{n:'Médio',c:'#A98A5B'},{n:'Alto',c:'#B5773A'},{n:'Muito alto',c:'#9B3B2F'}];
 const faixaIdx=s=>s==null?-1:s<38?0:s<48?1:s<58?2:s<68?3:4;
 function _pr(arr,v){const n=arr.length;if(n<=1)return 0.5;let c=0;for(const x of arr)if(x<=v)c++;return (c-1)/(n-1);}
-function _sinalRel(txt){if(!txt)return null;let t=txt.toLowerCase();
+function _sinalRel(txt){if(!txt)return null;const t0=txt.toLowerCase();
   // Neutraliza negacoes ("sem inadimplencia", "nao foram destacados eventos de inadimplencia")
   const negRe=/(n[ãa]o\b|sem\b)([^.\n]{0,45}?)(inadimpl\w*|eventos?\s+negativos?|evento\s+de\s+cr[ée]dito|default|calote)/gi;
-  const t2=t.replace(negRe,'$1$2 semrisco ');const limpo=(t2!==t);t=t2;
-  // SO deterioracao de credito/ativo sobe o score. Sinais de mercado/distribuicao NAO contam.
+  const t=t0.replace(negRe,'$1$2 semrisco ');const limpo=(t!==t0);
+  const nm=m=>m?+(m[1]+(m[2]?'.'+m[2]:'')):null;
+  // SO deterioracao de credito/ativo. Numericos (inadimplencia/LTV/vacancia) graduados por valor.
   let s=30;const add=(re,p)=>{if(re.test(t))s+=p;};
-  add(/inadimpl|\bnpl\b|calote|devedores duvidosos/,22);
+  if(/inadimpl|\bnpl\b|\bcalote\b/.test(t)){
+    let iv=nm(/inadimpl\w*\s*(?:d[aeo]\s+carteira\s*)?(?:de|em|:|é de)?\s*(\d{1,2})(?:[,.](\d))?\s?%/.exec(t));
+    if(iv==null)iv=nm(/(\d{1,2})(?:[,.](\d))?\s?%\s*(?:d[aeo]\s+carteira\s+)?(?:em\s+|de\s+)?inadimpl/.exec(t));
+    if(iv!=null)s+= iv>10?30:iv>6?22:iv>3?12:0;
+    else if(/inadimpl\w*\s*(elevad|alta|relevant|crescent|significativ|forte|agravad)/.test(t))s+=18;
+    else s+=4;
+  }
   add(/recupera[çc][ãa]o judicial|\brj\b|reperfilament|reestrutura[çc][ãa]o de d[íi]vida|renegocia[çc][ãa]o de d[íi]vida/,26);
   add(/\bdefault\b|vencimento antecipado|inadimplement|execu[çc][ãa]o (de |da )?garantia/,26);
-  add(/\bpdd\b|provis[ãa]o para (devedores|perdas)/,14);
-  add(/estressad|menor rating|rating baixo|rebaixament|downgrade/,14);
+  add(/pdd[^.\n]{0,25}(elevad|em alta|crescent|aument|subiu|dispar)/,12);
+  add(/estressad|menor rating|rating baixo|rebaixament|downgrade|\bccc\b|rating\s+d\b/,14);
   add(/alavancagem elevada|acima de 100% do pl/,12);
-  add(/vac[âa]nc\w*[^.\n]{0,25}(elevad|alta|subiu|aument|deteriora)/,12);
+  const vv=nm(/vac[âa]nc\w*[^%\n]{0,25}?(\d{1,2})(?:[,.](\d))?\s?%/.exec(t));if(vv!=null&&vv>7)s+= vv>12?14:8;
+  const lv=nm(/\bltv\b[^%\n]{0,30}?(\d{1,3})(?:[,.](\d))?\s?%/.exec(t));if(lv!=null)s+= lv>80?20:lv>70?14:lv>60?8:lv>50?4:0;
+  const hm=/(high[\s-]?yield|abaixo de grau de investimento)[^.\n]{0,25}?(\d{1,3})(?:[,.](\d))?\s?%/.exec(t)||/(\d{1,3})(?:[,.](\d))?\s?%[^.\n]{0,25}?(high[\s-]?yield|abaixo de grau)/.exec(t);
+  if(hm){const hn=hm[0].match(/(\d{1,3})(?:[,.](\d))?\s?%/);if(hn){const hv=+(hn[1]+(hn[2]?'.'+hn[2]:''));s+= hv>40?16:hv>25?10:hv>10?5:0;}}
   if(limpo||/carteira (adimplente|saud[áa]vel)|conservador/.test(t))s-=15;
   return Math.max(0,Math.min(100,s));}
 function computeScores(fundos){
