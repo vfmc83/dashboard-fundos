@@ -41,6 +41,10 @@ R_VAC = re.compile(r"(vac[âa]nc\w*|ocupa[çc][ãa]o f[íi]sica|taxa de ocupa[ç
 R_INAD = re.compile(r"inadimpl\w*[^%\n]{0,26}?\d{1,2}[,.]?\d?\s?%", re.I)
 R_LTV = re.compile(r"(LTV|alavancagem)[^%\n]{0,36}?\d{1,2}[,.]?\d?\s?%", re.I)
 R_SSS = re.compile(r"(SSS|same store|vendas mesmas lojas)[^%\n]{0,24}?-?\d{1,2}[,.]?\d?\s?%", re.I)
+R_PDD = re.compile(r"(PDD|provis[ãa]o para devedores|provis[ãa]o para perdas|devedores duvidosos)[^.\n]{0,45}", re.I)
+R_RJ = re.compile(r"(recupera[çc][ãa]o judicial|reperfilament\w+|reestrutura[çc][ãa]o de d[íi]vida|renegocia[çc][ãa]o de d[íi]vida|repactua[çc][ãa]o de[^.\n]{0,20}d[íi]vida)[^.\n]{0,40}", re.I)
+R_RATING = re.compile(r"(rebaixament\w+|downgrade|high[- ]?yield|abaixo de investment grade|carteira[^.\n]{0,20}menor rating)[^.\n]{0,30}", re.I)
+R_DEF = re.compile(r"(default|vencimento antecipado|inadimplement\w+|evento de inadimpl\w+|calote|atraso[^.\n]{0,20}pagament\w+)[^.\n]{0,30}", re.I)
 
 
 def _t(m):
@@ -106,7 +110,8 @@ def texto_pdf(pdf, maxpg=12):
 def analisa(f, t, ref):
     desc0 = (f.get("descricao") or "").split(".")[0].strip()
     campos = [c for c in (_t(F_DIST.search(t)), _t(F_DY.search(t)), _t(F_CARR.search(t)), _t(F_ALOC.search(t))) if c]
-    riscos = [c for c in (_t(R_VAC.search(t)), _t(R_INAD.search(t)), _t(R_LTV.search(t)), _t(R_SSS.search(t))) if c]
+    riscos = [c for c in (_t(R_VAC.search(t)), _t(R_INAD.search(t)), _t(R_LTV.search(t)), _t(R_SSS.search(t)),
+                          _t(R_PDD.search(t)), _t(R_RJ.search(t)), _t(R_RATING.search(t)), _t(R_DEF.search(t))) if c]
     aq = f"Relatório de {ref}"
     if desc0:
         aq += f" — {desc0}"
