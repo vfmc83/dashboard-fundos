@@ -189,9 +189,9 @@ function Header(){
 }
 
 // ---- Score de risco Engage (comparavel dentro da classe; nao e recomendacao) ----
-const PERFIL_RISCO={"Desenvolvimento":92,"Crédito (FIDC)":68,"Papel (CRI)":58,"Gestão ativa":56,"Outros":54,"Híbrido":50,"Imobiliário":52,"Infraestrutura (FIP-IE)":62,"Infraestrutura":42,"Tijolo":44,"FoF":32};
+const PERFIL_RISCO={"Desenvolvimento":88,"Crédito (FIDC)":70,"Papel (CRI)":60,"Infraestrutura (FIP-IE)":60,"Imobiliário":56,"Gestão ativa":54,"Outros":54,"Híbrido":50,"Infraestrutura":42,"Tijolo":40,"FoF":30};
 const FAIXAS=[{n:'Muito baixo',c:'#4A7C59'},{n:'Baixo',c:'#7E8C59'},{n:'Médio',c:'#A98A5B'},{n:'Alto',c:'#B5773A'},{n:'Muito alto',c:'#9B3B2F'}];
-const faixaIdx=s=>s==null?-1:s<36?0:s<46?1:s<56?2:s<68?3:4;
+const faixaIdx=s=>s==null?-1:s<38?0:s<48?1:s<58?2:s<68?3:4;
 function _pr(arr,v){const n=arr.length;if(n<=1)return 0.5;let c=0;for(const x of arr)if(x<=v)c++;return (c-1)/(n-1);}
 function _sinalRel(txt){if(!txt)return null;const t=txt.toLowerCase();let s=30;const add=(re,p)=>{if(re.test(t))s+=p;};
   add(/cort(e|ou|ada|ado)|reduzid|redução da distribu|distribuição foi/,30);
@@ -205,16 +205,11 @@ function _sinalRel(txt){if(!txt)return null;const t=txt.toLowerCase();let s=30;c
   if(/sem eventos negativos|sem inadimpl|sem evento negativo|vac[âa]ncia (contida|baixa)|conservador/.test(t))s-=15;
   return Math.max(0,Math.min(100,s));}
 function computeScores(fundos){
-  const byC={};fundos.forEach(f=>{(byC[f.classe]=byC[f.classe]||[]).push(f);});
-  const vols={},vms={};for(const c in byC){vols[c]=byC[c].map(f=>f.vol_medio_3m||0);vms[c]=byC[c].map(f=>f.valor_mercado||0);}
-  const st=p=>12+p*76;
-  fundos.forEach(f=>{const c=f.classe;
-    const rl=st(1-_pr(vols[c],f.vol_medio_3m||0));
-    const rp=(f.valor_mercado==null)?50:st(1-_pr(vms[c],f.valor_mercado||0));
+  fundos.forEach(f=>{
     const rperf=PERFIL_RISCO[f.subclasse]!=null?PERFIL_RISCO[f.subclasse]:54;
     const rs=_sinalRel(f.pontos_atencao);
-    let sc;if(rs!=null)sc=0.1428*rl+0.1428*rp+0.2857*rperf+0.4286*rs;else sc=0.25*rl+0.25*rp+0.50*rperf;
-    f._rl=Math.round(rl);f._rp=Math.round(rp);f._rperf=Math.round(rperf);f._rs=(rs==null?null:Math.round(rs));
+    const sc=(rs!=null)?0.40*rperf+0.60*rs:rperf;
+    f._rperf=Math.round(rperf);f._rs=(rs==null?null:Math.round(rs));
     f._sc=Math.round(sc);f._faixa=faixaIdx(f._sc);f._scPrelim=(rs==null);});
   return fundos;
 }
@@ -227,15 +222,15 @@ function RiscoBadge({f}){
 function RiscoPanel({f}){
   if(f._sc==null)return null;
   const fx=FAIXAS[f._faixa];
-  const comp=[['Liquidez',f._rl],['Porte',f._rp],['Perfil do segmento',f._rperf]];
+  const comp=[['Perfil do segmento',f._rperf]];
   if(f._rs!=null)comp.push(['Sinais dos relatórios',f._rs]);
   return (<div className="panel">
     <h3>Score de risco Engage</h3>
-    <div className="cap">Comparativo dentro da classe (0 = menor risco relativo · 100 = maior). Indicador de atenção, não recomendação.</div>
+    <div className="cap">Foco em qualidade dos ativos e risco de crédito (0 = menor · 100 = maior). Indicador de atenção, não recomendação.</div>
     <div className="risco-top">
       <div className="risco-nota" style={{background:fx.c}}>{f._sc}</div>
       <div><div className="risco-faixa" style={{color:fx.c}}>{fx.n}</div>
-        <div className="cap" style={{margin:'2px 0 0'}}>{f._scPrelim?'Preliminar — só fatores estruturais (sem relatório lido ainda).':'Inclui sinais reais do relatório mais recente.'}</div></div>
+        <div className="cap" style={{margin:'2px 0 0'}}>{f._scPrelim?'Preliminar — perfil do segmento (relatório ainda não lido; sinais de crédito entram depois).':'Inclui sinais reais do relatório mais recente (crédito, inadimplência, distribuição).'}</div></div>
     </div>
     <div className="risco-comp">{comp.map(([k,v])=>(<div key={k} className="rc-row"><span className="rc-l">{k}</span><span className="rc-t"><span className="rc-f" style={{width:v+'%',background:fx.c}}></span></span><span className="rc-v">{v}</span></div>))}</div>
   </div>);
