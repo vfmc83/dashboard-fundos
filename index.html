@@ -175,22 +175,41 @@ function Header(){
   </div></header>);
 }
 
+function niceTicks(min,max,n){
+  n=n||5;
+  if(!isFinite(min)||!isFinite(max))return {ticks:[],step:1};
+  if(min===max)return {ticks:[min],step:1};
+  const span=max-min, raw=span/n, mag=Math.pow(10,Math.floor(Math.log10(raw))), norm=raw/mag;
+  let step= norm<1.5?1: norm<3?2: norm<7?5:10; step*=mag;
+  const out=[], start=Math.ceil(min/step)*step;
+  for(let v=start; v<=max+step*1e-6; v+=step)out.push(+(Math.round(v/step)*step).toFixed(10));
+  return {ticks:out, step};
+}
+
 function Scatter({fundos,onSel,comparar}){
   const [hv,setHv]=useState(null);
   const W=920,H=340,pad=46;
-  const pts=fundos.filter(f=>f.pvpa!=null && f.dy_ltm!=null && f.dy_ltm<0.5 && f.pvpa<2.2 && f.pvpa>0);
-  const yMax=Math.max(0.06,Math.min(0.30,Math.max(...pts.map(p=>p.dy_ltm),0.1)*1.1));
-  const xMax=2.2;
-  const X=v=>pad+(v/xMax)*(W-pad*1.4);
-  const Y=v=>H-pad-(v/yMax)*(H-pad*1.6);
+  const pts=fundos.filter(f=>f.pvpa!=null && f.dy_ltm!=null && f.pvpa>0 && f.pvpa<2.2 && f.dy_ltm>=0 && f.dy_ltm<0.5);
   const classes=[...new Set(pts.map(p=>p.classe))];
+  if(!pts.length)return (<div><svg viewBox={`0 0 ${W} ${H}`} style={{width:'100%',height:'auto'}}>
+      <line x1={pad} y1={H-pad} x2={W-20} y2={H-pad} stroke="var(--linha)"/>
+      <text x={W/2} y={H/2} fontSize="13" textAnchor="middle" fill="var(--neutro)">Nenhum fundo com P/VP e DY dentro do filtro atual.</text></svg></div>);
+  const xs=pts.map(p=>p.pvpa), ys=pts.map(p=>p.dy_ltm);
+  const spanX=(Math.max(...xs)-Math.min(...xs))||0.1, spanY=(Math.max(...ys)-Math.min(...ys))||0.02;
+  const xMin=Math.max(0,Math.min(...xs)-spanX*0.08), xMax=Math.max(...xs)+spanX*0.08;
+  const yMin=Math.max(0,Math.min(...ys)-spanY*0.12), yMax=Math.max(...ys)+spanY*0.12;
+  const X=v=>pad+((v-xMin)/(xMax-xMin))*(W-pad*1.4);
+  const Y=v=>H-pad-((v-yMin)/(yMax-yMin))*(H-pad*1.6);
+  const tx=niceTicks(xMin,xMax,5), ty=niceTicks(yMin,yMax,5);
+  const dX=tx.step<0.1?2:1, dY=ty.step<0.01?1:0, showOne=xMin<=1&&xMax>=1;
   return (<div>
     <svg viewBox={`0 0 ${W} ${H}`} style={{width:'100%',height:'auto'}}>
+      {ty.ticks.map(t=>(<line key={'gy'+t} x1={pad} y1={Y(t)} x2={W-20} y2={Y(t)} stroke="var(--trilho)"/>))}
       <line x1={pad} y1={H-pad} x2={W-20} y2={H-pad} stroke="var(--linha)"/>
-      <line x1={X(1)} y1={20} x2={X(1)} y2={H-pad} stroke="var(--linha)" strokeDasharray="4 4"/>
-      <text x={X(1)} y={16} fontSize="10" textAnchor="middle" fill="var(--neutro)">P/VP = 1,00</text>
-      {[0,0.5,1,1.5,2].map(t=>(<text key={t} x={X(t)} y={H-pad+16} fontSize="10" textAnchor="middle" fill="var(--neutro)">{t.toFixed(1)}</text>))}
-      {[0,0.05,0.1,0.15,0.2,0.25].filter(t=>t<=yMax).map(t=>(<text key={t} x={pad-8} y={Y(t)+3} fontSize="10" textAnchor="end" fill="var(--neutro)">{(t*100).toFixed(0)}%</text>))}
+      {showOne && <line x1={X(1)} y1={20} x2={X(1)} y2={H-pad} stroke="var(--linha)" strokeDasharray="4 4"/>}
+      {showOne && <text x={X(1)} y={16} fontSize="10" textAnchor="middle" fill="var(--neutro)">P/VP = 1,00</text>}
+      {tx.ticks.map(t=>(<text key={'x'+t} x={X(t)} y={H-pad+16} fontSize="10" textAnchor="middle" fill="var(--neutro)">{t.toFixed(dX)}</text>))}
+      {ty.ticks.map(t=>(<text key={'y'+t} x={pad-8} y={Y(t)+3} fontSize="10" textAnchor="end" fill="var(--neutro)">{(t*100).toFixed(dY)}%</text>))}
       <text x={W/2} y={H-6} fontSize="11" textAnchor="middle" fill="var(--neutro)">P/VP →</text>
       <text x={14} y={20} fontSize="11" fill="var(--neutro)">DY LTM ↑</text>
       {pts.map(p=>{const on=hv&&hv.f.ticker===p.ticker;const mk=comparar&&comparar.has(p.ticker);const dim=comparar&&comparar.size>0&&!mk;return (
