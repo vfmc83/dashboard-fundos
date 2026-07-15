@@ -45,6 +45,7 @@ R_PDD = re.compile(r"(PDD|provis[ãa]o para devedores|provis[ãa]o para perdas|d
 R_RJ = re.compile(r"(recupera[çc][ãa]o judicial|reperfilament\w+|reestrutura[çc][ãa]o de d[íi]vida|renegocia[çc][ãa]o de d[íi]vida|repactua[çc][ãa]o de[^.\n]{0,20}d[íi]vida)[^.\n]{0,40}", re.I)
 R_RATING = re.compile(r"(rebaixament\w+|downgrade|high[- ]?yield|abaixo de investment grade|carteira[^.\n]{0,20}menor rating)[^.\n]{0,30}", re.I)
 R_DEF = re.compile(r"(default|vencimento antecipado|inadimplement\w+|evento de inadimpl\w+|calote|atraso[^.\n]{0,20}pagament\w+)[^.\n]{0,30}", re.I)
+R_HY = re.compile(r"(high[\s-]?yield|abaixo de grau de investimento|abaixo do grau de investimento)[^.\n]{0,20}?\d{1,3}[,.]?\d?\s?%|\d{1,3}[,.]?\d?\s?%[^.\n]{0,20}?(high[\s-]?yield|abaixo de grau de investimento)", re.I)
 
 
 def _t(m):
@@ -146,7 +147,8 @@ def analisa(f, t, ref):
     desc0 = (f.get("descricao") or "").split(".")[0].strip()
     campos = [c for c in (_t(F_DIST.search(t)), _t(F_DY.search(t)), _t(F_CARR.search(t)), _t(F_ALOC.search(t))) if c]
     riscos = [c for c in (_t(R_VAC.search(t)), _t(R_INAD.search(t)), _t(R_LTV.search(t)), _t(R_SSS.search(t)),
-                          _t(R_PDD.search(t)), _t(R_RJ.search(t)), _t(R_RATING.search(t)), _t(R_DEF.search(t))) if c]
+                          _t(R_PDD.search(t)), _t(R_RJ.search(t)), _t(R_RATING.search(t)), _t(R_DEF.search(t)),
+                          _t(R_HY.search(t))) if c]
     aq = f"Relatório de {ref}"
     if desc0:
         aq += f" — {desc0}"
@@ -168,7 +170,7 @@ OVERRIDES = {
     "HCTR11": "Exposicao relevante ao Grupo Gramado Parks (recuperacao judicial desde abr/2023): ~11% da carteira inadimplente e ~74% em carencia de juros; assembleias aprovaram waivers de CRIs (GPK/Brasil Parques ate jul/2026, Resort do Lago ate set/2026). Tambem citado em inadimplencia de CRI do Shopping Feira da Madrugada, com execucao de garantias. Distribuicao e cota fortemente pressionadas. (Noticias e fatos relevantes, 2025-2026.)",
     "DEVA11": "Inadimplencia da carteira de CRIs em ~11-12% (jan/2026), concentrada no Grupo Gramado Parks (maior devedor, em recuperacao judicial); ~64% da carteira em carencia de juros. Distribuicao cortada para R$0,30/cota e cota em forte desconto. Execucao de garantias aprovada (Forte Securitizadora). Fundo em reestruturacao. (Noticias e fatos relevantes, 2025-2026.)",
     "VSLH11": "CRIs inadimplentes do Grupo Gramado Parks (recuperacao judicial) e do Shopping Feira da Madrugada; vencimento antecipado e execucao de garantias aprovados. Distribuicao colapsou (~R$0,03-0,04/cota em 2026) por inadimplencia recorrente e diferimentos sucessivos de juros a devedores relevantes. (Noticias e fatos relevantes, 2025-2026.)",
-    "URPR11": "Inadimplencia de CRIs residenciais agravada pela Selic a 15%; gestao renegociou e diferiu juros de varios devedores, reduzindo a distribuicao. Cortes sucessivos de dividendo (R$0,40 em ago/2025, menor patamar desde 2020, ante ~R$2,00 no passado); cota caiu de ~R$38 para ~R$20 em 2026. (Noticias e fatos relevantes, 2025-2026.)",
+    "URPR11": "Inadimplencia elevada em CRIs residenciais (mutuarios pressionados pela Selic a 15%); reestruturacao de dividas de varios devedores, com diferimento de juros. Cortes sucessivos de dividendo (R$0,40 em ago/2025, menor patamar desde 2020, ante ~R$2,00) e cota caiu de ~R$38 para ~R$20 em 2026. (Noticias e fatos relevantes, 2025-2026.)",
 }
 
 
