@@ -51,10 +51,17 @@
    "analise": "Negocia a 0.86x o valor patrimonial — prêmio de 2% frente à mediana do segmento (0.84). Dividend yield (12m) de 17.9%, acima da mediana dos pares (16.7%); supera 84% do segmento. Retorno de 22.1% em 12 meses (top 32% do segmento). Liquidez baixa (~R$ 0.4 mi/dia). Cotação a 90% da máxima de 52 semanas. Base comparativa: 25 pares do segmento Imobiliário. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa.",
    "analise_qual": "Relatório de 30/06/2026 — Fiagro do tipo imobiliário, focado em recebíveis e ativos do agronegócio. Indicadores extraídos: dividend yield mensal de 1,14%; CDI + 6,5%; alocação próxima de 100%. Fonte: relatório no Fundos.NET, ref. 30/06/2026. (Resumo automático.)",
-   "pontos_atencao": "crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa.",
-   "analise_qual_id": "1242390",
+   "pontos_atencao": "crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa. Fato relevante (21/11/2024): ...ado em geral, a declaração do Vencimento Antecipado de todas as obrigações principais e acessórias (i) do Certificado de Direitos Creditórios do Agronegócio CDCA n⁰ 001...",
+   "analise_qual_id": "1242390|fr:785317",
    "cotas": 24037284.0,
-   "cotacao_em": "2026-07-15"
+   "cotacao_em": "2026-07-15",
+   "fatos_relevantes": [
+    {
+     "data": "21/11/2024",
+     "risco": true,
+     "resumo": "...ado em geral, a declaração do Vencimento Antecipado de todas as obrigações principais e acessórias (i) do Certificado de Direitos Creditórios do Agronegócio CDCA n⁰ 001..."
+    }
+   ]
   },
   {
    "ticker": "ABCP11",
@@ -213,9 +220,21 @@
    "analise": "Dividend yield (12m) de 17.8%, acima da mediana dos pares (16.7%); supera 80% do segmento. Retorno de 21.3% em 12 meses (top 40% do segmento). Liquidez baixa (~R$ 0.3 mi/dia). Cotação a 93% da máxima de 52 semanas. Base comparativa: 25 pares do segmento Imobiliário. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa.",
    "analise_qual": "Relatório de 29/05/2026 — Fiagro do tipo imobiliário, focado em recebíveis e ativos do agronegócio. Indicadores extraídos: distribuição de R$ 0,12; yield de 17,44%; CDI + 9%. Fonte: relatório no Fundos.NET, ref. 29/05/2026. (Resumo automático.)",
-   "pontos_atencao": "crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa.",
-   "analise_qual_id": "1240253",
-   "cotacao_em": "2026-07-15"
+   "pontos_atencao": "Indicadores de atenção no relatório: vencimento antecipado. Riscos estruturais: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa. Fato relevante (19/09/2024): ...do ajuizamento do Pedido de Recuperação Judicial da Agrogalaxy Participações S.A. (CNPJ nº 21.240.146/0001-84, Ticker B3: AGXY3) (\"Companhia\") e/ou de suas subsidiária...",
+   "analise_qual_id": "1240253|fr:741430+588042",
+   "cotacao_em": "2026-07-15",
+   "fatos_relevantes": [
+    {
+     "data": "19/09/2024",
+     "risco": true,
+     "resumo": "...do ajuizamento do Pedido de Recuperação Judicial da Agrogalaxy Participações S.A. (CNPJ nº 21.240.146/0001-84, Ticker B3: AGXY3) (\"Companhia\") e/ou de suas subsidiária..."
+    },
+    {
+     "data": "19/01/2024",
+     "risco": false,
+     "resumo": "FATO RELEVANTE 1 FATO RELEVANTE FUNDO DE INVESTIMENTO NAS CADEIAS PRODUTIVAS AGROINDUSTRIAIS EXES ARAGUAIA - FIAGRO - IMOBILIÁRIO CNPJ nº 43.951.911/0001-07 O BANCO GENIAL S.A., insti"
+    }
+   ]
   },
   {
    "ticker": "AIEC11",
@@ -650,9 +669,21 @@
    "risco": "Riscos típicos: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual": "Relatório de 30/04/2026 — Fiagro do tipo imobiliário, focado em recebíveis e ativos do agronegócio. Indicadores extraídos: rendimentos em R$ 0,85; dividend yield atingiu 1,13%; CDI + 3%. Fonte: relatório no Fundos.NET, ref. 30/04/2026. (Resumo automático.)",
    "pontos_atencao": "crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
-   "analise_qual_id": "1223383",
+   "analise_qual_id": "1223383|fr:812374+741394",
    "cotas": 4005163.9999999995,
-   "cotacao_em": "2026-07-15"
+   "cotacao_em": "2026-07-15",
+   "fatos_relevantes": [
+    {
+     "data": "02/01/2025",
+     "risco": false,
+     "resumo": "FATO RELEVANTE www.bbasset.com.br BB FUNDO DE INVESTIMENTO DE CRÉDITO FIAGRO – IMOBILIÁRIO CNPJ: 42.592.257/0001-20 FATO RELEVANTE A BB Asset, na qualidade de administradora e ges"
+    },
+    {
+     "data": "18/09/2024",
+     "risco": false,
+     "resumo": "#interna BB FUNDO DE INVESTIMENTO DE CRÉDITO FIAGRO – IMOBILIÁRIO CNPJ: 42.592.257/0001-20 Fato Relevante Prezado(a) investidor(a), A BB GESTÃO DE RECURSOS DISTRIBUIDORA DE TÍTULOS E VALORES"
+    }
+   ]
   },
   {
    "ticker": "BBIG11",
@@ -1453,8 +1484,20 @@
    "risco": "Riscos típicos: inadimplência da carteira de crédito do agronegócio e concentração de devedores. Liquidez reduzida em bolsa.",
    "analise_qual": "Relatório de 30/06/2026 — Fiagro de direitos creditórios, focado em crédito do agronegócio (CRA/recebíveis). Indicadores extraídos: distribuição acumulada de R$ 64,86; dividend yield de 1,27%; CDI + 4,6%. Fonte: relatório no Fundos.NET, ref. 30/06/2026. (Resumo automático.)",
    "pontos_atencao": "inadimplência da carteira de crédito do agronegócio e concentração de devedores. Liquidez reduzida em bolsa.",
-   "analise_qual_id": "1240847",
-   "cotacao_em": "2026-07-15"
+   "analise_qual_id": "1240847|fr:1103052+864384",
+   "cotacao_em": "2026-07-15",
+   "fatos_relevantes": [
+    {
+     "data": "05/02/2026",
+     "risco": false,
+     "resumo": "BTG PACTUAL CRÉDITO AGRÍCOLA FIAGRO - DIREITOS CREDITÓRIOS RESPONSABILIDADE LIMITADA 1 BTG PACTUAL CRÉDITO AGRÍCOLA FIAGRO - DIREITOS CREDITÓRIOS RESPONSABILIDADE LIMITADA CNPJ nº 40.771.1"
+    },
+    {
+     "data": "25/03/2025",
+     "risco": false,
+     "resumo": "BTG Pactual btgpactual.com BTG PACTUAL CRÉDITO AGRÍCOLA FIAGRO - DIREITOS CREDITÓRIOS CNPJ nº 40.771.109/0001-47 – Código de negociação na B3: BTAG11 FATO RELEVANTE A BTG PACTUA"
+    }
+   ]
   },
   {
    "ticker": "BTAL11",
@@ -2103,10 +2146,22 @@
    "analise": "Negocia a 0.81x o valor patrimonial — desconto de 4% frente à mediana do segmento (0.84). Dividend yield (12m) de 16.6%, abaixo da mediana dos pares (16.7%); supera 40% do segmento. Retorno de 30.2% em 12 meses (top 4% do segmento). Liquidez baixa (~R$ 0.2 mi/dia). Cotação a 96% da máxima de 52 semanas. Base comparativa: 25 pares do segmento Imobiliário. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual": "Relatório de 29/05/2026 — Fiagro do tipo imobiliário, focado em recebíveis e ativos do agronegócio. Indicadores extraídos: distribuiu R$ 0,110; CDI + 1%. Fonte: relatório no Fundos.NET, ref. 29/05/2026. (Resumo automático.)",
-   "pontos_atencao": "crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
-   "analise_qual_id": "1225604",
+   "pontos_atencao": "Indicadores de atenção no relatório: Recuperação Judicial. Riscos estruturais: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
+   "analise_qual_id": "1225604|fr:899394+896443",
    "cotas": 19824678.0,
-   "cotacao_em": "2026-07-15"
+   "cotacao_em": "2026-07-15",
+   "fatos_relevantes": [
+    {
+     "data": "12/05/2025",
+     "risco": false,
+     "resumo": "[ BTGPACTUAL btgpactual.com CAPITÂNIA AGRO STRATEGIES – FIAGRO-IMOBILIÁRIO CNPJ nº 42.537.579/0001-76 - Código de Negociação: CPTR11 (“Fundo”) FATO RELEVANTE INÍCIO DO PRAZO DA"
+    },
+    {
+     "data": "07/05/2025",
+     "risco": false,
+     "resumo": "[ BTGPACTUAL btgpactual.com CAPITANIA AGRO STRATEGIES - FIAGRO-IMOBILIÁRIO CNPJ nº 42.537.579/0001-76 - Código de negociação na B3: CPTR11 (“Fundo” ou “CPTR11”) COMUNICADO AO MER"
+    }
+   ]
   },
   {
    "ticker": "CPTS11",
@@ -2227,9 +2282,16 @@
    "risco": "Riscos típicos: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. ",
    "analise_qual": "Relatório de 30/06/2026 — Fiagro do tipo imobiliário, focado em recebíveis e ativos do agronegócio. Indicadores extraídos: rendimento de R$ 1,00; CDI+2,0%. Fonte: relatório no Fundos.NET, ref. 30/06/2026. (Resumo automático.)",
    "pontos_atencao": "crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado.",
-   "analise_qual_id": "1241711",
+   "analise_qual_id": "1241711|fr:776188",
    "cotas": 2369836.0,
-   "cotacao_em": "2026-07-15"
+   "cotacao_em": "2026-07-15",
+   "fatos_relevantes": [
+    {
+     "data": "12/11/2024",
+     "risco": false,
+     "resumo": "[ CLASSIFICAÇÃO: PÚBLICA ] SPARTA FIAGRO FUNDO DE INVESTIMENTO NAS CADEIAS PRODUTIVAS AGROINDUSTRIAIS - IMOBILIÁRIO CNPJ nº 48.903.610/0001-21 Código ISIN: BRCRAACTF008 Código de Negoc"
+    }
+   ]
   },
   {
    "ticker": "CRFF11",
@@ -2674,7 +2736,19 @@
    "pontos_atencao": "Alocação acima de 100% (108,8%) sugere alavancagem; spread baixo (CDI+1%) indica carteira mais conservadora, com menor prêmio. Risco de crédito do agro e marcação a mercado. [Extraído do relatório de maio/2026]",
    "analise_qual_id": "manual-1214556",
    "cotas": 3131914.0,
-   "cotacao_em": "2026-07-15"
+   "cotacao_em": "2026-07-15",
+   "fatos_relevantes": [
+    {
+     "data": "25/08/2025",
+     "risco": false,
+     "resumo": "ECOAGRO I FIAGRO - RESPONSABILIDADE LIMITADA CNPJ: 41.224.330/0001-48 Código ISIN das Cotas do Fundo: BREGAFCTF006 Código de Negociação das Cotas na B3: EGAF11 FATO RELEVANTE"
+    },
+    {
+     "data": "24/08/2025",
+     "risco": false,
+     "resumo": "1 FATO RELEVANTE ECOAGRO I FIAGRO – RESPONSABILIDADE LIMITADA CNPJ nº 41.224.330/0001-48 Código ISIN: BREGAFCTF006 Código de Negociação na B3: EGAF11 A VÓRTX DISTRIBUIDORA DE"
+    }
+   ]
   },
   {
    "ticker": "EIRA11",
@@ -3078,7 +3152,14 @@
    "pontos_atencao": "Carteira de CRAs exposta ao risco de crédito do agro (preços de commodities, clima/safra e endividamento de produtores) e à marcação a mercado. [Extraído do relatório de maio/2026]",
    "analise_qual_id": "manual-1224294",
    "cotas": 45078448.99999999,
-   "cotacao_em": "2026-07-15"
+   "cotacao_em": "2026-07-15",
+   "fatos_relevantes": [
+    {
+     "data": "26/06/2025",
+     "risco": false,
+     "resumo": "FATO RELEVANTE SOBRE O ENCERRAMENTO DO PROGRAMA DE AMORTIZAÇÃO DE COTAS DO FG/AGRO FUNDO DE INVESTIMENTO NAS CADEIAS PRODUTIVAS AGROINDUSTRIAIS - FIAGRO-IMOBILIÁRIO RESPONSABILIDADE LIMIT"
+    }
+   ]
   },
   {
    "ticker": "FIGS11",
@@ -3357,10 +3438,17 @@
    "analise": "Negocia a 0.81x o valor patrimonial — desconto de 4% frente à mediana do segmento (0.84). Dividend yield (12m) de 17.3%, acima da mediana dos pares (16.7%); supera 68% do segmento. Retorno de 24.4% em 12 meses (top 24% do segmento). Liquidez baixa (~R$ 0.1 mi/dia). Cotação a 93% da máxima de 52 semanas. Base comparativa: 25 pares do segmento Imobiliário. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual": "Relatório de 29/05/2026 — Fiagro do tipo imobiliário, focado em recebíveis e ativos do agronegócio. Indicadores extraídos: distribuição de R$ 0,110; CDI + 8,5%. Fonte: relatório no Fundos.NET, ref. 29/05/2026. (Resumo automático.)",
-   "pontos_atencao": "crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
-   "analise_qual_id": "1223628",
+   "pontos_atencao": "Indicadores de atenção no relatório: recuperação judicial e o juiz responsável de primeiro grau d. Riscos estruturais: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
+   "analise_qual_id": "1223628|fr:854743",
    "cotas": 4459952.000000001,
-   "cotacao_em": "2026-07-15"
+   "cotacao_em": "2026-07-15",
+   "fatos_relevantes": [
+    {
+     "data": "10/03/2025",
+     "risco": false,
+     "resumo": "BTG Pactual btgpactual.com NCH RECEBÍVEIS DO AGRONEGÓCIO - FIAGRO IMOBILIÁRIO CNPJ nº 42.537.438/0001-53 – Código de negociação: NCRA11 (“Fundo”) FATO RELEVANTE A BTG PACTUAL"
+    }
+   ]
   },
   {
    "ticker": "FVPQ11",
@@ -3559,10 +3647,22 @@
    "analise": "Negocia a 0.61x o valor patrimonial — desconto de 27% frente à mediana do segmento (0.84). Dividend yield (12m) de 15.5%, abaixo da mediana dos pares (16.7%); supera 20% do segmento. Retorno de 20.8% em 12 meses (top 44% do segmento). Liquidez baixa (~R$ 0.2 mi/dia). Cotação a 84% da máxima de 52 semanas. Base comparativa: 25 pares do segmento Imobiliário. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual": "Relatório de 29/05/2026 — Fiagro do tipo imobiliário, focado em recebíveis e ativos do agronegócio. Indicadores extraídos: distribuição do mês, o Fundo mantém R$ 0,82; dividend yield anualizado de 15,7%. Fonte: relatório no Fundos.NET, ref. 29/05/2026. (Resumo automático.)",
-   "pontos_atencao": "crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
-   "analise_qual_id": "1234238",
+   "pontos_atencao": "Indicadores de atenção no relatório: recuperação judicial do. Riscos estruturais: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira. Fato relevante (06/03/2024): ...tos abaixo: • Em razão da inadimplência parcial da parcela de juros e amortização devida no segundo semestre de 2023, conforme destacado nos últimos relatórios geren...",
+   "analise_qual_id": "1234238|fr:620997+615760",
    "cotas": 1750865.0,
-   "cotacao_em": "2026-07-15"
+   "cotacao_em": "2026-07-15",
+   "fatos_relevantes": [
+    {
+     "data": "15/03/2024",
+     "risco": false,
+     "resumo": "Av. Brig. Faria Lima, 1355 ▪ 5° e 15° andares ▪ São Paulo/SP ▪ 01452-919 | Tel.: (55 11) 2827-3500 | Ouvidoria: ouvidoria@singulare.com.br | www.singulare.com.br GALAPAGOS RECEBÍVEI"
+    },
+    {
+     "data": "06/03/2024",
+     "risco": true,
+     "resumo": "...tos abaixo: • Em razão da inadimplência parcial da parcela de juros e amortização devida no segundo semestre de 2023, conforme destacado nos últimos relatórios geren..."
+    }
+   ]
   },
   {
    "ticker": "GCRI11",
@@ -5258,10 +5358,22 @@
    "analise": "Negocia a 0.65x o valor patrimonial — desconto de 23% frente à mediana do segmento (0.84). Dividend yield (12m) de 18.3%, acima da mediana dos pares (16.7%); supera 88% do segmento. Retorno de 13.0% em 12 meses (abaixo da mediana do segmento). Liquidez média (~R$ 0.6 mi/dia). Cotação a 89% da máxima de 52 semanas. Base comparativa: 25 pares do segmento Imobiliário. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual": "Relatório de 29/05/2026 — Fiagro do tipo imobiliário, focado em recebíveis e ativos do agronegócio. Indicadores extraídos: distribuiu em maio R$ 0,50; dividend yield de 0,53%. Fonte: relatório no Fundos.NET, ref. 29/05/2026. (Resumo automático.)",
-   "pontos_atencao": "crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
-   "analise_qual_id": "1227442",
+   "pontos_atencao": "Indicadores de atenção no relatório: recuperação judicial), Lavoro (em recuperação extrajudicial); rebaixamento de rating e passaram a integr; Inadimplemento e Evento. Riscos estruturais: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira. Fato relevante (30/04/2026): ...26, ensejando a decretação de vencimento antecipado automático das obrigações do CRA Lavoro (“Fato Gerador”). Em atendimento ao Artigo 64 da Resolução CVM 175, de 23 de...",
+   "analise_qual_id": "1227442|fr:1178538+1059552",
    "cotas": 2141248.0,
-   "cotacao_em": "2026-07-15"
+   "cotacao_em": "2026-07-15",
+   "fatos_relevantes": [
+    {
+     "data": "30/04/2026",
+     "risco": true,
+     "resumo": "...26, ensejando a decretação de vencimento antecipado automático das obrigações do CRA Lavoro (“Fato Gerador”). Em atendimento ao Artigo 64 da Resolução CVM 175, de 23 de..."
+    },
+    {
+     "data": "11/12/2025",
+     "risco": false,
+     "resumo": "Fato Relevante – JGPX11 Rio de Janeiro, 11 de dezembro de 2025 Prezados cotistas, O FUNDO DE INVESTIMENTO NAS CADEIAS PRODUTIVAS AGROINDUSTRIAIS JGP CRÉDITO – FIAGRO – IMOBILIÁRIO DE R"
+    }
+   ]
   },
   {
    "ticker": "JMBI11",
@@ -5620,9 +5732,16 @@
    "risco": "Riscos típicos: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa.",
    "analise_qual": "Relatório de 30/06/2026 — Fiagro do tipo imobiliário, focado em recebíveis e ativos do agronegócio. Fonte: relatório no Fundos.NET, ref. 30/06/2026. (Resumo automático.)",
    "pontos_atencao": "crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa.",
-   "analise_qual_id": "1244446",
+   "analise_qual_id": "1244446|fr:891094",
    "cotas": 670982.0,
-   "cotacao_em": "2026-07-15"
+   "cotacao_em": "2026-07-15",
+   "fatos_relevantes": [
+    {
+     "data": "30/04/2025",
+     "risco": false,
+     "resumo": "KINEA AGRO INCOME USD FIAGRO-IMOBILIÁRIO Código de Negociação: KDOL11 CNPJ nº 51.641.681/0001-08 Administrado por INTRAG DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA. F"
+    }
+   ]
   },
   {
    "ticker": "KFOF11",
@@ -6271,10 +6390,22 @@
    "analise": "Negocia a 0.78x o valor patrimonial — desconto de 7% frente à mediana do segmento (0.84). Dividend yield (12m) de 15.7%, abaixo da mediana dos pares (16.7%); supera 28% do segmento. Retorno de 18.6% em 12 meses (abaixo da mediana do segmento). Liquidez baixa (~R$ 0.1 mi/dia). Cotação a 90% da máxima de 52 semanas. Base comparativa: 25 pares do segmento Imobiliário. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual": "Relatório de 28/05/2026 — Fiagro do tipo imobiliário, focado em recebíveis e ativos do agronegócio. Fonte: relatório no Fundos.NET, ref. 28/05/2026. (Resumo automático.)",
-   "pontos_atencao": "crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
-   "analise_qual_id": "1230951",
+   "pontos_atencao": "Indicadores de atenção no relatório: recuperação judicial ou. Riscos estruturais: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira. Fato relevante (30/06/2025): ...quer ocorrência de evento de inadimplência, e que os resultados auferidos que não estão passíveis de distribuição no momento são incorporados ao valor patrimonial da co...",
+   "analise_qual_id": "1230951|fr:1206603+936582",
    "cotas": 1009333.9999999999,
-   "cotacao_em": "2026-07-15"
+   "cotacao_em": "2026-07-15",
+   "fatos_relevantes": [
+    {
+     "data": "28/05/2026",
+     "risco": false,
+     "resumo": "FATO RELEVANTE RIZA AGRO II FUNDO DE INVESTIMENTO NAS CADEIAS PRODUTIVAS AGROINDUSTRIAIS – FIAGRO – IMOBILIÁRIO – RESPONSABILIDADE LIMITADA (LSAG11) CNPJ/MF Nº 42.592.476/0001-09"
+    },
+    {
+     "data": "30/06/2025",
+     "risco": true,
+     "resumo": "...quer ocorrência de evento de inadimplência, e que os resultados auferidos que não estão passíveis de distribuição no momento são incorporados ao valor patrimonial da co..."
+    }
+   ]
   },
   {
    "ticker": "LVBI11",
@@ -6672,11 +6803,18 @@
    "descricao": "Fiagro do tipo imobiliário, focado em recebíveis e ativos do agronegócio. Gerido pela NEX Gestão de Recursos, administrado por Vórtx. Patrimônio de R$ 70 mi, liquidez baixa (~R$ 0.4 mi/dia).",
    "analise": "Negocia a 1.33x o valor patrimonial — prêmio de 57% frente à mediana do segmento (0.84). Dividend yield (12m) de 8.4%, abaixo da mediana dos pares (16.7%); supera 4% do segmento. Retorno de 27.8% em 12 meses (top 16% do segmento). Liquidez baixa (~R$ 0.4 mi/dia). Cotação a 100% da máxima de 52 semanas. Base comparativa: 25 pares do segmento Imobiliário. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa. Negocia com prêmio relevante sobre o valor patrimonial (risco de reversão).",
-   "analise_qual": "Relatório de 30/06/2026 — Fiagro do tipo imobiliário, focado em recebíveis e ativos do agronegócio. Indicadores extraídos: rendimento de R$ 0,90; yield¹ de 0,90%. Fonte: relatório no Fundos.NET, ref. 30/06/2026. (Resumo automático.)",
+   "analise_qual": "Relatório de 29/05/2026 — Fiagro do tipo imobiliário, focado em recebíveis e ativos do agronegócio. Fonte: relatório no Fundos.NET, ref. 29/05/2026. (Resumo automático.)",
    "pontos_atencao": "crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa. Negocia com prêmio relevante sobre o valor patrimonial (risco de reversão).",
-   "analise_qual_id": "1243029",
+   "analise_qual_id": "1247747|fr:976940",
    "cotas": 698500.0,
-   "cotacao_em": "2026-07-15"
+   "cotacao_em": "2026-07-15",
+   "fatos_relevantes": [
+    {
+     "data": "22/08/2025",
+     "risco": false,
+     "resumo": "FATO RELEVANTE NEX CRÉDITO AGRO FUNDO DE INVESTIMENTO NAS CADEIAS PRODUTIVAS DO AGRONEGÓCIO – FIAGRO – RESPONSABILIDADE LIMITADA CNPJ nº 52.044.477/0001-72 Código de Negociação B"
+    }
+   ]
   },
   {
    "ticker": "NSLU11",
@@ -6795,9 +6933,16 @@
    "risco": "Riscos típicos: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual": "Relatório de 29/05/2026 — Fiagro do tipo imobiliário, focado em recebíveis e ativos do agronegócio. Indicadores extraídos: distribuição de R$ 0,120; dividend yield de 16,2%; CDI + 2%; ativos-alvo representou 91,2%. Fonte: relatório no Fundos.NET, ref. 29/05/2026. (Resumo automático.)",
    "pontos_atencao": "crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
-   "analise_qual_id": "1234353",
+   "analise_qual_id": "1234353|fr:861552",
    "cotas": 9032999.000000002,
-   "cotacao_em": "2026-07-15"
+   "cotacao_em": "2026-07-15",
+   "fatos_relevantes": [
+    {
+     "data": "18/03/2025",
+     "risco": false,
+     "resumo": "OURINVEST INNOVATION – FIAGRO IMOBILIÁRIO CNPJ 41.218.352/0001-03 FATO RELEVANTE A SINGULARE CORRETORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A., com sede na Avenida Brigadeiro Faria"
+    }
+   ]
   },
   {
    "ticker": "OUJP11",
@@ -7033,10 +7178,22 @@
    "analise": "Negocia a 0.77x o valor patrimonial — desconto de 9% frente à mediana do segmento (0.84). Dividend yield (12m) de 16.7%, abaixo da mediana dos pares (16.7%); supera 44% do segmento. Retorno de 20.4% em 12 meses (top 48% do segmento). Liquidez baixa (~R$ 0.1 mi/dia). Cotação a 94% da máxima de 52 semanas. Base comparativa: 25 pares do segmento Imobiliário. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual": "Relatório de 30/04/2026 — Fiagro do tipo imobiliário, focado em recebíveis e ativos do agronegócio. Indicadores extraídos: dividend yield de 1,1%; CDI+3,3%. Fonte: relatório no Fundos.NET, ref. 30/04/2026. (Resumo automático.)",
-   "pontos_atencao": "crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
-   "analise_qual_id": "1226599",
+   "pontos_atencao": "Indicadores de atenção no relatório: recuperação judicial ou extrajudicial. Riscos estruturais: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
+   "analise_qual_id": "1226599|fr:946264+910194",
    "cotas": 557019.0,
-   "cotacao_em": "2026-07-15"
+   "cotacao_em": "2026-07-15",
+   "fatos_relevantes": [
+    {
+     "data": "14/07/2025",
+     "risco": false,
+     "resumo": "FATO RELEVANTE PLURAL BRB CRÉDITO AGRO FUNDO DE INVESTIMENTO NAS CADEIAS PRODUTIVAS DO AGRONEGÓCIO – FIAGRO – RESPONSABILIDADE LIMITADA CNPJ nº 41.272.747/0001-86 O BANCO GENIA"
+    },
+    {
+     "data": "22/05/2025",
+     "risco": false,
+     "resumo": "GENIAL MALLS FUNDO DE INVESTIMENTO IMOBILIÁRIO GENIAL LOGÍSTICA FUNDO DE INVESTIMENTO IMOBILIÁRIO SP DOWNTOWN FUNDO DE INVESTIMENTO IMOBILIÁRIO – FII PLURAL RECEBÍVEIS IMOBILIÁRIOS FUNDO"
+    }
+   ]
   },
   {
    "ticker": "PMIS11",
@@ -8251,7 +8408,14 @@
    "pontos_atencao": "Risco climático no radar: o próprio relatório aponta a formação de El Niño previsto para o 2º semestre de 2026, durante a safra de verão da América do Sul, com potencial impacto na produtividade e na capacidade de pagamento dos produtores. Carteira de CRAs exposta ao risco de crédito do agro e à marcação a mercado. [Extraído do relatório de maio/2026]",
    "analise_qual_id": "manual-1218323",
    "cotas": 160099509.00485438,
-   "cotacao_em": "2026-07-15"
+   "cotacao_em": "2026-07-15",
+   "fatos_relevantes": [
+    {
+     "data": "29/10/2024",
+     "risco": false,
+     "resumo": "Página 1 Corporativo | Interno FATO RELEVANTE ITAÚ ASSET RURAL FIAGRO - IMOBILIÁRIO CNPJ nº 42.479.593/0001-60 INTRAG DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA.,"
+    }
+   ]
   },
   {
    "ticker": "RZAG11",
@@ -8292,7 +8456,19 @@
    "pontos_atencao": "Alocação acima de 100% (102,3%) indica uso de alavancagem/compromissos, elevando a sensibilidade ao custo da dívida. Risco de crédito do agro e marcação a mercado. [Extraído do relatório de maio/2026]",
    "analise_qual_id": "manual-1227199",
    "cotas": 68040425.0,
-   "cotacao_em": "2026-07-15"
+   "cotacao_em": "2026-07-15",
+   "fatos_relevantes": [
+    {
+     "data": "28/05/2026",
+     "risco": false,
+     "resumo": "FATO RELEVANTE RIZA AGRO FUNDO DE INVESTIMENTO NAS CADEIAS PRODUTIVAS DO AGRONEGÓCIO – FIAGRO (RZAG11) CNPJ/MF Nº 40.413.979/0001-44 O BANCO GENIAL S.A, com sede na cidade do Rio"
+    },
+    {
+     "data": "28/05/2026",
+     "risco": false,
+     "resumo": "FATO RELEVANTE RIZA AGRO II FUNDO DE INVESTIMENTO NAS CADEIAS PRODUTIVAS AGROINDUSTRIAIS – FIAGRO – IMOBILIÁRIO – RESPONSABILIDADE LIMITADA (LSAG11) CNPJ/MF Nº 42.592.476/0001-09"
+    }
+   ]
   },
   {
    "ticker": "RZAK11",
@@ -8778,7 +8954,19 @@
    "pontos_atencao": "Sem inadimplência reportada no período (0,00%), mas a carteira de CRAs permanece exposta ao risco de crédito do agro (commodities, clima/safra) e à marcação a mercado. [Extraído do relatório de maio/2026]",
    "analise_qual_id": "manual-1204482",
    "cotas": 60740353.00000001,
-   "cotacao_em": "2026-07-15"
+   "cotacao_em": "2026-07-15",
+   "fatos_relevantes": [
+    {
+     "data": "26/02/2026",
+     "risco": false,
+     "resumo": "SUNO AGRO – FIAGRO RESPONSABILIDADE LIMITADA • FATO RELEVANTE • FATO RELEVANTE SUNO AGRO – FIAGRO RESPONSABILIDADE LIMITADA CNPJ nº 28.152.777/0001-90 A QI CORRETORA DE TÍTULOS E VALO"
+    },
+    {
+     "data": "08/01/2026",
+     "risco": false,
+     "resumo": "SUNO AGRO - FIAGRO RESPONSABILIDADE LIMITADA CNPJ/MF nº 28.152.777/0001-90 FATO RELEVANTE SINGULARE CORRETORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A., com sede na cidade"
+    }
+   ]
   },
   {
    "ticker": "SNCI11",
@@ -8940,9 +9128,21 @@
    "risco": "Riscos típicos: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa.",
    "analise_qual": "Relatório de 29/05/2026 — Fiagro do tipo imobiliário, focado em recebíveis e ativos do agronegócio. Indicadores extraídos: distribuição mensal de R$ 0,10; Yield CRAs (All In) 17,41%. Fonte: relatório no Fundos.NET, ref. 29/05/2026. (Resumo automático.)",
    "pontos_atencao": "crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa.",
-   "analise_qual_id": "1228463",
+   "analise_qual_id": "1228463|fr:1204279+955660",
    "cotas": 12089907.0,
-   "cotacao_em": "2026-07-15"
+   "cotacao_em": "2026-07-15",
+   "fatos_relevantes": [
+    {
+     "data": "26/05/2026",
+     "risco": false,
+     "resumo": "SUNO FAZENDAS FIAGRO - IMOBILIÁRIO CNPJ nº 53.313.475/0001-02 Código de Negociação na B3: SNFZ11 FATO RELEVANTE A CLASSE ÚNICA DO SUNO FAZENDAS FIAGRO – IMOBILIÁRIO, classe única d"
+    },
+    {
+     "data": "29/07/2025",
+     "risco": false,
+     "resumo": "SUNO FAZENDAS FIAGRO - IMOBILIÁRIO CNPJ nº 53.313.475/0001-02 Código de Negociação na B3: SNFZ11 FATO RELEVANTE A CLASSE ÚNICA DO SUNO FAZENDAS FIAGRO – IMOBILIÁRIO, classe única d"
+    }
+   ]
   },
   {
    "ticker": "SNID11",
@@ -9582,7 +9782,7 @@
    "analise": "Negocia a 0.27x o valor patrimonial — desconto de 70% frente à mediana do segmento (0.88). Dividend yield (12m) de 19.4%, acima da mediana dos pares (14.5%); supera 91% do segmento. Retorno de -36.9% em 12 meses (abaixo da mediana do segmento). Liquidez média (~R$ 0.7 mi/dia). Cotação a 54% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual": "Leitura de noticias e fatos relevantes publicos (midia especializada, 2025-2026).",
-   "pontos_atencao": "Inadimplencia de CRIs residenciais agravada pela Selic a 15%; gestao renegociou e diferiu juros de varios devedores, reduzindo a distribuicao. Cortes sucessivos de dividendo (R$0,40 em ago/2025, menor patamar desde 2020, ante ~R$2,00 no passado); cota caiu de ~R$38 para ~R$20 em 2026. (Noticias e fatos relevantes, 2025-2026.)",
+   "pontos_atencao": "Inadimplencia elevada em CRIs residenciais (mutuarios pressionados pela Selic a 15%); reestruturacao de dividas de varios devedores, com diferimento de juros. Cortes sucessivos de dividendo (R$0,40 em ago/2025, menor patamar desde 2020, ante ~R$2,00) e cota caiu de ~R$38 para ~R$20 em 2026. (Noticias e fatos relevantes, 2025-2026.)",
    "analise_qual_id": "manual-noticias-202607",
    "cotas": 11733895.0,
    "cotacao_em": "2026-07-15"
@@ -9664,10 +9864,22 @@
    "analise": "Negocia a 0.61x o valor patrimonial — desconto de 28% frente à mediana do segmento (0.84). Dividend yield (12m) de 18.6%, acima da mediana dos pares (16.7%); supera 92% do segmento. Retorno de 15.8% em 12 meses (abaixo da mediana do segmento). Liquidez média (~R$ 0.6 mi/dia). Cotação a 95% da máxima de 52 semanas. Base comparativa: 25 pares do segmento Imobiliário. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual": "Relatório de 30/06/2026 — Fiagro do tipo imobiliário, focado em recebíveis e ativos do agronegócio. Indicadores extraídos: distribuição de R$ 0,97; IPCA+ 25,2%. Fonte: relatório no Fundos.NET, ref. 30/06/2026. (Resumo automático.)",
-   "pontos_atencao": "crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
-   "analise_qual_id": "1244452",
+   "pontos_atencao": "crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira. Fato relevante (07/04/2025): ...“Grupo Safras”), de pedido de recuperação judicial perante a 4ª Vara Cível da Comarca de Sinop, Estado do Mato Grosso (“Recuperação Judicial”). Ainda não há decisão a...",
+   "analise_qual_id": "1244452|fr:922400+874960",
    "cotas": 4593918.999999999,
-   "cotacao_em": "2026-07-15"
+   "cotacao_em": "2026-07-15",
+   "fatos_relevantes": [
+    {
+     "data": "12/06/2025",
+     "risco": false,
+     "resumo": "Página 1 Corporativo | Interno FATO RELEVANTE VECTIS DATAGRO CRÉDITO AGRONEGÓCIO – FUNDO DE INVESTIMENTO NAS CADEIAS PRODUTIVAS AGROINDUSTRIAIS – IMOBILIÁRIO CNPJ: 42.502.827"
+    },
+    {
+     "data": "07/04/2025",
+     "risco": true,
+     "resumo": "...“Grupo Safras”), de pedido de recuperação judicial perante a 4ª Vara Cível da Comarca de Sinop, Estado do Mato Grosso (“Recuperação Judicial”). Ainda não há decisão a..."
+    }
+   ]
   },
   {
    "ticker": "VCRI11",
@@ -9830,7 +10042,14 @@
    "pontos_atencao": "Spread de crédito elevado (CDI+7,0%) sinaliza maior risco/retorno da carteira. CRAs expostos ao risco de crédito do agro (preços de commodities, clima/safra e endividamento de produtores) e à marcação a mercado. [Extraído do relatório de maio/2026]",
    "analise_qual_id": "manual-1211337",
    "cotas": 86455117.0,
-   "cotacao_em": "2026-07-15"
+   "cotacao_em": "2026-07-15",
+   "fatos_relevantes": [
+    {
+     "data": "24/02/2026",
+     "risco": false,
+     "resumo": "[ CLASSIFICAÇÃO: PÚBLICA ] VALORA CRA FUNDO DE INVESTIMENTO NAS CADEIAS PRODUTIVAS DO AGRONEGÓCIO – FIAGRO CNPJ nº 41.081.088/0001-09 Código ISIN nº BRVGIACTF004 Código de Negoci"
+    }
+   ]
   },
   {
    "ticker": "VGIP11",
