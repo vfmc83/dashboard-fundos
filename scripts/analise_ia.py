@@ -66,6 +66,41 @@ def rel_recente(ticker, idx):
     return rg[0]
 
 
+FR_RISK = re.compile(r"(inadimpl\w*|recupera[çc][ãa]o judicial|vencimento antecipado|execu[çc][ãa]o (de |da )?garantia|\bdefault\b|reperfilament\w+|renegocia[çc][ãa]o de d[íi]vida|\bwaiver\b|car[êe]ncia de juros|substitui[çc][ãa]o d[oa] (gestor|administrador)|desenquadramento|reestrutura[çc][ãa]o)", re.I)
+
+
+def frs_recentes(ticker, idx, n=2):
+    fr = [d for d in idx if d.get("ticker") == ticker and
+          "fato relevante" in ((d.get("categoria") or "") + (d.get("tipo") or "") + (d.get("especie") or "")).lower()]
+    fr.sort(key=lambda d: dkey(d.get("dataEntrega") or d.get("dataReferencia")), reverse=True)
+    return fr[:n]
+
+
+def analisa_frs(frs):
+    """Le os FRs recentes e devolve itens estruturados {data, risco, resumo}."""
+    itens = []
+    for fr in frs:
+        pdf = baixar_pdf(fr["id"])
+        if not pdf:
+            continue
+        try:
+            t = texto_pdf(pdf, maxpg=6)
+        except Exception:
+            continue
+        if len(t.strip()) < 30:
+            continue
+        ref = (fr.get("dataEntrega") or fr.get("dataReferencia") or "")[:10]
+        m = FR_RISK.search(t)
+        if m:
+            snip = re.sub(r"\s+", " ", t[max(0, m.start() - 30):m.start() + 140]).strip()
+            itens.append({"data": ref, "risco": True, "resumo": "..." + snip + "..."})
+        else:
+            ini = re.sub(r"\s+", " ", t[:190]).strip()
+            itens.append({"data": ref, "risco": False, "resumo": ini})
+        time.sleep(0.4)
+    return itens
+
+
 def baixar_pdf(doc_id):
     for k in range(3):
         try:
@@ -179,11 +214,17 @@ def main():
         if not rel:
             continue
         rid = str(rel["id"])
+        frs = frs_recentes(f["ticker"], idx, 2)
+        combo = rid + ("|fr:" + "+".join(str(x["id"]) for x in frs) if frs else "")
         # Não sobrescrever análises manuais ricas (marcadas com "manual-...")
         if str(f.get("analise_qual_id", "")).startswith("manual"):
+            fr_itens = analisa_frs(frs)
+            if fr_itens:
+                f["fatos_relevantes"] = fr_itens
+                DATA.write_text(json.dumps(doc, ensure_ascii=False, indent=1), encoding="utf-8")
             pulados += 1
             continue
-        if f.get("analise_qual_id") == rid:
+        if f.get("analise_qual_id") == combo:
             pulados += 1
             continue
         pdf = baixar_pdf(rel["id"])
@@ -197,11 +238,17 @@ def main():
                 continue
             ref = (rel.get("dataReferencia") or rel.get("dataEntrega") or "")[:10]
             aq, pa = analisa(f, t, ref)
+            fr_itens = analisa_frs(frs)
+            if fr_itens:
+                f["fatos_relevantes"] = fr_itens
+                risco = [i for i in fr_itens if i["risco"]]
+                if risco:
+                    pa += " " + " ".join(f"Fato relevante ({i['data']}): {i['resumo']}" for i in risco)
             f["analise_qual"] = aq
             f["pontos_atencao"] = pa
-            f["analise_qual_id"] = rid
+            f["analise_qual_id"] = combo
             feitos += 1
-            print(f"[{feitos}] {f['ticker']} ok ({ref})")
+            print(f"[{feitos}] {f['ticker']} ok ({ref}, {len(frs)}FR)")
             DATA.write_text(json.dumps(doc, ensure_ascii=False, indent=1), encoding="utf-8")
             time.sleep(a.sleep)
         except Exception as e:
