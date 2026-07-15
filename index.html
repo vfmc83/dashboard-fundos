@@ -45,6 +45,22 @@
   .toolbar{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:16px 0}
   .search{flex:1;min-width:220px;border:1px solid var(--linha);background:#fff;border-radius:6px;padding:10px 14px;font-size:14px;font-family:var(--sans);color:var(--tinta)}
   .search:focus{outline:none;border-color:var(--champagne)}
+  .flt-btn{white-space:nowrap;flex:0 0 auto}
+  .flt-panel{background:#fff;border:1px solid var(--linha);border-radius:8px;padding:16px 18px;margin:0 0 14px;display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px 28px}
+  .rng-lab{display:flex;justify-content:space-between;align-items:baseline;font-size:12px;color:var(--neutro);margin-bottom:9px}
+  .rng-lab b{color:var(--petroleo);font-weight:600;font-size:12.5px}
+  .rng-wrap{position:relative;height:20px}
+  .rng-wrap .rng-track{position:absolute;top:8px;left:0;right:0;height:4px;background:var(--trilho);border-radius:2px}
+  .rng-wrap .rng-fill{position:absolute;top:8px;height:4px;background:var(--champagne);border-radius:2px}
+  .rng-wrap input[type=range]{position:absolute;top:0;left:0;width:100%;height:20px;margin:0;background:transparent;-webkit-appearance:none;appearance:none;pointer-events:none}
+  .rng-wrap input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;pointer-events:auto;width:15px;height:15px;border-radius:50%;background:var(--petroleo);border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,.28);cursor:pointer}
+  .rng-wrap input[type=range]::-moz-range-thumb{pointer-events:auto;width:15px;height:15px;border-radius:50%;background:var(--petroleo);border:2px solid #fff;cursor:pointer}
+  .rng-single{width:100%;height:20px;background:transparent;-webkit-appearance:none;appearance:none;cursor:pointer}
+  .rng-single::-webkit-slider-runnable-track{height:4px;background:var(--trilho);border-radius:2px}
+  .rng-single::-moz-range-track{height:4px;background:var(--trilho);border-radius:2px}
+  .rng-single::-webkit-slider-thumb{-webkit-appearance:none;margin-top:-5.5px;width:15px;height:15px;border-radius:50%;background:var(--petroleo);border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,.28);cursor:pointer}
+  .rng-single::-moz-range-thumb{width:15px;height:15px;border-radius:50%;background:var(--petroleo);border:2px solid #fff;cursor:pointer}
+  .flt-actions{grid-column:1/-1;display:flex;justify-content:flex-end;align-items:center;gap:14px}
 
   .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:14px 0 8px}
   .kpi{background:#fff;border:1px solid var(--linha);border-radius:8px;padding:16px 18px}
@@ -364,6 +380,19 @@ function Footer({meta}){
   return (<footer><div className="wrap">Uso exclusivo Engage. Dados: Fundos.NET (CVM) e sites oficiais dos fundos.{meta&&meta.cotacoes_em?` Cotações de ${meta.cotacoes_em}.`:''} Todas as informações foram obtidas de fontes públicas. Não constitui recomendação de investimento.</div></footer>);
 }
 
+function RangeSlider({label,min,max,step,val,onChange,fmt}){
+  const pl=Math.max(0,((val[0]-min)/(max-min))*100), pr=Math.min(100,((val[1]-min)/(max-min))*100);
+  return (<div className="rng">
+    <div className="rng-lab"><span>{label}</span><b>{fmt(val[0])} – {fmt(val[1])}</b></div>
+    <div className="rng-wrap">
+      <div className="rng-track"></div>
+      <div className="rng-fill" style={{left:pl+'%',width:(pr-pl)+'%'}}></div>
+      <input type="range" min={min} max={max} step={step} value={val[0]} onChange={e=>onChange([Math.min(+e.target.value,val[1]),val[1]])}/>
+      <input type="range" min={min} max={max} step={step} value={val[1]} onChange={e=>onChange([val[0],Math.max(+e.target.value,val[0])])}/>
+    </div>
+  </div>);
+}
+
 function App(){
   const [data,setData]=useState(null);
   const [erro,setErro]=useState(null);
@@ -376,6 +405,11 @@ function App(){
   const [showCmp,setShowCmp]=useState(false);
   const [docs,setDocs]=useState(null);
   const [sel,setSel]=useState(null);
+  const [showFlt,setShowFlt]=useState(false);
+  const [fPvp,setFPvp]=useState([0,2.5]);
+  const [fDy,setFDy]=useState([0,0.3]);
+  const [fRet,setFRet]=useState([-0.4,0.6]);
+  const [fVm,setFVm]=useState(0);
 
   useEffect(()=>{
     if(window.__DATA__){setData(window.__DATA__);}
@@ -392,10 +426,19 @@ function App(){
     if(classe!=='Todos')r=r.filter(f=>f.classe===classe);
     if(sub!=='Todos')r=r.filter(f=>f.subclasse===sub);
     if(busca.trim()){const q=busca.toLowerCase();r=r.filter(f=>(f.ticker+' '+(f.nome||'')+' '+(f.gestor||'')).toLowerCase().includes(q));}
+    r=r.filter(f=>{
+      if(fPvp[0]>0&&(f.pvpa==null||f.pvpa<fPvp[0]))return false;
+      if(fPvp[1]<2.5&&(f.pvpa==null||f.pvpa>fPvp[1]))return false;
+      if(fDy[0]>0&&(f.dy_ltm==null||f.dy_ltm<fDy[0]))return false;
+      if(fDy[1]<0.3&&(f.dy_ltm==null||f.dy_ltm>fDy[1]))return false;
+      if(fRet[0]>-0.4&&(f.ret_ltm==null||f.ret_ltm<fRet[0]))return false;
+      if(fRet[1]<0.6&&(f.ret_ltm==null||f.ret_ltm>fRet[1]))return false;
+      if(fVm>0&&(f.valor_mercado||0)<fVm)return false;
+      return true;});
     r=[...r].sort((a,b)=>{const x=a[sortKey],y=b[sortKey];
       if(x==null&&y==null)return 0;if(x==null)return 1;if(y==null)return -1;
       if(typeof x==='string')return x.localeCompare(y)*sortDir;return (x-y)*sortDir;});
-    return r;},[fundos,classe,sub,busca,sortKey,sortDir]);
+    return r;},[fundos,classe,sub,busca,sortKey,sortDir,fPvp,fDy,fRet,fVm]);
 
   const setSort=(k)=>{if(sortKey===k)setSortDir(d=>-d);else{setSortKey(k);setSortDir(k==='ticker'||k==='nome'||k==='subclasse'?1:-1);}};
   const toggleCmp=(t)=>setComparar(s=>{const n=new Set(s);n.has(t)?n.delete(t):(n.size<6&&n.add(t));return n;});
@@ -405,6 +448,7 @@ function App(){
   if(sel)return <div><Header/><Ficha f={sel} onBack={()=>setSel(null)} todos={fundos} docs={docs}/><Footer meta={data.meta}/></div>;
 
   const cmpList=fundos.filter(f=>comparar.has(f.ticker));
+  const fltAtivos=(fPvp[0]>0||fPvp[1]<2.5?1:0)+(fDy[0]>0||fDy[1]<0.3?1:0)+(fRet[0]>-0.4||fRet[1]<0.6?1:0)+(fVm>0?1:0);
   return (<div><Header/>
     <div className="wrap">
       <section className="hero"><span className="kicker">Universo</span><h1>Fundos listados na B3</h1>
@@ -414,7 +458,17 @@ function App(){
       {subclasses.length>0 && <div className="chips sub">
         <button className={'chip'+(sub==='Todos'?' on':'')} onClick={()=>setSub('Todos')}>Todos os segmentos</button>
         {subclasses.map(s=>(<button key={s} className={'chip'+(sub===s?' on':'')} onClick={()=>setSub(s)}>{s}</button>))}</div>}
-      <div className="toolbar"><input className="search" placeholder="Buscar por ticker, nome ou gestor…" value={busca} onChange={e=>setBusca(e.target.value)} /></div>
+      <div className="toolbar"><input className="search" placeholder="Buscar por ticker, nome ou gestor…" value={busca} onChange={e=>setBusca(e.target.value)} />
+        <button className="btn ghost sm flt-btn" onClick={()=>setShowFlt(v=>!v)}>{showFlt?'Ocultar filtros':'Filtros'}{fltAtivos>0?` · ${fltAtivos}`:''}</button></div>
+      {showFlt && <div className="flt-panel">
+        <RangeSlider label="P/VP" min={0} max={2.5} step={0.05} val={fPvp} onChange={setFPvp} fmt={v=>num(v)}/>
+        <RangeSlider label="DY LTM" min={0} max={0.3} step={0.005} val={fDy} onChange={setFDy} fmt={v=>pct(v)}/>
+        <RangeSlider label="Retorno 12m" min={-0.4} max={0.6} step={0.01} val={fRet} onChange={setFRet} fmt={v=>pct(v)}/>
+        <div className="rng"><div className="rng-lab"><span>Valor de mercado mín.</span><b>{fVm>0?brl(fVm):'sem mínimo'}</b></div>
+          <input className="rng-single" type="range" min={0} max={5000000000} step={100000000} value={fVm} onChange={e=>setFVm(+e.target.value)}/></div>
+        <div className="flt-actions"><span style={{fontSize:12,color:'var(--neutro)'}}>{filtrados.length} de {fundos.length} fundos</span>
+          <button className="btn ghost sm" onClick={()=>{setFPvp([0,2.5]);setFDy([0,0.3]);setFRet([-0.4,0.6]);setFVm(0);}}>Limpar filtros</button></div>
+      </div>}
       <div className="kpis">
         <div className="kpi"><div className="k">Fundos</div><div className="v">{filtrados.length}</div></div>
         <div className="kpi"><div className="k">Patrimônio total</div><div className="v">{brl(filtrados.reduce((s,f)=>s+(f.valor_patrimonial||0),0))}</div></div>
