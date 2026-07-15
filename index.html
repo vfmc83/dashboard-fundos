@@ -61,6 +61,19 @@
   .rng-single::-webkit-slider-thumb{-webkit-appearance:none;margin-top:-5.5px;width:15px;height:15px;border-radius:50%;background:var(--petroleo);border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,.28);cursor:pointer}
   .rng-single::-moz-range-thumb{width:15px;height:15px;border-radius:50%;background:var(--petroleo);border:2px solid #fff;cursor:pointer}
   .flt-actions{grid-column:1/-1;display:flex;justify-content:flex-end;align-items:center;gap:14px}
+  .rbadge{display:inline-flex;align-items:center;gap:6px;font-size:11.5px;font-weight:600;white-space:nowrap}
+  .rbadge b{display:inline-block;min-width:26px;text-align:center;color:#fff;border-radius:5px;padding:2px 6px;font-weight:700;font-size:11.5px}
+  .rbadge.dim{color:var(--neutro)}
+  .risco-top{display:flex;align-items:center;gap:14px;margin:10px 0 16px}
+  .risco-nota{width:54px;height:54px;border-radius:12px;color:#fff;display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-size:26px;flex:0 0 auto}
+  .risco-faixa{font-size:16px;font-weight:700;letter-spacing:.02em}
+  .risco-comp{display:flex;flex-direction:column;gap:8px}
+  .rc-row{display:flex;align-items:center;gap:10px;font-size:12px}
+  .rc-l{flex:0 0 140px;color:var(--neutro)}
+  .rc-t{flex:1;height:6px;background:var(--trilho);border-radius:3px;overflow:hidden}
+  .rc-f{display:block;height:100%;border-radius:3px}
+  .rc-v{flex:0 0 26px;text-align:right;font-weight:600;color:var(--tinta)}
+  @media(max-width:680px){.rbadge-n{display:none}}
 
   .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:14px 0 8px}
   .kpi{background:#fff;border:1px solid var(--linha);border-radius:8px;padding:16px 18px}
@@ -175,6 +188,59 @@ function Header(){
   </div></header>);
 }
 
+// ---- Score de risco Engage (comparavel dentro da classe; nao e recomendacao) ----
+const PERFIL_RISCO={"Desenvolvimento":92,"Crédito (FIDC)":68,"Papel (CRI)":58,"Gestão ativa":56,"Outros":54,"Híbrido":50,"Imobiliário":52,"Infraestrutura (FIP-IE)":62,"Infraestrutura":42,"Tijolo":44,"FoF":32};
+const FAIXAS=[{n:'Muito baixo',c:'#4A7C59'},{n:'Baixo',c:'#7E8C59'},{n:'Médio',c:'#A98A5B'},{n:'Alto',c:'#B5773A'},{n:'Muito alto',c:'#9B3B2F'}];
+const faixaIdx=s=>s==null?-1:s<36?0:s<46?1:s<56?2:s<68?3:4;
+function _pr(arr,v){const n=arr.length;if(n<=1)return 0.5;let c=0;for(const x of arr)if(x<=v)c++;return (c-1)/(n-1);}
+function _sinalRel(txt){if(!txt)return null;const t=txt.toLowerCase();let s=30;const add=(re,p)=>{if(re.test(t))s+=p;};
+  add(/cort(e|ou|ada|ado)|reduzid|redução da distribu|distribuição foi/,30);
+  add(/inadimpl|estressad|default|calote|menor rating|rating baixo/,28);
+  add(/alavancagem elevada|alavancad|\bltv\b|acima de 100|10[0-9][.,]?\d?% do pl/,18);
+  add(/vac[âa]nc/,14);
+  add(/abaixo do (cdi|benchmark|ima)|ficou abaixo/,12);
+  add(/marcação a mercado|abertura da curva|resgates/,5);
+  add(/subaloca|caixa (muito )?elevado/,6);
+  add(/patrimônio pequeno|menor liquidez/,6);
+  if(/sem eventos negativos|sem inadimpl|sem evento negativo|vac[âa]ncia (contida|baixa)|conservador/.test(t))s-=15;
+  return Math.max(0,Math.min(100,s));}
+function computeScores(fundos){
+  const byC={};fundos.forEach(f=>{(byC[f.classe]=byC[f.classe]||[]).push(f);});
+  const vols={},vms={};for(const c in byC){vols[c]=byC[c].map(f=>f.vol_medio_3m||0);vms[c]=byC[c].map(f=>f.valor_mercado||0);}
+  const st=p=>12+p*76;
+  fundos.forEach(f=>{const c=f.classe;
+    const rl=st(1-_pr(vols[c],f.vol_medio_3m||0));
+    const rp=(f.valor_mercado==null)?50:st(1-_pr(vms[c],f.valor_mercado||0));
+    const rperf=PERFIL_RISCO[f.subclasse]!=null?PERFIL_RISCO[f.subclasse]:54;
+    const rs=_sinalRel(f.pontos_atencao);
+    let sc;if(rs!=null)sc=0.1428*rl+0.1428*rp+0.2857*rperf+0.4286*rs;else sc=0.25*rl+0.25*rp+0.50*rperf;
+    f._rl=Math.round(rl);f._rp=Math.round(rp);f._rperf=Math.round(rperf);f._rs=(rs==null?null:Math.round(rs));
+    f._sc=Math.round(sc);f._faixa=faixaIdx(f._sc);f._scPrelim=(rs==null);});
+  return fundos;
+}
+function RiscoBadge({f}){
+  if(f._sc==null)return <span className="rbadge dim">—</span>;
+  const fx=FAIXAS[f._faixa];
+  return (<span className="rbadge" style={{color:fx.c}} title={fx.n+(f._scPrelim?' · preliminar (sem relatório lido)':'')}>
+    <b style={{background:fx.c}}>{f._sc}</b><span className="rbadge-n">{fx.n}{f._scPrelim?' *':''}</span></span>);
+}
+function RiscoPanel({f}){
+  if(f._sc==null)return null;
+  const fx=FAIXAS[f._faixa];
+  const comp=[['Liquidez',f._rl],['Porte',f._rp],['Perfil do segmento',f._rperf]];
+  if(f._rs!=null)comp.push(['Sinais dos relatórios',f._rs]);
+  return (<div className="panel">
+    <h3>Score de risco Engage</h3>
+    <div className="cap">Comparativo dentro da classe (0 = menor risco relativo · 100 = maior). Indicador de atenção, não recomendação.</div>
+    <div className="risco-top">
+      <div className="risco-nota" style={{background:fx.c}}>{f._sc}</div>
+      <div><div className="risco-faixa" style={{color:fx.c}}>{fx.n}</div>
+        <div className="cap" style={{margin:'2px 0 0'}}>{f._scPrelim?'Preliminar — só fatores estruturais (sem relatório lido ainda).':'Inclui sinais reais do relatório mais recente.'}</div></div>
+    </div>
+    <div className="risco-comp">{comp.map(([k,v])=>(<div key={k} className="rc-row"><span className="rc-l">{k}</span><span className="rc-t"><span className="rc-f" style={{width:v+'%',background:fx.c}}></span></span><span className="rc-v">{v}</span></div>))}</div>
+  </div>);
+}
+
 function niceTicks(min,max,n){
   n=n||5;
   if(!isFinite(min)||!isFinite(max))return {ticks:[],step:1};
@@ -274,7 +340,7 @@ function Analises({fundos,classe,onSel,comparar}){
 function Tabela({fundos,onSel,comparar,toggleCmp,sortKey,sortDir,setSort}){
   const cols=[{k:'ticker',t:'Ticker',l:true},{k:'nome',t:'Nome',l:true,sm:true},
     {k:'subclasse',t:'Segmento',l:true,sm:true},{k:'cotacao',t:'Cotação'},{k:'pvpa',t:'P/VP'},
-    {k:'dy_ltm',t:'DY LTM'},{k:'valor_mercado',t:'Valor Merc.'},{k:'ret_ltm',t:'Ret 12m'}];
+    {k:'dy_ltm',t:'DY LTM'},{k:'valor_mercado',t:'Valor Merc.'},{k:'ret_ltm',t:'Ret 12m'},{k:'_sc',t:'Risco'}];
   const arrow=k=>sortKey===k?(sortDir>0?' ▲':' ▼'):'';
   return (<table>
     <thead><tr><th className="cbx"></th>
@@ -289,6 +355,7 @@ function Tabela({fundos,onSel,comparar,toggleCmp,sortKey,sortDir,setSort}){
         <td>{cot(f.cotacao)}</td><td>{num(f.pvpa)}</td><td>{pct(f.dy_ltm)}</td>
         <td>{brl(f.valor_mercado)}</td>
         <td className={f.ret_ltm>0?'pos':f.ret_ltm<0?'neg':''}>{pct(f.ret_ltm)}</td>
+        <td><RiscoBadge f={f}/></td>
       </tr>))}</tbody>
   </table>);
 }
@@ -382,6 +449,7 @@ function Ficha({f,onBack,todos,docs}){
     </div>
     {f.descricao && <div className="note" style={{marginTop:0}}>{f.descricao}</div>}
     <div className="grid-cards">{cards.map(([k,v])=>(<div className="card" key={k}><div className="k">{k}</div><div className="v">{v}</div></div>))}</div>
+    <RiscoPanel f={f}/>
     <div className="cols2">
       <div className="panel"><h3>Leitura vs. pares</h3><div className="cap">Como o fundo se posiciona no próprio segmento.</div><VsPares f={f} todos={todos}/></div>
       <div className="panel"><h3>Análise</h3>
@@ -429,6 +497,7 @@ function App(){
   const [fDy,setFDy]=useState([0,0.3]);
   const [fRet,setFRet]=useState([-0.4,0.6]);
   const [fVm,setFVm]=useState(0);
+  const [fScore,setFScore]=useState([0,100]);
 
   useEffect(()=>{
     if(window.__DATA__){setData(window.__DATA__);}
@@ -437,7 +506,7 @@ function App(){
     fetch('./documentos/indice.json').then(r=>r.ok?r.json():null).then(d=>{if(d)setDocs(d);}).catch(()=>{});
   },[]);
 
-  const fundos=data?data.fundos:[];
+  const fundos=useMemo(()=>data?computeScores(data.fundos):[],[data]);
   const contagem=useMemo(()=>{const c={Todos:fundos.length};ORDEM_CLASSE.forEach(k=>c[k]=fundos.filter(f=>f.classe===k).length);return c;},[fundos]);
   const subclasses=useMemo(()=>classe==='Todos'?[]:[...new Set(fundos.filter(f=>f.classe===classe).map(f=>f.subclasse))].sort(),[fundos,classe]);
   const filtrados=useMemo(()=>{
@@ -453,11 +522,13 @@ function App(){
       if(fRet[0]>-0.4&&(f.ret_ltm==null||f.ret_ltm<fRet[0]))return false;
       if(fRet[1]<0.6&&(f.ret_ltm==null||f.ret_ltm>fRet[1]))return false;
       if(fVm>0&&(f.valor_mercado||0)<fVm)return false;
+      if(fScore[0]>0&&(f._sc==null||f._sc<fScore[0]))return false;
+      if(fScore[1]<100&&(f._sc==null||f._sc>fScore[1]))return false;
       return true;});
     r=[...r].sort((a,b)=>{const x=a[sortKey],y=b[sortKey];
       if(x==null&&y==null)return 0;if(x==null)return 1;if(y==null)return -1;
       if(typeof x==='string')return x.localeCompare(y)*sortDir;return (x-y)*sortDir;});
-    return r;},[fundos,classe,sub,busca,sortKey,sortDir,fPvp,fDy,fRet,fVm]);
+    return r;},[fundos,classe,sub,busca,sortKey,sortDir,fPvp,fDy,fRet,fVm,fScore]);
 
   const setSort=(k)=>{if(sortKey===k)setSortDir(d=>-d);else{setSortKey(k);setSortDir(k==='ticker'||k==='nome'||k==='subclasse'?1:-1);}};
   const toggleCmp=(t)=>setComparar(s=>{const n=new Set(s);n.has(t)?n.delete(t):(n.size<6&&n.add(t));return n;});
@@ -467,7 +538,7 @@ function App(){
   if(sel)return <div><Header/><Ficha f={sel} onBack={()=>setSel(null)} todos={fundos} docs={docs}/><Footer meta={data.meta}/></div>;
 
   const cmpList=fundos.filter(f=>comparar.has(f.ticker));
-  const fltAtivos=(fPvp[0]>0||fPvp[1]<2.5?1:0)+(fDy[0]>0||fDy[1]<0.3?1:0)+(fRet[0]>-0.4||fRet[1]<0.6?1:0)+(fVm>0?1:0);
+  const fltAtivos=(fPvp[0]>0||fPvp[1]<2.5?1:0)+(fDy[0]>0||fDy[1]<0.3?1:0)+(fRet[0]>-0.4||fRet[1]<0.6?1:0)+(fVm>0?1:0)+(fScore[0]>0||fScore[1]<100?1:0);
   return (<div><Header/>
     <div className="wrap">
       <section className="hero"><span className="kicker">Universo</span><h1>Fundos listados na B3</h1>
@@ -485,8 +556,9 @@ function App(){
         <RangeSlider label="Retorno 12m" min={-0.4} max={0.6} step={0.01} val={fRet} onChange={setFRet} fmt={v=>pct(v)}/>
         <div className="rng"><div className="rng-lab"><span>Valor de mercado mín.</span><b>{fVm>0?brl(fVm):'sem mínimo'}</b></div>
           <input className="rng-single" type="range" min={0} max={5000000000} step={100000000} value={fVm} onChange={e=>setFVm(+e.target.value)}/></div>
+        <RangeSlider label="Score de risco" min={0} max={100} step={1} val={fScore} onChange={setFScore} fmt={v=>Math.round(v)}/>
         <div className="flt-actions"><span style={{fontSize:12,color:'var(--neutro)'}}>{filtrados.length} de {fundos.length} fundos</span>
-          <button className="btn ghost sm" onClick={()=>{setFPvp([0,2.5]);setFDy([0,0.3]);setFRet([-0.4,0.6]);setFVm(0);}}>Limpar filtros</button></div>
+          <button className="btn ghost sm" onClick={()=>{setFPvp([0,2.5]);setFDy([0,0.3]);setFRet([-0.4,0.6]);setFVm(0);setFScore([0,100]);}}>Limpar filtros</button></div>
       </div>}
       <div className="kpis">
         <div className="kpi"><div className="k">Fundos</div><div className="v">{filtrados.length}</div></div>
