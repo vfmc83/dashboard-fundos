@@ -199,16 +199,20 @@ const PERFIL_RISCO={"Desenvolvimento":88,"Crédito (FIDC)":70,"Papel (CRI)":60,"
 const FAIXAS=[{n:'Muito baixo',c:'#4A7C59'},{n:'Baixo',c:'#7E8C59'},{n:'Médio',c:'#A98A5B'},{n:'Alto',c:'#B5773A'},{n:'Muito alto',c:'#9B3B2F'}];
 const faixaIdx=s=>s==null?-1:s<38?0:s<48?1:s<58?2:s<68?3:4;
 function _pr(arr,v){const n=arr.length;if(n<=1)return 0.5;let c=0;for(const x of arr)if(x<=v)c++;return (c-1)/(n-1);}
-function _sinalRel(txt){if(!txt)return null;const t=txt.toLowerCase();let s=30;const add=(re,p)=>{if(re.test(t))s+=p;};
-  add(/cort(e|ou|ada|ado)|reduzid|redução da distribu|distribuição foi/,30);
-  add(/inadimpl|estressad|default|calote|menor rating|rating baixo/,28);
-  add(/alavancagem elevada|alavancad|\bltv\b|acima de 100|10[0-9][.,]?\d?% do pl/,18);
-  add(/vac[âa]nc/,14);
-  add(/abaixo do (cdi|benchmark|ima)|ficou abaixo/,12);
-  add(/marcação a mercado|abertura da curva|resgates/,5);
-  add(/subaloca|caixa (muito )?elevado/,6);
-  add(/patrimônio pequeno|menor liquidez/,6);
-  if(/sem eventos negativos|sem inadimpl|sem evento negativo|vac[âa]ncia (contida|baixa)|conservador/.test(t))s-=15;
+function _sinalRel(txt){if(!txt)return null;let t=txt.toLowerCase();
+  // Neutraliza negacoes ("sem inadimplencia", "nao foram destacados eventos de inadimplencia")
+  const negRe=/(n[ãa]o\b|sem\b)([^.\n]{0,45}?)(inadimpl\w*|eventos?\s+negativos?|evento\s+de\s+cr[ée]dito|default|calote)/gi;
+  const t2=t.replace(negRe,'$1$2 semrisco ');const limpo=(t2!==t);t=t2;
+  // SO deterioracao de credito/ativo sobe o score. Sinais de mercado/distribuicao NAO contam.
+  let s=30;const add=(re,p)=>{if(re.test(t))s+=p;};
+  add(/inadimpl|\bnpl\b|calote|devedores duvidosos/,22);
+  add(/recupera[çc][ãa]o judicial|\brj\b|reperfilament|reestrutura[çc][ãa]o de d[íi]vida|renegocia[çc][ãa]o de d[íi]vida/,26);
+  add(/\bdefault\b|vencimento antecipado|inadimplement|execu[çc][ãa]o (de |da )?garantia/,26);
+  add(/\bpdd\b|provis[ãa]o para (devedores|perdas)/,14);
+  add(/estressad|menor rating|rating baixo|rebaixament|downgrade/,14);
+  add(/alavancagem elevada|acima de 100% do pl/,12);
+  add(/vac[âa]nc\w*[^.\n]{0,25}(elevad|alta|subiu|aument|deteriora)/,12);
+  if(limpo||/carteira (adimplente|saud[áa]vel)|conservador/.test(t))s-=15;
   return Math.max(0,Math.min(100,s));}
 function computeScores(fundos){
   fundos.forEach(f=>{
