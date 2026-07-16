@@ -222,6 +222,13 @@ function _sinalRel(txt){if(!txt)return null;const t0=txt.toLowerCase();
   const lv=nm(/\bltv\b[^%\n]{0,30}?(\d{1,3})(?:[,.](\d))?\s?%/.exec(t));if(lv!=null)s+= lv>80?20:lv>70?14:lv>60?8:lv>50?4:0;
   const hm=/(high[\s-]?yield|abaixo de grau de investimento)[^.\n]{0,25}?(\d{1,3})(?:[,.](\d))?\s?%/.exec(t)||/(\d{1,3})(?:[,.](\d))?\s?%[^.\n]{0,25}?(high[\s-]?yield|abaixo de grau)/.exec(t);
   if(hm){const hn=hm[0].match(/(\d{1,3})(?:[,.](\d))?\s?%/);if(hn){const hv=+(hn[1]+(hn[2]?'.'+hn[2]:''));s+= hv>40?16:hv>25?10:hv>10?5:0;}}
+  // Governanca/regulatorio (risco distinto de credito; vem de fatos relevantes e noticias)
+  add(/fraude|irregularidade grave|desvio de recursos|apropria[çc][ãa]o indevida/,30);
+  add(/ren[úu]nci\w*[^.\n]{0,14}(administra|gest)|(substitui|destitui)[çc][ãa]o d[oa] (administrador|gestor|administradora|gestora)/,26);
+  add(/interven[çc][ãa]o d[oa] fundo|liquida[çc][ãa]o (extrajudicial|do fundo)/,26);
+  add(/(investiga[çc][ãa]o|inqu[ée]rito|processo administrativo|apura[çc][ãa]o)[^.\n]{0,25}(cvm|b3|regulador|minist[ée]rio p[úu]blico)|\bcvm\b[^.\n]{0,25}(investiga|questiona|apura|processo administrativo|of[íi]cio)/,24);
+  add(/demonstra[çc][õo]es (financeiras )?(reprovad|rejeitad|n[ãa]o aprovad)|contas (reprovad|rejeitad)|parecer[^.\n]{0,25}(com ressalva|adverso|absten[çc]|negativa de opini)|reaudito/,22);
+  add(/volume at[íi]pico de fatos relevantes|sucess[ãa]o de fatos relevantes/,12);
   if(limpo||/carteira (adimplente|saud[áa]vel)|conservador/.test(t))s-=15;
   return Math.max(0,Math.min(100,s));}
 function computeScores(fundos){
