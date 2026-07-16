@@ -31,7 +31,7 @@ jobs:
       - run: pip install requests pymupdf pytesseract pillow
       - name: Atualizar indice de documentos (relatorios recentes)
         continue-on-error: true
-        run: python scripts/baixar_fnet.py --so-indice --desde 2024 --max-por-fundo 20
+        run: python scripts/baixar_fnet.py --so-indice --desde 2024 --max-por-fundo 20 --apenas "${{ github.event.inputs.apenas }}"
       - name: Analisar relatorios (incremental - so reprocessa relatorio novo)
         run: python scripts/analise_ia.py --apenas "${{ github.event.inputs.apenas }}"
       - name: Commit
