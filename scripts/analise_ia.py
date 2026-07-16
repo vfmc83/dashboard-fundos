@@ -67,7 +67,7 @@ def rel_recente(ticker, idx):
     return rg[0]
 
 
-FR_RISK = re.compile(r"(inadimpl\w*|recupera[çc][ãa]o judicial|vencimento antecipado|execu[çc][ãa]o (de |da )?garantia|\bdefault\b|reperfilament\w+|renegocia[çc][ãa]o de d[íi]vida|\bwaiver\b|car[êe]ncia de juros|substitui[çc][ãa]o d[oa] (gestor|administrador)|desenquadramento|reestrutura[çc][ãa]o)", re.I)
+FR_RISK = re.compile(r"(inadimpl\w*|recupera[çc][ãa]o judicial|vencimento antecipado|execu[çc][ãa]o (de |da )?garantia|\bdefault\b|reperfilament\w+|renegocia[çc][ãa]o de d[íi]vida|\bwaiver\b|car[êe]ncia de juros|substitui[çc][ãa]o d[oa] (gestor|administrador)|desenquadramento|reestrutura[çc][ãa]o|fraude|irregularidade|ren[úu]nci\w*[^.\n]{0,14}(administra|gest)|destitui[çc][ãa]o|interven[çc][ãa]o d[oa] fundo|liquida[çc][ãa]o (extrajudicial|do fundo)|cvm[^.\n]{0,25}(investiga|questiona|apura|of[íi]cio|processo)|demonstra[çc][õo]es[^.\n]{0,20}(reprovad|rejeitad|n[ãa]o aprovad)|reprova[çc][ãa]o de contas|parecer[^.\n]{0,15}(ressalva|adverso|absten)|reaudito)", re.I)
 
 
 def frs_recentes(ticker, idx, n=2):
@@ -170,6 +170,7 @@ OVERRIDES = {
     "HCTR11": "Exposicao relevante ao Grupo Gramado Parks (recuperacao judicial desde abr/2023): ~11% da carteira inadimplente e ~74% em carencia de juros; assembleias aprovaram waivers de CRIs (GPK/Brasil Parques ate jul/2026, Resort do Lago ate set/2026). Tambem citado em inadimplencia de CRI do Shopping Feira da Madrugada, com execucao de garantias. Distribuicao e cota fortemente pressionadas. (Noticias e fatos relevantes, 2025-2026.)",
     "DEVA11": "Inadimplencia da carteira de CRIs em ~11-12% (jan/2026), concentrada no Grupo Gramado Parks (maior devedor, em recuperacao judicial); ~64% da carteira em carencia de juros. Distribuicao cortada para R$0,30/cota e cota em forte desconto. Execucao de garantias aprovada (Forte Securitizadora). Fundo em reestruturacao. (Noticias e fatos relevantes, 2025-2026.)",
     "VSLH11": "CRIs inadimplentes do Grupo Gramado Parks (recuperacao judicial) e do Shopping Feira da Madrugada; vencimento antecipado e execucao de garantias aprovados. Distribuicao colapsou (~R$0,03-0,04/cota em 2026) por inadimplencia recorrente e diferimentos sucessivos de juros a devedores relevantes. (Noticias e fatos relevantes, 2025-2026.)",
+    "CACR11": "Crise de governanca e regulatoria: demonstracoes financeiras de 2025 reprovadas pelos cotistas; a CVM questiona os criterios contabeis e de avaliacao de ativos, com reauditoria contratada e parecer com ressalva. Renuncia da administradora (BRL Trust) a funcao, comunicada por fato relevante. Distribuicao de dividendos suspensa; cota caiu ~58-70% no ano (de ~R$65 para ~R$27). Atrasos de licencas (Registro de Incorporacao/Habite-se) frustraram vendas de CRIs. (Noticias e fatos relevantes, 2025-2026.)",
     "URPR11": "Inadimplencia elevada em CRIs residenciais (mutuarios pressionados pela Selic a 15%); reestruturacao de dividas de varios devedores, com diferimento de juros. Cortes sucessivos de dividendo (R$0,40 em ago/2025, menor patamar desde 2020, ante ~R$2,00) e cota caiu de ~R$38 para ~R$20 em 2026. (Noticias e fatos relevantes, 2025-2026.)",
 }
 
