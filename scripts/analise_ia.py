@@ -19,6 +19,7 @@ Instalar: pip install requests pymupdf pytesseract pillow
 OCR (fallback): apt-get install -y tesseract-ocr tesseract-ocr-por
 """
 import os, sys, json, re, time, base64, argparse, io
+from datetime import datetime, timedelta
 from pathlib import Path
 
 try:
@@ -75,6 +76,21 @@ def frs_recentes(ticker, idx, n=2):
           "fato relevante" in ((d.get("categoria") or "") + (d.get("tipo") or "") + (d.get("especie") or "")).lower()]
     fr.sort(key=lambda d: dkey(d.get("dataEntrega") or d.get("dataReferencia")), reverse=True)
     return fr[:n]
+
+
+def conta_frs(ticker, idx, dias=90):
+    """Conta Fatos Relevantes do fundo nos ultimos 'dias' dias (surto = evento em curso)."""
+    lim = (datetime.now() - timedelta(days=dias)).strftime("%Y%m%d%H%M")
+    n = 0
+    for d in idx:
+        if d.get("ticker") != ticker:
+            continue
+        cat = ((d.get("categoria") or "") + (d.get("tipo") or "") + (d.get("especie") or "")).lower()
+        if "fato relevante" not in cat:
+            continue
+        if dkey(d.get("dataEntrega") or d.get("dataReferencia")) >= lim:
+            n += 1
+    return n
 
 
 def analisa_frs(frs):
@@ -247,6 +263,10 @@ def main():
                 risco = [i for i in fr_itens if i["risco"]]
                 if risco:
                     pa += " " + " ".join(f"Fato relevante ({i['data']}): {i['resumo']}" for i in risco)
+            nfr = conta_frs(f["ticker"], idx, 90)
+            f["fr_count_90d"] = nfr
+            if nfr >= 4:
+                pa += f" Volume atipico de {nfr} fatos relevantes nos ultimos 90 dias (possivel evento em curso)."
             f["analise_qual"] = aq
             f["pontos_atencao"] = pa
             f["analise_qual_id"] = combo
