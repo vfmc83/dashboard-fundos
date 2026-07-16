@@ -1738,11 +1738,23 @@
    "descricao": "Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Gerido pela Cartesia Capital, administrado por BRL Trust. Patrimônio de R$ 472 mi, liquidez elevada (~R$ 2.5 mi/dia).",
    "analise": "Negocia a 0.25x o valor patrimonial — desconto de 72% frente à mediana do segmento (0.88). Dividend yield (12m) de 55.4%, acima da mediana dos pares (14.5%); supera 100% do segmento. Retorno de -71.3% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 2.5 mi/dia). Cotação a 28% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
-   "analise_qual": "Relatório de 31/05/2026 — Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Fonte: relatório no Fundos.NET, ref. 31/05/2026. (Resumo automático.)",
-   "pontos_atencao": "Indicadores de atenção no relatório: LTV atualizado: 52%. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
-   "analise_qual_id": "1223840",
+   "analise_qual": "Leitura de noticias e fatos relevantes publicos (midia especializada, 2025-2026).",
+   "pontos_atencao": "Crise de governanca e regulatoria: demonstracoes financeiras de 2025 reprovadas pelos cotistas; a CVM questiona os criterios contabeis e de avaliacao de ativos, com reauditoria contratada e parecer com ressalva. Renuncia da administradora (BRL Trust) a funcao, comunicada por fato relevante. Distribuicao de dividendos suspensa; cota caiu ~58-70% no ano (de ~R$65 para ~R$27). Atrasos de licencas (Registro de Incorporacao/Habite-se) frustraram vendas de CRIs. (Noticias e fatos relevantes, 2025-2026.)",
+   "analise_qual_id": "manual-noticias-202607",
    "cotas": 4836324.000000001,
-   "cotacao_em": "2026-07-16"
+   "cotacao_em": "2026-07-16",
+   "fatos_relevantes": [
+    {
+     "data": "10/07/2026",
+     "risco": false,
+     "resumo": "CARTESIA RECEBÍVEIS IMOBILIÁRIOS – FUNDO DE INVESTIMENTO IMOBILIÁRIO DE RESPONSABILIDADE LIMITADA CNPJ nº 32.065.364/0001-46 Código ISIN: BRCACRCTF004 Código de Negociação na B3 S."
+    },
+    {
+     "data": "10/04/2026",
+     "risco": true,
+     "resumo": "...as análises realizadas trazem parecer sem ressalva da MCS Markup datado de 1º de abril de 2026 (dia seguinte à data-limite da CVM), conforme abaixo extraído. “Opiniã..."
+    }
+   ]
   },
   {
    "ticker": "CCME11",
