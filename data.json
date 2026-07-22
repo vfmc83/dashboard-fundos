@@ -982,10 +982,11 @@
    "analise": "Negocia a 0.71x o valor patrimonial — desconto de 20% frente à mediana do segmento (0.88). Dividend yield (12m) de 16.3%, acima da mediana dos pares (14.5%); supera 78% do segmento. Retorno de 7.3% em 12 meses (abaixo da mediana do segmento). Liquidez baixa (~R$ 0.5 mi/dia). Cotação a 89% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual": "Relatório de 30/06/2026 — Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Indicadores extraídos: dividend yield* de 1,31%; IPCA + 6%. Fonte: relatório no Fundos.NET, ref. 30/06/2026. (Resumo automático.)",
-   "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
+   "pontos_atencao": "Indicadores de atenção no relatório: Recuperação Judicial; Vencimento Antecipado decretado devido a inadimplên. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1244349",
    "cotas": 6257873,
-   "cotacao_em": "2026-07-22"
+   "cotacao_em": "2026-07-22",
+   "fr_count_90d": 0
   },
   {
    "ticker": "BDIF11",
@@ -1859,7 +1860,8 @@
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA).",
    "analise_qual_id": "1236360",
    "cotas": 99521172,
-   "cotacao_em": "2026-07-22"
+   "cotacao_em": "2026-07-22",
+   "fr_count_90d": 0
   },
   {
    "ticker": "BTHF11",
@@ -2981,7 +2983,8 @@
    "pontos_atencao": "Indicadores de atenção no relatório: LTV de 71%; Default com os demais empréstimos da. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA).",
    "analise_qual_id": "1247889",
    "cotas": 36549445,
-   "cotacao_em": "2026-07-22"
+   "cotacao_em": "2026-07-22",
+   "fr_count_90d": 0
   },
   {
    "ticker": "DCRA11",
@@ -3351,7 +3354,8 @@
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa.",
    "analise_qual_id": "1239770",
    "cotas": 10909315,
-   "cotacao_em": "2026-07-22"
+   "cotacao_em": "2026-07-22",
+   "fr_count_90d": 0
   },
   {
    "ticker": "EURO11",
@@ -4156,7 +4160,8 @@
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1240745",
    "cotas": 15281388,
-   "cotacao_em": "2026-07-22"
+   "cotacao_em": "2026-07-22",
+   "fr_count_90d": 0
   },
   {
    "ticker": "GAME11",
@@ -4350,7 +4355,8 @@
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1236288",
    "cotas": 1453859,
-   "cotacao_em": "2026-07-22"
+   "cotacao_em": "2026-07-22",
+   "fr_count_90d": 0
   },
   {
    "ticker": "GGRC11",
@@ -4672,7 +4678,8 @@
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1223196",
    "cotas": 8126783,
-   "cotacao_em": "2026-07-22"
+   "cotacao_em": "2026-07-22",
+   "fr_count_90d": 0
   },
   {
    "ticker": "HCRI11",
@@ -4927,7 +4934,8 @@
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA).",
    "analise_qual_id": "1246185",
    "cotas": 15418106,
-   "cotacao_em": "2026-07-22"
+   "cotacao_em": "2026-07-22",
+   "fr_count_90d": 0
   },
   {
    "ticker": "HGLG11",
@@ -5287,11 +5295,12 @@
    "descricao": "Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Gerido pela Hedge Investments — gestora especializada em fundos imobiliários, administrado por Hedge. Patrimônio de R$ 460 mi, liquidez baixa (~R$ 0.3 mi/dia).",
    "analise": "Negocia a 0.94x o valor patrimonial — prêmio de 7% frente à mediana do segmento (0.88). Dividend yield (12m) de 12.1%, abaixo da mediana dos pares (14.5%); supera 5% do segmento. Retorno de 12.4% em 12 meses (abaixo da mediana do segmento). Liquidez baixa (~R$ 0.3 mi/dia). Cotação a 98% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa.",
-   "analise_qual": "Relatório de 30/06/2026 — Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Indicadores extraídos: distribuição de R$ 0,095; CDI + 3,5%. Fonte: relatório no Fundos.NET, ref. 30/06/2026. (Resumo automático.)",
+   "analise_qual": "Relatório de 30/06/2026 — Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Indicadores extraídos: distribuição de R$ 0,095; CDI + 3,5%; High Grade representa cerca de 31%. Fonte: relatório no Fundos.NET, ref. 30/06/2026. (Resumo automático.)",
    "pontos_atencao": "Indicadores de atenção no relatório: LTV de 45%. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa.",
    "analise_qual_id": "1247640",
    "cotas": 51685917,
-   "cotacao_em": "2026-07-22"
+   "cotacao_em": "2026-07-22",
+   "fr_count_90d": 0
   },
   {
    "ticker": "HSAF11",
@@ -5696,7 +5705,7 @@
      "resumo": "BTG Pactual btgpactual.com CLASSE ÚNICA DO CRI INTEGRAL BREI FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA CNPJ: 40.011.251/0001-96 - Código de Negociação na B3: IBCR11 (“F"
     }
    ],
-   "fr_count_90d": 2
+   "fr_count_90d": 1
   },
   {
    "ticker": "ICNE11",
@@ -5775,7 +5784,8 @@
    "pontos_atencao": "Indicadores de atenção no relatório: LTV de 76%. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA).",
    "analise_qual_id": "1248059",
    "cotas": 3857359,
-   "cotacao_em": "2026-07-22"
+   "cotacao_em": "2026-07-22",
+   "fr_count_90d": 0
   },
   {
    "ticker": "IFRA11",
@@ -7263,7 +7273,8 @@
    "pontos_atencao": "Indicadores de atenção no relatório: LTV baixo (~40%. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA).",
    "analise_qual_id": "1242374",
    "cotas": 202202385,
-   "cotacao_em": "2026-07-22"
+   "cotacao_em": "2026-07-22",
+   "fr_count_90d": 0
   },
   {
    "ticker": "KNUQ11",
@@ -7754,7 +7765,8 @@
    "pontos_atencao": "Indicadores de atenção no relatório: LTV1 %. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA).",
    "analise_qual_id": "1225005",
    "cotas": 16960024,
-   "cotacao_em": "2026-07-22"
+   "cotacao_em": "2026-07-22",
+   "fr_count_90d": 0
   },
   {
    "ticker": "MCRE11",
@@ -7877,6 +7889,11 @@
    "cotas": 460269531,
    "cotacao_em": "2026-07-22",
    "fatos_relevantes": [
+    {
+     "data": "01/07/2026",
+     "risco": false,
+     "resumo": "1 MAXI RENDA FUNDO DE INVESTIMENTO IMOBILIÁRIO – FII- RESPONSABILIDADE LIMITADA CNPJ nº 97.521.225/0001-25 FATO RELEVANTE O BTG PACTUAL SERVIÇOS FINANCEIROS S.A. DISTRIBUIDORA DE TÍT"
+    },
     {
      "data": "06/10/2025",
      "risco": false,
@@ -8344,9 +8361,9 @@
    "descricao": "Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Gerido pela Patria — gestora global de ativos alternativos, administrado por BRL Trust. Patrimônio de R$ 1.6 bi, liquidez elevada (~R$ 2.8 mi/dia).",
    "analise": "Negocia a 0.86x o valor patrimonial — desconto de 3% frente à mediana do segmento (0.88). Dividend yield (12m) de 13.6%, abaixo da mediana dos pares (14.5%); supera 36% do segmento. Retorno de 9.2% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 2.8 mi/dia). Cotação a 95% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). ",
-   "analise_qual": "Relatório de 29/05/2026 — Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Indicadores extraídos: distribuível de R$ 0,46; IPCA + 10,2%. Fonte: relatório no Fundos.NET, ref. 29/05/2026. (Resumo automático.)",
+   "analise_qual": "Relatório de 30/06/2026 — Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Indicadores extraídos: distribuível de R$ 1,11; IPCA + 10,8%. Fonte: relatório no Fundos.NET, ref. 30/06/2026. (Resumo automático.)",
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Fato relevante (14/10/2025): ...ções de cotas resultantes da liquidação do FUNDO DE INVESTIMENTO IMOBILIARIO VBI RENDIMENTOS IMOBILIARIOS I – RESPONSABILIDADE LIMITADA, inscrito no CNPJ/MF sob o nº 29...",
-   "analise_qual_id": "1224980|fr:1013389+1010134",
+   "analise_qual_id": "1261593|fr:1013389+1010134",
    "cotas": 17011707,
    "cotacao_em": "2026-07-22",
    "fatos_relevantes": [
@@ -8507,7 +8524,8 @@
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1240930",
    "cotas": 14803242,
-   "cotacao_em": "2026-07-22"
+   "cotacao_em": "2026-07-22",
+   "fr_count_90d": 0
   },
   {
    "ticker": "PMLL11",
@@ -8969,10 +8987,11 @@
    "analise": "Negocia a 0.81x o valor patrimonial — desconto de 9% frente à mediana do segmento (0.88). Dividend yield (12m) de 16.8%, acima da mediana dos pares (14.5%); supera 84% do segmento. Retorno de 9.9% em 12 meses (abaixo da mediana do segmento). Liquidez baixa (~R$ 0.4 mi/dia). Cotação a 96% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual": "Relatório de 31/05/2026 — Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Indicadores extraídos: dividend yield anualizado de 15,5%; CDI+4,3%. Fonte: relatório no Fundos.NET, ref. 31/05/2026. (Resumo automático.)",
-   "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
+   "pontos_atencao": "Indicadores de atenção no relatório: High Yield. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1235914",
    "cotas": 1893505,
-   "cotacao_em": "2026-07-22"
+   "cotacao_em": "2026-07-22",
+   "fr_count_90d": 0
   },
   {
    "ticker": "RBIF11",
@@ -9267,9 +9286,9 @@
    "descricao": "Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Gerido pela Patria — gestora global de ativos alternativos, administrado por BTG Pactual. Patrimônio de R$ 1.5 bi, liquidez elevada (~R$ 4.1 mi/dia).",
    "analise": "Negocia a 0.84x o valor patrimonial — desconto de 5% frente à mediana do segmento (0.88). Dividend yield (12m) de 12.6%, abaixo da mediana dos pares (14.5%); supera 12% do segmento. Retorno de 0.9% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 4.1 mi/dia). Cotação a 91% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
-   "analise_qual": "Relatório de 29/05/2026 — Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Indicadores extraídos: distribuível de R$ 1,05; IPCA + 9,3%; ativos alvo, sendo (i) 97,0%. Fonte: relatório no Fundos.NET, ref. 29/05/2026. (Resumo automático.)",
+   "analise_qual": "Relatório de 30/06/2026 — Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Indicadores extraídos: distribuível de R$ 0,90; IPCA + 9,9%; ativos alvo, sendo (i) 95,3%. Fonte: relatório no Fundos.NET, ref. 30/06/2026. (Resumo automático.)",
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
-   "analise_qual_id": "1224993|fr:1100743+1082816",
+   "analise_qual_id": "1261615|fr:1100743+1082816",
    "cotas": 16300275,
    "cotacao_em": "2026-07-22",
    "fatos_relevantes": [
@@ -9429,9 +9448,9 @@
    "descricao": "Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Gerido pela Patria — gestora global de ativos alternativos, administrado por BTG Pactual. Patrimônio de R$ 1.3 bi, liquidez elevada (~R$ 5.8 mi/dia).",
    "analise": "Negocia a 0.89x o valor patrimonial — prêmio de 0% frente à mediana do segmento (0.88). Dividend yield (12m) de 15.5%, acima da mediana dos pares (14.5%); supera 69% do segmento. Retorno de 10.9% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 5.8 mi/dia). Cotação a 94% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). ",
-   "analise_qual": "Relatório de 29/05/2026 — Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Indicadores extraídos: distribuível de R$ 1,14; CDI+ 2,3%. Fonte: relatório no Fundos.NET, ref. 29/05/2026. (Resumo automático.)",
-   "pontos_atencao": "Indicadores de atenção no relatório: alavancagem de 2,0%. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA).",
-   "analise_qual_id": "1224989|fr:1100752+1058416",
+   "analise_qual": "Relatório de 30/06/2026 — Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Indicadores extraídos: distribuível de R$ 1,05; CDI+ 3,2%. Fonte: relatório no Fundos.NET, ref. 30/06/2026. (Resumo automático.)",
+   "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA).",
+   "analise_qual_id": "1261619|fr:1100752+1058416",
    "cotas": 12769512,
    "cotacao_em": "2026-07-22",
    "fatos_relevantes": [
@@ -9590,11 +9609,12 @@
    "descricao": "Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Gerido pela Real Investor, administrado por BTG Pactual. Patrimônio de R$ 43 mi, liquidez baixa (~R$ 0.0 mi/dia).",
    "analise": "Negocia a 0.98x o valor patrimonial — prêmio de 11% frente à mediana do segmento (0.88). Liquidez baixa (~R$ 0.0 mi/dia). Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa.",
-   "analise_qual": "Relatório de 29/05/2026 — Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Indicadores extraídos: distribuiu R$1,15; dividend yield corresponde a 1,1%; CDI + 2,4%. Fonte: relatório no Fundos.NET, ref. 29/05/2026. (Resumo automático.)",
+   "analise_qual": "Relatório de 30/06/2026 — Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Indicadores extraídos: distribuirá R$1,50; dividend yield corresponde a 1,5%; CDI + 2,4%. Fonte: relatório no Fundos.NET, ref. 30/06/2026. (Resumo automático.)",
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa.",
-   "analise_qual_id": "1223629",
+   "analise_qual_id": "1262162",
    "cotas": 422144,
-   "cotacao_em": "2026-07-22"
+   "cotacao_em": "2026-07-22",
+   "fr_count_90d": 0
   },
   {
    "ticker": "RECM11",
@@ -10092,9 +10112,9 @@
    "descricao": "Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Gerido pela Riza — gestora independente de crédito e imobiliário, administrado por BTG Pactual. Patrimônio de R$ 778 mi, liquidez média (~R$ 1.5 mi/dia).",
    "analise": "Negocia a 0.91x o valor patrimonial — prêmio de 3% frente à mediana do segmento (0.88). Dividend yield (12m) de 16.5%, acima da mediana dos pares (14.5%); supera 83% do segmento. Retorno de 17.6% em 12 meses (top 25% do segmento). Liquidez média (~R$ 1.5 mi/dia). Cotação a 96% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). ",
-   "analise_qual": "Relatório de 30/05/2026 — Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Fonte: relatório no Fundos.NET, ref. 30/05/2026. (Resumo automático.)",
-   "pontos_atencao": "Indicadores de atenção no relatório: LTV 22%. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA).",
-   "analise_qual_id": "1227510|fr:929756",
+   "analise_qual": "Relatório de 30/06/2026 — Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Indicadores extraídos: IPCA+9%. Fonte: relatório no Fundos.NET, ref. 30/06/2026. (Resumo automático.)",
+   "pontos_atencao": "Indicadores de atenção no relatório: LTV 54%. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA).",
+   "analise_qual_id": "1261610|fr:929756",
    "cotas": 8807885,
    "cotacao_em": "2026-07-22",
    "fatos_relevantes": [
@@ -10706,10 +10726,11 @@
    "analise": "Negocia a 0.88x o valor patrimonial — desconto de 0% frente à mediana do segmento (0.88). Dividend yield (12m) de 14.0%, abaixo da mediana dos pares (14.5%); supera 39% do segmento. Retorno de 11.5% em 12 meses (abaixo da mediana do segmento). Liquidez média (~R$ 0.5 mi/dia). Cotação a 96% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). ",
    "analise_qual": "Relatório de 29/05/2026 — Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Indicadores extraídos: distribuiu R$ 1,00; IPCA + 7%. Fonte: relatório no Fundos.NET, ref. 29/05/2026. (Resumo automático.)",
-   "pontos_atencao": "Indicadores de atenção no relatório: LTV 65,72%. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA).",
+   "pontos_atencao": "Indicadores de atenção no relatório: LTV 65,72%; PDD mais elevado ou ativos sinalizados e carteir; default efetivo do SNCI11 na. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA).",
    "analise_qual_id": "1228591",
    "cotas": 4200000,
-   "cotacao_em": "2026-07-22"
+   "cotacao_em": "2026-07-22",
+   "fr_count_90d": 0
   },
   {
    "ticker": "SNEL11",
@@ -10939,7 +10960,8 @@
    "pontos_atencao": "Indicadores de atenção no relatório: Inadimpl. controlada: 1,79%; LTV 70%. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa.",
    "analise_qual_id": "1230893",
    "cotas": 7418243,
-   "cotacao_em": "2026-07-22"
+   "cotacao_em": "2026-07-22",
+   "fr_count_90d": 0
   },
   {
    "ticker": "SPTW11",
@@ -11995,11 +12017,12 @@
    "descricao": "Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Gerido pela Valora — gestora especializada em crédito imobiliário, administrado por BTG Pactual. Patrimônio de R$ 1.1 bi, liquidez elevada (~R$ 2.5 mi/dia).",
    "analise": "Negocia a 0.87x o valor patrimonial — desconto de 2% frente à mediana do segmento (0.88). Dividend yield (12m) de 12.7%, abaixo da mediana dos pares (14.5%); supera 14% do segmento. Retorno de 10.2% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 2.5 mi/dia). Cotação a 99% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). ",
-   "analise_qual": "Relatório de 29/05/2026 — Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Indicadores extraídos: distribuiu R$ 1,05; IPCA + 3,6%. Fonte: relatório no Fundos.NET, ref. 29/05/2026. (Resumo automático.)",
+   "analise_qual": "Relatório de 30/06/2026 — Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Indicadores extraídos: distribuiu R$ 1,16; IPCA + 7,6%. Fonte: relatório no Fundos.NET, ref. 30/06/2026. (Resumo automático.)",
    "pontos_atencao": "Indicadores de atenção no relatório: LTV máxima de 60%. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA).",
-   "analise_qual_id": "1226673",
+   "analise_qual_id": "1261604",
    "cotas": 11787247,
-   "cotacao_em": "2026-07-22"
+   "cotacao_em": "2026-07-22",
+   "fr_count_90d": 0
   },
   {
    "ticker": "VGIR11",
@@ -12340,7 +12363,8 @@
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa.",
    "analise_qual_id": "1241324",
    "cotas": 827913,
-   "cotacao_em": "2026-07-22"
+   "cotacao_em": "2026-07-22",
+   "fr_count_90d": 0
   },
   {
    "ticker": "VPPR11",
@@ -12916,10 +12940,11 @@
    "analise": "Negocia a 0.94x o valor patrimonial — prêmio de 7% frente à mediana do segmento (0.88). Dividend yield (12m) de 13.1%, abaixo da mediana dos pares (14.5%); supera 22% do segmento. Retorno de 20.8% em 12 meses (top 12% do segmento). Liquidez média (~R$ 2.0 mi/dia). Cotação a 99% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). ",
    "analise_qual": "Relatório de 31/05/2026 — Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Indicadores extraídos: distribuição de R$ 0,93; yield anualizado de 13,86%; CDI + 70%. Fonte: relatório no Fundos.NET, ref. 31/05/2026. (Resumo automático.)",
-   "pontos_atencao": "Indicadores de atenção no relatório: LTV inicial de 73%. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA).",
+   "pontos_atencao": "Indicadores de atenção no relatório: LTV inicial de 73%; reperfilamento de dívida e aquisição de. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA).",
    "analise_qual_id": "1223191",
    "cotas": 8701552,
-   "cotacao_em": "2026-07-22"
+   "cotacao_em": "2026-07-22",
+   "fr_count_90d": 0
   },
   {
    "ticker": "XPID11",

@@ -70126,5 +70126,89 @@
   "dataEntrega": "17/07/2026 19:12",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1252763&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "CACR11",
+  "cnpj": "32065364000146",
+  "id": "1262126",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/06/2026",
+  "dataEntrega": "22/07/2026 18:33",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1262126&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "PCIP11",
+  "cnpj": "28729197000113",
+  "id": "1261593",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/06/2026",
+  "dataEntrega": "21/07/2026 19:39",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1261593&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "RBRR11",
+  "cnpj": "29467977000103",
+  "id": "1261615",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/06/2026",
+  "dataEntrega": "21/07/2026 20:34",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1261615&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "RBRY11",
+  "cnpj": "30166700000111",
+  "id": "1261619",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/06/2026",
+  "dataEntrega": "21/07/2026 20:41",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1261619&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "RCRI11",
+  "cnpj": "60801196000145",
+  "id": "1262162",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/06/2026",
+  "dataEntrega": "22/07/2026 18:42",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1262162&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "RZAK11",
+  "cnpj": "36642219000131",
+  "id": "1261610",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/06/2026",
+  "dataEntrega": "21/07/2026 20:28",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1261610&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "VGIP11",
+  "cnpj": "34197811000146",
+  "id": "1261604",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/06/2026",
+  "dataEntrega": "21/07/2026 20:14",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1261604&cvm=true",
+  "arquivo": null
  }
 ]
