@@ -200,6 +200,8 @@ function Header(){
 
 // ---- Score de risco Engage (comparavel dentro da classe; nao e recomendacao) ----
 const PERFIL_RISCO={"Desenvolvimento":88,"Crédito (FIDC)":70,"Papel (CRI)":60,"Infraestrutura (FIP-IE)":60,"Imobiliário":56,"Gestão ativa":54,"Outros":54,"Híbrido":50,"Infraestrutura":42,"Tijolo":40,"FoF":30};
+// Refino do perfil dos FIIs de Tijolo por segmento (vacancia setorial 2T26 + ciclicidade). So aplica quando subclasse==='Tijolo'.
+const PERFIL_SEG={"Galpão Logístico":34,"Renda Urbana":38,"Agronegócio":40,"Agência Bancária":42,"Shopping Center":44,"Hospital":44,"Residencial":46,"Educacional":46,"Laje Corporativa":48,"Hotel":50};
 const FAIXAS=[{n:'Muito baixo',c:'#4A7C59'},{n:'Baixo',c:'#7E8C59'},{n:'Médio',c:'#A98A5B'},{n:'Alto',c:'#B5773A'},{n:'Muito alto',c:'#9B3B2F'}];
 const faixaIdx=s=>s==null?-1:s<38?0:s<48?1:s<58?2:s<68?3:4;
 function _pr(arr,v){const n=arr.length;if(n<=1)return 0.5;let c=0;for(const x of arr)if(x<=v)c++;return (c-1)/(n-1);}
@@ -237,7 +239,8 @@ function _sinalRel(txt){if(!txt)return null;const t0=txt.toLowerCase();
   return Math.max(0,Math.min(100,s));}
 function computeScores(fundos){
   fundos.forEach(f=>{
-    const rperf=PERFIL_RISCO[f.subclasse]!=null?PERFIL_RISCO[f.subclasse]:54;
+    let rperf=PERFIL_RISCO[f.subclasse]!=null?PERFIL_RISCO[f.subclasse]:54;
+    if(f.subclasse==='Tijolo'&&PERFIL_SEG[f.segmento_btg]!=null)rperf=PERFIL_SEG[f.segmento_btg];
     const rs=_sinalRel(f.pontos_atencao);
     const sc=(rs!=null)?0.40*rperf+0.60*rs:rperf;
     f._rperf=Math.round(rperf);f._rs=(rs==null?null:Math.round(rs));
@@ -253,7 +256,7 @@ function RiscoBadge({f}){
 function RiscoPanel({f}){
   if(f._sc==null)return null;
   const fx=FAIXAS[f._faixa];
-  const comp=[['Perfil do segmento',f._rperf]];
+  const comp=[[(f.subclasse==='Tijolo'&&f.segmento_btg?'Perfil do segmento ('+f.segmento_btg+')':'Perfil do segmento'),f._rperf]];
   if(f._rs!=null)comp.push(['Sinais dos relatórios',f._rs]);
   return (<div className="panel">
     <h3>Score de risco Engage</h3>
@@ -496,7 +499,7 @@ function Ficha({f,onBack,todos,docs}){
   return (<div className="wrap">
     <div style={{padding:'20px 0 0'}}><button className="btn ghost sm" onClick={onBack}>← Voltar ao universo</button></div>
     <div className="ficha-head">
-      <div><span className="kicker">{f.classe} · {f.subclasse}</span><h1>{f.ticker}</h1>
+      <div><span className="kicker">{f.classe} · {f.subclasse}{f.subclasse==='Tijolo'&&f.segmento_btg?' · '+f.segmento_btg:''}</span><h1>{f.ticker}</h1>
         <div style={{fontFamily:'var(--serif)',fontSize:'20px',color:'var(--tinta)'}}>{f.nome||'—'}</div>
         <div className="meta">Gestor: {f.gestor||'—'} · Administrador: {f.administrador||'—'}{f.cnpj?` · CNPJ ${f.cnpj}`:''}</div></div>
       <span className="badge" style={{background:HEX[f.classe],fontSize:'13px',padding:'4px 12px'}}>{f.classe}</span>
@@ -548,6 +551,7 @@ function App(){
   const [erro,setErro]=useState(null);
   const [classe,setClasse]=useState('Todos');
   const [sub,setSub]=useState('Todos');
+  const [seg,setSeg]=useState('Todos');
   const [busca,setBusca]=useState('');
   const [sortKey,setSortKey]=useState('valor_mercado');
   const [sortDir,setSortDir]=useState(-1);
@@ -572,10 +576,12 @@ function App(){
   const fundos=useMemo(()=>data?computeScores(data.fundos):[],[data]);
   const contagem=useMemo(()=>{const c={Todos:fundos.length};ORDEM_CLASSE.forEach(k=>c[k]=fundos.filter(f=>f.classe===k).length);return c;},[fundos]);
   const subclasses=useMemo(()=>classe==='Todos'?[]:[...new Set(fundos.filter(f=>f.classe===classe).map(f=>f.subclasse))].sort(),[fundos,classe]);
+  const segmentos=useMemo(()=>sub!=='Tijolo'?[]:[...new Set(fundos.filter(f=>f.subclasse==='Tijolo'&&f.segmento_btg).map(f=>f.segmento_btg))].sort(),[fundos,sub]);
   const filtrados=useMemo(()=>{
     let r=fundos;
     if(classe!=='Todos')r=r.filter(f=>f.classe===classe);
     if(sub!=='Todos')r=r.filter(f=>f.subclasse===sub);
+    if(sub==='Tijolo'&&seg!=='Todos')r=r.filter(f=>f.segmento_btg===seg);
     if(busca.trim()){const q=busca.toLowerCase();r=r.filter(f=>(f.ticker+' '+(f.nome||'')+' '+(f.gestor||'')).toLowerCase().includes(q));}
     r=r.filter(f=>{
       if(fPvp[0]>0&&(f.pvpa==null||f.pvpa<fPvp[0]))return false;
@@ -591,7 +597,7 @@ function App(){
     r=[...r].sort((a,b)=>{const x=a[sortKey],y=b[sortKey];
       if(x==null&&y==null)return 0;if(x==null)return 1;if(y==null)return -1;
       if(typeof x==='string')return x.localeCompare(y)*sortDir;return (x-y)*sortDir;});
-    return r;},[fundos,classe,sub,busca,sortKey,sortDir,fPvp,fDy,fRet,fVm,fScore]);
+    return r;},[fundos,classe,sub,seg,busca,sortKey,sortDir,fPvp,fDy,fRet,fVm,fScore]);
 
   const setSort=(k)=>{if(sortKey===k)setSortDir(d=>-d);else{setSortKey(k);setSortDir(k==='ticker'||k==='nome'||k==='subclasse'?1:-1);}};
   const toggleCmp=(t)=>setComparar(s=>{const n=new Set(s);n.has(t)?n.delete(t):(n.size<6&&n.add(t));return n;});
@@ -607,10 +613,13 @@ function App(){
       <section className="hero"><span className="kicker">Universo</span><h1>Fundos listados na B3</h1>
         <div className="lede">Selecione a classe, compare e abra a ficha de cada fundo — FII, Fiagro, FI-Infra e FIP em um só lugar.</div></section>
       <div className="chips">{['Todos',...ORDEM_CLASSE].map(c=>(
-        <button key={c} className={'chip'+(classe===c?' on':'')} onClick={()=>{setClasse(c);setSub('Todos');}}>{c}<span className="n">{contagem[c]||0}</span></button>))}</div>
+        <button key={c} className={'chip'+(classe===c?' on':'')} onClick={()=>{setClasse(c);setSub('Todos');setSeg('Todos');}}>{c}<span className="n">{contagem[c]||0}</span></button>))}</div>
       {subclasses.length>0 && <div className="chips sub">
-        <button className={'chip'+(sub==='Todos'?' on':'')} onClick={()=>setSub('Todos')}>Todos os segmentos</button>
-        {subclasses.map(s=>(<button key={s} className={'chip'+(sub===s?' on':'')} onClick={()=>setSub(s)}>{s}</button>))}</div>}
+        <button className={'chip'+(sub==='Todos'?' on':'')} onClick={()=>{setSub('Todos');setSeg('Todos');}}>Todos os segmentos</button>
+        {subclasses.map(s=>(<button key={s} className={'chip'+(sub===s?' on':'')} onClick={()=>{setSub(s);setSeg('Todos');}}>{s}</button>))}</div>}
+      {segmentos.length>0 && <div className="chips sub">
+        <button className={'chip'+(seg==='Todos'?' on':'')} onClick={()=>setSeg('Todos')}>Tijolo — todos</button>
+        {segmentos.map(s=>(<button key={s} className={'chip'+(seg===s?' on':'')} onClick={()=>setSeg(s)}>{s}</button>))}</div>}
       <div className="toolbar"><input className="search" placeholder="Buscar por ticker, nome ou gestor…" value={busca} onChange={e=>setBusca(e.target.value)} />
         <button className="btn ghost sm flt-btn" onClick={()=>setShowFlt(v=>!v)}>{showFlt?'Ocultar filtros':'Filtros'}{fltAtivos>0?` · ${fltAtivos}`:''}</button></div>
       {showFlt && <div className="flt-panel">
