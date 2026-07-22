@@ -44,9 +44,12 @@ R_LTV = re.compile(r"(LTV|alavancagem)[^%\n]{0,36}?\d{1,2}[,.]?\d?\s?%", re.I)
 R_SSS = re.compile(r"(SSS|same store|vendas mesmas lojas)[^%\n]{0,24}?-?\d{1,2}[,.]?\d?\s?%", re.I)
 R_PDD = re.compile(r"(PDD|provis[ãa]o para devedores|provis[ãa]o para perdas|devedores duvidosos)[^.\n]{0,45}", re.I)
 R_RJ = re.compile(r"(recupera[çc][ãa]o judicial|reperfilament\w+|reestrutura[çc][ãa]o de d[íi]vida|renegocia[çc][ãa]o de d[íi]vida|repactua[çc][ãa]o de[^.\n]{0,20}d[íi]vida)[^.\n]{0,40}", re.I)
-R_RATING = re.compile(r"(rebaixament\w+|downgrade|high[- ]?yield|abaixo de investment grade|carteira[^.\n]{0,20}menor rating)[^.\n]{0,30}", re.I)
+R_RATING = re.compile(r"(rebaixament\w+|downgrade|high[- ]?yield|abaixo de investment grade|carteira[^.\n]{0,20}menor rating|rating m[ée]dio[^.\n]{0,14}(?:bb|b\b|ccc|especulativ)|grau especulativo)[^.\n]{0,30}", re.I)
 R_DEF = re.compile(r"(default|vencimento antecipado|inadimplement\w+|evento de inadimpl\w+|calote|atraso[^.\n]{0,20}pagament\w+)[^.\n]{0,30}", re.I)
-R_HY = re.compile(r"(high[\s-]?yield|abaixo de grau de investimento|abaixo do grau de investimento)[^.\n]{0,20}?\d{1,3}[,.]?\d?\s?%|\d{1,3}[,.]?\d?\s?%[^.\n]{0,20}?(high[\s-]?yield|abaixo de grau de investimento)", re.I)
+# High yield / abaixo de grau de investimento — janela ampliada (0..40) e mais fraseados (RGs variam por gestora)
+R_HY = re.compile(r"(high[\s-]?yield|abaixo d[eo] grau de investimento|abaixo de investment grade|rating (?:abaixo|inferior)[^.\n]{0,12}bbb)[^.\n]{0,40}?\d{1,3}[,.]?\d?\s?%|\d{1,3}[,.]?\d?\s?%[^.\n]{0,40}?(high[\s-]?yield|abaixo d[eo] grau de investimento|abaixo de investment grade)", re.I)
+# High grade / grau de investimento (informativo — qualidade da carteira, nao e risco)
+F_HG = re.compile(r"(grau de investimento|investment grade|high[\s-]?grade)[^%\n]{0,40}?\d{1,3}[,.]?\d?\s?%|\d{1,3}[,.]?\d?\s?%[^%\n]{0,25}?(grau de investimento|high[\s-]?grade)", re.I)
 
 
 def _t(m):
@@ -161,7 +164,7 @@ def texto_pdf(pdf, maxpg=12):
 
 def analisa(f, t, ref):
     desc0 = (f.get("descricao") or "").split(".")[0].strip()
-    campos = [c for c in (_t(F_DIST.search(t)), _t(F_DY.search(t)), _t(F_CARR.search(t)), _t(F_ALOC.search(t))) if c]
+    campos = [c for c in (_t(F_DIST.search(t)), _t(F_DY.search(t)), _t(F_CARR.search(t)), _t(F_ALOC.search(t)), _t(F_HG.search(t))) if c]
     riscos = [c for c in (_t(R_VAC.search(t)), _t(R_INAD.search(t)), _t(R_LTV.search(t)), _t(R_SSS.search(t)),
                           _t(R_PDD.search(t)), _t(R_RJ.search(t)), _t(R_RATING.search(t)), _t(R_DEF.search(t)),
                           _t(R_HY.search(t))) if c]
@@ -210,6 +213,7 @@ def main():
     ap.add_argument("--apenas")
     ap.add_argument("--limite", type=int)
     ap.add_argument("--sleep", type=float, default=0.6)
+    ap.add_argument("--reprocessar", action="store_true", help="Reprocessa mesmo RGs ja analisados (ex.: apos mudar regex)")
     a = ap.parse_args()
 
     if not IDX.exists():
@@ -243,7 +247,7 @@ def main():
                 DATA.write_text(json.dumps(doc, ensure_ascii=False, indent=1), encoding="utf-8")
             pulados += 1
             continue
-        if f.get("analise_qual_id") == combo:
+        if not a.reprocessar and f.get("analise_qual_id") == combo:
             pulados += 1
             continue
         pdf = baixar_pdf(rel["id"])
