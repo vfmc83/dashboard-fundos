@@ -257,7 +257,12 @@
      "risco": false,
      "resumo": "FATO RELEVANTE 1 FATO RELEVANTE FUNDO DE INVESTIMENTO NAS CADEIAS PRODUTIVAS AGROINDUSTRIAIS EXES ARAGUAIA - FIAGRO - IMOBILIÁRIO CNPJ nº 43.951.911/0001-07 O BANCO GENIAL S.A., insti"
     }
-   ]
+   ],
+   "metricas": {
+    "estrategia": "Carrego",
+    "fonte": "BTG FIAgro Acompanhamento Mensal (jun/26)",
+    "duration": "1,8 anos"
+   }
   },
   {
    "ticker": "AIEC11",
@@ -1021,7 +1026,13 @@
    "pontos_atencao": "Negocia com desconto de ~9,7% sobre o valor patrimonial. Carteira exposta à marcação a mercado (a curva de juros real subiu mais de 0,10% em maio, pressionando ativos atrelados à inflação). Há nomes estressados/de menor rating na carteira que exigem acompanhamento: Light (taxa de mercado ~16%), Ligga (CPTM15, rating CCC, marcada próxima de zero) e WeClix. [Relatório de maio/2026]",
    "analise_qual_id": "manual-site-202605",
    "cotas": 18124979,
-   "cotacao_em": "2026-07-22"
+   "cotacao_em": "2026-07-22",
+   "metricas": {
+    "tir": "13,5%",
+    "spread": "459 bps",
+    "duration": "6,2 anos",
+    "fonte": "BTG Relatório Mensal Fundos de Infra (14/07/26)"
+   }
   },
   {
    "ticker": "BIDB11",
@@ -1138,7 +1149,13 @@
    "analise": "Negocia a 1.02x o valor patrimonial — prêmio de 7% frente à mediana do segmento (0.95). Dividend yield (12m) de 16.2%, acima da mediana dos pares (14.8%); supera 88% do segmento. Retorno de 33.3% em 12 meses (top 0% do segmento). Liquidez média (~R$ 0.6 mi/dia). Cotação a 99% da máxima de 52 semanas. Base comparativa: 17 pares do segmento Infraestrutura. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. ",
    "cotas": 4741286,
-   "cotacao_em": "2026-07-22"
+   "cotacao_em": "2026-07-22",
+   "metricas": {
+    "tir": "7,9%",
+    "spread": "-49 bps",
+    "duration": "4,6 anos",
+    "fonte": "BTG Relatório Mensal Fundos de Infra (14/07/26)"
+   }
   },
   {
    "ticker": "BLCA11",
@@ -1392,7 +1409,13 @@
    "pontos_atencao": "Carteira alavancada (106,8% do PL em crédito privado), o que amplifica ganhos e perdas. Negocia com desconto de ~5,6% sobre o valor patrimonial. Duration longa (5,7 anos) e carrego elevado (IPCA+10,56%) indicam maior sensibilidade à curva de juros reais e maior risco de crédito relativo aos pares high grade. [Relatório de maio/2026]",
    "analise_qual_id": "manual-site-202605",
    "cotas": 64877099,
-   "cotacao_em": "2026-07-22"
+   "cotacao_em": "2026-07-22",
+   "metricas": {
+    "tir": "10,4%",
+    "spread": "187 bps",
+    "duration": "5,8 anos",
+    "fonte": "BTG Relatório Mensal Fundos de Infra (14/07/26)"
+   }
   },
   {
    "ticker": "BPML11",
@@ -1741,7 +1764,12 @@
      "risco": false,
      "resumo": "BTG Pactual btgpactual.com BTG PACTUAL CRÉDITO AGRÍCOLA FIAGRO - DIREITOS CREDITÓRIOS CNPJ nº 40.771.109/0001-47 – Código de negociação na B3: BTAG11 FATO RELEVANTE A BTG PACTUA"
     }
-   ]
+   ],
+   "metricas": {
+    "estrategia": "Giro",
+    "fonte": "BTG FIAgro Acompanhamento Mensal (jun/26)",
+    "duration": "2,3 anos"
+   }
   },
   {
    "ticker": "BTAL11",
@@ -2112,7 +2140,13 @@
    "pontos_atencao": "A distribuição foi reduzida (de ~R$ 1,2-1,5 para R$ 1,00/cota, 92% do CDI) e a performance em 12 meses ficou abaixo do CDI (CDI-0,8%). O spread de crédito está comprimido (CDI+0,7%, prêmio baixo) e o caixa elevado (12%, subalocado). Exposição pontual a crédito estressado (ex.: Braskem CCC-). [Relatório de maio/2026]",
    "analise_qual_id": "manual-site-202605",
    "cotas": 27481138,
-   "cotacao_em": "2026-07-22"
+   "cotacao_em": "2026-07-22",
+   "metricas": {
+    "tir": "8,1%",
+    "spread": "-31 bps",
+    "duration": "4,3 anos",
+    "fonte": "BTG Relatório Mensal Fundos de Infra (14/07/26)"
+   }
   },
   {
    "ticker": "CEOC11",
@@ -2457,7 +2491,13 @@
    "pontos_atencao": "Negocia com desconto de ~3,7% sobre o valor patrimonial. Como os pares de infraestrutura, está exposto à marcação a mercado num cenário de alta dos prêmios de crédito das debêntures incentivadas e de juros reais elevados. A duration relativamente curta (2,73 anos) mitiga parte do risco de marcação. [Relatório de maio/2026]",
    "analise_qual_id": "manual-site-202605",
    "cotas": 13582693,
-   "cotacao_em": "2026-07-22"
+   "cotacao_em": "2026-07-22",
+   "metricas": {
+    "tir": "10,4%",
+    "spread": "171 bps",
+    "duration": "4,5 anos",
+    "fonte": "BTG Relatório Mensal Fundos de Infra (14/07/26)"
+   }
   },
   {
    "ticker": "CPTR11",
@@ -2510,7 +2550,12 @@
      "risco": false,
      "resumo": "[ BTGPACTUAL btgpactual.com CAPITANIA AGRO STRATEGIES - FIAGRO-IMOBILIÁRIO CNPJ nº 42.537.579/0001-76 - Código de negociação na B3: CPTR11 (“Fundo” ou “CPTR11”) COMUNICADO AO MER"
     }
-   ]
+   ],
+   "metricas": {
+    "estrategia": "Giro",
+    "fonte": "BTG FIAgro Acompanhamento Mensal (jun/26)",
+    "duration": "1,7 anos"
+   }
   },
   {
    "ticker": "CPTS11",
@@ -2665,7 +2710,12 @@
      "risco": false,
      "resumo": "[ CLASSIFICAÇÃO: PÚBLICA ] SPARTA FIAGRO FUNDO DE INVESTIMENTO NAS CADEIAS PRODUTIVAS AGROINDUSTRIAIS - IMOBILIÁRIO CNPJ nº 48.903.610/0001-21 Código ISIN: BRCRAACTF008 Código de Negoc"
     }
-   ]
+   ],
+   "metricas": {
+    "estrategia": "Giro",
+    "fonte": "BTG FIAgro Acompanhamento Mensal (jun/26)",
+    "duration": "2,3 anos"
+   }
   },
   {
    "ticker": "CRFF11",
@@ -3649,7 +3699,12 @@
      "risco": false,
      "resumo": "FATO RELEVANTE SOBRE O ENCERRAMENTO DO PROGRAMA DE AMORTIZAÇÃO DE COTAS DO FG/AGRO FUNDO DE INVESTIMENTO NAS CADEIAS PRODUTIVAS AGROINDUSTRIAIS - FIAGRO-IMOBILIÁRIO RESPONSABILIDADE LIMIT"
     }
-   ]
+   ],
+   "metricas": {
+    "estrategia": "Carrego",
+    "fonte": "BTG FIAgro Acompanhamento Mensal (jun/26)",
+    "duration": "2,0 anos"
+   }
   },
   {
    "ticker": "FIGS11",
@@ -4249,7 +4304,12 @@
      "risco": true,
      "resumo": "...tos abaixo: • Em razão da inadimplência parcial da parcela de juros e amortização devida no segundo semestre de 2023, conforme destacado nos últimos relatórios geren..."
     }
-   ]
+   ],
+   "metricas": {
+    "estrategia": "Carrego",
+    "fonte": "BTG FIAgro Acompanhamento Mensal (jun/26)",
+    "duration": "1,5 anos"
+   }
   },
   {
    "ticker": "GCRI11",
@@ -5756,7 +5816,13 @@
    "pontos_atencao": "Como os pares de infraestrutura indexados à inflação, está exposto à abertura da curva de juros reais e à forte onda de resgates do setor (R$ 19,6 bi nos fundos abertos em maio), que pressiona a marcação. Negocia com leve ágio (~2,7%) sobre o VP. [Relatório de maio/2026]",
    "analise_qual_id": "manual-site-202605",
    "cotas": 15492047,
-   "cotacao_em": "2026-07-22"
+   "cotacao_em": "2026-07-22",
+   "metricas": {
+    "tir": "8,9%",
+    "spread": "55 bps",
+    "duration": "5,3 anos",
+    "fonte": "BTG Relatório Mensal Fundos de Infra (14/07/26)"
+   }
   },
   {
    "ticker": "IFRI11",
@@ -6590,7 +6656,13 @@
    "pontos_atencao": "A distribuição foi cortada de R$ 1,00 para R$ 0,50/cota em maio, refletindo a queda da reserva acumulada (apenas R$ 0,14/cota) diante da volatilidade nas debêntures incentivadas. A indústria de fundos abertos da classe teve resgates líquidos acima de R$ 14 bi, pressionando os spreads. Negocia ~3% abaixo do VP; exposição pontual a crédito estressado (ex.: Braskem, rating CCC-). [Relatório de maio/2026]",
    "analise_qual_id": "manual-site-202605",
    "cotas": 20571677,
-   "cotacao_em": "2026-07-22"
+   "cotacao_em": "2026-07-22",
+   "metricas": {
+    "tir": "9,5%",
+    "spread": "91 bps",
+    "duration": "3,5 anos",
+    "fonte": "BTG Relatório Mensal Fundos de Infra (14/07/26)"
+   }
   },
   {
    "ticker": "KCRE11",
@@ -6680,7 +6752,13 @@
    "pontos_atencao": "Negocia com ágio de ~3,6% sobre o valor patrimonial (paga prêmio). A performance ficou abaixo do benchmark (-0,06% no mês vs. IMA-B +0,31%; 8,6% vs. 10,8% em 12m), pressionada pela alta dos prêmios de crédito (+84 bps desde fevereiro, 3º maior movimento da série histórica). Duration longa (5,8 anos) eleva a sensibilidade à curva de juros reais. [Relatório de maio/2026]",
    "analise_qual_id": "manual-site-202605",
    "cotas": 23484769,
-   "cotacao_em": "2026-07-22"
+   "cotacao_em": "2026-07-22",
+   "metricas": {
+    "tir": "8,9%",
+    "spread": "55 bps",
+    "duration": "5,6 anos",
+    "fonte": "BTG Relatório Mensal Fundos de Infra (14/07/26)"
+   }
   },
   {
    "ticker": "KDOL11",
@@ -6911,7 +6989,12 @@
    "pontos_atencao": "Cerca de 11% do patrimônio ainda em caixa (subalocação) pode pressionar o rendimento até a alocação plena. Carteira de CRAs exposta ao risco de crédito do agronegócio (preços de commodities, clima/safra e endividamento de produtores) e à marcação a mercado/indexadores (CDI/IPCA). [Extraído do relatório de maio/2026]",
    "analise_qual_id": "manual-1215258",
    "cotas": 21599919,
-   "cotacao_em": "2026-07-22"
+   "cotacao_em": "2026-07-22",
+   "metricas": {
+    "estrategia": "Carrego",
+    "fonte": "BTG FIAgro Acompanhamento Mensal (jun/26)",
+    "duration": "2,7 anos"
+   }
   },
   {
    "ticker": "KNCR11",
@@ -8927,7 +9010,13 @@
    "analise": "Negocia a 0.87x o valor patrimonial — desconto de 9% frente à mediana do segmento (0.95). Dividend yield (12m) de 16.1%, acima da mediana dos pares (14.8%); supera 75% do segmento. Retorno de 20.5% em 12 meses (top 29% do segmento). Liquidez baixa (~R$ 0.2 mi/dia). Cotação a 98% da máxima de 52 semanas. Base comparativa: 17 pares do segmento Infraestrutura. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. Liquidez reduzida em bolsa.",
    "cotas": 867844,
-   "cotacao_em": "2026-07-22"
+   "cotacao_em": "2026-07-22",
+   "metricas": {
+    "tir": "13,0%",
+    "spread": "412 bps",
+    "duration": "4,8 anos",
+    "fonte": "BTG Relatório Mensal Fundos de Infra (14/07/26)"
+   }
   },
   {
    "ticker": "RBIR11",
@@ -9903,7 +9992,12 @@
      "risco": false,
      "resumo": "Página 1 Corporativo | Interno FATO RELEVANTE ITAÚ ASSET RURAL FIAGRO - IMOBILIÁRIO CNPJ nº 42.479.593/0001-60 INTRAG DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA.,"
     }
-   ]
+   ],
+   "metricas": {
+    "estrategia": "Carrego",
+    "fonte": "BTG FIAgro Acompanhamento Mensal (jun/26)",
+    "duration": "1,9 anos"
+   }
   },
   {
    "ticker": "RZAG11",
@@ -9956,7 +10050,12 @@
      "risco": false,
      "resumo": "FATO RELEVANTE RIZA AGRO II FUNDO DE INVESTIMENTO NAS CADEIAS PRODUTIVAS AGROINDUSTRIAIS – FIAGRO – IMOBILIÁRIO – RESPONSABILIDADE LIMITADA (LSAG11) CNPJ/MF Nº 42.592.476/0001-09"
     }
-   ]
+   ],
+   "metricas": {
+    "estrategia": "Carrego",
+    "fonte": "BTG FIAgro Acompanhamento Mensal (jun/26)",
+    "duration": "2,1 anos"
+   }
   },
   {
    "ticker": "RZAK11",
@@ -11658,7 +11757,12 @@
      "risco": true,
      "resumo": "...“Grupo Safras”), de pedido de recuperação judicial perante a 4ª Vara Cível da Comarca de Sinop, Estado do Mato Grosso (“Recuperação Judicial”). Ainda não há decisão a..."
     }
-   ]
+   ],
+   "metricas": {
+    "estrategia": "Carrego",
+    "fonte": "BTG FIAgro Acompanhamento Mensal (jun/26)",
+    "duration": "2,2 anos"
+   }
   },
   {
    "ticker": "VCRI11",
@@ -11849,7 +11953,12 @@
      "risco": false,
      "resumo": "[ CLASSIFICAÇÃO: PÚBLICA ] VALORA CRA FUNDO DE INVESTIMENTO NAS CADEIAS PRODUTIVAS DO AGRONEGÓCIO – FIAGRO CNPJ nº 41.081.088/0001-09 Código ISIN nº BRVGIACTF004 Código de Negoci"
     }
-   ]
+   ],
+   "metricas": {
+    "estrategia": "Carrego",
+    "fonte": "BTG FIAgro Acompanhamento Mensal (jun/26)",
+    "duration": "1,6 anos"
+   }
   },
   {
    "ticker": "VGIP11",
@@ -12851,7 +12960,13 @@
    "pontos_atencao": "Risco elevado. Negocia com desconto de ~46% sobre o valor patrimonial e a carteira é concentrada em poucos projetos. O ativo Oxe (biomassa) está em REESTRUTURAÇÃO: rating CCC+, frustração de geração de caixa, postergação de pagamentos (reperfilamento) e stop accrual, com marcação reduzida para 68% do valor na curva (perda de ~R$ 3,92/cota). Fundo pequeno e pouco líquido (ADTV ~R$ 200 mil/dia). [Relatório de abril/2026]",
    "analise_qual_id": "manual-site-202605",
    "cotas": 3165464,
-   "cotacao_em": "2026-07-22"
+   "cotacao_em": "2026-07-22",
+   "metricas": {
+    "tir": "19,1%",
+    "spread": "988 bps",
+    "duration": "4,5 anos",
+    "fonte": "BTG Relatório Mensal Fundos de Infra (14/07/26)"
+   }
   },
   {
    "ticker": "XPIN11",
@@ -13195,7 +13310,13 @@
    "analise": "Negocia a 0.82x o valor patrimonial — desconto de 19% frente à mediana do segmento (1.01). Dividend yield (12m) de 4.2%, abaixo da mediana dos pares (12.0%); supera 0% do segmento. Retorno de 22.7% em 12 meses (abaixo da mediana do segmento). Liquidez média (~R$ 1.6 mi/dia). Base comparativa: 10 pares do segmento Infraestrutura (FIP-IE). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: ativos ilíquidos, execução dos projetos de infraestrutura, alavancagem e baixa liquidez em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "cotacao_em": "2026-07-22",
-   "cotas": 23237785.016286645
+   "cotas": 23237785.016286645,
+   "metricas": {
+    "tir": "10,8%",
+    "spread": "247 bps",
+    "duration": "9,8 anos",
+    "fonte": "BTG Relatório Mensal Fundos de Infra (14/07/26)"
+   }
   },
   {
    "ticker": "XPIE11",
@@ -13234,7 +13355,13 @@
    "analise": "Negocia a 0.67x o valor patrimonial — desconto de 34% frente à mediana do segmento (1.01). Dividend yield (12m) de 13.2%, acima da mediana dos pares (12.0%); supera 62% do segmento. Retorno de 9.9% em 12 meses (abaixo da mediana do segmento). Liquidez média (~R$ 1.1 mi/dia). Base comparativa: 10 pares do segmento Infraestrutura (FIP-IE). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: ativos ilíquidos, execução dos projetos de infraestrutura, alavancagem e baixa liquidez em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "cotacao_em": "2026-07-22",
-   "cotas": 16096096.096096097
+   "cotas": 16096096.096096097,
+   "metricas": {
+    "tir": "15,0%",
+    "spread": "637 bps",
+    "duration": "5,9 anos",
+    "fonte": "BTG Relatório Mensal Fundos de Infra (14/07/26)"
+   }
   },
   {
    "ticker": "BRZP11",
@@ -13273,7 +13400,13 @@
    "analise": "Negocia a 0.87x o valor patrimonial — desconto de 14% frente à mediana do segmento (1.01). Retorno de 77.8% em 12 meses (top 0% do segmento). Liquidez média (~R$ 1.6 mi/dia). Base comparativa: 10 pares do segmento Infraestrutura (FIP-IE). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: ativos ilíquidos, execução dos projetos de infraestrutura, alavancagem e baixa liquidez em bolsa. ",
    "cotacao_em": "2026-07-22",
-   "cotas": 5300510.456117241
+   "cotas": 5300510.456117241,
+   "metricas": {
+    "tir": "14,0%",
+    "spread": "544 bps",
+    "duration": "16,4 anos",
+    "fonte": "BTG Relatório Mensal Fundos de Infra (14/07/26)"
+   }
   },
   {
    "ticker": "KNOX11",
@@ -13312,7 +13445,13 @@
    "analise": "Negocia a 1.01x o valor patrimonial — prêmio de 0% frente à mediana do segmento (1.01). Dividend yield (12m) de 5.6%, abaixo da mediana dos pares (12.0%); supera 25% do segmento. Retorno de 13.0% em 12 meses (abaixo da mediana do segmento). Liquidez baixa (~R$ 0.4 mi/dia). Base comparativa: 10 pares do segmento Infraestrutura (FIP-IE). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: ativos ilíquidos, execução dos projetos de infraestrutura, alavancagem e baixa liquidez em bolsa. Liquidez reduzida em bolsa.",
    "cotacao_em": "2026-07-22",
-   "cotas": 10339549.96959254
+   "cotas": 10339549.96959254,
+   "metricas": {
+    "tir": "10,1%",
+    "spread": "143 bps",
+    "duration": "2,9 anos",
+    "fonte": "BTG Relatório Mensal Fundos de Infra (14/07/26)"
+   }
   },
   {
    "ticker": "VIGT11",
@@ -13351,7 +13490,13 @@
    "analise": "Negocia a 0.75x o valor patrimonial — desconto de 26% frente à mediana do segmento (1.01). Dividend yield (12m) de 4.4%, abaixo da mediana dos pares (12.0%); supera 12% do segmento. Retorno de 57.4% em 12 meses (top 10% do segmento). Liquidez baixa (~R$ 0.3 mi/dia). Base comparativa: 10 pares do segmento Infraestrutura (FIP-IE). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: ativos ilíquidos, execução dos projetos de infraestrutura, alavancagem e baixa liquidez em bolsa. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "cotacao_em": "2026-07-22",
-   "cotas": 9354669.140383426
+   "cotas": 9354669.140383426,
+   "metricas": {
+    "tir": "13,3%",
+    "spread": "454 bps",
+    "duration": "7,7 anos",
+    "fonte": "BTG Relatório Mensal Fundos de Infra (14/07/26)"
+   }
   },
   {
    "ticker": "ENDD11",
@@ -13390,7 +13535,13 @@
    "analise": "Negocia a 1.08x o valor patrimonial — prêmio de 7% frente à mediana do segmento (1.01). Dividend yield (12m) de 9.2%, abaixo da mediana dos pares (12.0%); supera 38% do segmento. Retorno de 23.9% em 12 meses (top 40% do segmento). Liquidez baixa (~R$ 0.3 mi/dia). Base comparativa: 10 pares do segmento Infraestrutura (FIP-IE). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: ativos ilíquidos, execução dos projetos de infraestrutura, alavancagem e baixa liquidez em bolsa. Liquidez reduzida em bolsa.",
    "cotacao_em": "2026-07-22",
-   "cotas": 4297700.0
+   "cotas": 4297700.0,
+   "metricas": {
+    "tir": "11,1%",
+    "spread": "276 bps",
+    "duration": "6,8 anos",
+    "fonte": "BTG Relatório Mensal Fundos de Infra (14/07/26)"
+   }
   },
   {
    "ticker": "BDIV11",
@@ -13430,7 +13581,13 @@
    "analise": "Negocia a 1.03x o valor patrimonial — prêmio de 2% frente à mediana do segmento (1.01). Dividend yield (12m) de 12.0%, acima da mediana dos pares (12.0%); supera 50% do segmento. Retorno de 24.8% em 12 meses (top 30% do segmento). Liquidez baixa (~R$ 0.4 mi/dia). Base comparativa: 10 pares do segmento Infraestrutura (FIP-IE). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: ativos ilíquidos, execução dos projetos de infraestrutura, alavancagem e baixa liquidez em bolsa. Liquidez reduzida em bolsa.",
    "cotacao_em": "2026-07-22",
-   "cotas": 11322894.66702043
+   "cotas": 11322894.66702043,
+   "metricas": {
+    "tir": "9,9%",
+    "spread": "146 bps",
+    "duration": "7,0 anos",
+    "fonte": "BTG Relatório Mensal Fundos de Infra (14/07/26)"
+   }
   },
   {
    "ticker": "KNDI11",
@@ -13470,7 +13627,13 @@
    "analise": "Negocia a 1.02x o valor patrimonial — prêmio de 1% frente à mediana do segmento (1.01). Dividend yield (12m) de 14.8%, acima da mediana dos pares (12.0%); supera 88% do segmento. Retorno de 23.4% em 12 meses (top 50% do segmento). Liquidez média (~R$ 1.1 mi/dia). Base comparativa: 10 pares do segmento Infraestrutura (FIP-IE). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: ativos ilíquidos, execução dos projetos de infraestrutura, alavancagem e baixa liquidez em bolsa. ",
    "cotacao_em": "2026-07-22",
-   "cotas": 4090049.261083744
+   "cotas": 4090049.261083744,
+   "metricas": {
+    "tir": "9,4%",
+    "spread": "80 bps",
+    "duration": "2,0 anos",
+    "fonte": "BTG Relatório Mensal Fundos de Infra (14/07/26)"
+   }
   },
   {
    "ticker": "PPEI11",
@@ -13509,7 +13672,13 @@
    "analise": "Negocia a 1.13x o valor patrimonial — prêmio de 12% frente à mediana do segmento (1.01). Dividend yield (12m) de 14.6%, acima da mediana dos pares (12.0%); supera 75% do segmento. Retorno de 18.7% em 12 meses (abaixo da mediana do segmento). Liquidez baixa (~R$ 0.3 mi/dia). Base comparativa: 10 pares do segmento Infraestrutura (FIP-IE). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: ativos ilíquidos, execução dos projetos de infraestrutura, alavancagem e baixa liquidez em bolsa. Liquidez reduzida em bolsa. Negocia com prêmio relevante sobre o valor patrimonial (risco de reversão).",
    "cotacao_em": "2026-07-22",
-   "cotas": 4628358.029153114
+   "cotas": 4628358.029153114,
+   "metricas": {
+    "tir": "14,2%",
+    "spread": "564 bps",
+    "duration": "6,9 anos",
+    "fonte": "BTG Relatório Mensal Fundos de Infra (14/07/26)"
+   }
   },
   {
    "ticker": "AZIN11",
@@ -13549,7 +13718,13 @@
    "analise": "Negocia a 1.05x o valor patrimonial — prêmio de 4% frente à mediana do segmento (1.01). Dividend yield (12m) de 18.8%, acima da mediana dos pares (12.0%); supera 100% do segmento. Retorno de 30.8% em 12 meses (top 20% do segmento). Liquidez média (~R$ 0.6 mi/dia). Base comparativa: 10 pares do segmento Infraestrutura (FIP-IE). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: ativos ilíquidos, execução dos projetos de infraestrutura, alavancagem e baixa liquidez em bolsa. ",
    "cotacao_em": "2026-07-22",
-   "cotas": 2494527.563008334
+   "cotas": 2494527.563008334,
+   "metricas": {
+    "tir": "11,8%",
+    "spread": "310 bps",
+    "duration": "3,3 anos",
+    "fonte": "BTG Relatório Mensal Fundos de Infra (14/07/26)"
+   }
   },
   {
    "ticker": "COPN11",
