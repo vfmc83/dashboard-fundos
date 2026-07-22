@@ -11964,9 +11964,9 @@
    "descricao": "Fiagro do tipo imobiliário, focado em recebíveis e ativos do agronegócio. Gerido pela Valora — gestora especializada em crédito imobiliário, administrado por BTG Pactual. Patrimônio de R$ 835 mi, liquidez elevada (~R$ 2.4 mi/dia). Taxa de administração de 1.15% a.a., taxa de performance de 10%, indexado a CDI+.",
    "analise": "Negocia a 1.00x o valor patrimonial — prêmio de 18% frente à mediana do segmento (0.84). Dividend yield (12m) de 17.0%, acima da mediana dos pares (16.7%); supera 56% do segmento. Retorno de 28.6% em 12 meses (top 8% do segmento). Liquidez alta (~R$ 2.4 mi/dia). Cotação a 100% da máxima de 52 semanas. Base comparativa: 25 pares do segmento Imobiliário. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. ",
-   "analise_qual": "Relatório de maio/2026: Fiagro de crédito do agronegócio (CRAs) com carrego de CDI+7,0% e distribuição de R$ 0,15/cota no mês. Fonte: Relatório Gerencial VGIA (Fundos.NET), ref. maio/2026.",
-   "pontos_atencao": "Spread de crédito elevado (CDI+7,0%) sinaliza maior risco/retorno da carteira. CRAs expostos ao risco de crédito do agro (preços de commodities, clima/safra e endividamento de produtores) e à marcação a mercado. [Extraído do relatório de maio/2026]",
-   "analise_qual_id": "manual-1211337",
+   "analise_qual": "Leitura de noticias e fatos relevantes publicos (midia especializada, 2025-2026).",
+   "pontos_atencao": "Inadimplencia relevante e concentrada: a Cooperativa Languiru, devedora de 3 CRAs que somam ~12% do patrimonio (~R$120 mi), entrou em inadimplemento ao deixar de pagar juros com vencimento em jul/2026, com disputa judicial sobre a validade de uma garantia vinculada a contrato da cooperativa com a JBS. A cota caiu ~25% na semana (negociada abaixo de R$8, com leilao por oscilacao) e os dividendos recuaram (de R$0,15 em mar para R$0,13 em mai-jul/2026); a manutencao do rendimento depende do recebimento dos juros, de eventuais provisoes para perdas e da renegociacao com o devedor. A gestora (Valora) considera a reacao do mercado exagerada. (Noticias e fatos relevantes, jul/2026.)",
+   "analise_qual_id": "manual-noticias-202607",
    "cotas": 86455117,
    "cotacao_em": "2026-07-22",
    "fatos_relevantes": [
