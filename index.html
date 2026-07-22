@@ -226,8 +226,10 @@ function _sinalRel(txt){if(!txt)return null;const t0=txt.toLowerCase();
   add(/alavancagem elevada|acima de 100% do pl/,12);
   const vv=nm(/vac[âa]nc\w*[^%\n]{0,25}?(\d{1,2})(?:[,.](\d))?\s?%/.exec(t));if(vv!=null&&vv>7)s+= vv>12?14:8;
   const lv=nm(/\bltv\b[^%\n]{0,30}?(\d{1,3})(?:[,.](\d))?\s?%/.exec(t));if(lv!=null)s+= lv>80?20:lv>70?14:lv>60?8:lv>50?4:0;
-  const hm=/(high[\s-]?yield|abaixo de grau de investimento)[^.\n]{0,25}?(\d{1,3})(?:[,.](\d))?\s?%/.exec(t)||/(\d{1,3})(?:[,.](\d))?\s?%[^.\n]{0,25}?(high[\s-]?yield|abaixo de grau)/.exec(t);
-  if(hm){const hn=hm[0].match(/(\d{1,3})(?:[,.](\d))?\s?%/);if(hn){const hv=+(hn[1]+(hn[2]?'.'+hn[2]:''));s+= hv>40?16:hv>25?10:hv>10?5:0;}}
+  {const km=/high[\s-]?yield|abaixo d[eo] grau de investimento|abaixo de investment grade/.exec(t);
+   if(km){const i=km.index,lo=Math.max(0,i-45),w=t.slice(lo,i+45),anchor=i-lo;let best=null,bd=999;
+     for(const pm of w.matchAll(/(\d{1,3})(?:[,.](\d))?\s?%/g)){const dd=Math.abs(pm.index-anchor);if(dd<bd){bd=dd;best=pm;}}
+     if(best){const hv=+(best[1]+(best[2]?'.'+best[2]:''));s+= hv>40?16:hv>25?10:hv>10?5:0;}}}
   // Governanca/regulatorio (risco distinto de credito; vem de fatos relevantes e noticias)
   add(/fraude|irregularidade grave|desvio de recursos|apropria[çc][ãa]o indevida/,30);
   add(/ren[úu]nci\w*[^.\n]{0,14}(administra|gest)|(substitui|destitui)[çc][ãa]o d[oa] (administrador|gestor|administradora|gestora)/,26);
