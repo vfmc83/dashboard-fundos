@@ -7,6 +7,10 @@ on:
         description: "Tickers separados por virgula (vazio = todos)"
         required: false
         default: ""
+      reprocessar:
+        description: "true = reprocessa RGs ja analisados (apos mudar regex)"
+        required: false
+        default: ""
   schedule:
     - cron: '0 8 * * 1'   # toda segunda-feira ~05h BRT (cada gestora publica em datas diferentes)
 
@@ -33,7 +37,10 @@ jobs:
         continue-on-error: true
         run: python scripts/baixar_fnet.py --so-indice --desde 2024 --max-por-fundo 20 --apenas "${{ github.event.inputs.apenas }}"
       - name: Analisar relatorios (incremental - so reprocessa relatorio novo)
-        run: python scripts/analise_ia.py --apenas "${{ github.event.inputs.apenas }}"
+        run: |
+          FLAG=""
+          if [ "${{ github.event.inputs.reprocessar }}" = "true" ]; then FLAG="--reprocessar"; fi
+          python scripts/analise_ia.py --apenas "${{ github.event.inputs.apenas }}" $FLAG
       - name: Commit
         run: |
           git config user.name "github-actions[bot]"
