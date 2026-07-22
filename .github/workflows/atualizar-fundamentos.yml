@@ -1,0 +1,38 @@
+name: Atualizar fundamentos (BTGSGF)
+
+# Re-sincroniza campos "lentos" do data.json (VP, DY, retornos, P/VPA 2025,
+# Part. IFIX, volume, etc.) a partir de scripts/fundamentos_btg.json.
+# Disparo manual: rodar apos subir um fundamentos_btg.json novo (BTGSGF novo).
+# Nao mexe em cotacao (build diario) nem nos enriquecimentos (analise/pontos).
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dados-datajson
+  cancel-in-progress: false
+
+jobs:
+  fundamentos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Aplicar fundamentos do BTGSGF
+        run: python scripts/aplica_fundamentos.py
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data.json
+          git commit -m "refresh de fundamentos (BTGSGF) $(date -u +%Y-%m-%d)" || echo "sem alteracoes"
+          for i in 1 2 3 4 5; do
+            git pull --rebase --autostash origin main || true
+            git push && break || (echo "push rejeitado, retry $i"; sleep 5)
+          done
