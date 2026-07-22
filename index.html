@@ -512,6 +512,16 @@ function Ficha({f,onBack,todos,docs}){
       <a className="btn ghost" href={gsearch} target="_blank" rel="noopener">Pesquisar ↗</a>
     </div>
     {f.descricao && <div className="note" style={{marginTop:0}}>{f.descricao}</div>}
+    {f.metricas && (()=>{const M=f.metricas,ch=[];
+      if(M.tir)ch.push(['TIR (equiv. a.a.)',M.tir]);
+      if(M.spread)ch.push(['Spread NTN-B',M.spread]);
+      if(M.estrategia)ch.push(['Estratégia',M.estrategia]);
+      if(M.duration)ch.push(['Duration',M.duration]);
+      return (<div className="note" style={{marginTop:8}}>
+        <div className="kicker" style={{display:'block',marginBottom:6}}>Carrego e duration</div>
+        <div style={{display:'flex',flexWrap:'wrap',gap:8}}>{ch.map(([k,v])=>(
+          <span key={k} style={{border:'1px solid var(--linha)',borderRadius:8,padding:'4px 10px',fontSize:12,color:'var(--tinta)'}}>{k} <b>{v}</b></span>))}</div>
+        {M.fonte && <div className="cap" style={{marginTop:6}}>{M.fonte}</div>}</div>);})()}
     <div className="grid-cards">{cards.map(([k,v])=>(<div className="card" key={k}><div className="k">{k}</div><div className="v">{v}</div></div>))}</div>
     <RiscoPanel f={f}/>
     <BtgRec f={f}/>
