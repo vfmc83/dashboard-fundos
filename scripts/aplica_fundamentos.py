@@ -29,6 +29,7 @@ from pathlib import Path
 BASE = Path(__file__).resolve().parent.parent
 DATA = BASE / "data.json"
 FUND = Path(__file__).resolve().parent / "fundamentos_btg.json"
+METR = Path(__file__).resolve().parent / "metricas_infra_agro.json"  # TIR/spread/duration (FI-Infra) e estrategia/duration (FIAgro)
 
 # Campos numericos copiados 1:1 quando o BTG traz numero valido.
 CAMPOS_NUM = [
@@ -82,9 +83,20 @@ def main():
         if _n(f.get("valor_mercado")) and vp:
             f["pvpa"] = f["valor_mercado"] / vp
 
+    # Metricas de carrego/TIR/duration para FI-Infra e FIAgro (relatorios mensais BTG)
+    nmet = 0
+    if METR.exists():
+        metr = json.loads(METR.read_text(encoding="utf-8"))
+        for f in fundos:
+            m = metr.get((f.get("ticker") or "").upper())
+            if m:
+                f["metricas"] = m
+                nmet += 1
+
     meta = doc.setdefault("meta", {})
     meta["fundamentos_fonte"] = "BTG Stock Guide (BTGSGF)"
     meta["fundamentos_em"] = "2026-07-20"
+    print(f"metricas infra/agro aplicadas: {nmet}")
 
     DATA.write_text(json.dumps(doc, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"OK. Fundos atualizados: {tocados}/{len(fundos)} | campos escritos: {campos}")

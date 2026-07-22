@@ -1,0 +1,177 @@
+{
+"AZIN11": {
+"tir": "11,8%",
+"spread": "310 bps",
+"duration": "3,3 anos",
+"fonte": "BTG Relatório Mensal Fundos de Infra (14/07/26)"
+},
+"BDIF11": {
+"tir": "13,5%",
+"spread": "459 bps",
+"duration": "6,2 anos",
+"fonte": "BTG Relatório Mensal Fundos de Infra (14/07/26)"
+},
+"BINC11": {
+"tir": "7,9%",
+"spread": "-49 bps",
+"duration": "4,6 anos",
+"fonte": "BTG Relatório Mensal Fundos de Infra (14/07/26)"
+},
+"BODB11": {
+"tir": "10,4%",
+"spread": "187 bps",
+"duration": "5,8 anos",
+"fonte": "BTG Relatório Mensal Fundos de Infra (14/07/26)"
+},
+"CDII11": {
+"tir": "8,1%",
+"spread": "-31 bps",
+"duration": "4,3 anos",
+"fonte": "BTG Relatório Mensal Fundos de Infra (14/07/26)"
+},
+"CPTI11": {
+"tir": "10,4%",
+"spread": "171 bps",
+"duration": "4,5 anos",
+"fonte": "BTG Relatório Mensal Fundos de Infra (14/07/26)"
+},
+"ENDD11": {
+"tir": "11,1%",
+"spread": "276 bps",
+"duration": "6,8 anos",
+"fonte": "BTG Relatório Mensal Fundos de Infra (14/07/26)"
+},
+"IFRA11": {
+"tir": "8,9%",
+"spread": "55 bps",
+"duration": "5,3 anos",
+"fonte": "BTG Relatório Mensal Fundos de Infra (14/07/26)"
+},
+"JURO11": {
+"tir": "9,5%",
+"spread": "91 bps",
+"duration": "3,5 anos",
+"fonte": "BTG Relatório Mensal Fundos de Infra (14/07/26)"
+},
+"KDIF11": {
+"tir": "8,9%",
+"spread": "55 bps",
+"duration": "5,6 anos",
+"fonte": "BTG Relatório Mensal Fundos de Infra (14/07/26)"
+},
+"KNDI11": {
+"tir": "9,4%",
+"spread": "80 bps",
+"duration": "2,0 anos",
+"fonte": "BTG Relatório Mensal Fundos de Infra (14/07/26)"
+},
+"KNOX11": {
+"tir": "10,1%",
+"spread": "143 bps",
+"duration": "2,9 anos",
+"fonte": "BTG Relatório Mensal Fundos de Infra (14/07/26)"
+},
+"XPID11": {
+"tir": "19,1%",
+"spread": "988 bps",
+"duration": "4,5 anos",
+"fonte": "BTG Relatório Mensal Fundos de Infra (14/07/26)"
+},
+"RBIF11": {
+"tir": "13,0%",
+"spread": "412 bps",
+"duration": "4,8 anos",
+"fonte": "BTG Relatório Mensal Fundos de Infra (14/07/26)"
+},
+"BDIV11": {
+"tir": "9,9%",
+"spread": "146 bps",
+"duration": "7,0 anos",
+"fonte": "BTG Relatório Mensal Fundos de Infra (14/07/26)"
+},
+"BRZP11": {
+"tir": "14,0%",
+"spread": "544 bps",
+"duration": "16,4 anos",
+"fonte": "BTG Relatório Mensal Fundos de Infra (14/07/26)"
+},
+"PFIN11": {
+"tir": "10,8%",
+"spread": "247 bps",
+"duration": "9,8 anos",
+"fonte": "BTG Relatório Mensal Fundos de Infra (14/07/26)"
+},
+"PPEI11": {
+"tir": "14,2%",
+"spread": "564 bps",
+"duration": "6,9 anos",
+"fonte": "BTG Relatório Mensal Fundos de Infra (14/07/26)"
+},
+"VIGT11": {
+"tir": "13,3%",
+"spread": "454 bps",
+"duration": "7,7 anos",
+"fonte": "BTG Relatório Mensal Fundos de Infra (14/07/26)"
+},
+"XPIE11": {
+"tir": "15,0%",
+"spread": "637 bps",
+"duration": "5,9 anos",
+"fonte": "BTG Relatório Mensal Fundos de Infra (14/07/26)"
+},
+"AGRX11": {
+"estrategia": "Carrego",
+"fonte": "BTG FIAgro Acompanhamento Mensal (jun/26)",
+"duration": "1,8 anos"
+},
+"BTAG11": {
+"estrategia": "Giro",
+"fonte": "BTG FIAgro Acompanhamento Mensal (jun/26)",
+"duration": "2,3 anos"
+},
+"CPTR11": {
+"estrategia": "Giro",
+"fonte": "BTG FIAgro Acompanhamento Mensal (jun/26)",
+"duration": "1,7 anos"
+},
+"CRAA11": {
+"estrategia": "Giro",
+"fonte": "BTG FIAgro Acompanhamento Mensal (jun/26)",
+"duration": "2,3 anos"
+},
+"FGAA11": {
+"estrategia": "Carrego",
+"fonte": "BTG FIAgro Acompanhamento Mensal (jun/26)",
+"duration": "2,0 anos"
+},
+"GCRA11": {
+"estrategia": "Carrego",
+"fonte": "BTG FIAgro Acompanhamento Mensal (jun/26)",
+"duration": "1,5 anos"
+},
+"KNCA11": {
+"estrategia": "Carrego",
+"fonte": "BTG FIAgro Acompanhamento Mensal (jun/26)",
+"duration": "2,7 anos"
+},
+"RURA11": {
+"estrategia": "Carrego",
+"fonte": "BTG FIAgro Acompanhamento Mensal (jun/26)",
+"duration": "1,9 anos"
+},
+"RZAG11": {
+"estrategia": "Carrego",
+"fonte": "BTG FIAgro Acompanhamento Mensal (jun/26)",
+"duration": "2,1 anos"
+},
+"VCRA11": {
+"estrategia": "Carrego",
+"fonte": "BTG FIAgro Acompanhamento Mensal (jun/26)",
+"duration": "2,2 anos"
+},
+"VGIA11": {
+"estrategia": "Carrego",
+"fonte": "BTG FIAgro Acompanhamento Mensal (jun/26)",
+"duration": "1,6 anos"
+}
+}
