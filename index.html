@@ -80,6 +80,10 @@
   .fr-data{font-size:11px;font-weight:700;color:var(--neutro);letter-spacing:.04em}
   .fr-tag{display:inline-block;margin-left:8px;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#9B3B2F;border:1px solid #9B3B2F;border-radius:4px;padding:1px 6px}
   .fr-resumo{font-size:13px;line-height:1.6;color:var(--tinta);margin-top:4px}
+  .btg-mark{margin-left:6px;font-size:9px;font-weight:700;letter-spacing:.05em;color:var(--petroleo);border:1px solid var(--petroleo);border-radius:4px;padding:1px 4px}
+  .btg-list{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+  .btg-chip{font-size:12px;color:var(--tinta);background:var(--areia);border:1px solid var(--linha);border-radius:999px;padding:4px 12px}
+  .btg-chip b{color:var(--petroleo);font-weight:600}
 
   .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:14px 0 8px}
   .kpi{background:#fff;border:1px solid var(--linha);border-radius:8px;padding:16px 18px}
@@ -371,7 +375,7 @@ function Tabela({fundos,onSel,comparar,toggleCmp,sortKey,sortDir,setSort}){
     <tbody>{fundos.map(f=>(
       <tr key={f.ticker} onClick={()=>onSel(f)}>
         <td className="cbx" onClick={e=>{e.stopPropagation();toggleCmp(f.ticker);}}><input type="checkbox" readOnly checked={comparar.has(f.ticker)} /></td>
-        <td className="l"><span className="tk">{f.ticker}</span></td>
+        <td className="l"><span className="tk">{f.ticker}</span>{BTG_REC[f.ticker]&&<span className="btg-mark" title="Nas carteiras recomendadas do BTG Pactual">BTG</span>}</td>
         <td className="l nm hideSm">{f.nome||'—'}</td>
         <td className="l hideSm"><span className="badge" style={{background:HEX[f.classe]}}>{f.subclasse}</span></td>
         <td>{cot(f.cotacao)}</td><td>{num(f.pvpa)}</td><td>{pct(f.dy_ltm)}</td>
@@ -436,6 +440,27 @@ function DocsFundo({f,docs}){
       </div>))}</div></div>);
 }
 
+const NOMES_CART={FII:'Carteira FII',Renda:'Top Renda',Fundos:'Top Fundos'};
+const BTG_REC={
+ BTCI11:[['FII',6]],KNCR11:[['FII',13],['Renda',20],['Fundos',15.5]],KNIP11:[['FII',15],['Renda',10],['Fundos',3.5]],
+ RBRR11:[['FII',3]],RBRY11:[['FII',5],['Fundos',5]],MCCI11:[['FII',8],['Renda',10],['Fundos',7]],
+ VILG11:[['FII',4.5]],BRCO11:[['FII',4.5]],BTLG11:[['FII',13]],BRCR11:[['FII',4.5]],PVBI11:[['FII',5]],
+ HGBS11:[['FII',3]],GZIT11:[['FII',2.5]],HSML11:[['FII',4]],VISC11:[['FII',2]],
+ TRXF11:[['FII',7],['Renda',10],['Fundos',7]],BODB11:[['Renda',10],['Fundos',7]],
+ TEPP11:[['Fundos',1.5]],JURO11:[['Fundos',4.5]],RURA11:[['Fundos',1]],KNHY11:[['Fundos',5]],
+ KNHF11:[['Fundos',3.5]],MCRE11:[['Fundos',4]],CPTS11:[['Fundos',4.5]],BDIF11:[['Fundos',10.5]],
+ CPTI11:[['Fundos',6]],CDII11:[['Fundos',8.5]],KDIF11:[['Fundos',4.5]]
+};
+function BtgRec({f}){
+  const r=BTG_REC[f.ticker];
+  if(!r)return null;
+  return (<div className="panel">
+    <h3>Carteiras recomendadas BTG</h3>
+    <div className="cap">Presença nas carteiras recomendadas do BTG Pactual (jul/2026) e o peso alocado. Visão do BTG, não da Engage.</div>
+    <div className="btg-list">{r.map(([c,p],i)=>(<span key={i} className="btg-chip">{NOMES_CART[c]} <b>{(''+p).replace('.',',')}%</b></span>))}</div>
+  </div>);
+}
+
 function FatosRelevantes({f}){
   const fr=f.fatos_relevantes;
   if(!fr||!fr.length)return null;
@@ -486,6 +511,7 @@ function Ficha({f,onBack,todos,docs}){
     {f.descricao && <div className="note" style={{marginTop:0}}>{f.descricao}</div>}
     <div className="grid-cards">{cards.map(([k,v])=>(<div className="card" key={k}><div className="k">{k}</div><div className="v">{v}</div></div>))}</div>
     <RiscoPanel f={f}/>
+    <BtgRec f={f}/>
     <div className="cols2">
       <div className="panel"><h3>Leitura vs. pares</h3><div className="cap">Como o fundo se posiciona no próprio segmento.</div><VsPares f={f} todos={todos}/></div>
       <div className="panel"><h3>Análise</h3>
