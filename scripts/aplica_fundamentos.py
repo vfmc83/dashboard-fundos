@@ -40,6 +40,15 @@ CAMPOS_NUM = [
 # Campos de texto atualizados quando vierem preenchidos (ex.: troca de gestora).
 CAMPOS_TXT = ["gestor", "administrador", "segmento_btg"]
 
+# Reclassificacoes de cadastro (aplicadas DEPOIS do merge, entao sobrescrevem o BTGSGF).
+# Ex.: FIIs de agro convertidos em Fiagro (aprovacao dos cotistas + CVM). Fonte: fatos relevantes/noticias.
+CLASSE_FIX = {
+    "BTRA11": {"classe": "Fiagro", "subclasse": "Imobiliário", "segmento_btg": "FIAgro - FII",
+               "descricao": "Fiagro de terras agricolas (ex-FII BTG Pactual Terras Agricolas, convertido em Fiagro apos aprovacao dos cotistas em nov/2025). Investe em terras agricolas produtivas, inclusive em fase de transformacao, via sale & leaseback, gerando renda por arrendamento; distribui ao menos 95% do resultado de caixa. Gerido pela BTG Pactual."},
+    "BTAL11": {"classe": "Fiagro", "subclasse": "Imobiliário", "segmento_btg": "FIAgro - FII",
+               "descricao": "Fiagro de logistica do agronegocio (ex-FII BTG Pactual Agro Logistica, em conversao para Fiagro, mesmo movimento do BTRA11). Detem ativos logisticos ligados ao agro para geracao de renda por locacao. Gerido pela BTG Pactual."},
+}
+
 
 def _n(v):
     return v if isinstance(v, (int, float)) else None
@@ -92,6 +101,15 @@ def main():
             if m:
                 f["metricas"] = m
                 nmet += 1
+
+    # Reclassificacoes de cadastro (sobrescrevem classe/subclasse/segmento/descricao)
+    nclass = 0
+    for f in fundos:
+        cf = CLASSE_FIX.get((f.get("ticker") or "").upper())
+        if cf:
+            f.update(cf)
+            nclass += 1
+    print(f"reclassificacoes aplicadas: {nclass}")
 
     meta = doc.setdefault("meta", {})
     meta["fundamentos_fonte"] = "BTG Stock Guide (BTGSGF)"
