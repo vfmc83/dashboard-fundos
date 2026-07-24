@@ -30,6 +30,7 @@ BASE = Path(__file__).resolve().parent.parent
 DATA = BASE / "data.json"
 FUND = Path(__file__).resolve().parent / "fundamentos_btg.json"
 METR = Path(__file__).resolve().parent / "metricas_infra_agro.json"  # TIR/spread/duration (FI-Infra) e estrategia/duration (FIAgro)
+COB = Path(__file__).resolve().parent / "cobertura_btg.json"  # Duration + visao qualitativa BTG (papeis cobertos, Cobertura de Recebiveis 4T25)
 
 # Campos numericos copiados 1:1 quando o BTG traz numero valido.
 CAMPOS_NUM = [
@@ -101,6 +102,17 @@ def main():
             if m:
                 f["metricas"] = m
                 nmet += 1
+
+    # Cobertura BTG (Duration + visao qualitativa) para papeis cobertos
+    ncob = 0
+    if COB.exists():
+        cob = json.loads(COB.read_text(encoding="utf-8"))
+        for f in fundos:
+            c = cob.get((f.get("ticker") or "").upper())
+            if c:
+                f["cobertura"] = c
+                ncob += 1
+    print(f"cobertura BTG aplicada: {ncob}")
 
     # Reclassificacoes de cadastro (sobrescrevem classe/subclasse/segmento/descricao)
     nclass = 0
