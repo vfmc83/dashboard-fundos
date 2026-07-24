@@ -476,6 +476,14 @@ function VsPares({f,todos}){
         <div className="t2"><span style={{width:54}}>Fundo</span><span className="track"><span className="fill" style={{width:(Math.abs(val)/max*100)+'%',background:HEX[f.classe]}}></span></span></div>
         <div className="t2"><span style={{width:54}}>Pares</span><span className="track"><span className="fill" style={{width:(Math.abs(med)/max*100)+'%',background:'var(--pedra)'}}></span></span></div>
       </div></div>);})}
+    {f._sc!=null&&(()=>{const ps=pares.map(x=>x._sc).filter(v=>v!=null);if(ps.length<2)return null;
+      const menor=Math.round(ps.filter(v=>v>f._sc).length/ps.length*100);const med=Math.round(mediana(ps));
+      return (<div className="vs-row" key="risco">
+        <div className="top"><span>Score de risco</span><span><b>{f._sc}</b> · mediana {med} · menor risco que <b>{menor}%</b> dos pares</span></div>
+        <div className="vs-bars">
+          <div className="t2"><span style={{width:54}}>Fundo</span><span className="track"><span className="fill" style={{width:f._sc+'%',background:HEX[f.classe]}}></span></span></div>
+          <div className="t2"><span style={{width:54}}>Pares</span><span className="track"><span className="fill" style={{width:med+'%',background:'var(--pedra)'}}></span></span></div>
+        </div></div>);})()}
     <div className="cap" style={{marginTop:8}}>Comparação com {pares.length} pares do segmento {f.subclasse}.</div>
   </div>);
 }
@@ -663,6 +671,14 @@ function App(){
 
   const setSort=(k)=>{if(sortKey===k)setSortDir(d=>-d);else{setSortKey(k);setSortDir(k==='ticker'||k==='nome'||k==='subclasse'?1:-1);}};
   const toggleCmp=(t)=>setComparar(s=>{const n=new Set(s);n.has(t)?n.delete(t):(n.size<6&&n.add(t));return n;});
+  const exportCSV=()=>{
+    const cols=[['Ticker','ticker'],['Nome','nome'],['Classe','classe'],['Segmento','subclasse'],['Gestor','gestor'],['Cotacao','cotacao'],['P/VP','pvpa'],['DY LTM %','dy_ltm'],['DY anual %','dy_anualizado'],['Valor mercado','valor_mercado'],['Patrimonio','valor_patrimonial'],['Ret mes %','ret_mes'],['Ret ano %','ret_ano'],['Ret 12m %','ret_ltm'],['Part IFIX %','part_ifix'],['Score risco','_sc'],['Faixa risco',f=>f._faixa!=null&&f._sc!=null?FAIXAS[f._faixa].n:'']];
+    const pctCols=new Set(['dy_ltm','dy_anualizado','ret_mes','ret_ano','ret_ltm','part_ifix']);
+    const esc=v=>{if(v==null)return '';let s=String(v);return /[";\n]/.test(s)?'"'+s.replace(/"/g,'""')+'"':s;};
+    const cell=(f,key)=>{if(typeof key==='function')return esc(key(f));let v=f[key];if(v==null)return '';if(typeof v==='number'){v= pctCols.has(key)?(v*100).toFixed(2):String(v);v=v.replace('.',',');}return esc(v);};
+    const csv='﻿'+[cols.map(c=>c[0]).join(';'),...filtrados.map(f=>cols.map(c=>cell(f,c[1])).join(';'))].join('\n');
+    const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8;'}));
+    a.download='fundos_engage_'+new Date().toISOString().slice(0,10)+'.csv';document.body.appendChild(a);a.click();document.body.removeChild(a);URL.revokeObjectURL(a.href);};
 
   if(erro)return <div><Header/><div className="err"><h2>Ops.</h2><p style={{color:'var(--neutro)'}}>{erro}</p></div></div>;
   if(!data)return <div><Header/><div className="err"><p style={{color:'var(--neutro)'}}>Carregando universo…</p></div></div>;
@@ -684,7 +700,8 @@ function App(){
         <button className={'chip'+(seg==='Todos'?' on':'')} onClick={()=>setSeg('Todos')}>Tijolo — todos</button>
         {segmentos.map(s=>(<button key={s} className={'chip'+(seg===s?' on':'')} onClick={()=>setSeg(s)}>{s}</button>))}</div>}
       <div className="toolbar"><input className="search" placeholder="Buscar por ticker, nome ou gestor…" value={busca} onChange={e=>setBusca(e.target.value)} />
-        <button className="btn ghost sm flt-btn" onClick={()=>setShowFlt(v=>!v)}>{showFlt?'Ocultar filtros':'Filtros'}{fltAtivos>0?` · ${fltAtivos}`:''}</button></div>
+        <button className="btn ghost sm flt-btn" onClick={()=>setShowFlt(v=>!v)}>{showFlt?'Ocultar filtros':'Filtros'}{fltAtivos>0?` · ${fltAtivos}`:''}</button>
+        <button className="btn ghost sm" onClick={exportCSV} title="Baixar os fundos filtrados em CSV (abre no Excel)">Exportar CSV · {filtrados.length}</button></div>
       {showFlt && <div className="flt-panel">
         <RangeSlider label="P/VP" min={0} max={2.5} step={0.05} val={fPvp} onChange={setFPvp} fmt={v=>num(v)}/>
         <RangeSlider label="DY LTM" min={0} max={0.3} step={0.005} val={fDy} onChange={setFDy} fmt={v=>pct(v)}/>
