@@ -278,7 +278,7 @@ function RiscoPanel({f}){
   </div>);
 }
 
-function RadarRisco({fundos,onSel}){
+function RadarRisco({fundos,onSel,hist}){
   const [open,setOpen]=useState(true);
   const parseBR=s=>{const m=/^(\d{2})\/(\d{2})\/(\d{4})/.exec(s||'');return m?new Date(+m[3],+m[2]-1,+m[1]):null;};
   const hoje=new Date();
@@ -290,7 +290,13 @@ function RadarRisco({fundos,onSel}){
       const dias=(hoje-d)/864e5; if(dias<0||dias>90)continue;
       ev.push({tk:f.ticker,f,data:fr.data,d,resumo:(fr.resumo||'').replace(/\s+/g,' ').slice(0,120)});}}
   ev.sort((a,b)=>b.d-a.d);
-  if(!risco.length&&!ev.length)return null;
+  const fxi=s=>s<38?0:s<48?1:s<58?2:s<68?3:4;
+  let migr=[];
+  if(hist&&hist.length>=2){const A=hist[hist.length-2],B=hist[hist.length-1],nm={};fundos.forEach(f=>nm[f.ticker]=f);
+    for(const tk in B.sc){if(!(tk in A.sc))continue;const a=fxi(A.sc[tk]),b=fxi(B.sc[tk]);if(a!==b)migr.push({tk,de:a,para:b,up:b>a,f:nm[tk]});}
+    migr.sort((x,y)=>(y.up-x.up)||(y.para-x.para));}
+  const desdeData=(migr.length&&hist)?hist[hist.length-2].data:null;
+  if(!risco.length&&!ev.length&&!migr.length)return null;
   const H={fontSize:11,letterSpacing:'.6px',textTransform:'uppercase',color:'var(--neutro)'};
   return (<div className="panel" style={{marginTop:16,borderLeft:'3px solid '+FAIXAS[4].c}}>
     <div onClick={()=>setOpen(o=>!o)} style={{display:'flex',alignItems:'center',gap:12,cursor:'pointer',flexWrap:'wrap'}}>
@@ -299,6 +305,10 @@ function RadarRisco({fundos,onSel}){
       <span style={{marginLeft:'auto',color:'var(--neutro)'}}>{open?'▲':'▼'}</span>
     </div>
     {open&&<div style={{marginTop:12,display:'flex',flexDirection:'column',gap:16}}>
+      {migr.length>0&&<div><div style={H}>Mudanças de faixa{desdeData?' · desde '+desdeData:''}</div>
+        <div style={{display:'flex',flexWrap:'wrap',gap:6,marginTop:6}}>{migr.slice(0,16).map(m=>(
+          <button key={m.tk} onClick={()=>onSel(m.f)} title={(m.f&&m.f.nome)||''} style={{border:'1px solid var(--linha)',borderRadius:8,padding:'3px 8px',fontSize:12,background:'transparent',color:'var(--tinta)',cursor:'pointer'}}>
+            {m.up?'▲':'▼'} {m.tk} <span style={{color:FAIXAS[m.de].c}}>{FAIXAS[m.de].n}</span> → <span style={{color:FAIXAS[m.para].c}}>{FAIXAS[m.para].n}</span></button>))}</div></div>}
       <div><div style={H}>Maior risco (score) — clique para abrir</div>
         <div style={{display:'flex',flexWrap:'wrap',gap:6,marginTop:6}}>{risco.slice(0,20).map(f=>(
           <button key={f.ticker} onClick={()=>onSel(f)} title={f.nome||''} style={{border:'1px solid '+FAIXAS[f._faixa].c,borderRadius:8,padding:'3px 8px',fontSize:12,background:'transparent',color:'var(--tinta)',cursor:'pointer'}}>{f.ticker} <b style={{color:FAIXAS[f._faixa].c}}>{f._sc}{f._scPrelim?'*':''}</b></button>))}</div></div>
@@ -608,6 +618,7 @@ function App(){
   const [comparar,setComparar]=useState(new Set());
   const [showCmp,setShowCmp]=useState(false);
   const [docs,setDocs]=useState(null);
+  const [hist,setHist]=useState(null);
   const [sel,setSel]=useState(null);
   const [showFlt,setShowFlt]=useState(false);
   const [fPvp,setFPvp]=useState([0,2.5]);
@@ -621,6 +632,7 @@ function App(){
     else fetch('./data.json').then(r=>r.json()).then(setData)
       .catch(()=>setErro('Não foi possível carregar data.json. Rode via servidor local (python -m http.server) ou abra pela URL publicada.'));
     fetch('./documentos/indice.json').then(r=>r.ok?r.json():null).then(d=>{if(d)setDocs(d);}).catch(()=>{});
+    fetch('./historico_scores.json').then(r=>r.ok?r.json():null).then(h=>{if(h)setHist(h);}).catch(()=>{});
   },[]);
 
   const fundos=useMemo(()=>data?computeScores(data.fundos):[],[data]);
@@ -662,7 +674,7 @@ function App(){
     <div className="wrap">
       <section className="hero"><span className="kicker">Universo</span><h1>Fundos listados na B3</h1>
         <div className="lede">Selecione a classe, compare e abra a ficha de cada fundo — FII, Fiagro, FI-Infra e FIP em um só lugar.</div></section>
-      <RadarRisco fundos={fundos} onSel={setSel}/>
+      <RadarRisco fundos={fundos} onSel={setSel} hist={hist}/>
       <div className="chips">{['Todos',...ORDEM_CLASSE].map(c=>(
         <button key={c} className={'chip'+(classe===c?' on':'')} onClick={()=>{setClasse(c);setSub('Todos');setSeg('Todos');}}>{c}<span className="n">{contagem[c]||0}</span></button>))}</div>
       {subclasses.length>0 && <div className="chips sub">
