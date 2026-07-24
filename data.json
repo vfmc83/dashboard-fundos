@@ -1861,7 +1861,12 @@
    "analise_qual_id": "1236360",
    "cotas": 99521172,
    "cotacao_em": "2026-07-24",
-   "fr_count_90d": 0
+   "fr_count_90d": 0,
+   "cobertura": {
+    "fonte": "BTG Cobertura de Recebíveis (4T25)",
+    "duration": "4,4 anos",
+    "visao": "mantemos uma perspectiva positiva para o BTCI11 devido à sua carteira de crédito diversificada e vinculada a garantias imobiliárias sólidas. Além disso, sua estratégia de alocação em CRIs indexados à inflação e ao CDI permite à gestão destravar ganhos adicionais por meio do giro das posições no mercado secundário e apresentar menor volatilidade em seus dividendos."
+   }
   },
   {
    "ticker": "BTHF11",
@@ -2236,7 +2241,12 @@
      "resumo": "CLAVE ÍNDICES DE PREÇOS FUNDO DE INVESTIMENTO IMOBILIÁRIO CNPJ nº 49.005.348/0001-60 Código ISIN nº BRCLINCTF007 Código de Negociação: CLIN11 (“Fundo”) FATO RELEVANTE O BTG PAC"
     }
    ],
-   "fr_count_90d": 0
+   "fr_count_90d": 0,
+   "cobertura": {
+    "fonte": "BTG Cobertura de Recebíveis (4T25)",
+    "duration": "2,4 anos",
+    "visao": "consideramos o CLIN11 uma das principais oportunidades do mercado atualmente, uma vez que o fundo negocia com uma TIR atrativa, dado seu desconto em relação ao valor patrimonial. Contudo, o fundo possui uma liquidez menor frente aos seus pares."
+   }
   },
   {
    "ticker": "CNES11",
@@ -4935,7 +4945,12 @@
    "analise_qual_id": "1246185",
    "cotas": 15418106,
    "cotacao_em": "2026-07-24",
-   "fr_count_90d": 0
+   "fr_count_90d": 0,
+   "cobertura": {
+    "fonte": "BTG Cobertura de Recebíveis (4T25)",
+    "duration": "4,0 anos",
+    "visao": "mantemos uma perspectiva positiva para o fundo, graças à carteira diversificada de CRIs e à habilidade da gestão em originar novas operações, o que gera remuneração consistente e ganhos adicionais por meio do giro. No entanto, com a inadimplência recente do CRI Quota (5% do PL), permanecemos atentos e monitorando os desdobramentos da operação."
+   }
   },
   {
    "ticker": "HGLG11",
@@ -5668,7 +5683,7 @@
    "cotacao": 44.24,
    "maximo_52s": 54.266066692,
    "pct_do_maximo": 0.8283261113270738,
-   "valor_mercado": 42822339.64,
+   "valor_mercado": 42400633.52,
    "valor_patrimonial": 0,
    "pvpa": 0.5128280369906334,
    "pvpa_2025": 0.5343213271,
@@ -7052,7 +7067,11 @@
      "risco": false,
      "resumo": "Corporativo | Interno KINEA RENDIMENTOS IMOBILIÁRIOS FUNDO DE INVESTIMENTO IMOBILIÁRIO - FII CNPJ nº 16.706.958/0001-32 Administrado por INTRAG DISTRIBUIDORA DE TÍTULOS E VALORES MO"
     }
-   ]
+   ],
+   "cobertura": {
+    "fonte": "BTG Cobertura de Recebíveis (4T25)",
+    "duration": "3,8 anos"
+   }
   },
   {
    "ticker": "KNHF11",
@@ -7143,7 +7162,12 @@
      "resumo": "Corporativo | Interno KINEA HIGH YIELD CRI FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA CNPJ nº 30.130.708/0001-28 Administrado por INTRAG DISTRIBUIDORA DE TÍTULOS E"
     }
    ],
-   "fr_count_90d": 0
+   "fr_count_90d": 0,
+   "cobertura": {
+    "fonte": "BTG Cobertura de Recebíveis (4T25)",
+    "duration": "3,1 anos",
+    "visao": "mantemos o KNHY11 como um de nossos top picks, tendo em vista que o fundo negocia com uma TIR atrativa, uma carteira de crédito pulverizada e diversificada, sólida estrutura de garantias e liquidez elevada no mercado secundário."
+   }
   },
   {
    "ticker": "KNIP11",
@@ -7184,7 +7208,12 @@
    "pontos_atencao": "Carteira majoritariamente indexada ao IPCA: a desaceleração da inflação reduz o carrego corrente, enquanto a marcação a mercado oscila com a curva de juros reais. Baixo risco de crédito declarado (high grade), sem inadimplência relevante destacada. [Extraído do relatório de maio/2026]",
    "analise_qual_id": "manual-1216566",
    "cotas": 80078186,
-   "cotacao_em": "2026-07-24"
+   "cotacao_em": "2026-07-24",
+   "cobertura": {
+    "fonte": "BTG Cobertura de Recebíveis (4T25)",
+    "duration": "3,7 anos",
+    "visao": "mantemos o KNIP11 como um de nossos top picks devido à sua grande representatividade no segmento de recebíveis."
+   }
   },
   {
    "ticker": "KNRI11",
@@ -7274,7 +7303,12 @@
    "analise_qual_id": "1242374",
    "cotas": 202202385,
    "cotacao_em": "2026-07-24",
-   "fr_count_90d": 0
+   "fr_count_90d": 0,
+   "cobertura": {
+    "fonte": "BTG Cobertura de Recebíveis (4T25)",
+    "duration": "3,9 anos",
+    "visao": "mantemos o KNSC11 como um de nossos top picks devido à sua carteira de crédito mid grade e pela sua elevada liquidez no mercado secundário. Valorizamos o fato de que as operações são estruturadas pela gestora, o que possibilita a negociação de garantias e taxas. Além disso, a alocação de pelo menos 50% nas operações permite a aprovação de temas relevantes em assembleias."
+   }
   },
   {
    "ticker": "KNUQ11",
@@ -7766,7 +7800,12 @@
    "analise_qual_id": "1225005",
    "cotas": 16960024,
    "cotacao_em": "2026-07-24",
-   "fr_count_90d": 0
+   "fr_count_90d": 0,
+   "cobertura": {
+    "fonte": "BTG Cobertura de Recebíveis (4T25)",
+    "duration": "4,3 anos",
+    "visao": "mantemos um viés positivo para o fundo em função de sua excelente liquidez e por sua carteira diversificada em operações que apresentam garantias imobiliárias sólidas. A recente reciclagem do portfólio elevou o carrego da carteira, com maior diversificação de devedores e manutenção da duration. Ainda, o fundo acumula reservas, o que deve sustentar os dividendos no patamar atual."
+   }
   },
   {
    "ticker": "MCRE11",
@@ -7899,7 +7938,12 @@
      "risco": false,
      "resumo": "#15143124v4 MAXI RENDA FUNDO DE INVESTIMENTO IMOBILIÁRIO - FII - RESPONSABILIDADE LIMITADA CNPJ nº 97.521.225/0001-25 FATO RELEVANTE O BTG PACTUAL SERVIÇOS FINANCEIROS S.A. DIS"
     }
-   ]
+   ],
+   "cobertura": {
+    "fonte": "BTG Cobertura de Recebíveis (4T25)",
+    "duration": "4,0 anos",
+    "visao": "o fundo apresenta uma carteira de investimentos multiestratégica, composta por bons devedores e uma alocação significativa em FIIs. Além disso, possui excelente nível de liquidez, sendo o fundo com o maior número de cotistas no mercado."
+   }
   },
   {
    "ticker": "NAVT11",
@@ -8378,7 +8422,12 @@
      "resumo": "GESTOR ADMINISTRADOR E ESCRITURADOR PCIP | PATRIA CRÉDITO IMOBILIÁRIO ÍNDICE DE PREÇOS FATO RELEVANTE A BRL TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A., inscrita"
     }
    ],
-   "fr_count_90d": 0
+   "fr_count_90d": 0,
+   "cobertura": {
+    "fonte": "BTG Cobertura de Recebíveis (4T25)",
+    "duration": "3,5 anos",
+    "visao": "o fundo possui uma carteira diversificada, com diferentes perfis de risco e devedores, além de contar com boas garantias imobiliárias. Contudo, diante das movimentações recentes (incorporação do BARI11 e PLCR11), adotamos uma postura mais cautelosa, aguardando maiores definições sobre os impactos estruturais e estratégicos que podem decorrer dessa fusão."
+   }
   },
   {
    "ticker": "PLAG11",
@@ -9303,7 +9352,12 @@
      "resumo": "Internal Use Only FUNDO DE INVESTIMENTO IMOBILIARIO - FII RBR RENDIMENTO HIGH GRADE CNPJ nº 29.467.977/0001-03 - Código de Negociação: RBRR11 FATO RELEVANTE A BTG PACTUAL SE"
     }
    ],
-   "fr_count_90d": 0
+   "fr_count_90d": 0,
+   "cobertura": {
+    "fonte": "BTG Cobertura de Recebíveis (4T25)",
+    "duration": "4,1 anos",
+    "visao": "mantemos o RBRR11 como um de nossos top picks pelo fato de o fundo: (i) negociar com desconto em relação ao valor patrimonial; (ii) sua elevada liquidez no mercado secundário; (iii) apresentar uma carteira de crédito de alta qualidade e perfil high grade; e (iv) garantias sólidas e bem localizadas."
+   }
   },
   {
    "ticker": "RBRS11",
@@ -9465,7 +9519,12 @@
      "resumo": "FUNDO DE INVESTIMENTO IMOBILIÁRIO RBR CRÉDITO IMOBILIÁRIO ESTRUTURADO CNPJ: 30.166.700/0001-11 FATO RELEVANTE A BTG PACTUAL SERVIÇOS FINANCEIROS S/A DTVM, instituição devidamente au"
     }
    ],
-   "fr_count_90d": 0
+   "fr_count_90d": 0,
+   "cobertura": {
+    "fonte": "BTG Cobertura de Recebíveis (4T25)",
+    "duration": "2,3 anos",
+    "visao": "mantemos o RBRY11 como um de nossos top picks pelo fato de o fundo possuir: (i) garantias sólidas e localizadas majoritariamente no estado de São Paulo; (ii) um perfil de risco arrojado, mas que segue entregando rendimentos consistentes; e (iii) grande capacidade de originação de novas operações, o que possibilita a negociação de garantias e taxas mais atrativas."
+   }
   },
   {
    "ticker": "RBVA11",
@@ -9715,7 +9774,11 @@
      "resumo": "FATO RELEVANTE FUNDO DE INVESTIMENTO IMOBILIÁRIO – FII REC RECEBÍVEIS IMOBILIÁRIOS – RESPONSABILIDADE LIMITADA CNPJ nº 28.152.272/0001-26 Código Negociação B3: RECR11 A BRL TRUST DI"
     }
    ],
-   "fr_count_90d": 1
+   "fr_count_90d": 1,
+   "cobertura": {
+    "fonte": "BTG Cobertura de Recebíveis (4T25)",
+    "duration": "3,8 anos"
+   }
   },
   {
    "ticker": "RECT11",
@@ -11068,7 +11131,12 @@
      "resumo": "FATO RELEVANTE FUNDO DE INVESTIMENTO IMOBILIÁRIO - SPX SYN MULTIESTRATÉGIA CNPJ nº 43.010.543/0001-00 A BTG PACTUAL SERVIÇOS FINANCEIROS S.A. DTVM, inscrita no CNPJ sob o n.º 59.281.253/"
     }
    ],
-   "fr_count_90d": 0
+   "fr_count_90d": 0,
+   "cobertura": {
+    "fonte": "BTG Cobertura de Recebíveis (4T25)",
+    "duration": "1,8 anos",
+    "visao": "mantemos uma visão positiva para o SPXS11 devido à sua carteira multiestratégica, composta por devedores em boa situação de crédito, sem histórico de inadimplência, e respaldada por boas garantias imobiliárias. O fundo também negocia com desconto no mercado secundário."
+   }
   },
   {
    "ticker": "STYI11",
@@ -11726,7 +11794,12 @@
      "resumo": "Página 1 Corporativo | Interno FATO RELEVANTE VECTIS JUROS REAL FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA CNPJ: 32.400.250/0001-05 INTRAG DISTRIBUIDORA DE"
     }
    ],
-   "fr_count_90d": 0
+   "fr_count_90d": 0,
+   "cobertura": {
+    "fonte": "BTG Cobertura de Recebíveis (4T25)",
+    "duration": "3,8 anos",
+    "visao": "mantemos uma perspectiva positiva para o VCJR11, uma vez que o fundo possui uma liquidez elevada, carteira diversificada de devedores e com a maioria das garantias das operações localizadas no estado de São Paulo. Além disso, também valorizamos a capacidade da gestora de originar novas operações, mantendo a maioria delas sob seu controle decisivo."
+   }
   },
   {
    "ticker": "VCRA11",
@@ -12022,7 +12095,12 @@
    "analise_qual_id": "1261604",
    "cotas": 11787247,
    "cotacao_em": "2026-07-24",
-   "fr_count_90d": 0
+   "fr_count_90d": 0,
+   "cobertura": {
+    "fonte": "BTG Cobertura de Recebíveis (4T25)",
+    "duration": "3,6 anos",
+    "visao": "mantemos um viés positivo para o VGIP11, tendo em vista sua carteira diversificada em segmentos (residencial, shopping, infraestrutura e logística) e pautada em operações que apresentam boas garantias imobiliárias. Além disso, valorizamos a capacidade da gestora de originar novas operações e a potencialidade da geração de ganhos adicionais via giro da carteira."
+   }
   },
   {
    "ticker": "VGIR11",
@@ -12064,7 +12142,12 @@
    "analise_qual_id": "1252763",
    "cotas": 146101287,
    "cotacao_em": "2026-07-24",
-   "fr_count_90d": 0
+   "fr_count_90d": 0,
+   "cobertura": {
+    "fonte": "BTG Cobertura de Recebíveis (4T25)",
+    "duration": "1,6 anos",
+    "visao": "mantemos uma visão positiva para o VGIR11 devido à sua carteira de crédito pulverizada, garantias sólidas e elevada liquidez no mercado secundário. Também valorizamos o fato de que a maioria das operações são exclusivas (estruturadas pela própria gestora), o que permite uma participação ativa em todo processo de estruturação e negociação com os devedores."
+   }
   },
   {
    "ticker": "VGRI11",
@@ -12470,7 +12553,12 @@
      "resumo": "...a da propositura de Pedido de Recuperação Judicial, com pedido de tutela de urgência formulado pela Fragnani Empreendimentos e Participações S.A., inscrita sob o CNPJ n..."
     }
    ],
-   "fr_count_90d": 1
+   "fr_count_90d": 1,
+   "cobertura": {
+    "fonte": "BTG Cobertura de Recebíveis (4T25)",
+    "duration": "3,5 anos",
+    "visao": "mantemos uma visão positiva para o VRTA11, tendo em vista sua carteira de crédito pulverizada em diversos setores e devedores com boa estrutura de garantias. Além disso, sua estratégia de alocação em CRIs indexados à inflação permite à gestão destravar ganhos adicionais por meio do giro das posições."
+   }
   },
   {
    "ticker": "VRTM11",
