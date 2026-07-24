@@ -259,6 +259,7 @@ function RiscoBadge({f}){
     <b style={{background:fx.c}}>{f._sc}</b><span className="rbadge-n">{fx.n}{f._scPrelim?' *':''}</span></span>);
 }
 function RiscoPanel({f}){
+  const [meto,setMeto]=useState(false);
   if(f._sc==null)return null;
   const fx=FAIXAS[f._faixa];
   let _plab='Perfil do segmento';
@@ -267,7 +268,8 @@ function RiscoPanel({f}){
   const comp=[[_plab,f._rperf]];
   if(f._rs!=null)comp.push(['Sinais dos relatórios',f._rs]);
   return (<div className="panel">
-    <h3>Score de risco Engage</h3>
+    <h3 style={{display:'inline-block',marginRight:10}}>Score de risco Engage</h3>
+    <button onClick={()=>setMeto(true)} style={{background:'none',border:'none',color:HEX[f.classe],cursor:'pointer',fontSize:12,textDecoration:'underline',padding:0}}>como é calculado?</button>
     <div className="cap">Foco em qualidade dos ativos e risco de crédito (0 = menor · 100 = maior). Indicador de atenção, não recomendação.</div>
     <div className="risco-top">
       <div className="risco-nota" style={{background:fx.c}}>{f._sc}</div>
@@ -275,6 +277,24 @@ function RiscoPanel({f}){
         <div className="cap" style={{margin:'2px 0 0'}}>{f._scPrelim?'Preliminar — perfil do segmento (relatório ainda não lido; sinais de crédito entram depois).':'Inclui sinais reais do relatório mais recente (crédito, inadimplência, distribuição).'}</div></div>
     </div>
     <div className="risco-comp">{comp.map(([k,v])=>(<div key={k} className="rc-row"><span className="rc-l">{k}</span><span className="rc-t"><span className="rc-f" style={{width:v+'%',background:fx.c}}></span></span><span className="rc-v">{v}</span></div>))}</div>
+    {meto&&<div className="overlay" onClick={()=>setMeto(false)}><div className="modal" onClick={e=>e.stopPropagation()} style={{maxWidth:660}}>
+      <button className="x" onClick={()=>setMeto(false)}>×</button>
+      <span className="kicker">Metodologia</span>
+      <h2 style={{fontSize:'22px',margin:'4px 0 12px'}}>Como o Score de risco é calculado</h2>
+      <div style={{fontSize:13,lineHeight:1.7,color:'var(--tinta)'}}>
+        <p style={{marginTop:0}}>Indicador de atenção de <b>0 (menor risco) a 100 (maior)</b>, comparável <b>dentro da mesma classe</b>. Não é recomendação de investimento.</p>
+        <p><b>Cálculo.</b> Com relatório gerencial lido: <b>Score = 40% Perfil do segmento + 60% Sinais dos relatórios</b>. Sem relatório, usa só o Perfil — marcado com <b>*</b> (preliminar).</p>
+        <p><b>Perfil do segmento.</b> Risco estrutural típico da subclasse — ex.: Papel/CRI e FIP-IE ~60, Tijolo 40 (refinado por segmento e vacância: Galpão 34, Laje 48), Fiagro de crédito 60 vs ativo real 44, FoF 30.</p>
+        <p><b>Sinais dos relatórios.</b> Só deterioração eleva o score:<br/>
+          · <b>Crédito:</b> inadimplência (graduada por %), LTV, recuperação judicial / default / execução de garantia, PDD, rating baixo / high yield, vacância.<br/>
+          · <b>Governança:</b> fraude, investigação da CVM, demonstrações reprovadas, renúncia de administrador/gestor, volume atípico de fatos relevantes.<br/>
+          Sinais de <b>mercado/distribuição</b> (corte de dividendo, marcação a mercado, spread) têm <b>peso zero</b> — não são risco de crédito.</p>
+        <p style={{marginBottom:6}}><b>Faixas.</b></p>
+        <div style={{display:'flex',flexWrap:'wrap',gap:6,marginBottom:10}}>{FAIXAS.map((x,i)=>(<span key={i} style={{border:'1px solid '+x.c,color:x.c,borderRadius:8,padding:'2px 8px',fontSize:12}}>{x.n} {['<38','38–47','48–57','58–67','≥68'][i]}</span>))}</div>
+        <p><b>Fontes.</b> Relatórios gerenciais e fatos relevantes no Fundos.NET (CVM/B3), mais notícias públicas em casos específicos. Atualização automática.</p>
+        <p style={{color:'var(--neutro)',fontSize:12,marginBottom:0}}>Leitura automatizada e simplificada; não substitui análise individual. O score preliminar (*) reflete só o perfil do segmento até o relatório ser lido.</p>
+      </div>
+    </div></div>}
   </div>);
 }
 
