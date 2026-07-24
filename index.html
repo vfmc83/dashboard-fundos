@@ -202,6 +202,8 @@ function Header(){
 const PERFIL_RISCO={"Desenvolvimento":88,"Crédito (FIDC)":70,"Papel (CRI)":60,"Infraestrutura (FIP-IE)":60,"Imobiliário":56,"Gestão ativa":54,"Outros":54,"Híbrido":50,"Infraestrutura":42,"Tijolo":40,"FoF":30};
 // Refino do perfil dos FIIs de Tijolo por segmento (vacancia setorial 2T26 + ciclicidade). So aplica quando subclasse==='Tijolo'.
 const PERFIL_SEG={"Galpão Logístico":34,"Renda Urbana":38,"Agronegócio":40,"Agência Bancária":42,"Shopping Center":44,"Hospital":44,"Residencial":46,"Educacional":46,"Laje Corporativa":48,"Hotel":50};
+// Fiagro-Imobiliario: ativo real (terras/logistica; renda real, menor risco) vs credito de CRA (como papel). Default = credito.
+const REAL_ASSET_FIAGRO=new Set(['BTRA11','BTAL11','AAZQ11','SNFZ11']);
 const FAIXAS=[{n:'Muito baixo',c:'#4A7C59'},{n:'Baixo',c:'#7E8C59'},{n:'Médio',c:'#A98A5B'},{n:'Alto',c:'#B5773A'},{n:'Muito alto',c:'#9B3B2F'}];
 const faixaIdx=s=>s==null?-1:s<38?0:s<48?1:s<58?2:s<68?3:4;
 function _pr(arr,v){const n=arr.length;if(n<=1)return 0.5;let c=0;for(const x of arr)if(x<=v)c++;return (c-1)/(n-1);}
@@ -243,6 +245,7 @@ function computeScores(fundos){
   fundos.forEach(f=>{
     let rperf=PERFIL_RISCO[f.subclasse]!=null?PERFIL_RISCO[f.subclasse]:54;
     if(f.subclasse==='Tijolo'&&PERFIL_SEG[f.segmento_btg]!=null)rperf=PERFIL_SEG[f.segmento_btg];
+    if(f.classe==='Fiagro'&&f.subclasse==='Imobiliário')rperf=REAL_ASSET_FIAGRO.has(f.ticker)?44:60;
     const rs=_sinalRel(f.pontos_atencao);
     const sc=(rs!=null)?0.40*rperf+0.60*rs:rperf;
     f._rperf=Math.round(rperf);f._rs=(rs==null?null:Math.round(rs));
@@ -258,7 +261,10 @@ function RiscoBadge({f}){
 function RiscoPanel({f}){
   if(f._sc==null)return null;
   const fx=FAIXAS[f._faixa];
-  const comp=[[(f.subclasse==='Tijolo'&&f.segmento_btg?'Perfil do segmento ('+f.segmento_btg+')':'Perfil do segmento'),f._rperf]];
+  let _plab='Perfil do segmento';
+  if(f.subclasse==='Tijolo'&&f.segmento_btg)_plab='Perfil do segmento ('+f.segmento_btg+')';
+  else if(f.classe==='Fiagro'&&f.subclasse==='Imobiliário')_plab='Perfil do segmento (Fiagro '+(REAL_ASSET_FIAGRO.has(f.ticker)?'ativo real':'crédito')+')';
+  const comp=[[_plab,f._rperf]];
   if(f._rs!=null)comp.push(['Sinais dos relatórios',f._rs]);
   return (<div className="panel">
     <h3>Score de risco Engage</h3>
@@ -269,6 +275,38 @@ function RiscoPanel({f}){
         <div className="cap" style={{margin:'2px 0 0'}}>{f._scPrelim?'Preliminar — perfil do segmento (relatório ainda não lido; sinais de crédito entram depois).':'Inclui sinais reais do relatório mais recente (crédito, inadimplência, distribuição).'}</div></div>
     </div>
     <div className="risco-comp">{comp.map(([k,v])=>(<div key={k} className="rc-row"><span className="rc-l">{k}</span><span className="rc-t"><span className="rc-f" style={{width:v+'%',background:fx.c}}></span></span><span className="rc-v">{v}</span></div>))}</div>
+  </div>);
+}
+
+function RadarRisco({fundos,onSel}){
+  const [open,setOpen]=useState(true);
+  const parseBR=s=>{const m=/^(\d{2})\/(\d{2})\/(\d{4})/.exec(s||'');return m?new Date(+m[3],+m[2]-1,+m[1]):null;};
+  const hoje=new Date();
+  const risco=fundos.filter(f=>f._faixa>=3).sort((a,b)=>b._sc-a._sc);
+  const mAlto=risco.filter(f=>f._faixa===4).length, alto=risco.filter(f=>f._faixa===3).length;
+  const ev=[];
+  for(const f of fundos){ if(!Array.isArray(f.fatos_relevantes))continue;
+    for(const fr of f.fatos_relevantes){ if(!fr.risco)continue; const d=parseBR(fr.data); if(!d)continue;
+      const dias=(hoje-d)/864e5; if(dias<0||dias>90)continue;
+      ev.push({tk:f.ticker,f,data:fr.data,d,resumo:(fr.resumo||'').replace(/\s+/g,' ').slice(0,120)});}}
+  ev.sort((a,b)=>b.d-a.d);
+  if(!risco.length&&!ev.length)return null;
+  const H={fontSize:11,letterSpacing:'.6px',textTransform:'uppercase',color:'var(--neutro)'};
+  return (<div className="panel" style={{marginTop:16,borderLeft:'3px solid '+FAIXAS[4].c}}>
+    <div onClick={()=>setOpen(o=>!o)} style={{display:'flex',alignItems:'center',gap:12,cursor:'pointer',flexWrap:'wrap'}}>
+      <h3 style={{margin:0}}>Radar de risco</h3>
+      <span className="cap" style={{margin:0}}><b style={{color:FAIXAS[4].c}}>{mAlto}</b> Muito alto · <b style={{color:FAIXAS[3].c}}>{alto}</b> Alto · <b>{ev.length}</b> fatos de risco (90d)</span>
+      <span style={{marginLeft:'auto',color:'var(--neutro)'}}>{open?'▲':'▼'}</span>
+    </div>
+    {open&&<div style={{marginTop:12,display:'flex',flexDirection:'column',gap:16}}>
+      <div><div style={H}>Maior risco (score) — clique para abrir</div>
+        <div style={{display:'flex',flexWrap:'wrap',gap:6,marginTop:6}}>{risco.slice(0,20).map(f=>(
+          <button key={f.ticker} onClick={()=>onSel(f)} title={f.nome||''} style={{border:'1px solid '+FAIXAS[f._faixa].c,borderRadius:8,padding:'3px 8px',fontSize:12,background:'transparent',color:'var(--tinta)',cursor:'pointer'}}>{f.ticker} <b style={{color:FAIXAS[f._faixa].c}}>{f._sc}{f._scPrelim?'*':''}</b></button>))}</div></div>
+      {ev.length>0&&<div><div style={H}>Fatos relevantes de risco · últimos 90 dias</div>
+        <div style={{marginTop:6,display:'flex',flexDirection:'column',gap:2}}>{ev.slice(0,8).map((e,i)=>(
+          <button key={i} onClick={()=>onSel(e.f)} style={{textAlign:'left',border:'none',borderBottom:'1px solid var(--linha)',background:'transparent',cursor:'pointer',padding:'6px 0',fontSize:12.5,color:'var(--tinta)',display:'flex',gap:10,alignItems:'baseline'}}>
+            <b style={{minWidth:56,color:FAIXAS[3].c}}>{e.tk}</b><span style={{minWidth:74,color:'var(--neutro)'}}>{e.data}</span><span style={{flex:1}}>{e.resumo}</span></button>))}</div></div>}
+    </div>}
   </div>);
 }
 
@@ -624,6 +662,7 @@ function App(){
     <div className="wrap">
       <section className="hero"><span className="kicker">Universo</span><h1>Fundos listados na B3</h1>
         <div className="lede">Selecione a classe, compare e abra a ficha de cada fundo — FII, Fiagro, FI-Infra e FIP em um só lugar.</div></section>
+      <RadarRisco fundos={fundos} onSel={setSel}/>
       <div className="chips">{['Todos',...ORDEM_CLASSE].map(c=>(
         <button key={c} className={'chip'+(classe===c?' on':'')} onClick={()=>{setClasse(c);setSub('Todos');setSeg('Todos');}}>{c}<span className="n">{contagem[c]||0}</span></button>))}</div>
       {subclasses.length>0 && <div className="chips sub">
