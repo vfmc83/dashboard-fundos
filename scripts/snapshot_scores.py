@@ -45,18 +45,21 @@ def sinal_rel(txt):
     if not txt:
         return None
     t0 = txt.lower()
-    neg = re.compile(r"(n[ãa]o\b|sem\b)([^.\n]{0,45}?)(inadimpl\w*|eventos?\s+negativos?|evento\s+de\s+cr[ée]dito|default|calote)", re.I)
+    # re.A (ASCII) para espelhar EXATAMENTE o \w/\b/\s do JavaScript do index.html
+    # (o \w do Python e Unicode e casa acentos, divergindo em textos com OCR grudado).
+    neg = re.compile(r"(n[ãa]o\b|sem\b)([^.\n]{0,45}?)(inadimpl\w*|eventos?\s+negativos?|evento\s+de\s+cr[ée]dito|default|calote)", re.I | re.A)
     t = neg.sub(r"\1\2 semrisco ", t0)
+    se = lambda rx: re.search(rx, t, re.A)
     s = 30
-    add = lambda rx, p: p if re.search(rx, t) else 0
+    add = lambda rx, p: p if se(rx) else 0
 
-    if re.search(r"inadimpl|\bnpl\b|\bcalote\b", t):
-        iv = _num(re.search(r"inadimpl\w*\s*(?:d[aeo]\s+carteira\s*)?(?:de|em|:|é de)?\s*(\d{1,2})(?:[,.](\d))?\s?%", t))
+    if se(r"inadimpl|\bnpl\b|\bcalote\b"):
+        iv = _num(se(r"inadimpl\w*\s*(?:d[aeo]\s+carteira\s*)?(?:de|em|:|é de)?\s*(\d{1,2})(?:[,.](\d))?\s?%"))
         if iv is None:
-            iv = _num(re.search(r"(\d{1,2})(?:[,.](\d))?\s?%\s*(?:d[aeo]\s+carteira\s+)?(?:em\s+|de\s+)?inadimpl", t))
+            iv = _num(se(r"(\d{1,2})(?:[,.](\d))?\s?%\s*(?:d[aeo]\s+carteira\s+)?(?:em\s+|de\s+)?inadimpl"))
         if iv is not None:
             s += 30 if iv > 10 else 22 if iv > 6 else 12 if iv > 3 else 0
-        elif re.search(r"inadimpl\w*\s*(elevad|alta|relevant|crescent|significativ|forte|agravad)", t):
+        elif se(r"inadimpl\w*\s*(elevad|alta|relevant|crescent|significativ|forte|agravad)"):
             s += 18
         else:
             s += 4
@@ -65,19 +68,19 @@ def sinal_rel(txt):
     s += add(r"pdd[^.\n]{0,25}(elevad|em alta|crescent|aument|subiu|dispar)", 12)
     s += add(r"estressad|menor rating|rating baixo|rebaixament|downgrade|\bccc\b|rating\s+d\b", 14)
     s += add(r"alavancagem elevada|acima de 100% do pl", 12)
-    vv = _num(re.search(r"vac[âa]nc\w*[^%\n]{0,25}?(\d{1,2})(?:[,.](\d))?\s?%", t))
+    vv = _num(se(r"vac[âa]nc\w*[^%\n]{0,25}?(\d{1,2})(?:[,.](\d))?\s?%"))
     if vv is not None and vv > 7:
         s += 14 if vv > 12 else 8
-    lv = _num(re.search(r"\bltv\b[^%\n]{0,30}?(\d{1,3})(?:[,.](\d))?\s?%", t))
+    lv = _num(se(r"\bltv\b[^%\n]{0,30}?(\d{1,3})(?:[,.](\d))?\s?%"))
     if lv is not None:
         s += 20 if lv > 80 else 14 if lv > 70 else 8 if lv > 60 else 4 if lv > 50 else 0
-    km = re.search(r"high[\s-]?yield|abaixo d[eo] grau de investimento|abaixo de investment grade", t)
+    km = se(r"high[\s-]?yield|abaixo d[eo] grau de investimento|abaixo de investment grade")
     if km:
         i = km.start()
         w = t[max(0, i - 45):i + 45]
         anchor = i - max(0, i - 45)
         best, bd = None, 999
-        for pm in re.finditer(r"(\d{1,3})(?:[,.](\d))?\s?%", w):
+        for pm in re.finditer(r"(\d{1,3})(?:[,.](\d))?\s?%", w, re.A):
             d = abs(pm.start() - anchor)
             if d < bd:
                 bd, best = d, pm
