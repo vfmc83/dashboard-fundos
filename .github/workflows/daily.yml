@@ -21,11 +21,13 @@ jobs:
           python-version: '3.11'
       - run: pip install requests
       - run: python scripts/build_data.py
+      - name: Snapshot diario de scores (para o Radar de migracao de faixa)
+        run: python scripts/snapshot_scores.py
       - name: Commit data.json
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data.json
+          git add data.json historico_scores.json
           git commit -m "data: atualização automática $(date -u +%Y-%m-%d)" || echo "sem alterações"
           for i in 1 2 3 4 5; do
             git pull --rebase --autostash origin main || true
