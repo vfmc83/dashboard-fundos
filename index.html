@@ -441,6 +441,7 @@ function Tabela({fundos,onSel,comparar,toggleCmp,sortKey,sortDir,setSort}){
 
 function Comparar({fundos,onClose}){
   const linhas=[['Classe',f=>f.classe],['Segmento',f=>f.subclasse],['Gestor',f=>f.gestor||'—'],
+    ['Score de risco',f=>f._sc!=null?<span style={{color:FAIXAS[f._faixa].c,fontWeight:600}}>{f._sc}{f._scPrelim?'*':''} · {FAIXAS[f._faixa].n}</span>:'—'],
     ['Cotação',f=>cot(f.cotacao)],['P/VP',f=>num(f.pvpa)],['DY LTM',f=>pct(f.dy_ltm)],
     ['DY anualiz.',f=>pct(f.dy_anualizado)],['Patrimônio',f=>brl(f.valor_patrimonial)],
     ['Valor mercado',f=>brl(f.valor_mercado)],['Ret. mês',f=>pct(f.ret_mes)],['Ret. ano',f=>pct(f.ret_ano)],
