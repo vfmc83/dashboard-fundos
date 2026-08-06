@@ -340,6 +340,58 @@ function RadarRisco({fundos,onSel,hist}){
   </div>);
 }
 
+function FatosRecentes({docs,fundos,onSel}){
+  const [open,setOpen]=useState(true);
+  const [tudo,setTudo]=useState(false);
+  const [dias,setDias]=useState(30);
+  const dados=useMemo(()=>{
+    if(!Array.isArray(docs)||!docs.length||!fundos.length)return null;
+    const byT={};fundos.forEach(f=>{byT[f.ticker]=f;});
+    const parse=s=>{const m=/^(\d{2})\/(\d{2})\/(\d{4})(?: (\d{2}):(\d{2}))?/.exec(s||'');return m?new Date(+m[3],+m[2]-1,+m[1],+(m[4]||0),+(m[5]||0)):null;};
+    const hoje=new Date();const itens=[];
+    for(const d of docs){
+      if(((d.categoria||'')+' '+(d.tipo||'')+' '+(d.especie||'')).toLowerCase().indexOf('fato relevante')<0)continue;
+      const dt=parse(d.dataEntrega||d.dataReferencia);if(!dt)continue;
+      const dd=(hoje-dt)/864e5;if(dd<0||dd>dias)continue;
+      const f=byT[d.ticker];let risco=false,resumo=null;
+      if(f&&Array.isArray(f.fatos_relevantes)){
+        const dia=(d.dataEntrega||'').slice(0,10);
+        const m=f.fatos_relevantes.find(x=>x.data===dia);
+        if(m){risco=!!m.risco;resumo=(m.resumo||'').replace(/\s+/g,' ');}}
+      itens.push({tk:d.ticker,f,dt,data:(d.dataEntrega||d.dataReferencia||'').slice(0,10),url:d.url,risco,resumo});}
+    itens.sort((a,b)=>b.dt-a.dt);
+    return itens;},[docs,fundos,dias]);
+  if(!dados||!dados.length)return null;
+  const graves=dados.filter(i=>i.risco), resto=dados.filter(i=>!i.risco);
+  const lista=tudo?resto:resto.slice(0,10);
+  const H={fontSize:11,letterSpacing:'.6px',textTransform:'uppercase',color:'var(--neutro)'};
+  const Row=({e,destaque})=>(
+    <div style={{display:'flex',gap:10,alignItems:'baseline',borderBottom:'1px solid var(--linha)',padding:'6px 0',fontSize:12.5}}>
+      <button onClick={()=>e.f&&onSel(e.f)} title={(e.f&&e.f.nome)||''} style={{border:'none',background:'transparent',cursor:e.f?'pointer':'default',padding:0,fontWeight:700,minWidth:64,textAlign:'left',fontSize:12.5,color:destaque?FAIXAS[4].c:'var(--tinta)'}}>{destaque?'⚠ ':''}{e.tk}</button>
+      <span style={{minWidth:74,color:'var(--neutro)'}}>{e.data}</span>
+      <span style={{flex:1,minWidth:160,color:'var(--tinta)'}}>{destaque&&e.resumo?e.resumo.slice(0,170):((e.f&&e.f.nome)||'')}</span>
+      {e.f&&e.f._faixa!=null&&<span style={{fontSize:11,color:FAIXAS[e.f._faixa].c,whiteSpace:'nowrap'}}>{FAIXAS[e.f._faixa].n}</span>}
+      <a href={e.url} target="_blank" rel="noreferrer" onClick={ev=>ev.stopPropagation()} style={{color:'var(--neutro)',fontSize:11,whiteSpace:'nowrap'}}>PDF ↗</a>
+    </div>);
+  return (<div className="panel" style={{marginTop:16}}>
+    <div onClick={()=>setOpen(o=>!o)} style={{display:'flex',alignItems:'center',gap:12,cursor:'pointer',flexWrap:'wrap'}}>
+      <h3 style={{margin:0}}>Fatos relevantes</h3>
+      <span className="cap" style={{margin:0}}><b>{dados.length}</b> nos últimos {dias} dias{graves.length>0&&<span> · <b style={{color:FAIXAS[4].c}}>{graves.length}</b> com sinal de risco</span>}</span>
+      <span style={{marginLeft:'auto',color:'var(--neutro)'}}>{open?'▲':'▼'}</span>
+    </div>
+    {open&&<div style={{marginTop:10}}>
+      <div style={{display:'flex',gap:6,marginBottom:8}}>{[30,90].map(n=>(
+        <button key={n} className={'chip'+(dias===n?' on':'')} style={{fontSize:11,padding:'2px 10px'}} onClick={()=>{setDias(n);setTudo(false);}}>{n} dias</button>))}</div>
+      {graves.length>0&&<div style={{marginBottom:10}}><div style={H}>Eventos com sinal de risco</div>
+        {graves.map((e,i)=><Row key={'g'+i} e={e} destaque={true}/>)}</div>}
+      {resto.length>0&&<div><div style={H}>Demais fatos relevantes</div>
+        {lista.map((e,i)=><Row key={i} e={e}/>)}
+        {resto.length>10&&<button className="btn ghost sm" style={{marginTop:8}} onClick={()=>setTudo(v=>!v)}>{tudo?'Mostrar menos':'Mostrar todos ('+resto.length+')'}</button>}</div>}
+      <p style={{color:'var(--neutro)',fontSize:11,margin:'8px 0 0'}}>Fonte: Fundos.NET (CVM). A lista atualiza diariamente; o sinal de risco vem da leitura automatizada dos documentos (semanal) e não substitui a análise individual.</p>
+    </div>}
+  </div>);
+}
+
 function niceTicks(min,max,n){
   n=n||5;
   if(!isFinite(min)||!isFinite(max))return {ticks:[],step:1};
@@ -717,6 +769,7 @@ function App(){
       <section className="hero"><span className="kicker">Universo</span><h1>Fundos listados na B3</h1>
         <div className="lede">Selecione a classe, compare e abra a ficha de cada fundo — FII, Fiagro, FI-Infra e FIP em um só lugar.</div></section>
       <RadarRisco fundos={fundos} onSel={setSel} hist={hist}/>
+      <FatosRecentes docs={docs} fundos={fundos} onSel={setSel}/>
       <div className="chips">{['Todos',...ORDEM_CLASSE].map(c=>(
         <button key={c} className={'chip'+(classe===c?' on':'')} onClick={()=>{setClasse(c);setSub('Todos');setSeg('Todos');}}>{c}<span className="n">{contagem[c]||0}</span></button>))}</div>
       {subclasses.length>0 && <div className="chips sub">
