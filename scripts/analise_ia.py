@@ -240,13 +240,45 @@ def main():
         rid = str(rel["id"])
         frs = frs_recentes(f["ticker"], idx, 2)
         combo = rid + ("|fr:" + "+".join(str(x["id"]) for x in frs) if frs else "")
-        # Não sobrescrever análises manuais ricas (marcadas com "manual-...")
-        if str(f.get("analise_qual_id", "")).startswith("manual"):
-            fr_itens = analisa_frs(frs)
-            if fr_itens:
-                f["fatos_relevantes"] = fr_itens
-                DATA.write_text(json.dumps(doc, ensure_ascii=False, indent=1), encoding="utf-8")
+        # Análises ricas (id "manual-*" ou "site-*"): NUNCA sobrescrever analise_qual.
+        # Mas atualizar os SINAIS (pontos_atencao, FRs) a partir do RG mais recente,
+        # para o score de risco continuar fresco. Incremental via sinais_id.
+        if str(f.get("analise_qual_id", "")).startswith(("manual", "site")):
+            if str(f.get("analise_qual_id", "")).startswith("manual-noticias"):
+                # pontos_atencao curados via OVERRIDES: não recalcular sinais; só FRs
+                fr_itens = analisa_frs(frs)
+                if fr_itens:
+                    f["fatos_relevantes"] = fr_itens
+                    DATA.write_text(json.dumps(doc, ensure_ascii=False, indent=1), encoding="utf-8")
+                pulados += 1
+                continue
+            if f.get("sinais_id") == combo:
+                pulados += 1
+                continue
+            pdf = baixar_pdf(rel["id"])
+            if pdf:
+                try:
+                    t = texto_pdf(pdf)
+                    if len(t) >= 80:
+                        ref = (rel.get("dataReferencia") or rel.get("dataEntrega") or "")[:10]
+                        _aq, pa = analisa(f, t, ref)
+                        fr_itens = analisa_frs(frs)
+                        if fr_itens:
+                            f["fatos_relevantes"] = fr_itens
+                            risco = [i for i in fr_itens if i["risco"]]
+                            if risco:
+                                pa += " " + " ".join(f"Fato relevante ({i['data']}): {i['resumo']}" for i in risco)
+                        nfr = conta_frs(f["ticker"], idx, 90)
+                        f["fr_count_90d"] = nfr
+                        if nfr >= 4:
+                            pa += f" Volume atipico de {nfr} fatos relevantes nos ultimos 90 dias (possivel evento em curso)."
+                        f["pontos_atencao"] = pa
+                        f["sinais_id"] = combo
+                        DATA.write_text(json.dumps(doc, ensure_ascii=False, indent=1), encoding="utf-8")
+                except Exception as e:
+                    print(f"  ! sinais {f['ticker']}: {e}")
             pulados += 1
+            time.sleep(a.sleep)
             continue
         if not a.reprocessar and f.get("analise_qual_id") == combo:
             pulados += 1
