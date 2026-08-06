@@ -176,6 +176,8 @@ const brl=(v)=>{if(v==null)return '—';const a=Math.abs(v);
   if(a>=1e9)return 'R$ '+(v/1e9).toFixed(2)+' bi';
   if(a>=1e6)return 'R$ '+(v/1e6).toFixed(0)+' mi';
   if(a>=1e3)return 'R$ '+(v/1e3).toFixed(0)+' mil';return 'R$ '+v.toFixed(0);};
+const subLabel=(f)=>f&&f.classe==='Fiagro'&&f.subclasse==='Imobiliário'?'Fiagro':(f?f.subclasse:'');
+const subName=(classe,s)=>classe==='Fiagro'&&s==='Imobiliário'?'Fiagro':s;
 const mediana=(arr)=>{const a=arr.filter(x=>x!=null).sort((x,y)=>x-y);if(!a.length)return null;
   const m=Math.floor(a.length/2);return a.length%2?a[m]:(a[m-1]+a[m])/2;};
 const pctlAcima=(arr,v)=>{const a=arr.filter(x=>x!=null);if(!a.length||v==null)return null;
@@ -439,7 +441,7 @@ function Scatter({fundos,onSel,comparar}){
     </svg>
     <div className="legend">{classes.map(c=>(<span key={c}><i style={{background:HEX[c]}}></i>{c}</span>))}<span style={{marginLeft:'auto'}}>Passe o mouse para ver · clique para abrir</span></div>
     {hv && <div className="tooltip" style={{left:Math.min(hv.x+14,window.innerWidth-250),top:hv.y+14}}>
-      <b>{hv.f.ticker}</b> · {hv.f.subclasse}<br/><span>{hv.f.nome}</span><br/>P/VP <b>{num(hv.f.pvpa)}</b> · DY <b>{pct(hv.f.dy_ltm)}</b></div>}
+      <b>{hv.f.ticker}</b> · {subLabel(hv.f)}<br/><span>{hv.f.nome}</span><br/>P/VP <b>{num(hv.f.pvpa)}</b> · DY <b>{pct(hv.f.dy_ltm)}</b></div>}
   </div>);
 }
 
@@ -467,11 +469,11 @@ function Analises({fundos,classe,onSel,comparar}){
     pvpa:['Menor P/VP (desconto)','pvpa',1,v=>num(v)]};
   const gkey = classe==='Todos'?'classe':'subclasse';
   const groups={}; fundos.forEach(f=>{(groups[f[gkey]]=groups[f[gkey]]||[]).push(f);});
-  const segItems=Object.entries(groups).map(([k,arr])=>({key:k,label:k+' ('+arr.length+')',
+  const segItems=Object.entries(groups).map(([k,arr])=>({key:k,label:subName(classe,k)+' ('+arr.length+')',
     value:segDefs[mSeg][1](arr)||0,cor:classe==='Todos'?HEX[k]:HEX[classe]})).sort((a,b)=>b.value-a.value);
   const rk=rkDefs[mRk]; const acc=rk[1];
   const rkItems=[...fundos].filter(f=>f[acc]!=null).sort((a,b)=>(a[acc]-b[acc])*rk[2]).slice(0,12)
-    .map(f=>({key:f.ticker,ticker:f.ticker,label:f.ticker+' · '+(f.subclasse||''),value:f[acc],cor:HEX[f.classe]}));
+    .map(f=>({key:f.ticker,ticker:f.ticker,label:f.ticker+' · '+(subLabel(f)||''),value:f[acc],cor:HEX[f.classe]}));
   return (<div className="panel">
     <div className="tabs">
       <button className={'tab'+(tab==='disp'?' on':'')} onClick={()=>setTab('disp')}>Dispersão P/VP × DY</button>
@@ -502,7 +504,7 @@ function Tabela({fundos,onSel,comparar,toggleCmp,sortKey,sortDir,setSort}){
         <td className="cbx" onClick={e=>{e.stopPropagation();toggleCmp(f.ticker);}}><input type="checkbox" readOnly checked={comparar.has(f.ticker)} /></td>
         <td className="l"><span className="tk">{f.ticker}</span>{BTG_REC[f.ticker]&&<span className="btg-mark" title="Nas carteiras recomendadas do BTG Pactual">BTG</span>}</td>
         <td className="l nm hideSm">{f.nome||'—'}</td>
-        <td className="l hideSm"><span className="badge" style={{background:HEX[f.classe]}}>{f.subclasse}</span></td>
+        <td className="l hideSm"><span className="badge" style={{background:HEX[f.classe]}}>{subLabel(f)}</span></td>
         <td>{cot(f.cotacao)}</td><td>{num(f.pvpa)}</td><td>{pct(f.dy_ltm)}</td>
         <td>{brl(f.valor_mercado)}</td>
         <td className={f.ret_ltm>0?'pos':f.ret_ltm<0?'neg':''}>{pct(f.ret_ltm)}</td>
@@ -532,7 +534,7 @@ function Comparar({fundos,onClose}){
 
 function VsPares({f,todos}){
   const pares=todos.filter(x=>x.classe===f.classe&&x.subclasse===f.subclasse&&x.ticker!==f.ticker);
-  if(pares.length<2)return <div className="note">Poucos pares no segmento {f.subclasse} para comparação estatística.</div>;
+  if(pares.length<2)return <div className="note">Poucos pares no segmento {subLabel(f)} para comparação estatística.</div>;
   const defs=[['DY LTM','dy_ltm',pct],['P/VP','pvpa',num],['Retorno 12m','ret_ltm',pct]];
   return (<div>{defs.map(([t,key,fmt])=>{
     const val=f[key], med=mediana(pares.map(x=>x[key]));
@@ -557,7 +559,7 @@ function VsPares({f,todos}){
           <div className="t2"><span style={{width:54}}>Fundo</span><span className="track"><span className="fill" style={{width:f._sc+'%',background:HEX[f.classe]}}></span></span></div>
           <div className="t2"><span style={{width:54}}>Pares</span><span className="track"><span className="fill" style={{width:med+'%',background:'var(--pedra)'}}></span></span></div>
         </div></div>);})()}
-    <div className="cap" style={{marginTop:8}}>Comparação com {pares.length} pares do segmento {f.subclasse}.</div>
+    <div className="cap" style={{marginTop:8}}>Comparação com {pares.length} pares do segmento {subLabel(f)}.</div>
   </div>);
 }
 
@@ -630,7 +632,7 @@ function Ficha({f,onBack,todos,docs}){
   return (<div className="wrap">
     <div style={{padding:'20px 0 0'}}><button className="btn ghost sm" onClick={onBack}>← Voltar ao universo</button></div>
     <div className="ficha-head">
-      <div><span className="kicker">{f.classe} · {f.subclasse}{f.subclasse==='Tijolo'&&f.segmento_btg?' · '+f.segmento_btg:''}</span><h1>{f.ticker}</h1>
+      <div><span className="kicker">{f.classe} · {subLabel(f)}{f.subclasse==='Tijolo'&&f.segmento_btg?' · '+f.segmento_btg:''}</span><h1>{f.ticker}</h1>
         <div style={{fontFamily:'var(--serif)',fontSize:'20px',color:'var(--tinta)'}}>{f.nome||'—'}</div>
         <div className="meta">Gestor: {f.gestor||'—'} · Administrador: {f.administrador||'—'}{f.cnpj?` · CNPJ ${f.cnpj}`:''}</div></div>
       <span className="badge" style={{background:HEX[f.classe],fontSize:'13px',padding:'4px 12px'}}>{f.classe}</span>
@@ -750,7 +752,7 @@ function App(){
   const setSort=(k)=>{if(sortKey===k)setSortDir(d=>-d);else{setSortKey(k);setSortDir(k==='ticker'||k==='nome'||k==='subclasse'?1:-1);}};
   const toggleCmp=(t)=>setComparar(s=>{const n=new Set(s);n.has(t)?n.delete(t):(n.size<6&&n.add(t));return n;});
   const exportCSV=()=>{
-    const cols=[['Ticker','ticker'],['Nome','nome'],['Classe','classe'],['Segmento','subclasse'],['Gestor','gestor'],['Cotacao','cotacao'],['P/VP','pvpa'],['DY LTM %','dy_ltm'],['DY anual %','dy_anualizado'],['Valor mercado','valor_mercado'],['Patrimonio','valor_patrimonial'],['Ret mes %','ret_mes'],['Ret ano %','ret_ano'],['Ret 12m %','ret_ltm'],['Part IFIX %','part_ifix'],['Score risco','_sc'],['Faixa risco',f=>f._faixa!=null&&f._sc!=null?FAIXAS[f._faixa].n:'']];
+    const cols=[['Ticker','ticker'],['Nome','nome'],['Classe','classe'],['Segmento',f=>subLabel(f)],['Gestor','gestor'],['Cotacao','cotacao'],['P/VP','pvpa'],['DY LTM %','dy_ltm'],['DY anual %','dy_anualizado'],['Valor mercado','valor_mercado'],['Patrimonio','valor_patrimonial'],['Ret mes %','ret_mes'],['Ret ano %','ret_ano'],['Ret 12m %','ret_ltm'],['Part IFIX %','part_ifix'],['Score risco','_sc'],['Faixa risco',f=>f._faixa!=null&&f._sc!=null?FAIXAS[f._faixa].n:'']];
     const pctCols=new Set(['dy_ltm','dy_anualizado','ret_mes','ret_ano','ret_ltm','part_ifix']);
     const esc=v=>{if(v==null)return '';let s=String(v);return /[";\n]/.test(s)?'"'+s.replace(/"/g,'""')+'"':s;};
     const cell=(f,key)=>{if(typeof key==='function')return esc(key(f));let v=f[key];if(v==null)return '';if(typeof v==='number'){v= pctCols.has(key)?(v*100).toFixed(2):String(v);v=v.replace('.',',');}return esc(v);};
@@ -774,7 +776,7 @@ function App(){
         <button key={c} className={'chip'+(classe===c?' on':'')} onClick={()=>{setClasse(c);setSub('Todos');setSeg('Todos');}}>{c}<span className="n">{contagem[c]||0}</span></button>))}</div>
       {subclasses.length>0 && <div className="chips sub">
         <button className={'chip'+(sub==='Todos'?' on':'')} onClick={()=>{setSub('Todos');setSeg('Todos');}}>Todos os segmentos</button>
-        {subclasses.map(s=>(<button key={s} className={'chip'+(sub===s?' on':'')} onClick={()=>{setSub(s);setSeg('Todos');}}>{s}</button>))}</div>}
+        {subclasses.map(s=>(<button key={s} className={'chip'+(sub===s?' on':'')} onClick={()=>{setSub(s);setSeg('Todos');}}>{subName(classe,s)}</button>))}</div>}
       {segmentos.length>0 && <div className="chips sub">
         <button className={'chip'+(seg==='Todos'?' on':'')} onClick={()=>setSeg('Todos')}>Tijolo — todos</button>
         {segmentos.map(s=>(<button key={s} className={'chip'+(seg===s?' on':'')} onClick={()=>setSeg(s)}>{s}</button>))}</div>}
