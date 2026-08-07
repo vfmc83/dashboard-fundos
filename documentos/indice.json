@@ -72382,5 +72382,17 @@
   "dataEntrega": "06/08/2026 18:36",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1279022&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "BTAG11",
+  "cnpj": "40771109000147",
+  "id": "1279298",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "07/08/2026 10:14",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1279298&cvm=true",
+  "arquivo": null
  }
 ]
