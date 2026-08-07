@@ -72322,5 +72322,65 @@
   "dataEntrega": "05/08/2026 18:46",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1277840&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "CPUR11",
+  "cnpj": "34691520000100",
+  "id": "1279069",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/06/2026",
+  "dataEntrega": "06/08/2026 19:16",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1279069&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "FCFL11",
+  "cnpj": "11602654000101",
+  "id": "1278642",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/06/2026",
+  "dataEntrega": "06/08/2026 15:06",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1278642&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "HCRI11",
+  "cnpj": "04066582000160",
+  "id": "1278640",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/06/2026",
+  "dataEntrega": "06/08/2026 15:05",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1278640&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "IBBP11",
+  "cnpj": "52551605000174",
+  "id": "1278947",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "06/08/2026",
+  "dataEntrega": "06/08/2026 17:49",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1278947&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "VGRI11",
+  "cnpj": "53656482000107",
+  "id": "1279022",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/06/2026",
+  "dataEntrega": "06/08/2026 18:36",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1279022&cvm=true",
+  "arquivo": null
  }
 ]
