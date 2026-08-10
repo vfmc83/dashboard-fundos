@@ -72730,5 +72730,41 @@
   "dataEntrega": "07/08/2026 19:13",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1280634&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "GTWR11",
+  "cnpj": "23740527000158",
+  "id": "1280979",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "10/08/2026",
+  "dataEntrega": "10/08/2026 10:06",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1280979&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "TRXY11",
+  "cnpj": "43985938000110",
+  "id": "1280957",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "10/08/2026 09:16",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1280957&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "TVRI11",
+  "cnpj": "14410722000129",
+  "id": "1280963",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "10/08/2026",
+  "dataEntrega": "10/08/2026 09:34",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1280963&cvm=true",
+  "arquivo": null
  }
 ]
