@@ -72766,5 +72766,65 @@
   "dataEntrega": "10/08/2026 09:34",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1280963&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "AGRX11",
+  "cnpj": "43951911000107",
+  "id": "1281537",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "10/08/2026 16:11",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1281537&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "BBRC11",
+  "cnpj": "12681340000104",
+  "id": "1281089",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "10/08/2026",
+  "dataEntrega": "10/08/2026 11:39",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1281089&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "CXCO11",
+  "cnpj": "38658984000175",
+  "id": "1281976",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/06/2026",
+  "dataEntrega": "10/08/2026 18:58",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1281976&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "GRUL11",
+  "cnpj": "54483412000159",
+  "id": "1281950",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "10/08/2026 18:51",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1281950&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "RBVA11",
+  "cnpj": "15576907000170",
+  "id": "1281872",
+  "categoria": "Outras Informações",
+  "tipo": "Relatório gerencial em inglês",
+  "especie": "",
+  "dataReferencia": "30/06/2026",
+  "dataEntrega": "10/08/2026 18:06",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1281872&cvm=true",
+  "arquivo": null
  }
 ]
