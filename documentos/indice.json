@@ -72826,5 +72826,41 @@
   "dataEntrega": "10/08/2026 18:06",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1281872&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "AIEC11",
+  "cnpj": "35765826000126",
+  "id": "1282279",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "11/08/2026 09:15",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1282279&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "SNAG11",
+  "cnpj": "28152777000190",
+  "id": "1282094",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "10/08/2026",
+  "dataEntrega": "10/08/2026 19:17",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1282094&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "XLPR11",
+  "cnpj": "35689733000160",
+  "id": "1282281",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/06/2026",
+  "dataEntrega": "11/08/2026 09:17",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1282281&cvm=true",
+  "arquivo": null
  }
 ]
