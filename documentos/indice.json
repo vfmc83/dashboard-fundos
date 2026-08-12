@@ -73102,5 +73102,53 @@
   "dataEntrega": "12/08/2026 09:32",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1284561&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "AAZQ11",
+  "cnpj": "44625826000111",
+  "id": "1286246",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "12/08/2026 18:11",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1286246&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "BMLC11",
+  "cnpj": "14376247000111",
+  "id": "1286262",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "12/08/2026",
+  "dataEntrega": "12/08/2026 18:21",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1286262&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "IAAG11",
+  "cnpj": "42692399000169",
+  "id": "1286061",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "12/08/2026 17:24",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1286061&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "TRBL11",
+  "cnpj": "16671412000193",
+  "id": "1286131",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/06/2026",
+  "dataEntrega": "12/08/2026 17:58",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1286131&cvm=true",
+  "arquivo": null
  }
 ]
