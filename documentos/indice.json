@@ -73018,5 +73018,89 @@
   "dataEntrega": "11/08/2026 18:13",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1283546&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "INRD11",
+  "cnpj": "34835191000123",
+  "id": "1283875",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "11/08/2026",
+  "dataEntrega": "11/08/2026 19:43",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1283875&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "ITIP11",
+  "cnpj": "36312772000106",
+  "id": "1283858",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "11/08/2026",
+  "dataEntrega": "11/08/2026 19:39",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1283858&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "NAVT11",
+  "cnpj": "35652252000180",
+  "id": "1283956",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "11/08/2026",
+  "dataEntrega": "11/08/2026 19:50",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1283956&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "RBIR11",
+  "cnpj": "31161410000148",
+  "id": "1283809",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/06/2026",
+  "dataEntrega": "11/08/2026 19:23",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1283809&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "RBRX11",
+  "cnpj": "41088458000121",
+  "id": "1283812",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "11/08/2026",
+  "dataEntrega": "11/08/2026 19:24",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1283812&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "RZTR11",
+  "cnpj": "36501128000186",
+  "id": "1284317",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "11/08/2026",
+  "dataEntrega": "11/08/2026 20:57",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1284317&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "TRXF11",
+  "cnpj": "28548288000152",
+  "id": "1284561",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "12/08/2026",
+  "dataEntrega": "12/08/2026 09:32",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1284561&cvm=true",
+  "arquivo": null
  }
 ]
