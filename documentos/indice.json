@@ -73630,5 +73630,101 @@
   "dataEntrega": "14/08/2026 19:01",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1293917&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "BBGO11",
+  "cnpj": "42592257000120",
+  "id": "1294789",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "17/08/2026 11:22",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1294789&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "BRCO11",
+  "cnpj": "20748515000181",
+  "id": "1295268",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "17/08/2026",
+  "dataEntrega": "17/08/2026 18:26",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1295268&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "HOFC11",
+  "cnpj": "31894369000119",
+  "id": "1295253",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "17/08/2026 18:10",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1295253&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "INLG11",
+  "cnpj": "34598181000111",
+  "id": "1295281",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "17/08/2026 18:36",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1295281&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "KNHF11",
+  "cnpj": "42754342000147",
+  "id": "1295271",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "17/08/2026 18:28",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1295271&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "PLCA11",
+  "cnpj": "41272747000186",
+  "id": "1295199",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "17/08/2026 17:27",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1295199&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "PQAG11",
+  "cnpj": "12978943000172",
+  "id": "1295230",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "17/08/2026 18:02",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1295230&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "SMRE11",
+  "cnpj": "53730029000195",
+  "id": "1295185",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "17/08/2026 17:24",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1295185&cvm=true",
+  "arquivo": null
  }
 ]
