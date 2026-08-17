@@ -73546,5 +73546,89 @@
   "dataEntrega": "14/08/2026 18:02",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1293641&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "BLCA11",
+  "cnpj": "41076748000155",
+  "id": "1294574",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "14/08/2026",
+  "dataEntrega": "14/08/2026 22:01",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1294574&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "IBCR11",
+  "cnpj": "40011251000196",
+  "id": "1294318",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/06/2026",
+  "dataEntrega": "14/08/2026 19:53",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1294318&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "ITRI11",
+  "cnpj": "52270671000176",
+  "id": "1294446",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "14/08/2026 20:18",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1294446&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "LSAG11",
+  "cnpj": "42592476000109",
+  "id": "1293896",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "14/08/2026",
+  "dataEntrega": "14/08/2026 18:58",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1293896&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "RBVA11",
+  "cnpj": "15576907000170",
+  "id": "1294479",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "14/08/2026 20:30",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1294479&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "RCRB11",
+  "cnpj": "03683056000186",
+  "id": "1294345",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "14/08/2026 19:57",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1294345&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "SNME11",
+  "cnpj": "52227760000130",
+  "id": "1293917",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "14/08/2026",
+  "dataEntrega": "14/08/2026 19:01",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1293917&cvm=true",
+  "arquivo": null
  }
 ]
