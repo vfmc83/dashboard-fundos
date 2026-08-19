@@ -74050,5 +74050,29 @@
   "dataEntrega": "18/08/2026 19:13",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1296315&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "BBIG11",
+  "cnpj": "54375187000137",
+  "id": "1297000",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "19/08/2026 18:19",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1297000&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "INRD11",
+  "cnpj": "34835191000123",
+  "id": "1296910",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "19/08/2026 17:04",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1296910&cvm=true",
+  "arquivo": null
  }
 ]
