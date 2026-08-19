@@ -74026,5 +74026,29 @@
   "dataEntrega": "18/08/2026 18:38",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1296275&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "ALZR11",
+  "cnpj": "28737771000185",
+  "id": "1296283",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "18/08/2026 18:45",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1296283&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "BCIA11",
+  "cnpj": "20216935000117",
+  "id": "1296315",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "18/08/2026",
+  "dataEntrega": "18/08/2026 19:13",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1296315&cvm=true",
+  "arquivo": null
  }
 ]
