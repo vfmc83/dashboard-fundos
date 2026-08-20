@@ -74074,5 +74074,53 @@
   "dataEntrega": "19/08/2026 17:04",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1296910&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "CXAG11",
+  "cnpj": "40189596000134",
+  "id": "1297214",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "20/08/2026 08:26",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1297214&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "FIIP11",
+  "cnpj": "08696175000197",
+  "id": "1297228",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "20/08/2026 09:27",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1297228&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "RBRD11",
+  "cnpj": "09006914000134",
+  "id": "1297094",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "19/08/2026 19:21",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1297094&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "RECT11",
+  "cnpj": "32274163000159",
+  "id": "1297231",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "20/08/2026",
+  "dataEntrega": "20/08/2026 09:45",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1297231&cvm=true",
+  "arquivo": null
  }
 ]
