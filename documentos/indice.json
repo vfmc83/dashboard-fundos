@@ -74362,5 +74362,89 @@
   "dataEntrega": "20/08/2026 20:20",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1297945&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "CPSH11",
+  "cnpj": "47896665000199",
+  "id": "1298481",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "21/08/2026",
+  "dataEntrega": "21/08/2026 18:05",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298481&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "HABT11",
+  "cnpj": "30578417000105",
+  "id": "1298450",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "21/08/2026 17:37",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298450&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "JSAF11",
+  "cnpj": "42085661000107",
+  "id": "1298537",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "21/08/2026 18:41",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298537&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "MAXR11",
+  "cnpj": "11274415000170",
+  "id": "1298503",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/06/2026",
+  "dataEntrega": "21/08/2026 18:14",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298503&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "NAVT11",
+  "cnpj": "35652252000180",
+  "id": "1298491",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "21/08/2026 18:09",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298491&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "NAVT11",
+  "cnpj": "35652252000180",
+  "id": "1298489",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/06/2026",
+  "dataEntrega": "21/08/2026 18:07",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298489&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "TEPP11",
+  "cnpj": "26681370000125",
+  "id": "1298507",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "21/08/2026 18:17",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298507&cvm=true",
+  "arquivo": null
  }
 ]
