@@ -74758,5 +74758,65 @@
   "dataEntrega": "15/10/2024 11:00",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=758064&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "CXRI11",
+  "cnpj": "17098794000170",
+  "id": "1299323",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "24/08/2026 18:00",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1299323&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "JSRE11",
+  "cnpj": "13371132000171",
+  "id": "1299341",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "24/08/2026 18:15",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1299341&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "KOPA11",
+  "cnpj": "51475461000151",
+  "id": "1298955",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "24/08/2026 14:28",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298955&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "TRBL11",
+  "cnpj": "16671412000193",
+  "id": "1299200",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "24/08/2026 17:27",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1299200&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "XPCA11",
+  "cnpj": "41269527000101",
+  "id": "1299040",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "24/08/2026 16:11",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1299040&cvm=true",
+  "arquivo": null
  }
 ]
