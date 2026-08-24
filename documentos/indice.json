@@ -74446,5 +74446,89 @@
   "dataEntrega": "21/08/2026 18:17",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298507&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "BRCO11",
+  "cnpj": "20748515000181",
+  "id": "1298554",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "21/08/2026 18:54",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298554&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "MANA11",
+  "cnpj": "42888583000189",
+  "id": "1298560",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "21/08/2026 18:57",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298560&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "PCIP11",
+  "cnpj": "28729197000113",
+  "id": "1298588",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "21/08/2026",
+  "dataEntrega": "21/08/2026 19:40",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298588&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "RBRR11",
+  "cnpj": "29467977000103",
+  "id": "1298668",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "21/08/2026",
+  "dataEntrega": "21/08/2026 20:57",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298668&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "RPRI11",
+  "cnpj": "42502842000191",
+  "id": "1298559",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "21/08/2026",
+  "dataEntrega": "21/08/2026 18:57",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298559&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "TRXB11",
+  "cnpj": "36368925000137",
+  "id": "1298556",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "21/08/2026",
+  "dataEntrega": "21/08/2026 18:55",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298556&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "VCJR11",
+  "cnpj": "32400250000105",
+  "id": "1298567",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "21/08/2026",
+  "dataEntrega": "21/08/2026 19:03",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298567&cvm=true",
+  "arquivo": null
  }
 ]
