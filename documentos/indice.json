@@ -75358,5 +75358,53 @@
   "dataEntrega": "27/08/2026 18:04",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1302549&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "INRD11",
+  "cnpj": "34835191000123",
+  "id": "1302688",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "27/08/2026",
+  "dataEntrega": "27/08/2026 19:31",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1302688&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "ITIP11",
+  "cnpj": "36312772000106",
+  "id": "1302691",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "27/08/2026",
+  "dataEntrega": "27/08/2026 19:33",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1302691&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "PCIP11",
+  "cnpj": "28729197000113",
+  "id": "1302773",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "27/08/2026",
+  "dataEntrega": "27/08/2026 21:41",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1302773&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "XPCI11",
+  "cnpj": "28516301000191",
+  "id": "1302713",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "27/08/2026 19:57",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1302713&cvm=true",
+  "arquivo": null
  }
 ]
