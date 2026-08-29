@@ -75574,5 +75574,29 @@
   "dataEntrega": "28/08/2026 09:49",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1302845&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "HGRE11",
+  "cnpj": "09072017000129",
+  "id": "1304075",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "28/08/2026",
+  "dataEntrega": "28/08/2026 19:33",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1304075&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "HGRE11",
+  "cnpj": "09072017000129",
+  "id": "1304069",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "28/08/2026",
+  "dataEntrega": "28/08/2026 19:29",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1304069&cvm=true",
+  "arquivo": null
  }
 ]
