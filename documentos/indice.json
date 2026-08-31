@@ -75670,5 +75670,29 @@
   "dataEntrega": "31/08/2026 09:26",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1304485&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "EURO11",
+  "cnpj": "05437916000127",
+  "id": "1305001",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "31/08/2026 12:59",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1305001&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "PORD11",
+  "cnpj": "17156502000109",
+  "id": "1305052",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "31/08/2026 13:52",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1305052&cvm=true",
+  "arquivo": null
  }
 ]
