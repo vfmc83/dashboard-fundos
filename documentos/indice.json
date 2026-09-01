@@ -75838,5 +75838,65 @@
   "dataEntrega": "31/08/2026 18:46",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1306179&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "BTCI11",
+  "cnpj": "09552812000114",
+  "id": "1306639",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "01/09/2026 11:27",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1306639&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "BTLG11",
+  "cnpj": "11839593000109",
+  "id": "1306470",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "01/09/2026",
+  "dataEntrega": "01/09/2026 09:45",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1306470&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "BTLG11",
+  "cnpj": "11839593000109",
+  "id": "1306411",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "31/08/2026 22:27",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1306411&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "CLIN11",
+  "cnpj": "49005348000160",
+  "id": "1306649",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "01/09/2026 11:28",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1306649&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "WHGR11",
+  "cnpj": "41256643000188",
+  "id": "1306479",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "01/09/2026 10:01",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1306479&cvm=true",
+  "arquivo": null
  }
 ]
