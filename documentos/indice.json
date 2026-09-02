@@ -76042,5 +76042,29 @@
   "dataEntrega": "01/09/2026 19:11",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1307403&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "HSRE11",
+  "cnpj": "08098114000128",
+  "id": "1307638",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "02/09/2026 09:58",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1307638&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "OUJP11",
+  "cnpj": "26091656000150",
+  "id": "1307592",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "02/09/2026 08:32",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1307592&cvm=true",
+  "arquivo": null
  }
 ]
