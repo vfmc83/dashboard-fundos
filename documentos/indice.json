@@ -76126,5 +76126,41 @@
   "dataEntrega": "02/09/2026 17:49",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1308329&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "TVRI11",
+  "cnpj": "14410722000129",
+  "id": "908120",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/04/2025",
+  "dataEntrega": "16/05/2025 19:31",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=908120&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "TVRI11",
+  "cnpj": "14410722000129",
+  "id": "883051",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/03/2025",
+  "dataEntrega": "17/04/2025 18:28",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=883051&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "TVRI11",
+  "cnpj": "14410722000129",
+  "id": "863651",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "28/02/2025",
+  "dataEntrega": "24/03/2025 18:35",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=863651&cvm=true",
+  "arquivo": null
  }
 ]
