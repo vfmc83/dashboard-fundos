@@ -76162,5 +76162,53 @@
   "dataEntrega": "24/03/2025 18:35",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=863651&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "FLRP11",
+  "cnpj": "10375382000191",
+  "id": "1309430",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "03/09/2026 19:13",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1309430&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "FVPQ11",
+  "cnpj": "00332266000131",
+  "id": "1309427",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "03/09/2026 19:12",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1309427&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "HGBS11",
+  "cnpj": "08431747000106",
+  "id": "1309543",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "03/09/2026 19:50",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1309543&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "VCRA11",
+  "cnpj": "42502827000143",
+  "id": "1309352",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "03/09/2026 18:25",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1309352&cvm=true",
+  "arquivo": null
  }
 ]
