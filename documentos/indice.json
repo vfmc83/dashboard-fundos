@@ -76210,5 +76210,29 @@
   "dataEntrega": "03/09/2026 18:25",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1309352&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "BTHF11",
+  "cnpj": "45188176000157",
+  "id": "1309609",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "03/09/2026 21:01",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1309609&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "TRXF11",
+  "cnpj": "28548288000152",
+  "id": "1309800",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/08/2026",
+  "dataEntrega": "04/09/2026 09:52",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1309800&cvm=true",
+  "arquivo": null
  }
 ]
