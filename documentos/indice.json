@@ -76234,5 +76234,53 @@
   "dataEntrega": "04/09/2026 09:52",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1309800&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "ABCP11",
+  "cnpj": "01201140000190",
+  "id": "1310482",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "04/09/2026 17:22",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1310482&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "HFOF11",
+  "cnpj": "18307582000119",
+  "id": "1310658",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "04/09/2026 18:41",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1310658&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "RECT11",
+  "cnpj": "32274163000159",
+  "id": "941437",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/06/2025",
+  "dataEntrega": "07/07/2025 18:49",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=941437&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "TVRI11",
+  "cnpj": "14410722000129",
+  "id": "909212",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "01/05/2025",
+  "dataEntrega": "20/05/2025 18:40",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=909212&cvm=true",
+  "arquivo": null
  }
 ]
