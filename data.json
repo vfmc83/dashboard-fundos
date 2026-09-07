@@ -9,10 +9,10 @@
   },
   "campos_cadastro": "taxa_adm, taxa_perf, benchmark, bench_spread, site (img Victor + gestor)",
   "tem_analise": "descricao + analise quantitativa (gerada das métricas)",
-  "cotacoes_em": "2026-09-04",
+  "cotacoes_em": "2026-09-07",
   "cotacoes_fonte": "Google Sheets (GOOGLEFINANCE)",
   "cdi_aa": 13.9,
-  "cdi_em": "2026-09-04",
+  "cdi_em": "2026-09-07",
   "fundamentos_fonte": "BTG Stock Guide (BTGSGF)",
   "fundamentos_em": "2026-07-20"
  },
@@ -56,7 +56,7 @@
    "pontos_atencao": "crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa. Fato relevante (21/11/2024): ...ado em geral, a declaração do Vencimento Antecipado de todas as obrigações principais e acessórias (i) do Certificado de Direitos Creditórios do Agronegócio CDCA n⁰ 001...",
    "analise_qual_id": "1286246|fr:785317",
    "cotas": 24037284,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "21/11/2024",
@@ -102,7 +102,7 @@
    "analise": "Negocia a 0.66x o valor patrimonial — desconto de 18% frente à mediana do segmento (0.80). Dividend yield (12m) de 10.5%, abaixo da mediana dos pares (11.2%); supera 43% do segmento. Retorno de -8.3% em 12 meses (abaixo da mediana do segmento). Liquidez baixa (~R$ 0.1 mi/dia). Cotação a 84% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "cotas": 4709082,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "analise_qual": "Relatório de 31/08/2026 — Fundo imobiliário de tijolo do segmento Shopping Center, que detém imóveis físicos para geração de renda por aluguel. Indicadores extraídos: distribuição foi de R$ 0,55. Fonte: relatório no Fundos.NET, ref. 31/08/2026. (Resumo automático.)",
    "pontos_atencao": "Indicadores de atenção no relatório: SSS avançou 0,5%. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1310482|fr:845690",
@@ -153,7 +153,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: High Yield. Riscos estruturais: decisões de alocação do gestor, maior giro e volatilidade. Liquidez reduzida em bolsa.",
    "analise_qual_id": "1303906",
    "cotas": 5000000,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0
   },
   {
@@ -194,7 +194,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: LTV máximo de 60%. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA).",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 5289202,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "13/05/2026",
@@ -248,7 +248,7 @@
    "analise_qual": "Relatório de 31/07/2026 — Fiagro do tipo imobiliário, focado em recebíveis e ativos do agronegócio. Indicadores extraídos: distribuição de R$ 0,12; yield de 18,25%; CDI + 7,0%. Fonte: relatório no Fundos.NET, ref. 31/07/2026. (Resumo automático.)",
    "pontos_atencao": "Indicadores de atenção no relatório: PDD; recuperação judicial, o ativo equivale a 4,74% do PL do fund; vencimento antecipado, de forma que os. Riscos estruturais: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa. Fato relevante (23/07/2026): ...o do ajuizamento do Pedido de Recuperação Judicial da produtora rural da Sra. Denice de Sousa Oliveira (\"Devedora\") e do avalista Clínica Denice Oliveira LTDA (CNPJ nº... Fato relevante (19/09/2024): ...do ajuizamento do Pedido de Recuperação Judicial da Agrogalaxy Participações S.A. (CNPJ nº 21.240.146/0001-84, Ticker B3: AGXY3) (\"Companhia\") e/ou de suas subsidiária...",
    "analise_qual_id": "1281537|fr:1263388+741430",
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "23/07/2026",
@@ -306,7 +306,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: vacância para 10.6%. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 4824987,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "27/04/2026",
@@ -361,7 +361,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: high yield +2%, com o dólar recuando 2%; high yield +2%. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 33625978,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "19/01/2026",
@@ -415,7 +415,7 @@
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1299377|fr:1226790+1223785",
    "cotas": 19514366,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "23/06/2026",
@@ -468,7 +468,7 @@
    "pontos_atencao": "combinação de riscos de crédito (CRI) e de vacância dos imóveis.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 164492251,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "27/07/2026",
@@ -519,7 +519,7 @@
    "analise": "Negocia a 0.59x o valor patrimonial — desconto de 26% frente à mediana do segmento (0.80). Dividend yield (12m) de 6.3%, abaixo da mediana dos pares (11.2%); supera 3% do segmento. Retorno de -16.1% em 12 meses (abaixo da mediana do segmento). Liquidez baixa (~R$ 0.0 mi/dia). Cotação a 78% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "cotas": 2829142,
-   "cotacao_em": "2026-09-04"
+   "cotacao_em": "2026-09-07"
   },
   {
    "ticker": "AROA11",
@@ -556,7 +556,7 @@
    "analise": "Negocia a 1.39x o valor patrimonial — prêmio de 168% frente à mediana do segmento (0.52). Dividend yield (12m) de 7.3%, abaixo da mediana dos pares (19.9%); supera 0% do segmento. Retorno de 43.0% em 12 meses (top 0% do segmento). Liquidez baixa (~R$ 0.0 mi/dia). Cotação a 63% da máxima de 52 semanas. Base comparativa: 5 pares do segmento Desenvolvimento. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: execução e venda das obras e fluxo de caixa irregular. Liquidez reduzida em bolsa. Negocia com prêmio relevante sobre o valor patrimonial (risco de reversão).",
    "cotas": 167926831.99999997,
-   "cotacao_em": "2026-09-04"
+   "cotacao_em": "2026-09-07"
   },
   {
    "ticker": "ARRI11",
@@ -596,7 +596,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: HIGH-YIELD. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1221475|fr:811159",
    "cotas": 20726973,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "30/12/2024",
@@ -644,7 +644,7 @@
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa.",
    "analise_qual_id": "1289606|fr:771209+686731",
    "cotas": 8678442,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "04/11/2024",
@@ -697,7 +697,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário.",
    "analise_qual_id": "1300058|fr:1250377+1246351",
    "cotas": 41922689,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "15/07/2026",
@@ -751,7 +751,7 @@
    "pontos_atencao": "desempenho e taxas dos FIIs investidos e dupla camada de custos.",
    "analise_qual_id": "1295983",
    "cotas": 4003900,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0
   },
   {
@@ -793,7 +793,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: recuperação judicial em junho de 2026, em meio a um cenário. Riscos estruturais: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1294789|fr:812374+741394",
    "cotas": 4005164,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "02/01/2025",
@@ -847,7 +847,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: vacância situou-se em 1,8%. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1297000|fr:1238343+1157440",
    "cotas": 99120994,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "02/07/2026",
@@ -900,7 +900,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Fato relevante (17/11/2025): ...cisão Antecipada Multa por Inadimplemento Contratual Ag. Varejo Paes de Barros R$ 85.000,00 60 meses (de 28/05/2026 até 29/05/2031) 180 dias IPCA 6 vezes...",
    "analise_qual_id": "1281089|fr:1045720+1043060",
    "cotas": 1590000,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "24/11/2025",
@@ -953,7 +953,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: vacância consolidada é de 8,9%. Riscos estruturais: desempenho e taxas dos FIIs investidos e dupla camada de custos.",
    "analise_qual_id": "1296315",
    "cotas": 3719038,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0
   },
   {
@@ -994,7 +994,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: Recuperação Judicial; vencimento antecipado decretado. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1300065",
    "cotas": 6257873,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0
   },
   {
@@ -1036,7 +1036,7 @@
    "pontos_atencao": "Negocia com desconto de ~9,7% sobre o valor patrimonial. Carteira exposta à marcação a mercado (a curva de juros real subiu mais de 0,10% em maio, pressionando ativos atrelados à inflação). Há nomes estressados/de menor rating na carteira que exigem acompanhamento: Light (taxa de mercado ~16%), Ligga (CPTM15, rating CCC, marcada próxima de zero) e WeClix. [Relatório de maio/2026]",
    "analise_qual_id": "manual-site-202605",
    "cotas": 18124979,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "metricas": {
     "tir": "13,5%",
     "spread": "459 bps",
@@ -1080,7 +1080,7 @@
    "analise": "Negocia a 0.99x o valor patrimonial — prêmio de 4% frente à mediana do segmento (0.95). Dividend yield (12m) de 15.4%, acima da mediana dos pares (14.8%); supera 62% do segmento. Retorno de 17.3% em 12 meses (top 47% do segmento). Liquidez baixa (~R$ 0.2 mi/dia). Cotação a 99% da máxima de 52 semanas. Base comparativa: 17 pares do segmento Infraestrutura. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. Liquidez reduzida em bolsa.",
    "cotas": 2495763,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "analise_qual": "Relatório de maio/2026: FI-Infra do Inter (estrutura FIC com fundo master), PL de R$ 197 mi, 53 emissores e 12.141 cotistas. Carteira de debêntures incentivadas (isentas de IR) com carrego de IPCA+9,27%, duration de 5,1 anos e indexação mista (IPCA e CDI). Distribuição de R$ 1,00/cota no mês (yield-mês 1,25%) e R$ 12,15/cota em 12 meses (yield 15,19%). Cota patrimonial de R$ 78,85; negocia com leve desconto (~1-2%) sobre o VP. Predomínio de crédito de alta qualidade (AES Cajuína, RGE Sul e Âmbar em AAA), com nomes de energia e transporte como Energisa, Transbrasiliana e Tijoá. Taxa de adm. 0,80% a.a., sem performance; retorno-alvo NTN-B 2032 +1% a 1,5%. Fonte: Relatório Gerencial Inter (site da gestora), ref. maio/2026.",
    "pontos_atencao": "Exposição a nome estressado: posição em DPGE do BRB (rating CCC+, ~2,1% do PL) — instrumento bancário, não de infraestrutura, que destoa do perfil investment grade do restante da carteira. Carteira marcada a mercado, com a parcela indexada ao IPCA sujeita à abertura de spreads de crédito (impacto em maio). PL médio (R$ 197 mi) e estrutura via fundo master, que adiciona uma camada na análise de risco. [Relatório de maio/2026]",
    "analise_qual_id": "site-202605"
@@ -1123,7 +1123,7 @@
    "pontos_atencao": "decisões de alocação do gestor, maior giro e volatilidade. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1295343",
    "cotas": 5845602,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0
   },
   {
@@ -1162,7 +1162,7 @@
    "analise": "Negocia a 1.02x o valor patrimonial — prêmio de 7% frente à mediana do segmento (0.95). Dividend yield (12m) de 16.2%, acima da mediana dos pares (14.8%); supera 88% do segmento. Retorno de 33.3% em 12 meses (top 0% do segmento). Liquidez média (~R$ 0.6 mi/dia). Cotação a 99% da máxima de 52 semanas. Base comparativa: 17 pares do segmento Infraestrutura. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. ",
    "cotas": 4741286,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "metricas": {
     "tir": "7,9%",
     "spread": "-49 bps",
@@ -1212,7 +1212,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira. Fato relevante (14/08/2026): ...poderá resultar na posterior liquidação do Fundo, observados os procedimentos previstos no Regulamento do Fundo e na regulamentação aplicável. A Administradora e as Co...",
    "analise_qual_id": "1297971|fr:1301491+1294574",
    "cotas": 1600000.0,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "26/08/2026",
@@ -1265,7 +1265,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: alavancagem de aproximadamente 67%. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1276439|fr:1119739+1118127",
    "cotas": 4645000,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "23/02/2026",
@@ -1319,7 +1319,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Fato relevante (05/06/2026): ...ral que: I. Com relação à inadimplência da locatária ORGANIC LIFE, mencionada no Fato Relevante de 29/04/2026, no qual foi informado a condução da ação de despejo aj...",
    "analise_qual_id": "1277997|fr:1286262+1213098",
    "cotas": 998405,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "12/08/2026",
@@ -1372,7 +1372,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira. Volume atipico de 5 fatos relevantes nos ultimos 90 dias (possivel evento em curso).",
    "analise_qual_id": "1299344|fr:1300035+1283515",
    "cotas": 700000,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "25/08/2026",
@@ -1425,7 +1425,7 @@
    "pontos_atencao": "Carteira alavancada (106,8% do PL em crédito privado), o que amplifica ganhos e perdas. Negocia com desconto de ~5,6% sobre o valor patrimonial. Duration longa (5,7 anos) e carrego elevado (IPCA+10,56%) indicam maior sensibilidade à curva de juros reais e maior risco de crédito relativo aos pares high grade. [Relatório de maio/2026]",
    "analise_qual_id": "manual-site-202605",
    "cotas": 64877099,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "metricas": {
     "tir": "10,4%",
     "spread": "187 bps",
@@ -1472,7 +1472,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: PDD,. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 7441745,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "11/06/2025",
@@ -1526,7 +1526,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: Vacância reduzida para 27,2%; LTV: 12,2%. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Volume atipico de 5 fatos relevantes nos ultimos 90 dias (possivel evento em curso).",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 18021303,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "17/08/2026",
@@ -1581,7 +1581,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: PDD, despesas. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 26638202,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "23/09/2025",
@@ -1630,7 +1630,7 @@
    "analise_qual": "Relatório de 30/06/2025 — Fiagro de direitos creditórios, focado em crédito do agronegócio (CRA/recebíveis). Indicadores extraídos: dividend yield de 1,51%. Fonte: relatório no Fundos.NET, ref. 30/06/2025. (Resumo automático.)",
    "pontos_atencao": "inadimplência da carteira de crédito do agronegócio e concentração de devedores. Liquidez reduzida em bolsa.",
    "analise_qual_id": "947330",
-   "cotacao_em": "2026-09-04"
+   "cotacao_em": "2026-09-07"
   },
   {
    "ticker": "BROF11",
@@ -1670,7 +1670,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: Taxa de ocupação do imóvel em 90,20%. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 11610812,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "02/04/2026",
@@ -1724,7 +1724,7 @@
    "pontos_atencao": "riscos específicos do segmento de atuação. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1307499|fr:908728",
    "cotas": 1350000,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "19/05/2025",
@@ -1772,7 +1772,7 @@
    "analise_qual": "Relatório de 31/07/2026 — Fiagro de direitos creditórios, focado em crédito do agronegócio (CRA/recebíveis). Indicadores extraídos: distribuição acumulada de R$ 66,16; dividend yield de 1,29%; CDI + 4,7%. Fonte: relatório no Fundos.NET, ref. 31/07/2026. (Resumo automático.)",
    "pontos_atencao": "inadimplência da carteira de crédito do agronegócio e concentração de devedores. Liquidez reduzida em bolsa.",
    "analise_qual_id": "1279298|fr:1103052+864384",
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "05/02/2026",
@@ -1831,7 +1831,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1297288|fr:963396",
    "cotas": 5982736,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "08/08/2025",
@@ -1880,7 +1880,7 @@
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA).",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 99521172,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0,
    "cobertura": {
     "fonte": "BTG Cobertura de Recebíveis (4T25)",
@@ -1928,7 +1928,7 @@
    "pontos_atencao": "decisões de alocação do gestor, maior giro e volatilidade.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 205846940,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "05/08/2026",
@@ -1978,7 +1978,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: vacância de apenas 3,4%. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário.",
    "analise_qual_id": "manual-1211507",
    "cotas": 69389648,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "01/09/2026",
@@ -2033,7 +2033,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: recuperação judicial nos quais buscaram o; Inadimplemento imediato: Já no primeiro venc. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1298731|fr:1263676+1223239",
    "cotas": 3364559,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "24/07/2026",
@@ -2086,7 +2086,7 @@
    "pontos_atencao": "Crise de governanca e regulatoria: demonstracoes financeiras de 2025 reprovadas pelos cotistas; a CVM questiona os criterios contabeis e de avaliacao de ativos, com reauditoria contratada e parecer com ressalva. Renuncia da administradora (BRL Trust) a funcao, comunicada por fato relevante. Distribuicao de dividendos suspensa; cota caiu ~58-70% no ano (de ~R$65 para ~R$27). Atrasos de licencas (Registro de Incorporacao/Habite-se) frustraram vendas de CRIs. (Noticias e fatos relevantes, 2025-2026.)",
    "analise_qual_id": "manual-noticias-202607",
    "cotas": 4836324,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "10/07/2026",
@@ -2138,7 +2138,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: inadimplência líquida negativa em 0,4%. Riscos estruturais: decisões de alocação do gestor, maior giro e volatilidade. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1302583|fr:1302554",
    "cotas": 67797053,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 1,
    "fatos_relevantes": [
     {
@@ -2187,7 +2187,7 @@
    "pontos_atencao": "A distribuição foi reduzida (de ~R$ 1,2-1,5 para R$ 1,00/cota, 92% do CDI) e a performance em 12 meses ficou abaixo do CDI (CDI-0,8%). O spread de crédito está comprimido (CDI+0,7%, prêmio baixo) e o caixa elevado (12%, subalocado). Exposição pontual a crédito estressado (ex.: Braskem CCC-). [Relatório de maio/2026]",
    "analise_qual_id": "manual-site-202605",
    "cotas": 27481138,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "metricas": {
     "tir": "8,1%",
     "spread": "-31 bps",
@@ -2233,7 +2233,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1280665",
    "cotas": 1815696.0,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0
   },
   {
@@ -2274,7 +2274,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: LTV de 50 %. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA).",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 4346763,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "13/12/2024",
@@ -2329,7 +2329,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1308386|fr:1197958+930914",
    "cotas": 34134825,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "18/05/2026",
@@ -2383,7 +2383,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa.",
    "analise_qual_id": "1306222|fr:1276363+1268623",
    "cotas": 56355750,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "04/08/2026",
@@ -2437,7 +2437,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: vacância recuou para 15,1%. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 5489284,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "26/08/2026",
@@ -2492,7 +2492,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 123163844,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "21/08/2026",
@@ -2547,7 +2547,7 @@
    "pontos_atencao": "Negocia com desconto de ~3,7% sobre o valor patrimonial. Como os pares de infraestrutura, está exposto à marcação a mercado num cenário de alta dos prêmios de crédito das debêntures incentivadas e de juros reais elevados. A duration relativamente curta (2,73 anos) mitiga parte do risco de marcação. [Relatório de maio/2026]",
    "analise_qual_id": "manual-site-202605",
    "cotas": 13582693,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "metricas": {
     "tir": "10,4%",
     "spread": "171 bps",
@@ -2594,7 +2594,7 @@
    "pontos_atencao": "crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1301507|fr:899394+896443",
    "cotas": 19824678,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "12/05/2025",
@@ -2653,7 +2653,7 @@
    "pontos_atencao": "decisões de alocação do gestor, maior giro e volatilidade. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "manual-1202474",
    "cotas": 363503147,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "19/01/2026",
@@ -2708,7 +2708,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 67825745,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "10/07/2026",
@@ -2763,7 +2763,7 @@
    "pontos_atencao": "crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado.",
    "analise_qual_id": "1282930|fr:776188",
    "cotas": 2369836,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "12/11/2024",
@@ -2816,7 +2816,7 @@
    "pontos_atencao": "desempenho e taxas dos FIIs investidos e dupla camada de custos. Liquidez reduzida em bolsa.",
    "analise_qual_id": "1299332",
    "cotas": 690040,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0
   },
   {
@@ -2857,7 +2857,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1297214|fr:882642+810996",
    "cotas": 2090621,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "17/04/2025",
@@ -2910,7 +2910,7 @@
    "pontos_atencao": "desempenho e taxas dos FIIs investidos e dupla camada de custos. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1283352",
    "cotas": 2057726,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0
   },
   {
@@ -2951,7 +2951,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: vacância física de 0%. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1281976|fr:1246184+1208191",
    "cotas": 3924500,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "13/07/2026",
@@ -3004,7 +3004,7 @@
    "pontos_atencao": "desempenho e taxas dos FIIs investidos e dupla camada de custos. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1299323",
    "cotas": 1575760,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0
   },
   {
@@ -3045,7 +3045,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: LTV de 71%. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA).",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 36549445,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0,
    "sinais_id": "1293516"
   },
@@ -3088,7 +3088,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: Reperfilamento da Dívida e Capital; default. Riscos estruturais: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1300069",
    "cotas": 6738905,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0
   },
   {
@@ -3130,7 +3130,7 @@
    "pontos_atencao": "Inadimplencia da carteira de CRIs em ~11-12% (jan/2026), concentrada no Grupo Gramado Parks (maior devedor, em recuperacao judicial); ~64% da carteira em carencia de juros. Distribuicao cortada para R$0,30/cota e cota em forte desconto. Execucao de garantias aprovada (Forte Securitizadora). Fundo em reestruturacao. (Noticias e fatos relevantes, 2025-2026.)",
    "analise_qual_id": "manual-noticias-202607",
    "cotas": 14044908,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "03/01/2025",
@@ -3178,7 +3178,7 @@
    "pontos_atencao": "Caixa muito elevado (48% do PL): fundo em fase de alocação após crescimento recente (3ª emissão), com spread de crédito mínimo (0,3%), o que limita o prêmio de crédito no curto prazo. A exposição longa ao IDkA IPCA 5A (duration 5,0 anos) gera volatilidade com a curva de juros reais. Negocia com ágio de ~4% sobre o valor patrimonial. [Relatório de maio/2026]",
    "analise_qual_id": "manual-site-202605",
    "cotas": 10255803,
-   "cotacao_em": "2026-09-04"
+   "cotacao_em": "2026-09-07"
   },
   {
    "ticker": "DVFF11",
@@ -3219,7 +3219,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: inadimplemento. Riscos estruturais: desempenho e taxas dos FIIs investidos e dupla camada de custos. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1300062",
    "cotas": 11009500,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0
   },
   {
@@ -3261,7 +3261,7 @@
    "pontos_atencao": "crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado.",
    "analise_qual_id": "manual-1214556",
    "cotas": 3131914,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "25/08/2025",
@@ -3315,7 +3315,7 @@
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa. Fato relevante (29/09/2025): ...as regras de enquadramento e desenquadramento estabelecidas no Anexo da Classe e nas regulamentações vigentes, nos termos da Política de Investimento, sem prejuízo da a...",
    "analise_qual_id": "1265605|fr:1001517+896496",
    "cotas": 346289.00000000006,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "29/09/2025",
@@ -3368,7 +3368,7 @@
    "pontos_atencao": "riscos específicos do segmento de atuação. Liquidez reduzida em bolsa. Fato relevante (21/11/2025): ...istas também aprovaram: (a) a destituição da SI ADVISORS EMPREENDIMENTOS IMOBILIÁRIOS LTDA., inscrita no CNPJ sob o nº 33.222.193/0001-84, como consultor imobiliário do...",
    "analise_qual_id": "1198832|fr:1045174+932183",
    "cotas": 5000000,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "21/11/2025",
@@ -3421,7 +3421,7 @@
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa.",
    "analise_qual_id": "1280555",
    "cotas": 10909315,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0
   },
   {
@@ -3462,7 +3462,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1305001|fr:1272128+1100637",
    "cotas": 409883,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "31/07/2026",
@@ -3513,7 +3513,7 @@
    "analise": "Negocia a 0.97x o valor patrimonial — prêmio de 10% frente à mediana do segmento (0.88). Dividend yield (12m) de 16.4%, acima da mediana dos pares (14.5%); supera 80% do segmento. Retorno de 20.0% em 12 meses (top 16% do segmento). Liquidez baixa (~R$ 0.1 mi/dia). Cotação a 99% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa.",
    "cotas": 14101455,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "analise_qual": "Relatório de 31/07/2026 — Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Indicadores extraídos: distribuiu R$ 0,13; DY mensal de 1,34%; IPCA+ 56,5%. Fonte: relatório no Fundos.NET, ref. 31/07/2026. (Resumo automático.)",
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa.",
    "analise_qual_id": "1306305|fr:1249712+792694",
@@ -3570,7 +3570,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1280661",
    "cotas": 692377,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0
   },
   {
@@ -3611,7 +3611,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: Vacância 89,31%. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "920201|fr:1241502+1237538",
    "cotas": 122538,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "07/07/2026",
@@ -3664,7 +3664,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 6842990,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "25/05/2026",
@@ -3714,7 +3714,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa.",
    "analise_qual_id": "1278642",
    "cotas": 3474010,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0
   },
   {
@@ -3756,7 +3756,7 @@
    "pontos_atencao": "crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado.",
    "analise_qual_id": "manual-1224294",
    "cotas": 45078449,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "11/09/2025",
@@ -3816,7 +3816,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: vacância do Fundo permaneceu em 6,9%. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1295389|fr:1069109+809959",
    "cotas": 2850000,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "23/12/2025",
@@ -3869,7 +3869,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: inadimplida dos 55%. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira. Fato relevante (30/06/2026): ...lamento, a parcela do aluguel inadimplida dos 55% restantes e a inadimplência dos encargos locatícios, o impacto total no caixa do Fundo é de R$ 1,21 por cota, conforme... Fato relevante (11/03/2026): ...re as tratativas envolvendo a inadimplência parcial por parte de uma das empresas locatárias. Na ocasião, foi informado que as negociações haviam se esgotado, uma vez q...",
    "analise_qual_id": "1300274|fr:1235602+1133427",
    "cotas": 685000,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "30/06/2026",
@@ -3922,7 +3922,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: PDD Saldo Residual Leader. Riscos estruturais: combinação de riscos de crédito (CRI) e de vacância dos imóveis. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1297228|fr:1068086+1067067",
    "cotas": 927162,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "22/12/2025",
@@ -3975,7 +3975,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: LTV médio ponderado está em 48,7%. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa.",
    "analise_qual_id": "1303942|fr:796025",
    "cotas": 751844,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "06/12/2024",
@@ -4023,7 +4023,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1304443|fr:977714",
    "cotas": 1380670,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "26/08/2025",
@@ -4072,7 +4072,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Fato relevante (23/07/2025): ...estimento; e V. Os valores inadimplidos serão corrigidos pelo IPCA desde a data de inadimplemento até a data de quitação, acrescidos de juros moratórios de 1% (um por...",
    "analise_qual_id": "1309430|fr:1057327+951344",
    "cotas": 7732987,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "09/12/2025",
@@ -4125,7 +4125,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: recuperação judicial e o juiz responsável de primeiro grau d. Riscos estruturais: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1297388|fr:854743",
    "cotas": 4459952,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "10/03/2025",
@@ -4174,7 +4174,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: vacância saiu de 13,0%. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1309427|fr:1067134+1066278",
    "cotas": 2800149,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "19/12/2025",
@@ -4227,7 +4227,7 @@
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1280453",
    "cotas": 15281388,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0
   },
   {
@@ -4268,7 +4268,7 @@
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa.",
    "analise_qual_id": "1306067|fr:1029926",
    "cotas": 28426127,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "06/11/2025",
@@ -4316,7 +4316,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário.",
    "analise_qual_id": "manual-1212192",
    "cotas": 289186438,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "03/08/2026",
@@ -4371,7 +4371,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: PDD do CRA para 100%,; recuperação judicial do. Riscos estruturais: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira. Fato relevante (06/03/2024): ...tos abaixo: • Em razão da inadimplência parcial da parcela de juros e amortização devida no segundo semestre de 2023, conforme destacado nos últimos relatórios geren...",
    "analise_qual_id": "1305784|fr:620997+615760",
    "cotas": 1750865,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "15/03/2024",
@@ -4430,7 +4430,7 @@
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1306299",
    "cotas": 1453859,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0
   },
   {
@@ -4471,7 +4471,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Volume atipico de 4 fatos relevantes nos ultimos 90 dias (possivel evento em curso).",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 214249664,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "29/06/2026",
@@ -4525,7 +4525,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa.",
    "analise_qual_id": "1281950|fr:1271056+1140427",
    "cotas": 24700000,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "30/07/2026",
@@ -4579,7 +4579,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: high yield ganharam 2%, com o dólar recu; 9% e os títulos corporativos high yield. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 96106666,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "28/05/2026",
@@ -4629,7 +4629,7 @@
    "descricao": "Fundo imobiliário de desenvolvimento, voltado à incorporação e venda de empreendimentos. Gerido pela —. Patrimônio de R$ 1 mi, liquidez baixa (~R$ 0.0 mi/dia).",
    "analise": "Liquidez baixa (~R$ 0.0 mi/dia). Base comparativa: 5 pares do segmento Desenvolvimento. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: execução e venda das obras e fluxo de caixa irregular. Liquidez reduzida em bolsa.",
-   "cotacao_em": "2026-09-04"
+   "cotacao_em": "2026-09-07"
   },
   {
    "ticker": "GTWR11",
@@ -4669,7 +4669,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 12000000,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "28/11/2025",
@@ -4716,7 +4716,7 @@
    "analise": "Negocia a 0.48x o valor patrimonial — desconto de 40% frente à mediana do segmento (0.80). Dividend yield (12m) de 19.0%, acima da mediana dos pares (11.2%); supera 97% do segmento. Retorno de 4.5% em 12 meses (abaixo da mediana do segmento). Liquidez média (~R$ 0.5 mi/dia). Cotação a 87% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "cotas": 23297836,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "24/02/2026",
@@ -4772,7 +4772,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: renegociação de dívidas rurais, subsídios a combustíveis e pre. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 8126783,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0,
    "sinais_id": "1307164"
   },
@@ -4815,7 +4815,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa.",
    "analise_qual_id": "1278640|fr:1052460+1052005",
    "cotas": 200000,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "02/12/2025",
@@ -4868,7 +4868,7 @@
    "pontos_atencao": "Exposicao relevante ao Grupo Gramado Parks (recuperacao judicial desde abr/2023): ~11% da carteira inadimplente e ~74% em carencia de juros; assembleias aprovaram waivers de CRIs (GPK/Brasil Parques ate jul/2026, Resort do Lago ate set/2026). Tambem citado em inadimplencia de CRI do Shopping Feira da Madrugada, com execucao de garantias. Distribuicao e cota fortemente pressionadas. (Noticias e fatos relevantes, 2025-2026.)",
    "analise_qual_id": "manual-noticias-202607",
    "cotas": 22084203,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "29/04/2026",
@@ -4921,7 +4921,7 @@
    "pontos_atencao": "desempenho e taxas dos FIIs investidos e dupla camada de custos. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira. Fato relevante (12/05/2025): ...o FMOF11; iii) a dissolução e liquidação do Fundo, uma vez concluído o processo de venda; e iv) o pagamento, pelo FMOF11, dos custos incorridos com a convocação da Cons...",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 218937000,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "12/05/2025",
@@ -4976,7 +4976,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 144355726,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "05/08/2026",
@@ -5031,7 +5031,7 @@
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA).",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 15418106,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0,
    "cobertura": {
     "fonte": "BTG Cobertura de Recebíveis (4T25)",
@@ -5079,7 +5079,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: vacância física reduziu para 2,9%; alavancagem financeira no portfólio, 10,3%. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário.",
    "analise_qual_id": "manual-1218334",
    "cotas": 45601745,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "18/08/2026",
@@ -5134,7 +5134,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: vacância física para 6,6%; alavancagem no portfólio, sendo aprox. 65%. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Volume atipico de 5 fatos relevantes nos ultimos 90 dias (possivel evento em curso).",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 11817767,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "28/08/2026",
@@ -5189,7 +5189,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: vacância física do Fundo era de 0,8%. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 23238024,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "25/08/2026",
@@ -5244,7 +5244,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: vacância do estado ficou em 5,1%. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1296237|fr:1052558+897961",
    "cotas": 42500000,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "02/12/2025",
@@ -5298,7 +5298,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: inadimplemento contratual. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1295253|fr:1265443+1171768",
    "cotas": 3682200,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "27/07/2026",
@@ -5352,7 +5352,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: vacância saiu de 1,6%. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 7050992,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "10/07/2026",
@@ -5407,7 +5407,7 @@
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa.",
    "analise_qual_id": "1296121",
    "cotas": 51685917,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0
   },
   {
@@ -5448,7 +5448,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: LTV de 34%. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA).",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 2526360,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "20/12/2024",
@@ -5497,7 +5497,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: alavancagem líquido do Fundo é de 20,2%. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira. Fato relevante (18/08/2026): ...óveis”), protocolou pedido de recuperação judicial perante a 2ª Vara de Falências e Recuperações Judiciais da Comarca de São Paulo/SP, nos termos da Lei nº 11.101 de 9 d... Fato relevante (01/12/2025): ...integral no vencimento); • Carência de juros: 3 (três) meses a contar da data das respectivas integralizações, em ambas as séries; • Remuneração: o 1ª Série: CDI...",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 12660067,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "18/08/2026",
@@ -5551,7 +5551,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: taxa de ocupação³ finalizou o mês em 96,2%; alavancagem líquido ¹ atual do Fundo é de 21,9%. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira. Fato relevante (26/05/2026): ...por mais 24 meses Eventos de Vencimento Antecipado Desinvestimento do ativo Percentual de Subordinação 30% Patrimônio Associado à cota subordinada R$ 128.634.100,00...",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 21329976,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "26/05/2026",
@@ -5661,7 +5661,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa.",
    "analise_qual_id": "1274518|fr:867771",
    "cotas": 2888094,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "28/03/2025",
@@ -5710,7 +5710,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: inadimplência rural chegou a 7,4%. Riscos estruturais: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa.",
    "analise_qual_id": "1286061",
    "cotas": 10454176,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0
   },
   {
@@ -5751,7 +5751,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: vacância física de 1,3%. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 102092483,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "06/08/2026",
@@ -5805,7 +5805,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: recuperação judicial formulado por empresa integrante do mes; vencimento antecipado foi aprovada no início de 202. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira. Fato relevante (02/06/2026): ...ação de Assembleia Geral para substituição da gestora do Fundo, vimos, por meio desta, manifestar nossa desistência quanto ao prosseguimento do referido pedido, em razão...",
    "analise_qual_id": "1294318|fr:1272397+1210503",
    "cotas": 958423.0,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "31/07/2026",
@@ -5856,7 +5856,7 @@
    "analise": "Negocia a 1.14x o valor patrimonial — prêmio de 15% frente à mediana do segmento (0.99). Dividend yield (12m) de 19.7%, acima da mediana dos pares (14.0%); supera 100% do segmento. Liquidez baixa (~R$ 0.1 mi/dia). Cotação a 86% da máxima de 52 semanas. Base comparativa: 7 pares do segmento Outros. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: riscos específicos do segmento de atuação. Liquidez reduzida em bolsa. Negocia com prêmio relevante sobre o valor patrimonial (risco de reversão).",
    "cotas": 120000.0,
-   "cotacao_em": "2026-09-04"
+   "cotacao_em": "2026-09-07"
   },
   {
    "ticker": "ICRI11",
@@ -5897,7 +5897,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: LTV de 76%. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA).",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 3857359,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0,
    "sinais_id": "1287376"
   },
@@ -5940,7 +5940,7 @@
    "pontos_atencao": "Como os pares de infraestrutura indexados à inflação, está exposto à abertura da curva de juros reais e à forte onda de resgates do setor (R$ 19,6 bi nos fundos abertos em maio), que pressiona a marcação. Negocia com leve ágio (~2,7%) sobre o VP. [Relatório de maio/2026]",
    "analise_qual_id": "manual-site-202605",
    "cotas": 15492047,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "metricas": {
     "tir": "8,9%",
     "spread": "55 bps",
@@ -5987,7 +5987,7 @@
    "pontos_atencao": "Rentabilidade dos últimos 12 meses ~1,4% abaixo do CDI. O setor de FI-Infra sofreu resgates líquidos fortes (R$ 19,6 bi nos fundos abertos em maio), pressionando a marcação dos ativos. Negocia com leve ágio (~2,5%) sobre o VP; duration de 5,29 anos eleva a sensibilidade à curva de juros. [Relatório de maio/2026]",
    "analise_qual_id": "manual-site-202605",
    "cotas": 11602741,
-   "cotacao_em": "2026-09-04"
+   "cotacao_em": "2026-09-07"
   },
   {
    "ticker": "INLG11",
@@ -6028,7 +6028,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: inadimplemento. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1295281|fr:1259683+1071244",
    "cotas": 4512103,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "20/07/2026",
@@ -6082,7 +6082,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira. Fato relevante (13/08/2026): ...da Operação e a consequente liquidação do Fundo, passa a ser o seguinte: Evento Data Estimada Publicação do Edital de Convocação e da Proposta do Administrador da... Volume atipico de 5 fatos relevantes nos ultimos 90 dias (possivel evento em curso).",
    "analise_qual_id": "1296910|fr:1302688+1290541",
    "cotas": 1128870,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "27/08/2026",
@@ -6136,7 +6136,7 @@
    "pontos_atencao": "Patrimônio pequeno (~R$ 46 mi), o que implica menor liquidez na B3. Negocia com desconto de ~7% sobre o VP. Carteira majoritariamente indexada ao IPCA (sensível à abertura da curva real, que pressionou o mês) e com alguns ativos de maior risco/retorno (ex.: Chapada do Piauí IPCA+16,6%, rating B-; SOCICAM sem rating, IPCA+12%). [Relatório de maio/2026]",
    "analise_qual_id": "manual-site-202605",
    "cotas": 4454548,
-   "cotacao_em": "2026-09-04"
+   "cotacao_em": "2026-09-07"
   },
   {
    "ticker": "IRIM11",
@@ -6177,7 +6177,7 @@
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 35225947,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "21/10/2025",
@@ -6232,7 +6232,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: High Yield CRI. Riscos estruturais: riscos específicos do segmento de atuação. Liquidez reduzida em bolsa. Fato relevante (13/08/2026): ...Operação e a consequente liquidação do Fundo, passa a ser o seguinte: Evento Data Estimada Publicação do Edital de Convocação e da Proposta do Administrador da... Volume atipico de 6 fatos relevantes nos ultimos 90 dias (possivel evento em curso).",
    "analise_qual_id": "1296130|fr:1302691+1290515",
    "cotas": 748151,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "27/08/2026",
@@ -6286,7 +6286,7 @@
    "pontos_atencao": "riscos específicos do segmento de atuação. Liquidez reduzida em bolsa. Fato relevante (07/08/2026): ...foi reprovada a dissolução e liquidação do Fundo, no âmbito da reorganização que resultaria na consolidação do patrimônio do Fundo pelo INTER HEDGE FUNDO DE INVESTIMENT... Fato relevante (27/07/2026): ...foi reprovada a dissolução e liquidação do Fundo, no âmbito da reorganização que resultaria na consolidação do patrimônio do Fundo pelo INTER HEDGE FUNDO DE INVESTIMENT...",
    "analise_qual_id": "1296145|fr:1280618+1265530",
    "cotas": 900494,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "07/08/2026",
@@ -6340,7 +6340,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: LTV pós-obra de 50%. Riscos estruturais: decisões de alocação do gestor, maior giro e volatilidade.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 6250000,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0,
    "sinais_id": "1294446"
   },
@@ -6382,7 +6382,7 @@
    "pontos_atencao": "desempenho e taxas dos FIIs investidos e dupla camada de custos. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1300216|fr:1179379+1158490",
    "cotas": 5213036,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "04/05/2026",
@@ -6435,7 +6435,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1263443|fr:1003828+1003640",
    "cotas": 1500598,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "01/10/2025",
@@ -6489,7 +6489,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: recuperação judicial), Lavoro (em recuperação extrajudicial); rebaixamento de rating e; Vencimento Antecipado e Atuação Jurídica em Defesa. Riscos estruturais: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira. Fato relevante (30/04/2026): ...26, ensejando a decretação de vencimento antecipado automático das obrigações do CRA Lavoro (“Fato Gerador”). Em atendimento ao Artigo 64 da Resolução CVM 175, de 23 de...",
    "analise_qual_id": "1250216|fr:1178538+1059552",
    "cotas": 2141248,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "30/04/2026",
@@ -6539,7 +6539,7 @@
    "analise": "Negocia a 0.84x o valor patrimonial — desconto de 11% frente à mediana do segmento (0.95). Dividend yield (12m) de 17.0%, acima da mediana dos pares (14.8%); supera 94% do segmento. Retorno de 17.7% em 12 meses (top 41% do segmento). Liquidez média (~R$ 1.0 mi/dia). Cotação a 95% da máxima de 52 semanas. Base comparativa: 17 pares do segmento Infraestrutura. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "cotas": 4375000,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "analise_qual": "Relatório de maio/2026: FI-Infra da JiveMauá (BossaNova), carteira de debêntures incentivadas (isentas de IR) indexada ao CDI via derivativos — imune à volatilidade das NTN-Bs. Guidance de distribuição de 100% a 110% do CDI: no mês distribuiu R$ 1,08/cota (100,6% do CDI líquido) e R$ 14,51/cota em 12 meses (DY 16,58%, equivalente a 112,4% do CDI). 75% do PL em infraestrutura (energia 30%, transporte 27%, telecom 12%) e créditos 100% adimplentes, em boa parte estruturados pela própria gestora. Retorno da cota patrimonial desde o início de CDI+1,15% a.a. Negocia com desconto expressivo (~15%) sobre o VP. CNPJ 55.276.939/0001-75. Fonte: Relatório Mensal JiveMauá (site da gestora), ref. maio/2026.",
    "pontos_atencao": "Caixa elevado: 25,3% do PL em caixa (apenas 75% alocado em infraestrutura) — carteira ainda em formação, que subaloca o yield potencial até ser investida. Maior desconto entre os FI-Infra acompanhados (~15% sobre o VP), o que pode sinalizar baixa demanda/liquidez secundária. Concentração em ativos estruturados pela própria JiveMauá (originação própria): eleva o carrego, mas reduz a liquidez no secundário e exige confiança no processo de crédito da gestora. [Relatório de maio/2026]",
    "analise_qual_id": "site-202605"
@@ -6582,7 +6582,7 @@
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1299999|fr:1210052+1021563",
    "cotas": 904050,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "01/06/2026",
@@ -6635,7 +6635,7 @@
    "pontos_atencao": "desempenho e taxas dos FIIs investidos e dupla camada de custos. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 77523290,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "03/12/2024",
@@ -6689,7 +6689,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: LTV de 50%. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa.",
    "analise_qual_id": "1300495|fr:998680",
    "cotas": 22137100,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "25/09/2025",
@@ -6737,7 +6737,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: vacância do ativo está em 7,9%. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 20767328,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "13/07/2026",
@@ -6792,7 +6792,7 @@
    "pontos_atencao": "A distribuição foi cortada de R$ 1,00 para R$ 0,50/cota em maio, refletindo a queda da reserva acumulada (apenas R$ 0,14/cota) diante da volatilidade nas debêntures incentivadas. A indústria de fundos abertos da classe teve resgates líquidos acima de R$ 14 bi, pressionando os spreads. Negocia ~3% abaixo do VP; exposição pontual a crédito estressado (ex.: Braskem, rating CCC-). [Relatório de maio/2026]",
    "analise_qual_id": "manual-site-202605",
    "cotas": 20571677,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "metricas": {
     "tir": "9,5%",
     "spread": "91 bps",
@@ -6839,7 +6839,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: inadimplência de 4,2%; LTV saudável, próximo a 50%; PDD” é provisão para devedores duvidosos, ou sal. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa.",
    "analise_qual_id": "1283553|fr:675797",
    "cotas": 36000000,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "07/06/2024",
@@ -6888,7 +6888,7 @@
    "pontos_atencao": "Negocia com ágio de ~3,6% sobre o valor patrimonial (paga prêmio). A performance ficou abaixo do benchmark (-0,06% no mês vs. IMA-B +0,31%; 8,6% vs. 10,8% em 12m), pressionada pela alta dos prêmios de crédito (+84 bps desde fevereiro, 3º maior movimento da série histórica). Duration longa (5,8 anos) eleva a sensibilidade à curva de juros reais. [Relatório de maio/2026]",
    "analise_qual_id": "manual-site-202605",
    "cotas": 23484769,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "metricas": {
     "tir": "8,9%",
     "spread": "55 bps",
@@ -6935,7 +6935,7 @@
    "pontos_atencao": "crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa.",
    "analise_qual_id": "1280656|fr:891094",
    "cotas": 670982,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "30/04/2025",
@@ -6984,7 +6984,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: LTV (loan to value) máximo de 70%. Riscos estruturais: desempenho e taxas dos FIIs investidos e dupla camada de custos.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 7014565,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0,
    "sinais_id": "1276293"
   },
@@ -7026,7 +7026,7 @@
    "pontos_atencao": "desempenho e taxas dos FIIs investidos e dupla camada de custos. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1177797|fr:1205551+1107364",
    "cotas": 44196050,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "27/05/2026",
@@ -7079,7 +7079,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: recuperação judicial; vencimento antecipado da operação. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1272363|fr:599842",
    "cotas": 2222736,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "08/02/2024",
@@ -7128,7 +7128,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: LTV de 45%. Riscos estruturais: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado.",
    "analise_qual_id": "manual-1215258",
    "cotas": 21599919,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "metricas": {
     "estrategia": "Carrego",
     "fonte": "BTG FIAgro Acompanhamento Mensal (jun/26)",
@@ -7176,7 +7176,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: taxa de ocupação acima de 95%; LTV máximo de 65%. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA).",
    "analise_qual_id": "manual-1216556",
    "cotas": 107089622,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "07/08/2025",
@@ -7230,7 +7230,7 @@
    "pontos_atencao": "decisões de alocação do gestor, maior giro e volatilidade.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 19663235,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0,
    "sinais_id": "1295271"
   },
@@ -7273,7 +7273,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: LTV baixo (~38%; HIGH YIELD - KNHY11. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA).",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 31173083,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "27/06/2025",
@@ -7328,7 +7328,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: LTV máximo de 65%. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA).",
    "analise_qual_id": "manual-1216566",
    "cotas": 80078186,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "cobertura": {
     "fonte": "BTG Cobertura de Recebíveis (4T25)",
     "duration": "3,7 anos",
@@ -7376,7 +7376,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: vacância financeira3 5,14%. Riscos estruturais: combinação de riscos de crédito (CRI) e de vacância dos imóveis.",
    "analise_qual_id": "manual-1210027",
    "cotas": 28204047,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "26/03/2025",
@@ -7426,7 +7426,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: LTV baixo (por volta de 45%. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA).",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 202202385,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 1,
    "cobertura": {
     "fonte": "BTG Cobertura de Recebíveis (4T25)",
@@ -7481,7 +7481,7 @@
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA).",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 21484730,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "02/09/2026",
@@ -7536,7 +7536,7 @@
    "pontos_atencao": "crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1298955",
    "cotas": 354677,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0
   },
   {
@@ -7578,7 +7578,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: vacância caiu para 24,47%. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 9625000,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0,
    "sinais_id": "1308329"
   },
@@ -7620,7 +7620,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: inadimplência líquida do mês foi de 16,3%. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 2940298,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "24/07/2025",
@@ -7674,7 +7674,7 @@
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 39761584,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "03/06/2026",
@@ -7729,7 +7729,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: recuperação judicial ou extrajudicial dos emissores responsá. Riscos estruturais: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira. Fato relevante (14/08/2026): ...ção aplicável, e a posterior liquidação do Fundo. A Assembleia terá por objeto, dentre outras matérias, deliberar sobre: (i) a aprovação específica da operação em co...",
    "analise_qual_id": "1303773|fr:1293896+1206603",
    "cotas": 1009334,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "14/08/2026",
@@ -7783,7 +7783,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 16118565,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "30/12/2025",
@@ -7837,7 +7837,7 @@
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA).",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 37536140,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "18/05/2026",
@@ -7892,7 +7892,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira. Fato relevante (27/06/2025): ...isão contratual motivada pelo inadimplemento dos Compradores, apenas o valor correspondente ao sinal será retido pela Classe, devendo as demais parcelas eventualmente j...",
    "analise_qual_id": "1298503|fr:963776+934627",
    "cotas": 1125655,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "11/08/2025",
@@ -7945,7 +7945,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: LTV1 %. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA).",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 16960024,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0,
    "cobertura": {
     "fonte": "BTG Cobertura de Recebíveis (4T25)",
@@ -7992,7 +7992,7 @@
    "pontos_atencao": "decisões de alocação do gestor, maior giro e volatilidade.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 111598921,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0,
    "sinais_id": "1268614"
   },
@@ -8034,7 +8034,7 @@
    "pontos_atencao": "execução e venda das obras e fluxo de caixa irregular. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 6800000,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0,
    "sinais_id": "1299607"
   },
@@ -8076,7 +8076,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: renegociação de dívidas rurais, subsídios a combustíveis e pre. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA).",
    "analise_qual_id": "manual-1227475",
    "cotas": 460269531,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "01/07/2026",
@@ -8135,7 +8135,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: recuperação judicial ou extrajudicial dos emissores responsá. Riscos estruturais: desempenho e taxas dos FIIs investidos e dupla camada de custos. Liquidez reduzida em bolsa.",
    "analise_qual_id": "1298491|fr:1283956",
    "cotas": 612282,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 1,
    "fatos_relevantes": [
     {
@@ -8183,7 +8183,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1295375|fr:1140312+1067066",
    "cotas": 2810193,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "18/03/2026",
@@ -8236,7 +8236,7 @@
    "pontos_atencao": "crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa. Negocia com prêmio relevante sobre o valor patrimonial (risco de reversão).",
    "analise_qual_id": "1289818|fr:1265575+976940",
    "cotas": 698500,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "27/07/2026",
@@ -8290,7 +8290,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa.",
    "analise_qual_id": "1275566|fr:1119633+1107771",
    "cotas": 1293286,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "23/02/2026",
@@ -8343,7 +8343,7 @@
    "pontos_atencao": "O fundo NÃO distribuiu rendimento em maio: a cota patrimonial (R$ 9,56) ficou abaixo da 'linha d'água' (R$ 9,58) devido à remarcação negativa das debêntures incentivadas, com a reserva de lucros zerada/negativa. Negocia com desconto expressivo de ~19% sobre o VP; a retomada da distribuição depende da recuperação da cota patrimonial. [Relatório de maio/2026]",
    "analise_qual_id": "manual-site-202605",
    "cotas": 4667034,
-   "cotacao_em": "2026-09-04"
+   "cotacao_em": "2026-09-07"
   },
   {
    "ticker": "OIAG11",
@@ -8383,7 +8383,7 @@
    "pontos_atencao": "crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1302848|fr:861552",
    "cotas": 9032999,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "18/03/2025",
@@ -8431,7 +8431,7 @@
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira. Fato relevante (01/06/2026): ...mente ajustada, de modo que a liquidação do Fundo somente ocorrerá caso as aquisições sejam aprovadas e implementadas por ambos os fundos adquirentes, conforme aplicáve...",
    "analise_qual_id": "1307592|fr:1210050+1021567",
    "cotas": 3252384,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "01/06/2026",
@@ -8481,7 +8481,7 @@
    "analise": "Negocia a 1.06x o valor patrimonial — prêmio de 7% frente à mediana do segmento (0.99). Liquidez baixa (~R$ 0.2 mi/dia). Base comparativa: 7 pares do segmento Outros. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: riscos específicos do segmento de atuação. Liquidez reduzida em bolsa.",
    "cotas": 350204.0,
-   "cotacao_em": "2026-09-04"
+   "cotacao_em": "2026-09-07"
   },
   {
    "ticker": "PATC11",
@@ -8522,7 +8522,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: vacância financeira em 39,8%. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Negocia com prêmio relevante sobre o valor patrimonial (risco de reversão).",
    "analise_qual_id": "1287277|fr:1082626+863139",
    "cotas": 3477434,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "14/01/2026",
@@ -8576,7 +8576,7 @@
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA).",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 17011707,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "31/08/2026",
@@ -8635,7 +8635,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 5452634,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "26/01/2026",
@@ -8689,7 +8689,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: recuperação judicial ou extrajudicial). Riscos estruturais: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1295199|fr:946264+910194",
    "cotas": 557019,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "14/07/2025",
@@ -8742,7 +8742,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: LTV de aproximadamente 50%. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1280695",
    "cotas": 14803242,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0
   },
   {
@@ -8784,7 +8784,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Volume atipico de 4 fatos relevantes nos ultimos 90 dias (possivel evento em curso).",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 17750467,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "04/08/2026",
@@ -8838,7 +8838,7 @@
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA).",
    "analise_qual_id": "1305052|fr:811137",
    "cotas": 37283750,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "30/12/2024",
@@ -8887,7 +8887,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa.",
    "analise_qual_id": "1295230|fr:1209757+1209749",
    "cotas": 13991890,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "01/06/2026",
@@ -8941,7 +8941,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário.",
    "analise_qual_id": "1272365|fr:1155938+1073941",
    "cotas": 259104,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "08/04/2026",
@@ -8995,7 +8995,7 @@
    "pontos_atencao": "decisões de alocação do gestor, maior giro e volatilidade. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 18399378,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "31/10/2025",
@@ -9049,7 +9049,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: vacância baixa, próxima a 7%. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 27130067,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "04/04/2025",
@@ -9103,7 +9103,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: high yield -. Riscos estruturais: decisões de alocação do gestor, maior giro e volatilidade. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1290731|fr:1083068+1078757",
    "cotas": 18746075,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "15/01/2026",
@@ -9157,7 +9157,7 @@
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1300066|fr:1209779+1005406",
    "cotas": 2167957,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "01/06/2026",
@@ -9211,7 +9211,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: High Yield. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1301323",
    "cotas": 1893505,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0
   },
   {
@@ -9250,7 +9250,7 @@
    "analise": "Negocia a 0.87x o valor patrimonial — desconto de 9% frente à mediana do segmento (0.95). Dividend yield (12m) de 16.1%, acima da mediana dos pares (14.8%); supera 75% do segmento. Retorno de 20.5% em 12 meses (top 29% do segmento). Liquidez baixa (~R$ 0.2 mi/dia). Cotação a 98% da máxima de 52 semanas. Base comparativa: 17 pares do segmento Infraestrutura. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito e duration das debêntures incentivadas, marcação a mercado e liquidez. Liquidez reduzida em bolsa.",
    "cotas": 867844,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "metricas": {
     "tir": "13,0%",
     "spread": "412 bps",
@@ -9299,7 +9299,7 @@
    "pontos_atencao": "execução e venda das obras e fluxo de caixa irregular. Liquidez reduzida em bolsa.",
    "analise_qual_id": "1283809|fr:1272345+1200757",
    "cotas": 1528615,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "31/07/2026",
@@ -9352,7 +9352,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1297094|fr:1118294+866564",
    "cotas": 1851786,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "19/02/2026",
@@ -9406,7 +9406,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 6687035,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "11/02/2026",
@@ -9461,7 +9461,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: vacância financeira passaram para 25,7%. Riscos estruturais: combinação de riscos de crédito (CRI) e de vacância dos imóveis. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 12179187,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "14/07/2026",
@@ -9516,7 +9516,7 @@
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 16300275,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "21/08/2026",
@@ -9576,7 +9576,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1302533|fr:1143451+1117519",
    "cotas": 764451.9999999999,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "24/03/2026",
@@ -9630,7 +9630,7 @@
    "pontos_atencao": "decisões de alocação do gestor, maior giro e volatilidade. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 146354302,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "11/08/2026",
@@ -9685,7 +9685,7 @@
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA).",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 12769512,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "03/02/2026",
@@ -9745,7 +9745,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 165268143,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "29/06/2026",
@@ -9800,7 +9800,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 3690695,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "15/07/2026",
@@ -9854,7 +9854,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: LTV de 82%. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa.",
    "analise_qual_id": "1297814",
    "cotas": 422144,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0
   },
   {
@@ -9895,7 +9895,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: inadimplemento dos recebíveis. Riscos estruturais: decisões de alocação do gestor, maior giro e volatilidade. Liquidez reduzida em bolsa.",
    "analise_qual_id": "1280619|fr:1210013",
    "cotas": 8400517,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "01/06/2026",
@@ -9943,7 +9943,7 @@
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA).",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 26441650,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "14/05/2026",
@@ -10001,7 +10001,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1280546|fr:1297231+1200286",
    "cotas": 8543493,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "20/08/2026",
@@ -10054,7 +10054,7 @@
    "pontos_atencao": "Negocia com desconto de ~15% sobre o valor patrimonial. Parte das distribuições recentes incluiu amortização de capital (não apenas rendimento), o que reduz a cota patrimonial ao longo do tempo. Carteira pulverizada (101 emissores) e majoritariamente indexada ao IPCA, sensível à curva de juros reais. [Relatório de maio/2026]",
    "analise_qual_id": "manual-site-202605",
    "cotas": 15000000,
-   "cotacao_em": "2026-09-04"
+   "cotacao_em": "2026-09-07"
   },
   {
    "ticker": "RINV11",
@@ -10094,7 +10094,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: LTV de 82%. Riscos estruturais: desempenho e taxas dos FIIs investidos e dupla camada de custos. Liquidez reduzida em bolsa.",
    "analise_qual_id": "1297815|fr:1164610+1016537",
    "cotas": 5031676,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "15/04/2026",
@@ -10148,7 +10148,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira. Volume atipico de 4 fatos relevantes nos ultimos 90 dias (possivel evento em curso).",
    "analise_qual_id": "1303707|fr:1275232+1221556",
    "cotas": 2676000,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "03/08/2026",
@@ -10202,7 +10202,7 @@
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 3471728,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "21/08/2026",
@@ -10257,7 +10257,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: PDD - que hoje soma 4,4% do fundo, referente. Riscos estruturais: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "manual-1218323",
    "cotas": 160099509,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "29/10/2024",
@@ -10312,7 +10312,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: recuperação judicial da companhia; default do CRA da Uniggel, o fundo co. Riscos estruturais: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado.",
    "analise_qual_id": "manual-1227199",
    "cotas": 68040425,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "28/05/2026",
@@ -10372,7 +10372,7 @@
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA).",
    "analise_qual_id": "1300215|fr:929756",
    "cotas": 8807885,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "24/06/2025",
@@ -10421,7 +10421,7 @@
    "pontos_atencao": "combinação de riscos de crédito (CRI) e de vacância dos imóveis.",
    "analise_qual_id": "1299404|fr:1260243+1212233",
    "cotas": 4235042,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "20/07/2026",
@@ -10475,7 +10475,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: LTV de 50%. Riscos estruturais: decisões de alocação do gestor, maior giro e volatilidade.",
    "analise_qual_id": "1298725|fr:910200",
    "cotas": 161963,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "22/05/2025",
@@ -10524,7 +10524,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: recuperação judicial ou extrajudicial dos emissores responsá; inadimplemento da parcela do arrendamento co. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 18851720,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "11/08/2026",
@@ -10579,7 +10579,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1306304|fr:1301386+822573",
    "cotas": 5591861,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "26/08/2026",
@@ -10632,7 +10632,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: LTV da operação é de 76,5%; vencimento antecipado da operação. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa.",
    "analise_qual_id": "1293784|fr:1101943+1062982",
    "cotas": 29563321,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "04/02/2026",
@@ -10685,7 +10685,7 @@
    "pontos_atencao": "combinação de riscos de crédito (CRI) e de vacância dos imóveis. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1306212|fr:974850+806334",
    "cotas": 1665695,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "19/08/2025",
@@ -10777,7 +10777,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: Inadimplência: 7,7%. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa.",
    "analise_qual_id": "1287302|fr:881934+849779",
    "cotas": 608950,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "15/04/2025",
@@ -10831,7 +10831,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: vacância permanece baixa, em 1,0%; inadimplência ficou em 3,7%. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 51067415,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "03/06/2026",
@@ -10885,7 +10885,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: inadimplência médio é de 4,10%. Riscos estruturais: execução e venda das obras e fluxo de caixa irregular. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1295185|fr:1075448+1040219",
    "cotas": 997857,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "05/01/2026",
@@ -10939,7 +10939,7 @@
    "pontos_atencao": "crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado.",
    "analise_qual_id": "manual-1204482",
    "cotas": 60740353,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "10/08/2026",
@@ -10994,7 +10994,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: LTV 69.60%; default percentage in this deal to 0. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA).",
    "analise_qual_id": "1299414",
    "cotas": 4200000,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0
   },
   {
@@ -11036,7 +11036,7 @@
    "pontos_atencao": "riscos específicos do segmento de atuação.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 110660070,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "16/06/2026",
@@ -11091,7 +11091,7 @@
    "pontos_atencao": "desempenho e taxas dos FIIs investidos e dupla camada de custos. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1302606",
    "cotas": 4020635,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0
   },
   {
@@ -11133,7 +11133,7 @@
    "pontos_atencao": "crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa.",
    "analise_qual_id": "1300226|fr:1204279+955660",
    "cotas": 12089907,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "26/05/2026",
@@ -11187,7 +11187,7 @@
    "pontos_atencao": "Negocia com PRÊMIO de ~12% sobre o valor patrimonial (P/VP 1,12x), o que reduz o yield efetivo de entrada. O resultado de abril foi negativo (-R$ 0,039/cota) e a distribuição de R$ 0,13 consumiu reserva. Exposição à AEGEA (downgrade de rating AA->A; Águas do Rio com spread +300 bps) e à Vero (remarcação adversa); Braskem (CCC-) em parcela pequena. [Relatório de abril/2026]",
    "analise_qual_id": "manual-site-202605",
    "cotas": 7203840,
-   "cotacao_em": "2026-09-04"
+   "cotacao_em": "2026-09-07"
   },
   {
    "ticker": "SNME11",
@@ -11228,7 +11228,7 @@
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa.",
    "analise_qual_id": "1268613|fr:1293917",
    "cotas": 7418243,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 1,
    "fatos_relevantes": [
     {
@@ -11277,7 +11277,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira. Fato relevante (31/07/2026): ...acumulados do Fundo. Caso o inadimplemento não seja solucionado e persista nos próximos meses, os rendimentos e suas distribuições poderão ser impactados. Desde a ciê...",
    "analise_qual_id": "1287328|fr:1272416+1082721",
    "cotas": 1798000,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "31/07/2026",
@@ -11330,7 +11330,7 @@
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa.",
    "analise_qual_id": "1295616|fr:846186+807928",
    "cotas": 20189040,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "20/02/2025",
@@ -11385,7 +11385,7 @@
    "analise": "Negocia a 1.38x o valor patrimonial — prêmio de 39% frente à mediana do segmento (0.99). Liquidez baixa (~R$ 0.1 mi/dia). Base comparativa: 7 pares do segmento Outros. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: riscos específicos do segmento de atuação. Liquidez reduzida em bolsa. Negocia com prêmio relevante sobre o valor patrimonial (risco de reversão).",
    "cotas": 86475,
-   "cotacao_em": "2026-09-04"
+   "cotacao_em": "2026-09-07"
   },
   {
    "ticker": "TEPP11",
@@ -11425,7 +11425,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira. Volume atipico de 5 fatos relevantes nos ultimos 90 dias (possivel evento em curso).",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 49616923,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "18/08/2026",
@@ -11479,7 +11479,7 @@
    "pontos_atencao": "execução e venda das obras e fluxo de caixa irregular. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 23567968,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "10/07/2026",
@@ -11533,7 +11533,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: atraso no pagamento da locação dos. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Fato relevante (09/04/2026): ...de 2026, informamos acerca do inadimplemento da T.K.S. SISTEMAS HOSPITALARES E CONSULTÓRIOS MÉDICOS LTDA. com respeito ao pagamento dos aluguéis vencidos em março de 20... Fato relevante (17/03/2026): ...Primeira razão: ocorrência de inadimplência. A T.K.S. SISTEMAS HOSPITALARES E CONSULTÓRIOS MÉDICOS LTDA., sociedade limitada, com sede na Av. Brasil, nº 350, Jardim Amé...",
    "analise_qual_id": "1304442|fr:1158353+1139765",
    "cotas": 2134524,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "09/04/2026",
@@ -11587,7 +11587,7 @@
    "pontos_atencao": "desempenho e taxas dos FIIs investidos e dupla camada de custos. Liquidez reduzida em bolsa.",
    "analise_qual_id": "1287374",
    "cotas": 978968,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0
   },
   {
@@ -11629,7 +11629,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 4528240,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "30/04/2026",
@@ -11684,7 +11684,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 7739092,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "18/06/2026",
@@ -11738,7 +11738,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Negocia com prêmio relevante sobre o valor patrimonial (risco de reversão).",
    "analise_qual_id": "1028874|fr:1298556+1209075",
    "cotas": 4066022,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "21/08/2026",
@@ -11791,7 +11791,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Volume atipico de 14 fatos relevantes nos ultimos 90 dias (possivel evento em curso).",
    "analise_qual_id": "manual-1222785",
    "cotas": 62430702,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "31/08/2026",
@@ -11845,7 +11845,7 @@
    "pontos_atencao": "decisões de alocação do gestor, maior giro e volatilidade. Liquidez reduzida em bolsa.",
    "analise_qual_id": "1280957|fr:1140969+1087873",
    "cotas": 35467014,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "19/03/2026",
@@ -11898,7 +11898,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Volume atipico de 5 fatos relevantes nos ultimos 90 dias (possivel evento em curso).",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 15919690,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "01/09/2026",
@@ -11952,7 +11952,7 @@
    "pontos_atencao": "Inadimplencia elevada em CRIs residenciais (mutuarios pressionados pela Selic a 15%); reestruturacao de dividas de varios devedores, com diferimento de juros. Cortes sucessivos de dividendo (R$0,40 em ago/2025, menor patamar desde 2020, ante ~R$2,00) e cota caiu de ~R$38 para ~R$20 em 2026. (Noticias e fatos relevantes, 2025-2026.)",
    "analise_qual_id": "manual-noticias-202607",
    "cotas": 11733895,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "26/06/2026",
@@ -12000,7 +12000,7 @@
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 14723970,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "21/08/2026",
@@ -12060,7 +12060,7 @@
    "pontos_atencao": "crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira. Fato relevante (07/04/2025): ...“Grupo Safras”), de pedido de recuperação judicial perante a 4ª Vara Cível da Comarca de Sinop, Estado do Mato Grosso (“Recuperação Judicial”). Ainda não há decisão a...",
    "analise_qual_id": "1309352|fr:922400+874960",
    "cotas": 4593919,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "12/06/2025",
@@ -12118,7 +12118,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: Recuperação Judicial; vencimento antecipado aprovado em assembleia em 06/. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1280632|fr:846062",
    "cotas": 20543663,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "20/02/2025",
@@ -12167,7 +12167,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: taxa de ocupação de 67%. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1287285|fr:1251436+1082629",
    "cotas": 2000000,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "16/07/2026",
@@ -12221,7 +12221,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: LTV máxima de 60%. Riscos estruturais: decisões de alocação do gestor, maior giro e volatilidade. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 164721683,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0,
    "sinais_id": "1306157"
   },
@@ -12264,7 +12264,7 @@
    "pontos_atencao": "Inadimplencia relevante e concentrada: a Cooperativa Languiru, devedora de 3 CRAs que somam ~12% do patrimonio (~R$120 mi), entrou em inadimplemento ao deixar de pagar juros com vencimento em jul/2026, com disputa judicial sobre a validade de uma garantia vinculada a contrato da cooperativa com a JBS. A cota caiu ~25% na semana (negociada abaixo de R$8, com leilao por oscilacao) e os dividendos recuaram (de R$0,15 em mar para R$0,13 em mai-jul/2026); a manutencao do rendimento depende do recebimento dos juros, de eventuais provisoes para perdas e da renegociacao com o devedor. A gestora (Valora) considera a reacao do mercado exagerada. (Noticias e fatos relevantes, jul/2026.)",
    "analise_qual_id": "manual-noticias-202607",
    "cotas": 86455117,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "24/02/2026",
@@ -12317,7 +12317,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: LTV máxima de 60%. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA).",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 11787247,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0,
    "cobertura": {
     "fonte": "BTG Cobertura de Recebíveis (4T25)",
@@ -12365,7 +12365,7 @@
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA).",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 146101287,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0,
    "cobertura": {
     "fonte": "BTG Cobertura de Recebíveis (4T25)",
@@ -12413,7 +12413,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 35021736,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "19/01/2026",
@@ -12468,7 +12468,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 14997396,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "26/11/2025",
@@ -12518,7 +12518,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1280633|fr:1224501+1129750",
    "cotas": 82826295,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "19/06/2026",
@@ -12572,7 +12572,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: inadimplência líquida ficaram em 1,8%. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário.",
    "analise_qual_id": "manual-1214336",
    "cotas": 28828640,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "31/07/2026",
@@ -12627,7 +12627,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira. Fato relevante (03/08/2026): ...o objetivo de regularizar os inadimplementos existentes e preservar a continuidade da locação. A FACAMP reconheceu e confessou débitos locatícios no valor atualizado de...",
    "analise_qual_id": "1295385|fr:1275300+1200300",
    "cotas": 26946220,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "03/08/2026",
@@ -12680,7 +12680,7 @@
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa.",
    "analise_qual_id": "1280510",
    "cotas": 827913,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0
   },
   {
@@ -12721,7 +12721,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: vacânciafísicadoportfóliose manteveem11,25%. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1246001|fr:1299421+1139676",
    "cotas": 7316171,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "24/08/2026",
@@ -12774,7 +12774,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: LTV de 32,40%; PDD; recuperação judicial apresentado pela Casas Bahia S. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Fato relevante (22/05/2025): ...a da propositura de Pedido de Recuperação Judicial, com pedido de tutela de urgência formulado pela Fragnani Empreendimentos e Participações S.A., inscrita sob o CNPJ n...",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 15592424,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "14/07/2026",
@@ -12833,7 +12833,7 @@
    "pontos_atencao": "decisões de alocação do gestor, maior giro e volatilidade. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1300713|fr:1021550+994754",
    "cotas": 46971245,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "27/10/2025",
@@ -12886,7 +12886,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1280519|fr:1268491+1165604",
    "cotas": 2098800,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "29/07/2026",
@@ -12939,7 +12939,7 @@
    "pontos_atencao": "CRIs inadimplentes do Grupo Gramado Parks (recuperacao judicial) e do Shopping Feira da Madrugada; vencimento antecipado e execucao de garantias aprovados. Distribuicao colapsou (~R$0,03-0,04/cota em 2026) por inadimplencia recorrente e diferimentos sucessivos de juros a devedores relevantes. (Noticias e fatos relevantes, 2025-2026.)",
    "analise_qual_id": "manual-noticias-202607",
    "cotas": 29864091,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "03/01/2025",
@@ -12986,7 +12986,7 @@
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa.",
    "analise_qual_id": "1289795|fr:1035534",
    "cotas": 18278958,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "12/11/2025",
@@ -13034,7 +13034,7 @@
    "pontos_atencao": "combinação de riscos de crédito (CRI) e de vacância dos imóveis.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 17571400,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "10/07/2026",
@@ -13085,7 +13085,7 @@
    "analise": "Negocia a 1.77x o valor patrimonial — prêmio de 94% frente à mediana do segmento (0.91). Liquidez alta (~R$ 14.5 mi/dia). Cotação a 100% da máxima de 52 semanas. Base comparativa: 9 pares do segmento Híbrido. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: combinação de riscos de crédito (CRI) e de vacância dos imóveis. Negocia com prêmio relevante sobre o valor patrimonial (risco de reversão).",
    "cotas": 477875.0,
-   "cotacao_em": "2026-09-04"
+   "cotacao_em": "2026-09-07"
   },
   {
    "ticker": "WHGR11",
@@ -13125,7 +13125,7 @@
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa.",
    "analise_qual_id": "1306479|fr:653866",
    "cotas": 30912379,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "06/05/2024",
@@ -13173,7 +13173,7 @@
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa.",
    "analise_qual_id": "1282281|fr:1068309+1067980",
    "cotas": 481757,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "23/12/2025",
@@ -13227,7 +13227,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: recuperação judicial (RJ). Riscos estruturais: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "manual-1199730",
    "cotas": 45523076,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0,
    "sinais_id": "1299040"
   },
@@ -13269,7 +13269,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: LTV inicial de 73%; renegociação de dívidas rurais, subsídios a combustíveis e pre. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA).",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 8701552,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0,
    "sinais_id": "1302713"
   },
@@ -13312,7 +13312,7 @@
    "pontos_atencao": "Risco elevado. Negocia com desconto de ~46% sobre o valor patrimonial e a carteira é concentrada em poucos projetos. O ativo Oxe (biomassa) está em REESTRUTURAÇÃO: rating CCC+, frustração de geração de caixa, postergação de pagamentos (reperfilamento) e stop accrual, com marcação reduzida para 68% do valor na curva (perda de ~R$ 3,92/cota). Fundo pequeno e pouco líquido (ADTV ~R$ 200 mil/dia). [Relatório de abril/2026]",
    "analise_qual_id": "manual-site-202605",
    "cotas": 3165464,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "metricas": {
     "tir": "19,1%",
     "spread": "988 bps",
@@ -13358,7 +13358,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira. Fato relevante (30/06/2026): ...cálculo do IRRF decorrente da liquidação do Fundo (“Período de Manifestação”). Para que a Administradora, na qualidade de responsável tributária por retenções na fonte d...",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 7150422.0,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "23/07/2026",
@@ -13413,7 +13413,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: Vacância: 21%. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 51390098,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "18/08/2026",
@@ -13467,7 +13467,7 @@
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário.",
    "analise_qual_id": "manual-1214209",
    "cotas": 64308055,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "13/08/2026",
@@ -13521,7 +13521,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: vacância recuou para 5,5%; LTV Sênior de 44,71%. Riscos estruturais: desempenho e taxas dos FIIs investidos e dupla camada de custos. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1262484",
    "cotas": 43302140,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fr_count_90d": 0
   },
   {
@@ -13562,7 +13562,7 @@
    "pontos_atencao": "decisões de alocação do gestor, maior giro e volatilidade. Liquidez reduzida em bolsa. Volume atipico de 5 fatos relevantes nos ultimos 90 dias (possivel evento em curso).",
    "analise_qual_id": "1261791|fr:1216597+1210339",
    "cotas": 22020200.0,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "10/06/2026",
@@ -13615,7 +13615,7 @@
    "pontos_atencao": "Indicadores de atenção no relatório: alavancagem e 1%. Riscos estruturais: combinação de riscos de crédito (CRI) e de vacância dos imóveis. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "1307403|fr:1046417+988957",
    "cotas": 11733220,
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "fatos_relevantes": [
     {
      "data": "25/11/2025",
@@ -13666,7 +13666,7 @@
    "descricao": "Fundo de Investimento em Participações em Infraestrutura (FIP-IE), com participações em projetos de energia, transmissão e saneamento. Gerido pela Perfin. Patrimônio de R$ 1.7 bi, liquidez média (~R$ 1.6 mi/dia).",
    "analise": "Negocia a 0.82x o valor patrimonial — desconto de 19% frente à mediana do segmento (1.01). Dividend yield (12m) de 4.2%, abaixo da mediana dos pares (12.0%); supera 0% do segmento. Retorno de 22.7% em 12 meses (abaixo da mediana do segmento). Liquidez média (~R$ 1.6 mi/dia). Base comparativa: 10 pares do segmento Infraestrutura (FIP-IE). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: ativos ilíquidos, execução dos projetos de infraestrutura, alavancagem e baixa liquidez em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "cotas": 23237785.016286645,
    "metricas": {
     "tir": "10,8%",
@@ -13711,7 +13711,7 @@
    "descricao": "Fundo de Investimento em Participações em Infraestrutura (FIP-IE), com participações em projetos de energia, transmissão e saneamento. Gerido pela XP Asset. Patrimônio de R$ 1.1 bi, liquidez média (~R$ 1.1 mi/dia).",
    "analise": "Negocia a 0.67x o valor patrimonial — desconto de 34% frente à mediana do segmento (1.01). Dividend yield (12m) de 13.2%, acima da mediana dos pares (12.0%); supera 62% do segmento. Retorno de 9.9% em 12 meses (abaixo da mediana do segmento). Liquidez média (~R$ 1.1 mi/dia). Base comparativa: 10 pares do segmento Infraestrutura (FIP-IE). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: ativos ilíquidos, execução dos projetos de infraestrutura, alavancagem e baixa liquidez em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "cotas": 16096096.096096097,
    "metricas": {
     "tir": "15,0%",
@@ -13756,7 +13756,7 @@
    "descricao": "Fundo de Investimento em Participações em Infraestrutura (FIP-IE), com participações em projetos de energia, transmissão e saneamento. Gerido pela BRZ Investimentos. Patrimônio de R$ 1.1 bi, liquidez média (~R$ 1.6 mi/dia).",
    "analise": "Negocia a 0.87x o valor patrimonial — desconto de 14% frente à mediana do segmento (1.01). Retorno de 77.8% em 12 meses (top 0% do segmento). Liquidez média (~R$ 1.6 mi/dia). Base comparativa: 10 pares do segmento Infraestrutura (FIP-IE). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: ativos ilíquidos, execução dos projetos de infraestrutura, alavancagem e baixa liquidez em bolsa. ",
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "cotas": 5300510.456117241,
    "metricas": {
     "tir": "14,0%",
@@ -13801,7 +13801,7 @@
    "descricao": "Fundo de Investimento em Participações em Infraestrutura (FIP-IE), com participações em projetos de energia, transmissão e saneamento. Gerido pela Knox. Patrimônio de R$ 1.0 bi, liquidez baixa (~R$ 0.4 mi/dia).",
    "analise": "Negocia a 1.01x o valor patrimonial — prêmio de 0% frente à mediana do segmento (1.01). Dividend yield (12m) de 5.6%, abaixo da mediana dos pares (12.0%); supera 25% do segmento. Retorno de 13.0% em 12 meses (abaixo da mediana do segmento). Liquidez baixa (~R$ 0.4 mi/dia). Base comparativa: 10 pares do segmento Infraestrutura (FIP-IE). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: ativos ilíquidos, execução dos projetos de infraestrutura, alavancagem e baixa liquidez em bolsa. Liquidez reduzida em bolsa.",
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "cotas": 10339549.96959254,
    "metricas": {
     "tir": "10,1%",
@@ -13846,7 +13846,7 @@
    "descricao": "Fundo de Investimento em Participações em Infraestrutura (FIP-IE), com participações em projetos de energia, transmissão e saneamento. Gerido pela Vinci. Patrimônio de R$ 605 mi, liquidez baixa (~R$ 0.3 mi/dia).",
    "analise": "Negocia a 0.75x o valor patrimonial — desconto de 26% frente à mediana do segmento (1.01). Dividend yield (12m) de 4.4%, abaixo da mediana dos pares (12.0%); supera 12% do segmento. Retorno de 57.4% em 12 meses (top 10% do segmento). Liquidez baixa (~R$ 0.3 mi/dia). Base comparativa: 10 pares do segmento Infraestrutura (FIP-IE). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: ativos ilíquidos, execução dos projetos de infraestrutura, alavancagem e baixa liquidez em bolsa. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "cotas": 9354669.140383426,
    "metricas": {
     "tir": "13,3%",
@@ -13891,7 +13891,7 @@
    "descricao": "Fundo de Investimento em Participações em Infraestrutura (FIP-IE), com participações em projetos de energia, transmissão e saneamento. Gerido pela Endurance. Patrimônio de R$ 430 mi, liquidez baixa (~R$ 0.3 mi/dia).",
    "analise": "Negocia a 1.08x o valor patrimonial — prêmio de 7% frente à mediana do segmento (1.01). Dividend yield (12m) de 9.2%, abaixo da mediana dos pares (12.0%); supera 38% do segmento. Retorno de 23.9% em 12 meses (top 40% do segmento). Liquidez baixa (~R$ 0.3 mi/dia). Base comparativa: 10 pares do segmento Infraestrutura (FIP-IE). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: ativos ilíquidos, execução dos projetos de infraestrutura, alavancagem e baixa liquidez em bolsa. Liquidez reduzida em bolsa.",
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "cotas": 4297700.0,
    "metricas": {
     "tir": "11,1%",
@@ -13937,7 +13937,7 @@
    "descricao": "Fundo de Investimento em Participações em Infraestrutura (FIP-IE), com participações em projetos de energia, transmissão e saneamento. Gerido pela BTG Pactual — asset do maior banco de investimentos da América Latina. Patrimônio de R$ 414 mi, liquidez baixa (~R$ 0.4 mi/dia).",
    "analise": "Negocia a 1.03x o valor patrimonial — prêmio de 2% frente à mediana do segmento (1.01). Dividend yield (12m) de 12.0%, acima da mediana dos pares (12.0%); supera 50% do segmento. Retorno de 24.8% em 12 meses (top 30% do segmento). Liquidez baixa (~R$ 0.4 mi/dia). Base comparativa: 10 pares do segmento Infraestrutura (FIP-IE). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: ativos ilíquidos, execução dos projetos de infraestrutura, alavancagem e baixa liquidez em bolsa. Liquidez reduzida em bolsa.",
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "cotas": 11322894.66702043,
    "metricas": {
     "tir": "9,9%",
@@ -13983,7 +13983,7 @@
    "descricao": "Fundo de Investimento em Participações em Infraestrutura (FIP-IE), com participações em projetos de energia, transmissão e saneamento. Gerido pela Kinea — uma das maiores gestoras de fundos listados do Brasil, ligada ao Itaú. Patrimônio de R$ 407 mi, liquidez média (~R$ 1.1 mi/dia).",
    "analise": "Negocia a 1.02x o valor patrimonial — prêmio de 1% frente à mediana do segmento (1.01). Dividend yield (12m) de 14.8%, acima da mediana dos pares (12.0%); supera 88% do segmento. Retorno de 23.4% em 12 meses (top 50% do segmento). Liquidez média (~R$ 1.1 mi/dia). Base comparativa: 10 pares do segmento Infraestrutura (FIP-IE). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: ativos ilíquidos, execução dos projetos de infraestrutura, alavancagem e baixa liquidez em bolsa. ",
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "cotas": 4090049.261083744,
    "metricas": {
     "tir": "9,4%",
@@ -14028,7 +14028,7 @@
    "descricao": "Fundo de Investimento em Participações em Infraestrutura (FIP-IE), com participações em projetos de energia, transmissão e saneamento. Gerido pela Prisma Capital. Patrimônio de R$ 340 mi, liquidez baixa (~R$ 0.3 mi/dia).",
    "analise": "Negocia a 1.13x o valor patrimonial — prêmio de 12% frente à mediana do segmento (1.01). Dividend yield (12m) de 14.6%, acima da mediana dos pares (12.0%); supera 75% do segmento. Retorno de 18.7% em 12 meses (abaixo da mediana do segmento). Liquidez baixa (~R$ 0.3 mi/dia). Base comparativa: 10 pares do segmento Infraestrutura (FIP-IE). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: ativos ilíquidos, execução dos projetos de infraestrutura, alavancagem e baixa liquidez em bolsa. Liquidez reduzida em bolsa. Negocia com prêmio relevante sobre o valor patrimonial (risco de reversão).",
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "cotas": 4628358.029153114,
    "metricas": {
     "tir": "14,2%",
@@ -14074,7 +14074,7 @@
    "descricao": "Fundo de Investimento em Participações em Infraestrutura (FIP-IE), com participações em projetos de energia, transmissão e saneamento. Gerido pela AZ Quest — gestora independente do grupo AZ. Patrimônio de R$ 237 mi, liquidez média (~R$ 0.6 mi/dia).",
    "analise": "Negocia a 1.05x o valor patrimonial — prêmio de 4% frente à mediana do segmento (1.01). Dividend yield (12m) de 18.8%, acima da mediana dos pares (12.0%); supera 100% do segmento. Retorno de 30.8% em 12 meses (top 20% do segmento). Liquidez média (~R$ 0.6 mi/dia). Base comparativa: 10 pares do segmento Infraestrutura (FIP-IE). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: ativos ilíquidos, execução dos projetos de infraestrutura, alavancagem e baixa liquidez em bolsa. ",
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "cotas": 2494527.563008334,
    "metricas": {
     "tir": "11,8%",
@@ -14119,7 +14119,7 @@
    "descricao": "Fundo de Investimento em Participações em Infraestrutura (FIP-IE), com participações em projetos de energia, transmissão e saneamento. Gerido pela Copérnico. Patrimônio de R$ 235 mi, liquidez baixa (~R$ 0.4 mi/dia).",
    "analise": "Negocia a 0.51x o valor patrimonial — desconto de 50% frente à mediana do segmento (1.01). Retorno de -3.8% em 12 meses (abaixo da mediana do segmento). Liquidez baixa (~R$ 0.4 mi/dia). Base comparativa: 10 pares do segmento Infraestrutura (FIP-IE). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: ativos ilíquidos, execução dos projetos de infraestrutura, alavancagem e baixa liquidez em bolsa. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
-   "cotacao_em": "2026-09-04",
+   "cotacao_em": "2026-09-07",
    "cotas": 2937194.4035346094
   }
  ]
