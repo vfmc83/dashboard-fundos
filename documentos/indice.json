@@ -76750,5 +76750,101 @@
   "dataEntrega": "09/09/2026 12:01",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1312795&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "AIEC11",
+  "cnpj": "35765826000126",
+  "id": "1313424",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "09/09/2026 19:02",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1313424&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "CXCI11",
+  "cnpj": "42066916000194",
+  "id": "1313267",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "09/09/2026 17:06",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1313267&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "FIGS11",
+  "cnpj": "17590518000125",
+  "id": "1313383",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "09/09/2026 18:49",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1313383&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "GRUL11",
+  "cnpj": "54483412000159",
+  "id": "1313626",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "09/09/2026 19:22",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1313626&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "HTMX11",
+  "cnpj": "08706065000169",
+  "id": "1312937",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "09/09/2026 14:19",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1312937&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "LIFE11",
+  "cnpj": "39753295000102",
+  "id": "1313357",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "09/09/2026 18:07",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1313357&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "OUJP11",
+  "cnpj": "26091656000150",
+  "id": "1312931",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/06/2026",
+  "dataEntrega": "09/09/2026 14:14",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1312931&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "RBVA11",
+  "cnpj": "15576907000170",
+  "id": "1313146",
+  "categoria": "Outras Informações",
+  "tipo": "Relatório gerencial em inglês",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "09/09/2026 15:51",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1313146&cvm=true",
+  "arquivo": null
  }
 ]
