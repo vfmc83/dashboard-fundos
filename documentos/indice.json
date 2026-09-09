@@ -76738,5 +76738,17 @@
   "dataEntrega": "08/09/2026 20:31",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1312452&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "PMIS11",
+  "cnpj": "51868778000158",
+  "id": "1312795",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "09/09/2026 12:01",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1312795&cvm=true",
+  "arquivo": null
  }
 ]
