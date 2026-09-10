@@ -76846,5 +76846,53 @@
   "dataEntrega": "09/09/2026 15:51",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1313146&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "AIEC11",
+  "cnpj": "35765826000126",
+  "id": "1313934",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "10/09/2026 09:37",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1313934&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "EIRA11",
+  "cnpj": "59202651000107",
+  "id": "1313767",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/07/2026",
+  "dataEntrega": "09/09/2026 21:59",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1313767&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "KDOL11",
+  "cnpj": "51641681000108",
+  "id": "1313745",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "09/09/2026 20:50",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1313745&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "KNCA11",
+  "cnpj": "41745701000137",
+  "id": "1313741",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "09/09/2026 20:48",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1313741&cvm=true",
+  "arquivo": null
  }
 ]
