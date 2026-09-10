@@ -76894,5 +76894,89 @@
   "dataEntrega": "09/09/2026 20:48",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1313741&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "BMLC11",
+  "cnpj": "14376247000111",
+  "id": "1315130",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "10/09/2026 19:58",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1315130&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "IBBP11",
+  "cnpj": "52551605000174",
+  "id": "1314960",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "10/09/2026 18:38",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1314960&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "JPPA11",
+  "cnpj": "30982880000100",
+  "id": "1314788",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "10/09/2026 17:33",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1314788&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "LASC11",
+  "cnpj": "30248158000146",
+  "id": "1315128",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "10/09/2026 19:57",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1315128&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "MFII11",
+  "cnpj": "16915968000188",
+  "id": "1315014",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "10/09/2026 19:04",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1315014&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "OUJP11",
+  "cnpj": "26091656000150",
+  "id": "1314787",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "10/09/2026 17:33",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1314787&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "RBRP11",
+  "cnpj": "21408063000151",
+  "id": "1315080",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "10/09/2026",
+  "dataEntrega": "10/09/2026 19:16",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1315080&cvm=true",
+  "arquivo": null
  }
 ]
