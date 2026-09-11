@@ -76978,5 +76978,41 @@
   "dataEntrega": "10/09/2026 19:16",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1315080&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "BTCI11",
+  "cnpj": "09552812000114",
+  "id": "1315146",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "10/09/2026 20:37",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1315146&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "HGBS11",
+  "cnpj": "08431747000106",
+  "id": "1315141",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "10/09/2026",
+  "dataEntrega": "10/09/2026 20:25",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1315141&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "PMLL11",
+  "cnpj": "26499833000132",
+  "id": "1315157",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "10/09/2026",
+  "dataEntrega": "10/09/2026 21:05",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1315157&cvm=true",
+  "arquivo": null
  }
 ]
