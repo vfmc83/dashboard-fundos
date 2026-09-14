@@ -77278,5 +77278,17 @@
   "dataEntrega": "11/09/2026 19:00",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1316624&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "APXM11",
+  "cnpj": "43010485000107",
+  "id": "1316938",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "11/09/2026",
+  "dataEntrega": "11/09/2026 20:55",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1316938&cvm=true",
+  "arquivo": null
  }
 ]
