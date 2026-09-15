@@ -77434,5 +77434,29 @@
   "dataEntrega": "14/09/2026 18:49",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1318958&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "BCIA11",
+  "cnpj": "20216935000117",
+  "id": "1321286",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "15/09/2026",
+  "dataEntrega": "15/09/2026 19:19",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1321286&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "SAPI11",
+  "cnpj": "51646298000142",
+  "id": "1320945",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "15/09/2026 18:08",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1320945&cvm=true",
+  "arquivo": null
  }
 ]
