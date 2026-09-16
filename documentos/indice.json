@@ -77482,5 +77482,29 @@
   "dataEntrega": "16/09/2026 07:08",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1321749&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "FTCA11",
+  "cnpj": "42537438000153",
+  "id": "1322503",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "16/09/2026 20:14",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1322503&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "TEPP11",
+  "cnpj": "26681370000125",
+  "id": "655838",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/04/2024",
+  "dataEntrega": "08/05/2024 18:30",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=655838&cvm=true",
+  "arquivo": null
  }
 ]
