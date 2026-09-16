@@ -77458,5 +77458,29 @@
   "dataEntrega": "15/09/2026 18:08",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1320945&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "GGRC11",
+  "cnpj": "26614291000100",
+  "id": "1321637",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "15/09/2026 21:22",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1321637&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "RBVA11",
+  "cnpj": "15576907000170",
+  "id": "1321749",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "16/09/2026 07:08",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1321749&cvm=true",
+  "arquivo": null
  }
 ]
