@@ -77818,5 +77818,41 @@
   "dataEntrega": "17/09/2026 18:16",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1323244&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "BTAL11",
+  "cnpj": "36642244000115",
+  "id": "1323485",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "18/09/2026 09:17",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1323485&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "RBFM11",
+  "cnpj": "17329029000114",
+  "id": "1323700",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "18/09/2026 13:22",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1323700&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "RCRB11",
+  "cnpj": "03683056000186",
+  "id": "1323505",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "18/09/2026 09:51",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1323505&cvm=true",
+  "arquivo": null
  }
 ]
