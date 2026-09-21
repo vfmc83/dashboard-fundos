@@ -52,9 +52,9 @@
    "descricao": "Fiagro do tipo imobiliário, focado em recebíveis e ativos do agronegócio. Gerido pela AZ Quest — gestora independente do grupo AZ, administrado por XP Investimentos. Patrimônio de R$ 208 mi, liquidez baixa (~R$ 0.4 mi/dia).",
    "analise": "Negocia a 0.86x o valor patrimonial — prêmio de 2% frente à mediana do segmento (0.84). Dividend yield (12m) de 17.9%, acima da mediana dos pares (16.7%); supera 84% do segmento. Retorno de 22.1% em 12 meses (top 32% do segmento). Liquidez baixa (~R$ 0.4 mi/dia). Cotação a 90% da máxima de 52 semanas. Base comparativa: 25 pares do segmento Imobiliário. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa.",
-   "analise_qual": "Relatório de 31/07/2026 — Fiagro do tipo imobiliário, focado em recebíveis e ativos do agronegócio. Indicadores extraídos: dividend yield mensal de 1,33%; CDI + 4,0%. Fonte: relatório no Fundos.NET, ref. 31/07/2026. (Resumo automático.)",
+   "analise_qual": "Relatório de 31/08/2026 — Fiagro do tipo imobiliário, focado em recebíveis e ativos do agronegócio. Indicadores extraídos: dividend yield mensal de 1,41%. Fonte: relatório no Fundos.NET, ref. 31/08/2026. (Resumo automático.)",
    "pontos_atencao": "crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa. Fato relevante (21/11/2024): ...ado em geral, a declaração do Vencimento Antecipado de todas as obrigações principais e acessórias (i) do Certificado de Direitos Creditórios do Agronegócio CDCA n⁰ 001...",
-   "analise_qual_id": "1286246|fr:785317",
+   "analise_qual_id": "1324177|fr:785317",
    "cotas": 24037284,
    "cotacao_em": "2026-09-18",
    "fatos_relevantes": [
@@ -309,18 +309,18 @@
    "cotacao_em": "2026-09-18",
    "fatos_relevantes": [
     {
-     "data": "27/04/2026",
+     "data": "18/09/2026",
      "risco": false,
-     "resumo": "FATO RELEVANTE ARCH EDIFÍCIOS CORPORATIVOS FUNDO DE INVESTIMENTO IMOBILIÁRIO – RESPONSABILIDADE LIMITADA CNPJ nº 35.765.826/0001-26 Código ISIN: BRAIECCTF009 Código de negociação"
+     "resumo": "FATO RELEVANTE ARCH EDIFÍCIOS CORPORATIVOS FUNDO DE INVESTIMENTO IMOBILIÁRIO – FII – RESPONSABILIDADE LIMITADA CNPJ/MF nº 35.765.826/0001-26 (“Fundo”) APEX DISTRIBUIDORA DE TÍTU"
     },
     {
-     "data": "12/02/2026",
+     "data": "27/04/2026",
      "risco": false,
      "resumo": "FATO RELEVANTE ARCH EDIFÍCIOS CORPORATIVOS FUNDO DE INVESTIMENTO IMOBILIÁRIO – RESPONSABILIDADE LIMITADA CNPJ nº 35.765.826/0001-26 Código ISIN: BRAIECCTF009 Código de negociação"
     }
    ],
-   "fr_count_90d": 0,
-   "sinais_id": "1313934|fr:1170646+1111605"
+   "fr_count_90d": 1,
+   "sinais_id": "1313934|fr:1324282+1170646"
   },
   {
    "ticker": "AJFI11",
@@ -482,7 +482,7 @@
     }
    ],
    "fr_count_90d": 2,
-   "sinais_id": "1296283|fr:1265340+1226658"
+   "sinais_id": "1324120|fr:1265340+1226658"
   },
   {
    "ticker": "APXM11",
@@ -640,9 +640,9 @@
    "descricao": "Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Gerido pela ARX Investimentos, administrado por Hedge. Patrimônio de R$ 79 mi, liquidez baixa (~R$ 0.1 mi/dia).",
    "analise": "Negocia a 0.90x o valor patrimonial — prêmio de 2% frente à mediana do segmento (0.88). Dividend yield (12m) de 13.3%, abaixo da mediana dos pares (14.5%); supera 30% do segmento. Retorno de 21.3% em 12 meses (top 11% do segmento). Liquidez baixa (~R$ 0.1 mi/dia). Cotação a 98% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa.",
-   "analise_qual": "Relatório de 30/06/2026 — Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Indicadores extraídos: distribuiu R$ 3,9182; DY anualizado de 14,48%. Fonte: relatório no Fundos.NET, ref. 30/06/2026. (Resumo automático.)",
+   "analise_qual": "Relatório de 31/07/2026 — Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Indicadores extraídos: distribuiu R$ 4,0082; DY anualizado de 14,66%. Fonte: relatório no Fundos.NET, ref. 31/07/2026. (Resumo automático.)",
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa.",
-   "analise_qual_id": "1289606|fr:771209+686731",
+   "analise_qual_id": "1323079|fr:771209+686731",
    "cotas": 8678442,
    "cotacao_em": "2026-09-18",
    "fatos_relevantes": [
@@ -949,9 +949,9 @@
    "descricao": "Fundo imobiliário de fundos (FoF), que investe em cotas de outros FIIs para diversificação. Gerido pela —. Patrimônio de R$ 378 mi, liquidez média (~R$ 0.5 mi/dia).",
    "analise": "Negocia a 0.87x o valor patrimonial — prêmio de 5% frente à mediana do segmento (0.83). Dividend yield (12m) de 11.5%, abaixo da mediana dos pares (13.2%); supera 27% do segmento. Retorno de 17.3% em 12 meses (top 27% do segmento). Liquidez média (~R$ 0.5 mi/dia). Cotação a 94% da máxima de 52 semanas. Base comparativa: 15 pares do segmento FoF. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: desempenho e taxas dos FIIs investidos e dupla camada de custos. ",
-   "analise_qual": "Relatório de 18/08/2026 — Fundo imobiliário de fundos (FoF), que investe em cotas de outros FIIs para diversificação. Indicadores extraídos: rendimentos de FIIs, R$ 0,29; dividend yield de 11,7%; IPCA + 8%. Fonte: relatório no Fundos.NET, ref. 18/08/2026. (Resumo automático.)",
-   "pontos_atencao": "Indicadores de atenção no relatório: vacância consolidada é de 8,9%. Riscos estruturais: desempenho e taxas dos FIIs investidos e dupla camada de custos.",
-   "analise_qual_id": "1296315",
+   "analise_qual": "Relatório de 15/09/2026 — Fundo imobiliário de fundos (FoF), que investe em cotas de outros FIIs para diversificação. Indicadores extraídos: rendimentos de FIIs, R$ 0,02; dividend yield de 11,7%; IPCA+7,7%. Fonte: relatório no Fundos.NET, ref. 15/09/2026. (Resumo automático.)",
+   "pontos_atencao": "Indicadores de atenção no relatório: vacância: de 33%. Riscos estruturais: desempenho e taxas dos FIIs investidos e dupla camada de custos.",
+   "analise_qual_id": "1321286",
    "cotas": 3719038,
    "cotacao_em": "2026-09-18",
    "fr_count_90d": 0
@@ -1119,9 +1119,9 @@
    "descricao": "Fundo imobiliário de gestão ativa/multiestratégia, com alocação dinâmica entre tijolo e papel. Gerido pela Brio Investimentos, administrado por BRL Trust. Patrimônio de R$ 48 mi, liquidez baixa (~R$ 0.0 mi/dia).",
    "analise": "Negocia a 0.62x o valor patrimonial — desconto de 28% frente à mediana do segmento (0.86). Dividend yield (12m) de 17.1%, acima da mediana dos pares (14.3%); supera 100% do segmento. Retorno de -17.7% em 12 meses (abaixo da mediana do segmento). Liquidez baixa (~R$ 0.0 mi/dia). Cotação a 77% da máxima de 52 semanas. Base comparativa: 16 pares do segmento Gestão ativa. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: decisões de alocação do gestor, maior giro e volatilidade. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
-   "analise_qual": "Relatório de 30/06/2026 — Fundo imobiliário de gestão ativa/multiestratégia, com alocação dinâmica entre tijolo e papel. Indicadores extraídos: DY: 1,2%; IPCA + 10,3%. Fonte: relatório no Fundos.NET, ref. 30/06/2026. (Resumo automático.)",
+   "analise_qual": "Relatório de 31/07/2026 — Fundo imobiliário de gestão ativa/multiestratégia, com alocação dinâmica entre tijolo e papel. Indicadores extraídos: DY: 1,2%; IPCA + 10,4%. Fonte: relatório no Fundos.NET, ref. 31/07/2026. (Resumo automático.)",
    "pontos_atencao": "decisões de alocação do gestor, maior giro e volatilidade. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
-   "analise_qual_id": "1295343",
+   "analise_qual_id": "1318865",
    "cotas": 5845602,
    "cotacao_em": "2026-09-18",
    "fr_count_90d": 0
@@ -1368,9 +1368,9 @@
    "descricao": "Fundo imobiliário de tijolo do segmento Agência Bancária, que detém imóveis físicos para geração de renda por aluguel. Gerido pela Oliveira Trust, administrado por Oliveira Trust. Patrimônio de R$ 49 mi, liquidez baixa (~R$ 0.1 mi/dia).",
    "analise": "Negocia a 0.57x o valor patrimonial — desconto de 29% frente à mediana do segmento (0.80). Dividend yield (12m) de 23.3%, acima da mediana dos pares (11.2%); supera 98% do segmento. Retorno de -35.6% em 12 meses (abaixo da mediana do segmento). Liquidez baixa (~R$ 0.1 mi/dia). Cotação a 55% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
-   "analise_qual": "Relatório de 31/07/2026 — Fundo imobiliário de tijolo do segmento Agência Bancária, que detém imóveis físicos para geração de renda por aluguel. Fonte: relatório no Fundos.NET, ref. 31/07/2026. (Resumo automático.)",
-   "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira. Volume atipico de 5 fatos relevantes nos ultimos 90 dias (possivel evento em curso).",
-   "analise_qual_id": "1299344|fr:1300035+1283515",
+   "analise_qual": "Relatório de 31/08/2026 — Fundo imobiliário de tijolo do segmento Agência Bancária, que detém imóveis físicos para geração de renda por aluguel. Fonte: relatório no Fundos.NET, ref. 31/08/2026. (Resumo automático.)",
+   "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira. Volume atipico de 4 fatos relevantes nos ultimos 90 dias (possivel evento em curso).",
+   "analise_qual_id": "1320937|fr:1300035+1283515",
    "cotas": 700000,
    "cotacao_em": "2026-09-18",
    "fatos_relevantes": [
@@ -1385,7 +1385,7 @@
      "resumo": "BANRISUL NOVAS FRONTEIRAS FUNDO DE INVESTIMENTO IMOBILIÁRIO - RESPONSABILIDADE LIMITADA CNPJ N.º 15.570.431/0001-60 (“Fundo”) FATO RELEVANTE A OLIVEIRA TRUST DISTRIBUIDORA DE TÍTULO"
     }
    ],
-   "fr_count_90d": 5
+   "fr_count_90d": 4
   },
   {
    "ticker": "BODB11",
@@ -1523,7 +1523,7 @@
    "analise": "Negocia a 0.98x o valor patrimonial — prêmio de 22% frente à mediana do segmento (0.80). Dividend yield (12m) de 9.6%, abaixo da mediana dos pares (11.2%); supera 30% do segmento. Retorno de 15.3% em 12 meses (top 39% do segmento). Liquidez alta (~R$ 7.7 mi/dia). Cotação a 94% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. ",
    "analise_qual": "Relatório de maio/2026: Bresco Logística FII (BRCO11), portfólio logístico de alto padrão com inquilinos de grau de investimento, PL ~R$ 2,1 bi. Distribuição de R$ 0,95/cota no mês e dividend yield de ~9,6% a.a. sobre a cota de fechamento. Vacância física de ~5,1% e LTV de 12,0% (alavancagem moderada). Fonte: Relatório Gerencial Bresco, ref. maio/2026.",
-   "pontos_atencao": "Indicadores de atenção no relatório: Vacância reduzida para 27,2%; LTV: 12,2%. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Volume atipico de 5 fatos relevantes nos ultimos 90 dias (possivel evento em curso).",
+   "pontos_atencao": "Indicadores de atenção no relatório: Vacância 0%; LTV: 12,1%. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 18021303,
    "cotacao_em": "2026-09-18",
@@ -1539,8 +1539,8 @@
      "resumo": "BRESCO LOGÍSTICA FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA CNPJ/ME nº 20.748.515/0001-81 Código de Negociação na B3: “BRCO11” Fato Relevante – Aditivo do Contrato"
     }
    ],
-   "fr_count_90d": 5,
-   "sinais_id": "1298554|fr:1295268+1274320"
+   "fr_count_90d": 3,
+   "sinais_id": "1324130|fr:1295268+1274320"
   },
   {
    "ticker": "BRCR11",
@@ -1827,9 +1827,9 @@
    "descricao": "Fiagro de logistica do agronegocio (ex-FII BTG Pactual Agro Logistica, em conversao para Fiagro, mesmo movimento do BTRA11). Detem ativos logisticos ligados ao agro para geracao de renda por locacao. Gerido pela BTG Pactual.",
    "analise": "Negocia a 0.74x o valor patrimonial — desconto de 8% frente à mediana do segmento (0.80). Dividend yield (12m) de 13.5%, acima da mediana dos pares (11.2%); supera 73% do segmento. Retorno de 22.5% em 12 meses (top 20% do segmento). Liquidez média (~R$ 0.6 mi/dia). Cotação a 96% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
-   "analise_qual": "Relatório de 31/07/2026 — Fiagro de logistica do agronegocio (ex-FII BTG Pactual Agro Logistica, em conversao para Fiagro, mesmo movimento do BTRA11). Indicadores extraídos: distribuição mensal de, pelo menos, R$ 1,00; dividend yield anualizado de 14,27%; CDI + 1,6%. Fonte: relatório no Fundos.NET, ref. 31/07/2026. (Resumo automático.)",
+   "analise_qual": "Relatório de 31/08/2026 — Fiagro de logistica do agronegocio (ex-FII BTG Pactual Agro Logistica, em conversao para Fiagro, mesmo movimento do BTRA11). Indicadores extraídos: distribuição mensal de, pelo menos, R$ 1,00; dividend yield anualizado de 15,01%; IPCA + 9,3%. Fonte: relatório no Fundos.NET, ref. 31/08/2026. (Resumo automático.)",
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
-   "analise_qual_id": "1297288|fr:963396",
+   "analise_qual_id": "1323485|fr:963396",
    "cotas": 5982736,
    "cotacao_em": "2026-09-18",
    "fatos_relevantes": [
@@ -2855,22 +2855,22 @@
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual": "Relatório de 31/07/2026 — Fundo imobiliário de tijolo do segmento Agência Bancária, que detém imóveis físicos para geração de renda por aluguel. Indicadores extraídos: Dividend Yield anualizado de 11,50%. Fonte: relatório no Fundos.NET, ref. 31/07/2026. (Resumo automático.)",
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
-   "analise_qual_id": "1297214|fr:1310933+882642",
+   "analise_qual_id": "1297214|fr:1322419+1310933",
    "cotas": 2090621,
    "cotacao_em": "2026-09-18",
    "fatos_relevantes": [
     {
+     "data": "16/09/2026",
+     "risco": false,
+     "resumo": "FATO RELEVANTE - RERRATIFICAÇÃO FUNDO DE INVESTIMENTO IMOBILIÁRIO CAIXA AGÊNCIAS - RESPONSABILIDADE LIMITADA CNPJ/MF nº 40.189.596/0001-34 TICKER: CXAG11 A RB ASSET MANAGEMENT LT"
+    },
+    {
      "data": "08/09/2026",
      "risco": false,
      "resumo": "FATO RELEVANTE FUNDO DE INVESTIMENTO IMOBILIÁRIO CAIXA AGÊNCIAS CNPJ/MF nº 40.189.596/0001-34 TICKER: CXAG11 A RB ASSET MANAGEMENT LTDA. sociedade com sede na Cidade de São Paulo,"
-    },
-    {
-     "data": "17/04/2025",
-     "risco": false,
-     "resumo": "FATO RELEVANTE FUNDO DE INVESTIMENTO IMOBILIÁRIO CAIXA AGÊNCIAS CNPJ/MF nº 40.189.596/0001-34 TICKER: CXAG11 A RB ASSET MANAGEMENT LTDA. sociedade com sede na Cidade de São Paulo"
     }
    ],
-   "fr_count_90d": 1
+   "fr_count_90d": 2
   },
   {
    "ticker": "CXCI11",
@@ -3047,7 +3047,7 @@
    "cotas": 36549445,
    "cotacao_em": "2026-09-18",
    "fr_count_90d": 0,
-   "sinais_id": "1293516"
+   "sinais_id": "1321301"
   },
   {
    "ticker": "DCRA11",
@@ -3566,9 +3566,9 @@
    "descricao": "Fundo imobiliário de tijolo do segmento Educacional, que detém imóveis físicos para geração de renda por aluguel. Gerido pela BTG Pactual — asset do maior banco de investimentos da América Latina, administrado por BTG Pactual. Patrimônio de R$ 155 mi, liquidez baixa (~R$ 0.1 mi/dia).",
    "analise": "Negocia a 0.67x o valor patrimonial — desconto de 16% frente à mediana do segmento (0.80). Dividend yield (12m) de 13.5%, acima da mediana dos pares (11.2%); supera 76% do segmento. Retorno de 20.9% em 12 meses (top 23% do segmento). Liquidez baixa (~R$ 0.1 mi/dia). Cotação a 95% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
-   "analise_qual": "Relatório de 30/06/2026 — Fundo imobiliário de tijolo do segmento Educacional, que detém imóveis físicos para geração de renda por aluguel. Fonte: relatório no Fundos.NET, ref. 30/06/2026. (Resumo automático.)",
+   "analise_qual": "Relatório de 31/07/2026 — Fundo imobiliário de tijolo do segmento Educacional, que detém imóveis físicos para geração de renda por aluguel. Fonte: relatório no Fundos.NET, ref. 31/07/2026. (Resumo automático.)",
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
-   "analise_qual_id": "1280661",
+   "analise_qual_id": "1318649",
    "cotas": 692377,
    "cotacao_em": "2026-09-18",
    "fr_count_90d": 0
@@ -3712,11 +3712,16 @@
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa.",
    "analise_qual": "Relatório de 30/06/2026 — Fundo imobiliário de tijolo do segmento Educacional, que detém imóveis físicos para geração de renda por aluguel. Fonte: relatório no Fundos.NET, ref. 30/06/2026. (Resumo automático.)",
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Fato relevante (03/09/2026): ...a terceiros em razão de uma reestruturação societária da Vendedora. 8. CONDIÇÕES PRECEDENTES A Transação envolverá a negociação de documentos definitivos, podendo...",
-   "analise_qual_id": "1278642|fr:1309591",
+   "analise_qual_id": "1278642|fr:1324166+1309591",
    "cotas": 3474010,
    "cotacao_em": "2026-09-18",
-   "fr_count_90d": 1,
+   "fr_count_90d": 2,
    "fatos_relevantes": [
+    {
+     "data": "18/09/2026",
+     "risco": false,
+     "resumo": "BTG Pactual btgpactual.com CLASSE ÚNICA DO FUNDO DE INVESTIMENTO IMOBILIÁRIO - FII CAMPUS FARIA LIMA RESPONSABILIDADE LIMITADA CNPJ: 11.602.654/0001-01 - Código de Negociação na B3"
+    },
     {
      "data": "03/09/2026",
      "risco": true,
@@ -4128,9 +4133,9 @@
    "descricao": "Fiagro do tipo imobiliário, focado em recebíveis e ativos do agronegócio. Gerido pela Fyto Capital, administrado por BTG Pactual. Patrimônio de R$ 47 mi, liquidez baixa (~R$ 0.1 mi/dia).",
    "analise": "Negocia a 0.81x o valor patrimonial — desconto de 4% frente à mediana do segmento (0.84). Dividend yield (12m) de 17.3%, acima da mediana dos pares (16.7%); supera 68% do segmento. Retorno de 24.4% em 12 meses (top 24% do segmento). Liquidez baixa (~R$ 0.1 mi/dia). Cotação a 93% da máxima de 52 semanas. Base comparativa: 25 pares do segmento Imobiliário. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
-   "analise_qual": "Relatório de 31/07/2026 — Fiagro do tipo imobiliário, focado em recebíveis e ativos do agronegócio. Indicadores extraídos: distribuição de R$ 0,083. Fonte: relatório no Fundos.NET, ref. 31/07/2026. (Resumo automático.)",
+   "analise_qual": "Relatório de 31/08/2026 — Fiagro do tipo imobiliário, focado em recebíveis e ativos do agronegócio. Indicadores extraídos: distribuição de R$ 0,090. Fonte: relatório no Fundos.NET, ref. 31/08/2026. (Resumo automático.)",
    "pontos_atencao": "Indicadores de atenção no relatório: recuperação judicial e o juiz responsável de primeiro grau d. Riscos estruturais: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
-   "analise_qual_id": "1297388|fr:854743",
+   "analise_qual_id": "1322503|fr:854743",
    "cotas": 4459952,
    "cotacao_em": "2026-09-18",
    "fatos_relevantes": [
@@ -4271,9 +4276,9 @@
    "descricao": "Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Gerido pela Guardian, administrado por Banco Daycoval. Patrimônio de R$ 272 mi, liquidez baixa (~R$ 0.2 mi/dia).",
    "analise": "Negocia a 0.92x o valor patrimonial — prêmio de 4% frente à mediana do segmento (0.88). Dividend yield (12m) de 13.2%, abaixo da mediana dos pares (14.5%); supera 25% do segmento. Retorno de 18.3% em 12 meses (top 20% do segmento). Liquidez baixa (~R$ 0.2 mi/dia). Cotação a 99% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa.",
-   "analise_qual": "Relatório de 31/07/2026 — Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Indicadores extraídos: DY do fundo foi de 1,19%; ALOCAÇÃO 60 - 90%. Fonte: relatório no Fundos.NET, ref. 31/07/2026. (Resumo automático.)",
-   "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa.",
-   "analise_qual_id": "1306067|fr:1029926",
+   "analise_qual": "Relatório de 31/08/2026 — Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Indicadores extraídos: DY do fundo foi de 1,19%; ALOCAÇÃO 60 - 90%. Fonte: relatório no Fundos.NET, ref. 31/08/2026. (Resumo automático.)",
+   "pontos_atencao": "Indicadores de atenção no relatório: LTV inicial de 85%. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa.",
+   "analise_qual_id": "1323294|fr:1029926",
    "cotas": 28426127,
    "cotacao_em": "2026-09-18",
    "fatos_relevantes": [
@@ -4475,7 +4480,7 @@
    "analise": "Negocia a 0.89x o valor patrimonial — prêmio de 12% frente à mediana do segmento (0.80). Dividend yield (12m) de 12.2%, acima da mediana dos pares (11.2%); supera 63% do segmento. Retorno de 10.4% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 10.5 mi/dia). Cotação a 97% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. ",
    "analise_qual": "Relatório de maio/2026: Zagros Renda Imobiliária FII (GGRC11), galpões industriais/logísticos majoritariamente monoinquilino (built-to-suit e sale-leaseback), PL ~R$ 2,36 bi. Dividend yield mensal de 0,98% (≈ 11,82% a.a.). Carteira com locatários relevantes — Ambev é o maior (~11% da receita), seguido de nomes como Hering, Covolan e Copobrás. Opera com alavancagem (custo ~8,06% a.a.). Fonte: Relatório de Gestão Zagros, ref. maio/2026.",
-   "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Volume atipico de 4 fatos relevantes nos ultimos 90 dias (possivel evento em curso).",
+   "pontos_atencao": "Indicadores de atenção no relatório: Recuperação Judicial, com o objetivo de reorganizar sua estr. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Volume atipico de 4 fatos relevantes nos ultimos 90 dias (possivel evento em curso).",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 214249664,
    "cotacao_em": "2026-09-18",
@@ -4492,7 +4497,7 @@
     }
    ],
    "fr_count_90d": 4,
-   "sinais_id": "1303797|fr:1233064+1233060"
+   "sinais_id": "1321637|fr:1233064+1233060"
   },
   {
    "ticker": "GRUL11",
@@ -4818,9 +4823,9 @@
    "descricao": "Fundo imobiliário de tijolo do segmento Hospital, que detém imóveis físicos para geração de renda por aluguel. Gerido pela BTG Pactual — asset do maior banco de investimentos da América Latina, administrado por BTG Pactual. Patrimônio de R$ 57 mi, liquidez baixa (~R$ 0.0 mi/dia).",
    "analise": "Negocia a 0.95x o valor patrimonial — prêmio de 19% frente à mediana do segmento (0.80). Dividend yield (12m) de 18.8%, acima da mediana dos pares (11.2%); supera 96% do segmento. Retorno de 22.3% em 12 meses (top 22% do segmento). Liquidez baixa (~R$ 0.0 mi/dia). Cotação a 86% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa.",
-   "analise_qual": "Relatório de 30/06/2026 — Fundo imobiliário de tijolo do segmento Hospital, que detém imóveis físicos para geração de renda por aluguel. Fonte: relatório no Fundos.NET, ref. 30/06/2026. (Resumo automático.)",
+   "analise_qual": "Relatório de 31/07/2026 — Fundo imobiliário de tijolo do segmento Hospital, que detém imóveis físicos para geração de renda por aluguel. Fonte: relatório no Fundos.NET, ref. 31/07/2026. (Resumo automático.)",
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa.",
-   "analise_qual_id": "1278640|fr:1052460+1052005",
+   "analise_qual_id": "1318646|fr:1052460+1052005",
    "cotas": 200000,
    "cotacao_em": "2026-09-18",
    "fatos_relevantes": [
@@ -5089,18 +5094,18 @@
    "cotacao_em": "2026-09-18",
    "fatos_relevantes": [
     {
+     "data": "17/09/2026",
+     "risco": false,
+     "resumo": "GESTOR ADMINISTRADOR E ESCRITURADOR HGLG11 | PATRIA LOG FATO RELEVANTE O BANCO GENIAL S.A., inscrito no CNPJ/MF sob o nº 45.246.410/0001-55 (“Administrador”), e PATRIA INVE"
+    },
+    {
      "data": "18/08/2026",
      "risco": false,
      "resumo": "FATO RELEVANTE PÁTRIA LOG - FUNDO DE INVESTIMENTO IMOBILIÁRIO - RESPONSABILIDADE LIMITADA CNPJ nº 11.728.688/0001-47 Código ISIN: BRHGLGCTF004 Código de Negociação na B3: HGLG11 O BA"
-    },
-    {
-     "data": "30/07/2026",
-     "risco": false,
-     "resumo": "GESTOR ADMINISTRADOR E ESCRITURADOR HGLG | PATRIA LOG – FUNDO DE INVESTIMENTO IMOBILIÁRIO – RESPONSABILIDADE LIMITADA FATO RELEVANTE O BANCO GENIAL S.A., inscrito no CNPJ/MF"
     }
    ],
    "fr_count_90d": 3,
-   "sinais_id": "1316897|fr:1295653+1270671"
+   "sinais_id": "1316897|fr:1323274+1295653"
   },
   {
    "ticker": "HGRE11",
@@ -5199,18 +5204,18 @@
    "cotacao_em": "2026-09-18",
    "fatos_relevantes": [
     {
+     "data": "17/09/2026",
+     "risco": false,
+     "resumo": "GESTOR ADMINISTRADOR E ESCRITURADOR HGRU11 | PATRIA RENDA URBANA FII FATO RELEVANTE O BANCO GENIAL S.A., inscrita no CNPJ/MF sob o nº 45.246.410/0001-55 (“Administrador”), e"
+    },
+    {
      "data": "25/08/2026",
      "risco": false,
      "resumo": "FATO RELEVANTE PATRIA RENDA URBANA - FUNDO DE INVESTIMENTO IMOBILIÁRIO - RESPONSABILIDADE LIMITADA CNPJ nº 29.641.226/0001-53 Código ISIN: BRHGRUCTF002 Código de Negociação na B3: HGRU1"
-    },
-    {
-     "data": "01/07/2026",
-     "risco": false,
-     "resumo": "GESTOR ADMINISTRADOR E ESCRITURADOR HGRU | PATRIA RENDA URBANA FII FATO RELEVANTE O BANCO GENIAL S.A., inscrito no CNPJ/MF sob nº 45.246.410/0001-55 (“Administradora”), e PA"
     }
    ],
    "fr_count_90d": 3,
-   "sinais_id": "1316900|fr:1300068+1237796"
+   "sinais_id": "1316900|fr:1323272+1300068"
   },
   {
    "ticker": "HLOG11",
@@ -5247,9 +5252,9 @@
    "descricao": "Fundo imobiliário de tijolo do segmento Galpão Logístico, que detém imóveis físicos para geração de renda por aluguel. Gerido pela Hedge Investments — gestora especializada em fundos imobiliários, administrado por Hedge. Patrimônio de R$ 507 mi, liquidez baixa (~R$ 0.1 mi/dia).",
    "analise": "Negocia a 0.76x o valor patrimonial — desconto de 5% frente à mediana do segmento (0.80). Dividend yield (12m) de 9.9%, abaixo da mediana dos pares (11.2%); supera 37% do segmento. Retorno de 22.3% em 12 meses (top 21% do segmento). Liquidez baixa (~R$ 0.1 mi/dia). Cotação a 98% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
-   "analise_qual": "Relatório de 31/07/2026 — Fundo imobiliário de tijolo do segmento Galpão Logístico, que detém imóveis físicos para geração de renda por aluguel. Indicadores extraídos: rendimento é de R$ 0,072. Fonte: relatório no Fundos.NET, ref. 31/07/2026. (Resumo automático.)",
+   "analise_qual": "Relatório de 31/08/2026 — Fundo imobiliário de tijolo do segmento Galpão Logístico, que detém imóveis físicos para geração de renda por aluguel. Indicadores extraídos: rendimento é de R$ 0,072. Fonte: relatório no Fundos.NET, ref. 31/08/2026. (Resumo automático.)",
    "pontos_atencao": "Indicadores de atenção no relatório: vacância do estado ficou em 5,1%. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
-   "analise_qual_id": "1296237|fr:1052558+897961",
+   "analise_qual_id": "1324290|fr:1052558+897961",
    "cotas": 42500000,
    "cotacao_em": "2026-09-18",
    "fatos_relevantes": [
@@ -5713,9 +5718,9 @@
    "descricao": "Fiagro do tipo imobiliário, focado em recebíveis e ativos do agronegócio. Gerido pela —. Patrimônio de R$ 103 mi, liquidez baixa (~R$ 0.2 mi/dia). Taxa de administração de 1.15% a.a., taxa de performance de 20%, indexado a CDI+ 1.00%.",
    "analise": "Negocia a 0.85x o valor patrimonial — prêmio de 1% frente à mediana do segmento (0.84). Dividend yield (12m) de 17.2%, acima da mediana dos pares (16.7%); supera 64% do segmento. Retorno de 36.7% em 12 meses (top 0% do segmento). Liquidez baixa (~R$ 0.2 mi/dia). Cotação a 97% da máxima de 52 semanas. Base comparativa: 25 pares do segmento Imobiliário. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa.",
-   "analise_qual": "Relatório de 31/07/2026 — Fiagro do tipo imobiliário, focado em recebíveis e ativos do agronegócio. Indicadores extraídos: dividend yield de 1,22%; CDI + 3%; alocação do fundo a 83,5%. Fonte: relatório no Fundos.NET, ref. 31/07/2026. (Resumo automático.)",
-   "pontos_atencao": "Indicadores de atenção no relatório: inadimplência rural chegou a 7,4%. Riscos estruturais: crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa.",
-   "analise_qual_id": "1286061",
+   "analise_qual": "Relatório de 31/08/2026 — Fiagro do tipo imobiliário, focado em recebíveis e ativos do agronegócio. Indicadores extraídos: dividend yield de 1,35%; CDI + 3%; alocação do fundo avançou para 90,7%. Fonte: relatório no Fundos.NET, ref. 31/08/2026. (Resumo automático.)",
+   "pontos_atencao": "crédito do agronegócio (clima e preços de commodities), concentração por cultura/região e marcação a mercado. Liquidez reduzida em bolsa.",
+   "analise_qual_id": "1323177",
    "cotas": 10454176,
    "cotacao_em": "2026-09-18",
    "fr_count_90d": 0
@@ -5808,9 +5813,9 @@
    "descricao": "Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Gerido pela BREI, administrado por BTG Pactual. Patrimônio de R$ 85 mi, liquidez baixa (~R$ 0.1 mi/dia).",
    "analise": "Negocia a 0.53x o valor patrimonial — desconto de 40% frente à mediana do segmento (0.88). Dividend yield (12m) de 16.9%, acima da mediana dos pares (14.5%); supera 86% do segmento. Retorno de -4.3% em 12 meses (abaixo da mediana do segmento). Liquidez baixa (~R$ 0.1 mi/dia). Cotação a 87% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
-   "analise_qual": "Relatório de 30/06/2026 — Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Indicadores extraídos: distribuiu, desde de seu início, R$ 57,57. Fonte: relatório no Fundos.NET, ref. 30/06/2026. (Resumo automático.)",
+   "analise_qual": "Relatório de 31/07/2026 — Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Indicadores extraídos: distribuiu, desde de seu início, R$ 58,14. Fonte: relatório no Fundos.NET, ref. 31/07/2026. (Resumo automático.)",
    "pontos_atencao": "Indicadores de atenção no relatório: recuperação judicial formulado por empresa integrante do mes; vencimento antecipado foi aprovada no início de 202. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira. Fato relevante (02/06/2026): ...ação de Assembleia Geral para substituição da gestora do Fundo, vimos, por meio desta, manifestar nossa desistência quanto ao prosseguimento do referido pedido, em razão...",
-   "analise_qual_id": "1294318|fr:1272397+1210503",
+   "analise_qual_id": "1322377|fr:1272397+1210503",
    "cotas": 958423.0,
    "cotacao_em": "2026-09-18",
    "fatos_relevantes": [
@@ -5825,7 +5830,7 @@
      "resumo": "...ação de Assembleia Geral para substituição da gestora do Fundo, vimos, por meio desta, manifestar nossa desistência quanto ao prosseguimento do referido pedido, em razão..."
     }
    ],
-   "fr_count_90d": 2
+   "fr_count_90d": 1
   },
   {
    "ticker": "ICNE11",
@@ -6085,9 +6090,9 @@
    "descricao": "Fundo imobiliário de tijolo do segmento Residencial, que detém imóveis físicos para geração de renda por aluguel. Gerido pela Inter — asset do Banco Inter, administrado por Inter. Patrimônio de R$ 134 mi, liquidez baixa (~R$ 0.1 mi/dia).",
    "analise": "Negocia a 0.63x o valor patrimonial — desconto de 21% frente à mediana do segmento (0.80). Dividend yield (12m) de 10.7%, abaixo da mediana dos pares (11.2%); supera 47% do segmento. Retorno de 13.0% em 12 meses (top 48% do segmento). Liquidez baixa (~R$ 0.1 mi/dia). Cotação a 95% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
-   "analise_qual": "Relatório de 31/07/2026 — Fundo imobiliário de tijolo do segmento Residencial, que detém imóveis físicos para geração de renda por aluguel. Indicadores extraídos: Distribuição de Dividendos de R$0,72; Dividend Yield anualizado de 11,74%. Fonte: relatório no Fundos.NET, ref. 31/07/2026. (Resumo automático.)",
+   "analise_qual": "Relatório de 31/08/2026 — Fundo imobiliário de tijolo do segmento Residencial, que detém imóveis físicos para geração de renda por aluguel. Indicadores extraídos: Distribuiçãode Dividendos de R$0,72; Dividend Yield anualizado de 11,89%. Fonte: relatório no Fundos.NET, ref. 31/08/2026. (Resumo automático.)",
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira. Volume atipico de 6 fatos relevantes nos ultimos 90 dias (possivel evento em curso).",
-   "analise_qual_id": "1296910|fr:1308581+1302688",
+   "analise_qual_id": "1323477|fr:1308581+1302688",
    "cotas": 1128870,
    "cotacao_em": "2026-09-18",
    "fatos_relevantes": [
@@ -6198,7 +6203,7 @@
     }
    ],
    "fr_count_90d": 0,
-   "sinais_id": "1287291|fr:1018246+992129"
+   "sinais_id": "1318863|fr:1018246+992129"
   },
   {
    "ticker": "ITIP11",
@@ -6235,9 +6240,9 @@
    "descricao": "Fundo imobiliário do segmento Outros. Gerido pela Inter — asset do Banco Inter, administrado por Inter. Patrimônio de R$ 51 mi, liquidez baixa (~R$ 0.2 mi/dia).",
    "analise": "Negocia a 0.97x o valor patrimonial — desconto de 2% frente à mediana do segmento (0.99). Dividend yield (12m) de 12.9%, abaixo da mediana dos pares (14.0%); supera 25% do segmento. Retorno de 15.7% em 12 meses (top 25% do segmento). Liquidez baixa (~R$ 0.2 mi/dia). Cotação a 96% da máxima de 52 semanas. Base comparativa: 7 pares do segmento Outros. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: riscos específicos do segmento de atuação. Liquidez reduzida em bolsa.",
-   "analise_qual": "Relatório de 31/07/2026 — Fundo imobiliário do segmento Outros. Indicadores extraídos: distribuível de R$0,80; yield mensal de 1,36%. Fonte: relatório no Fundos.NET, ref. 31/07/2026. (Resumo automático.)",
+   "analise_qual": "Relatório de 31/08/2026 — Fundo imobiliário do segmento Outros. Indicadores extraídos: distribuível de R$0,74; yield mensal de 1,73%. Fonte: relatório no Fundos.NET, ref. 31/08/2026. (Resumo automático.)",
    "pontos_atencao": "Indicadores de atenção no relatório: High Yield CRI. Riscos estruturais: riscos específicos do segmento de atuação. Liquidez reduzida em bolsa. Fato relevante (13/08/2026): ...Operação e a consequente liquidação do Fundo, passa a ser o seguinte: Evento Data Estimada Publicação do Edital de Convocação e da Proposta do Administrador da... Volume atipico de 6 fatos relevantes nos ultimos 90 dias (possivel evento em curso).",
-   "analise_qual_id": "1296130|fr:1302691+1290515",
+   "analise_qual_id": "1318796|fr:1302691+1290515",
    "cotas": 748151,
    "cotacao_em": "2026-09-18",
    "fatos_relevantes": [
@@ -6289,9 +6294,9 @@
    "descricao": "Fundo imobiliário do segmento Outros. Gerido pela Inter — asset do Banco Inter, administrado por Inter. Patrimônio de R$ 71 mi, liquidez baixa (~R$ 0.2 mi/dia).",
    "analise": "Negocia a 0.97x o valor patrimonial — desconto de 2% frente à mediana do segmento (0.99). Dividend yield (12m) de 9.7%, abaixo da mediana dos pares (14.0%); supera 0% do segmento. Retorno de 22.3% em 12 meses (top 0% do segmento). Liquidez baixa (~R$ 0.2 mi/dia). Cotação a 98% da máxima de 52 semanas. Base comparativa: 7 pares do segmento Outros. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: riscos específicos do segmento de atuação. Liquidez reduzida em bolsa.",
-   "analise_qual": "Relatório de 31/07/2026 — Fundo imobiliário do segmento Outros. Indicadores extraídos: distribuível de R$0,66; yield mensal de 1,03%. Fonte: relatório no Fundos.NET, ref. 31/07/2026. (Resumo automático.)",
+   "analise_qual": "Relatório de 31/08/2026 — Fundo imobiliário do segmento Outros. Indicadores extraídos: distribuível de R$0,60; yield mensal de 0,97%. Fonte: relatório no Fundos.NET, ref. 31/08/2026. (Resumo automático.)",
    "pontos_atencao": "riscos específicos do segmento de atuação. Liquidez reduzida em bolsa. Fato relevante (07/08/2026): ...foi reprovada a dissolução e liquidação do Fundo, no âmbito da reorganização que resultaria na consolidação do patrimônio do Fundo pelo INTER HEDGE FUNDO DE INVESTIMENT... Fato relevante (27/07/2026): ...foi reprovada a dissolução e liquidação do Fundo, no âmbito da reorganização que resultaria na consolidação do patrimônio do Fundo pelo INTER HEDGE FUNDO DE INVESTIMENT...",
-   "analise_qual_id": "1296145|fr:1280618+1265530",
+   "analise_qual_id": "1318798|fr:1280618+1265530",
    "cotas": 900494,
    "cotacao_em": "2026-09-18",
    "fatos_relevantes": [
@@ -6656,7 +6661,7 @@
     }
    ],
    "fr_count_90d": 0,
-   "sinais_id": "1298537|fr:794092+623061"
+   "sinais_id": "1324283|fr:794092+623061"
   },
   {
    "ticker": "JSCR11",
@@ -6692,9 +6697,9 @@
    "descricao": "Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Gerido pela Guide Investimentos, administrado por Banco J Safra. Patrimônio de R$ 210 mi, liquidez baixa (~R$ 0.4 mi/dia).",
    "analise": "Negocia a 0.88x o valor patrimonial — desconto de 1% frente à mediana do segmento (0.88). Dividend yield (12m) de 14.0%, abaixo da mediana dos pares (14.5%); supera 38% do segmento. Retorno de 15.3% em 12 meses (top 38% do segmento). Liquidez baixa (~R$ 0.4 mi/dia). Cotação a 96% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa.",
-   "analise_qual": "Relatório de 31/07/2026 — Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Indicadores extraídos: rendimentos foi de R$ 0,100. Fonte: relatório no Fundos.NET, ref. 31/07/2026. (Resumo automático.)",
+   "analise_qual": "Relatório de 31/08/2026 — Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Indicadores extraídos: rendimentos foi de R$ 0,100. Fonte: relatório no Fundos.NET, ref. 31/08/2026. (Resumo automático.)",
    "pontos_atencao": "Indicadores de atenção no relatório: LTV de 50%. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa.",
-   "analise_qual_id": "1300495|fr:998680",
+   "analise_qual_id": "1323426|fr:998680",
    "cotas": 22137100,
    "cotacao_em": "2026-09-18",
    "fatos_relevantes": [
@@ -6741,7 +6746,7 @@
    "analise": "Negocia a 0.58x o valor patrimonial — desconto de 27% frente à mediana do segmento (0.80). Dividend yield (12m) de 9.6%, abaixo da mediana dos pares (11.2%); supera 29% do segmento. Retorno de 3.4% em 12 meses (abaixo da mediana do segmento). Liquidez alta (~R$ 3.3 mi/dia). Cotação a 89% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual": "Relatório de abril/2026: JS Real Estate Multigestão FII (JSRE11, gestão Safra), FII de lajes corporativas premium (escritórios de alto padrão em São Paulo), cota de fechamento ~R$ 64,80. Vacância física estável em ~7% e crescimento real de aluguéis de 9,3% (reajustes/relocações positivos). Fonte: Relatório Gerencial Safra, ref. abril/2026.",
-   "pontos_atencao": "Indicadores de atenção no relatório: vacância do ativo está em 7,9%. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
+   "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 20767328,
    "cotacao_em": "2026-09-18",
@@ -6758,7 +6763,7 @@
     }
    ],
    "fr_count_90d": 1,
-   "sinais_id": "1299341|fr:1245997+1128137"
+   "sinais_id": "1324287|fr:1245997+1128137"
   },
   {
    "ticker": "JURO11",
@@ -7030,20 +7035,20 @@
    "analise": "Negocia a 0.78x o valor patrimonial — desconto de 6% frente à mediana do segmento (0.83). Dividend yield (12m) de 13.3%, acima da mediana dos pares (13.2%); supera 53% do segmento. Retorno de 3.8% em 12 meses (abaixo da mediana do segmento). Liquidez média (~R$ 0.7 mi/dia). Cotação a 89% da máxima de 52 semanas. Base comparativa: 15 pares do segmento FoF. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: desempenho e taxas dos FIIs investidos e dupla camada de custos. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual": "Relatório de 31/03/2026 — Fundo imobiliário de fundos (FoF), que investe em cotas de outros FIIs para diversificação. Indicadores extraídos: distribuição de R$ 0,070; dividend yield anualizado é de 11 ,86 %. Fonte: relatório no Fundos.NET, ref. 31/03/2026. (Resumo automático.)",
-   "pontos_atencao": "desempenho e taxas dos FIIs investidos e dupla camada de custos. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
-   "analise_qual_id": "1177797|fr:1205551+1107364",
+   "pontos_atencao": "desempenho e taxas dos FIIs investidos e dupla camada de custos. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira. Fato relevante (17/09/2026): ...restou igualmente aprovada a liquidação do Fundo, nos termos do Capítulo XI do Anexo Descritivo do Regulamento, a ser realizada após a conclusão da operação de subscriç...",
+   "analise_qual_id": "1177797|fr:1323261+1205551",
    "cotas": 44196050,
    "cotacao_em": "2026-09-18",
    "fatos_relevantes": [
     {
+     "data": "17/09/2026",
+     "risco": true,
+     "resumo": "...restou igualmente aprovada a liquidação do Fundo, nos termos do Capítulo XI do Anexo Descritivo do Regulamento, a ser realizada após a conclusão da operação de subscriç..."
+    },
+    {
      "data": "27/05/2026",
      "risco": false,
      "resumo": "KILIMA FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS IMOBILIÁRIOS SUNO 30 – RESPONSABILIDADE LIMITADA CNPJ nº 36.669.660/0001-07 FATO RELEVANTE A BRL TRUST DISTRIBUIDORA DE TÍTULO"
-    },
-    {
-     "data": "10/02/2026",
-     "risco": false,
-     "resumo": "1 KILIMA FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS IMOBILIÁRIOS SUNO 30 – RESPONSABILIDADE LIMITADA CNPJ nº 36.669.660/0001-07 FATO RELEVANTE A BRL TRUST DISTRIBUIDORA DE TÍT"
     }
    ],
    "fr_count_90d": 1
@@ -7196,7 +7201,7 @@
     "duration": "3,8 anos"
    },
    "fr_count_90d": 0,
-   "sinais_id": "1316885|fr:962129"
+   "sinais_id": "1319106|fr:962129"
   },
   {
    "ticker": "KNHF11",
@@ -7239,7 +7244,7 @@
    "cotas": 19663235,
    "cotacao_em": "2026-09-18",
    "fr_count_90d": 0,
-   "sinais_id": "1295271"
+   "sinais_id": "1323325"
   },
   {
    "ticker": "KNHY11",
@@ -7502,7 +7507,7 @@
     }
    ],
    "fr_count_90d": 1,
-   "sinais_id": "1316894|fr:1308308+943798"
+   "sinais_id": "1319105|fr:1308308+943798"
   },
   {
    "ticker": "KOPA11",
@@ -8186,9 +8191,9 @@
    "descricao": "Fundo imobiliário de tijolo do segmento Galpão Logístico, que detém imóveis físicos para geração de renda por aluguel. Gerido pela —, administrado por Genial. Patrimônio de R$ 366 mi, liquidez baixa (~R$ 0.2 mi/dia).",
    "analise": "Negocia a 0.79x o valor patrimonial — desconto de 2% frente à mediana do segmento (0.80). Dividend yield (12m) de 11.5%, acima da mediana dos pares (11.2%); supera 56% do segmento. Retorno de 11.0% em 12 meses (abaixo da mediana do segmento). Liquidez baixa (~R$ 0.2 mi/dia). Cotação a 89% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
-   "analise_qual": "Relatório de 31/07/2026 — Fundo imobiliário de tijolo do segmento Galpão Logístico, que detém imóveis físicos para geração de renda por aluguel. Indicadores extraídos: distribuição de R$ 1,00; dividend yield anualizado de 11,5%; IPCA+5%. Fonte: relatório no Fundos.NET, ref. 31/07/2026. (Resumo automático.)",
+   "analise_qual": "Relatório de 31/08/2026 — Fundo imobiliário de tijolo do segmento Galpão Logístico, que detém imóveis físicos para geração de renda por aluguel. Indicadores extraídos: distribuição de R$ 1,00; dividend yield anualizado de 11,4%; IPCA+5%. Fonte: relatório no Fundos.NET, ref. 31/08/2026. (Resumo automático.)",
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
-   "analise_qual_id": "1295375|fr:1140312+1067066",
+   "analise_qual_id": "1321762|fr:1140312+1067066",
    "cotas": 2810193,
    "cotacao_em": "2026-09-18",
    "fatos_relevantes": [
@@ -8293,9 +8298,9 @@
    "descricao": "Fundo imobiliário de tijolo do segmento Hospital, que detém imóveis físicos para geração de renda por aluguel. Gerido pela BTG Pactual — asset do maior banco de investimentos da América Latina, administrado por BTG Pactual. Patrimônio de R$ 224 mi, liquidez baixa (~R$ 0.1 mi/dia).",
    "analise": "Negocia a 0.99x o valor patrimonial — prêmio de 24% frente à mediana do segmento (0.80). Dividend yield (12m) de 17.8%, acima da mediana dos pares (11.2%); supera 94% do segmento. Retorno de 36.9% em 12 meses (top 8% do segmento). Liquidez baixa (~R$ 0.1 mi/dia). Cotação a 91% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa.",
-   "analise_qual": "Relatório de 30/06/2026 — Fundo imobiliário de tijolo do segmento Hospital, que detém imóveis físicos para geração de renda por aluguel. Fonte: relatório no Fundos.NET, ref. 30/06/2026. (Resumo automático.)",
+   "analise_qual": "Relatório de 31/07/2026 — Fundo imobiliário de tijolo do segmento Hospital, que detém imóveis físicos para geração de renda por aluguel. Fonte: relatório no Fundos.NET, ref. 31/07/2026. (Resumo automático.)",
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa.",
-   "analise_qual_id": "1275566|fr:1119633+1107771",
+   "analise_qual_id": "1318642|fr:1119633+1107771",
    "cotas": 1293286,
    "cotacao_em": "2026-09-18",
    "fatos_relevantes": [
@@ -8788,24 +8793,24 @@
    "analise": "Negocia a 0.89x o valor patrimonial — prêmio de 11% frente à mediana do segmento (0.80). Dividend yield (12m) de 10.6%, abaixo da mediana dos pares (11.2%); supera 46% do segmento. Retorno de 15.0% em 12 meses (top 41% do segmento). Liquidez alta (~R$ 4.6 mi/dia). Cotação a 95% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. ",
    "analise_qual": "Relatório de maio/2026: Patria Malls FII (PMLL11), FII de shopping centers (gestão Patria), PL ~R$ 1,6 bi. Distribuição de R$ 1,00/cota no mês (resultado distribuível de R$ 0,82/cota — distribuiu acima do gerado, usando reserva); média de R$ 0,92/cota em 12 meses. Dividend yield de ~11,2% a.a. (mercado) e ocupação de 96,4%. Acompanha Same Store Sales/Rent. Fonte: Relatório Gerencial Patria, ref. maio/2026.",
-   "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Volume atipico de 4 fatos relevantes nos ultimos 90 dias (possivel evento em curso).",
+   "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Volume atipico de 5 fatos relevantes nos ultimos 90 dias (possivel evento em curso).",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 17750467,
    "cotacao_em": "2026-09-18",
    "fatos_relevantes": [
     {
-     "data": "10/09/2026",
+     "data": "18/09/2026",
      "risco": false,
-     "resumo": "GESTOR ADMINISTRADOR E ESCRITURADOR PMLL11 | PATRIA MALLS FATO RELEVANTE BANCO GENIAL S.A., inscrito no CNPJ/MF sob o nº 45.246.410/0001-55 (“Administradora”), e PATRIA VBI"
+     "resumo": "‘ JUR_SP - 58976311v1 - 685060.571802 GESTOR ADMINISTRADOR E ESCRITURADOR PMLL11 | PATRIA MALLS FATO RELEVANTE BANCO GENIAL S.A., inscrito no CNPJ/MF sob o nº 45.246.410/0"
     },
     {
-     "data": "04/08/2026",
+     "data": "10/09/2026",
      "risco": false,
      "resumo": "GESTOR ADMINISTRADOR E ESCRITURADOR PMLL11 | PATRIA MALLS FATO RELEVANTE BANCO GENIAL S.A., inscrito no CNPJ/MF sob o nº 45.246.410/0001-55 (“Administradora”), e PATRIA VBI"
     }
    ],
-   "fr_count_90d": 4,
-   "sinais_id": "1297856|fr:1315157+1276734"
+   "fr_count_90d": 5,
+   "sinais_id": "1297856|fr:1323483+1315157"
   },
   {
    "ticker": "PORD11",
@@ -8841,9 +8846,9 @@
    "descricao": "Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Gerido pela Polo Capital, administrado por Oliveira Trust. Patrimônio de R$ 356 mi, liquidez média (~R$ 0.6 mi/dia).",
    "analise": "Negocia a 0.88x o valor patrimonial — desconto de 1% frente à mediana do segmento (0.88). Dividend yield (12m) de 14.1%, abaixo da mediana dos pares (14.5%); supera 42% do segmento. Retorno de 15.5% em 12 meses (top 36% do segmento). Liquidez média (~R$ 0.6 mi/dia). Cotação a 100% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). ",
-   "analise_qual": "Relatório de 31/07/2026 — Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Indicadores extraídos: distribuição de R$ 0,098. Fonte: relatório no Fundos.NET, ref. 31/07/2026. (Resumo automático.)",
+   "analise_qual": "Relatório de 21/08/2026 — Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Indicadores extraídos: distribuição de R$ 0,098. Fonte: relatório no Fundos.NET, ref. 21/08/2026. (Resumo automático.)",
    "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA).",
-   "analise_qual_id": "1305052|fr:811137",
+   "analise_qual_id": "1324471|fr:811137",
    "cotas": 37283750,
    "cotacao_em": "2026-09-18",
    "fatos_relevantes": [
@@ -8890,9 +8895,9 @@
    "descricao": "Fundo imobiliário de tijolo do segmento Laje Corporativa, que detém imóveis físicos para geração de renda por aluguel. Gerido pela Hedge Investments — gestora especializada em fundos imobiliários, administrado por Hedge. Patrimônio de R$ 779 mi, liquidez baixa (~R$ 0.4 mi/dia).",
    "analise": "Negocia a 1.00x o valor patrimonial — prêmio de 25% frente à mediana do segmento (0.80). Dividend yield (12m) de 10.3%, abaixo da mediana dos pares (11.2%); supera 40% do segmento. Retorno de 8.7% em 12 meses (abaixo da mediana do segmento). Liquidez baixa (~R$ 0.4 mi/dia). Cotação a 90% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa.",
-   "analise_qual": "Relatório de 31/07/2026 — Fundo imobiliário de tijolo do segmento Laje Corporativa, que detém imóveis físicos para geração de renda por aluguel. Indicadores extraídos: rendimento de R$ 0,49. Fonte: relatório no Fundos.NET, ref. 31/07/2026. (Resumo automático.)",
+   "analise_qual": "Relatório de 31/08/2026 — Fundo imobiliário de tijolo do segmento Laje Corporativa, que detém imóveis físicos para geração de renda por aluguel. Indicadores extraídos: rendimento de R$ 0,49. Fonte: relatório no Fundos.NET, ref. 31/08/2026. (Resumo automático.)",
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa.",
-   "analise_qual_id": "1295230|fr:1209757+1209749",
+   "analise_qual_id": "1324026|fr:1209757+1209749",
    "cotas": 13991890,
    "cotacao_em": "2026-09-18",
    "fatos_relevantes": [
@@ -8907,7 +8912,7 @@
      "resumo": "FATO RELEVANTE PARQUE ANHANGUERA FUNDO DE INVESTIMENTO IMOBILIÁRIO DE RESPONSABILIDADE LIMITADA CNPJ nº 12.978.943/0001 -72 Código negociação B3: PQAG11 A HEDGE INVESTMENTS DI"
     }
    ],
-   "fr_count_90d": 2
+   "fr_count_90d": 0
   },
   {
    "ticker": "PQDP11",
@@ -8944,9 +8949,9 @@
    "descricao": "Fundo imobiliário de tijolo do segmento Shopping Center, que detém imóveis físicos para geração de renda por aluguel. Gerido pela BTG Pactual — asset do maior banco de investimentos da América Latina, administrado por BTG Pactual. Patrimônio de R$ 636 mi, liquidez média (~R$ 1.0 mi/dia).",
    "analise": "Negocia a 0.99x o valor patrimonial — prêmio de 23% frente à mediana do segmento (0.80). Dividend yield (12m) de 9.2%, abaixo da mediana dos pares (11.2%); supera 24% do segmento. Retorno de 18.8% em 12 meses (top 28% do segmento). Liquidez média (~R$ 1.0 mi/dia). Cotação a 96% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. ",
-   "analise_qual": "Relatório de 30/06/2026 — Fundo imobiliário de tijolo do segmento Shopping Center, que detém imóveis físicos para geração de renda por aluguel. Fonte: relatório no Fundos.NET, ref. 30/06/2026. (Resumo automático.)",
+   "analise_qual": "Relatório de 31/07/2026 — Fundo imobiliário de tijolo do segmento Shopping Center, que detém imóveis físicos para geração de renda por aluguel. Fonte: relatório no Fundos.NET, ref. 31/07/2026. (Resumo automático.)",
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário.",
-   "analise_qual_id": "1272365|fr:1155938+1073941",
+   "analise_qual_id": "1318639|fr:1155938+1073941",
    "cotas": 259104,
    "cotacao_em": "2026-09-18",
    "fatos_relevantes": [
@@ -9106,9 +9111,9 @@
    "descricao": "Fundo imobiliário de gestão ativa/multiestratégia, com alocação dinâmica entre tijolo e papel. Gerido pela —. Patrimônio de R$ 241 mi, liquidez baixa (~R$ 0.4 mi/dia).",
    "analise": "Negocia a 0.81x o valor patrimonial — desconto de 6% frente à mediana do segmento (0.86). Dividend yield (12m) de 13.0%, abaixo da mediana dos pares (14.3%); supera 27% do segmento. Retorno de 14.2% em 12 meses (top 40% do segmento). Liquidez baixa (~R$ 0.4 mi/dia). Cotação a 93% da máxima de 52 semanas. Base comparativa: 16 pares do segmento Gestão ativa. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: decisões de alocação do gestor, maior giro e volatilidade. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
-   "analise_qual": "Relatório de 31/07/2026 — Fundo imobiliário de gestão ativa/multiestratégia, com alocação dinâmica entre tijolo e papel. Indicadores extraídos: distribuição anunciada foi de R$0,108; dividend yield de 12,5%. Fonte: relatório no Fundos.NET, ref. 31/07/2026. (Resumo automático.)",
+   "analise_qual": "Relatório de 31/08/2026 — Fundo imobiliário de gestão ativa/multiestratégia, com alocação dinâmica entre tijolo e papel. Indicadores extraídos: distribuição em R$0,108; dividend yield de 13,0%. Fonte: relatório no Fundos.NET, ref. 31/08/2026. (Resumo automático.)",
    "pontos_atencao": "Indicadores de atenção no relatório: high yield -. Riscos estruturais: decisões de alocação do gestor, maior giro e volatilidade. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
-   "analise_qual_id": "1290731|fr:1083068+1078757",
+   "analise_qual_id": "1323700|fr:1083068+1078757",
    "cotas": 18746075,
    "cotacao_em": "2026-09-18",
    "fatos_relevantes": [
@@ -9465,24 +9470,24 @@
    "analise": "Negocia a 0.61x o valor patrimonial — desconto de 33% frente à mediana do segmento (0.91). Dividend yield (12m) de 9.7%, abaixo da mediana dos pares (12.3%); supera 25% do segmento. Retorno de 12.0% em 12 meses (abaixo da mediana do segmento). Liquidez média (~R$ 1.1 mi/dia). Cotação a 92% da máxima de 52 semanas. Base comparativa: 9 pares do segmento Híbrido. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: combinação de riscos de crédito (CRI) e de vacância dos imóveis. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual": "Relatório de maio/2026: RBR Properties FII (RBRP11, gestão RBR), FII de imóveis corporativos (lajes/escritórios, multiproperty). Distribuição de R$ 0,40/cota (resultado distribuível R$ 0,41 — em equilíbrio); dividend yield de ~9,3% a.a. (mercado). Fonte: Relatório Gerencial RBR, ref. maio/2026.",
-   "pontos_atencao": "Indicadores de atenção no relatório: vacância financeira passaram para 25,7%. Riscos estruturais: combinação de riscos de crédito (CRI) e de vacância dos imóveis. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
+   "pontos_atencao": "Indicadores de atenção no relatório: vacância financeira passaram para 25,7%. Riscos estruturais: combinação de riscos de crédito (CRI) e de vacância dos imóveis. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira. Volume atipico de 4 fatos relevantes nos ultimos 90 dias (possivel evento em curso).",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 12179187,
    "cotacao_em": "2026-09-18",
    "fatos_relevantes": [
     {
+     "data": "18/09/2026",
+     "risco": false,
+     "resumo": "GESTOR ADMINISTRADOR E ESCRITURADOR RBRP | PATRIA PROPERTIES FATO RELEVANTE A APEX GROUP DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A., inscrita no CNPJ/MF sob o nº 13."
+    },
+    {
      "data": "10/09/2026",
      "risco": false,
      "resumo": "GESTOR ADMINISTRADOR E ESCRITURADOR RBRP | PATRIA PROPERTIES FATO RELEVANTE A APEX GROUP DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A. (atual denominação de BRL TRUST D"
-    },
-    {
-     "data": "14/07/2026",
-     "risco": false,
-     "resumo": "GESTOR ADMINISTRADOR E ESCRITURADOR RBRP | PATRIA PROPERTIES FATO RELEVANTE A BRL TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A, inscrita no CNPJ/MF sob o nº 13.48"
     }
    ],
-   "fr_count_90d": 3,
-   "sinais_id": "1297839|fr:1315080+1247759"
+   "fr_count_90d": 4,
+   "sinais_id": "1297839|fr:1324144+1315080"
   },
   {
    "ticker": "RBRR11",
@@ -9755,18 +9760,18 @@
    "cotacao_em": "2026-09-18",
    "fatos_relevantes": [
     {
-     "data": "29/06/2026",
+     "data": "16/09/2026",
      "risco": false,
      "resumo": "Sua opinião é importante para nós. Avalie esta comunicação aqui. RIO BRAVO RENDA VAREJO FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA CÓDIGO NEGOCIAÇÃO B3: RBVA11 FATO R"
     },
     {
-     "data": "18/05/2026",
+     "data": "29/06/2026",
      "risco": false,
-     "resumo": "Sua opinião é importante para nós. Avalie esta comunicação aqui. RIO BRAVO RENDA VAREJO FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA CÓDIGO NEGOCIAÇÃO B3: RBVA11"
+     "resumo": "Sua opinião é importante para nós. Avalie esta comunicação aqui. RIO BRAVO RENDA VAREJO FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA CÓDIGO NEGOCIAÇÃO B3: RBVA11 FATO R"
     }
    ],
-   "fr_count_90d": 1,
-   "sinais_id": "1313146|fr:1231782+1197976"
+   "fr_count_90d": 2,
+   "sinais_id": "1321749|fr:1322342+1231782"
   },
   {
    "ticker": "RCRB11",
@@ -9804,7 +9809,7 @@
    "analise": "Negocia a 0.69x o valor patrimonial — desconto de 14% frente à mediana do segmento (0.80). Dividend yield (12m) de 8.3%, abaixo da mediana dos pares (11.2%); supera 15% do segmento. Retorno de 19.1% em 12 meses (top 25% do segmento). Liquidez média (~R$ 1.2 mi/dia). Cotação a 97% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual": "Relatório de maio/2026: Rio Bravo Renda Corporativa FII (RCRB11), um dos FIIs de lajes corporativas mais tradicionais (edifícios premium como o JK Financial Center), PL ~R$ 736 mi, carteira pulverizada em ~55 inquilinos. Distribuição de R$ 1,07/cota (DY anualizado de ~9,1%). Fonte: Relatório Gerencial Rio Bravo, ref. maio/2026.",
-   "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
+   "pontos_atencao": "Indicadores de atenção no relatório: vacância física de cerca de 0,9%. Riscos estruturais: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 3690695,
    "cotacao_em": "2026-09-18",
@@ -9820,8 +9825,8 @@
      "resumo": "Sua opinião é importante para nós. Avalie esta comunicação aqui. RIO BRAVO RENDA CORPORATIVA FUNDO DE INVESTIMENTO IMOBILIÁRIO - RESPONSABILIDADE LIMITADA CÓDIGO NEGOCIAÇÃO B3: RCRB11"
     }
    ],
-   "fr_count_90d": 3,
-   "sinais_id": "1294345|fr:1249520+1233010"
+   "fr_count_90d": 2,
+   "sinais_id": "1323505|fr:1249520+1233010"
   },
   {
    "ticker": "RCRI11",
@@ -9857,9 +9862,9 @@
    "descricao": "Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Gerido pela Real Investor, administrado por BTG Pactual. Patrimônio de R$ 43 mi, liquidez baixa (~R$ 0.0 mi/dia).",
    "analise": "Negocia a 0.98x o valor patrimonial — prêmio de 11% frente à mediana do segmento (0.88). Liquidez baixa (~R$ 0.0 mi/dia). Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa.",
-   "analise_qual": "Relatório de 31/07/2026 — Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Indicadores extraídos: distribuirá R$1,10; dividend yield corresponde a 1,1%; IPCA + 11,7%. Fonte: relatório no Fundos.NET, ref. 31/07/2026. (Resumo automático.)",
-   "pontos_atencao": "Indicadores de atenção no relatório: LTV de 82%. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa.",
-   "analise_qual_id": "1297814",
+   "analise_qual": "Relatório de 31/08/2026 — Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Indicadores extraídos: distribuirá R$1,10; dividend yield corresponde a 1,1%; IPCA + 11,6%. Fonte: relatório no Fundos.NET, ref. 31/08/2026. (Resumo automático.)",
+   "pontos_atencao": "Indicadores de atenção no relatório: High Yield FII (KNHY11) em prol de. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa.",
+   "analise_qual_id": "1324126",
    "cotas": 422144,
    "cotacao_em": "2026-09-18",
    "fr_count_90d": 0
@@ -10097,9 +10102,9 @@
    "descricao": "Fundo imobiliário de fundos (FoF), que investe em cotas de outros FIIs para diversificação. Gerido pela Real Investor, administrado por BTG Pactual. Patrimônio de R$ 535 mi, liquidez baixa (~R$ 0.3 mi/dia).",
    "analise": "Negocia a 1.00x o valor patrimonial — prêmio de 21% frente à mediana do segmento (0.83). Dividend yield (12m) de 12.3%, abaixo da mediana dos pares (13.2%); supera 40% do segmento. Retorno de 16.2% em 12 meses (top 33% do segmento). Liquidez baixa (~R$ 0.3 mi/dia). Cotação a 99% da máxima de 52 semanas. Base comparativa: 15 pares do segmento FoF. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: desempenho e taxas dos FIIs investidos e dupla camada de custos. Liquidez reduzida em bolsa.",
-   "analise_qual": "Relatório de 31/07/2026 — Fundo imobiliário de fundos (FoF), que investe em cotas de outros FIIs para diversificação. Indicadores extraídos: dividend yield de 1,0%; IPCA + 10,6%. Fonte: relatório no Fundos.NET, ref. 31/07/2026. (Resumo automático.)",
-   "pontos_atencao": "Indicadores de atenção no relatório: LTV de 82%. Riscos estruturais: desempenho e taxas dos FIIs investidos e dupla camada de custos. Liquidez reduzida em bolsa.",
-   "analise_qual_id": "1297815|fr:1164610+1016537",
+   "analise_qual": "Relatório de 31/08/2026 — Fundo imobiliário de fundos (FoF), que investe em cotas de outros FIIs para diversificação. Indicadores extraídos: distribuído no mês, de R$1,05; dividend yield de 1,1%; IPCA + 9,9%; alocação de nossa estratégia (52,6%. Fonte: relatório no Fundos.NET, ref. 31/08/2026. (Resumo automático.)",
+   "pontos_atencao": "Indicadores de atenção no relatório: High Yield FII (KNHY11) em prol de. Riscos estruturais: desempenho e taxas dos FIIs investidos e dupla camada de custos. Liquidez reduzida em bolsa.",
+   "analise_qual_id": "1324124|fr:1164610+1016537",
    "cotas": 5031676,
    "cotacao_em": "2026-09-18",
    "fatos_relevantes": [
@@ -10478,9 +10483,9 @@
    "descricao": "Fundo imobiliário de gestão ativa/multiestratégia, com alocação dinâmica entre tijolo e papel. Gerido pela Riza — gestora independente de crédito e imobiliário, administrado por BTG Pactual. Patrimônio de R$ 161 mi, liquidez média (~R$ 1.3 mi/dia).",
    "analise": "Negocia a 1.01x o valor patrimonial — prêmio de 17% frente à mediana do segmento (0.86). Dividend yield (12m) de 14.7%, acima da mediana dos pares (14.3%); supera 67% do segmento. Retorno de 16.1% em 12 meses (top 20% do segmento). Liquidez média (~R$ 1.3 mi/dia). Cotação a 100% da máxima de 52 semanas. Base comparativa: 16 pares do segmento Gestão ativa. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: decisões de alocação do gestor, maior giro e volatilidade. ",
-   "analise_qual": "Relatório de 31/07/2026 — Fundo imobiliário de gestão ativa/multiestratégia, com alocação dinâmica entre tijolo e papel. Indicadores extraídos: CDI+1%. Fonte: relatório no Fundos.NET, ref. 31/07/2026. (Resumo automático.)",
+   "analise_qual": "Relatório de 31/08/2026 — Fundo imobiliário de gestão ativa/multiestratégia, com alocação dinâmica entre tijolo e papel. Indicadores extraídos: CDI+1%. Fonte: relatório no Fundos.NET, ref. 31/08/2026. (Resumo automático.)",
    "pontos_atencao": "Indicadores de atenção no relatório: LTV de 50%. Riscos estruturais: decisões de alocação do gestor, maior giro e volatilidade.",
-   "analise_qual_id": "1298725|fr:910200",
+   "analise_qual_id": "1324123|fr:910200",
    "cotas": 161963,
    "cotacao_em": "2026-09-18",
    "fatos_relevantes": [
@@ -10635,9 +10640,9 @@
    "descricao": "Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Gerido pela —, administrado por S3 Caceis Brasil. Patrimônio de R$ 298 mi, liquidez baixa (~R$ 0.2 mi/dia).",
    "analise": "Negocia a 0.91x o valor patrimonial — prêmio de 3% frente à mediana do segmento (0.88). Dividend yield (12m) de 15.7%, acima da mediana dos pares (14.5%); supera 70% do segmento. Retorno de 25.5% em 12 meses (top 2% do segmento). Liquidez baixa (~R$ 0.2 mi/dia). Cotação a 100% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa.",
-   "analise_qual": "Relatório de 31/07/2026 — Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Indicadores extraídos: distribuídos R$ 0,11; dividend yield anualizado de 15,4%; IPCA + 8,9%. Fonte: relatório no Fundos.NET, ref. 31/07/2026. (Resumo automático.)",
-   "pontos_atencao": "Indicadores de atenção no relatório: LTV da operação é de 76,5%; vencimento antecipado da operação. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa.",
-   "analise_qual_id": "1293784|fr:1101943+1062982",
+   "analise_qual": "Relatório de 31/08/2026 — Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Indicadores extraídos: distribuídos R$ 0,107; dividend yield anualizado de 15,5%; IPCA + 8,9%. Fonte: relatório no Fundos.NET, ref. 31/08/2026. (Resumo automático.)",
+   "pontos_atencao": "Indicadores de atenção no relatório: LTV da operação é de 76,5%; recuperação judicial apresentado pela companhia, foi realiza. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa.",
+   "analise_qual_id": "1320945|fr:1101943+1062982",
    "cotas": 29563321,
    "cotacao_em": "2026-09-18",
    "fatos_relevantes": [
@@ -11046,18 +11051,18 @@
    "cotacao_em": "2026-09-18",
    "fatos_relevantes": [
     {
+     "data": "17/09/2026",
+     "risco": false,
+     "resumo": "FATO RELEVANTE SUNO ENERGIAS LIMPAS FUNDO DE INVESTIMENTO IMOBILIÁRIO IS RESPONSABILIDADE LIMITADA CNPJ nº 43.741.171/0001-84 Código ISIN: BRSNELCTF010 Código de Negociação na B3: SNEL11"
+    },
+    {
      "data": "16/06/2026",
      "risco": false,
      "resumo": "1 FATO RELEVANTE CLASSE ÚNICA DO SUNO ENERGIAS LIMPAS FUNDO DE INVESTIMENTO IMOBILIÁRIO IS RESPONSABILIDADE LIMITADA CNPJ nº 43.741.171/0001-84 Código ISIN: BRSNELCTF010 Códi"
-    },
-    {
-     "data": "29/01/2026",
-     "risco": false,
-     "resumo": "1 FATO RELEVANTE SUNO ENERGIAS LIMPAS FUNDO DE INVESTIMENTO IMOBILIÁRIO IS RESPONSABILIDADE LIMITADA CNPJ nº 43.741.171/0001-84 Código ISIN: BRSNELCTF010 Código de Negociação na"
     }
    ],
    "fr_count_90d": 1,
-   "sinais_id": "1310573|fr:1223118+1096178"
+   "sinais_id": "1321661|fr:1323415+1223118"
   },
   {
    "ticker": "SNFF11",
@@ -11095,11 +11100,18 @@
    "analise": "Negocia a 0.83x o valor patrimonial — desconto de 1% frente à mediana do segmento (0.83). Dividend yield (12m) de 13.9%, acima da mediana dos pares (13.2%); supera 73% do segmento. Retorno de 13.4% em 12 meses (top 47% do segmento). Liquidez baixa (~R$ 0.4 mi/dia). Cotação a 91% da máxima de 52 semanas. Base comparativa: 15 pares do segmento FoF. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: desempenho e taxas dos FIIs investidos e dupla camada de custos. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual": "Relatório de 31/07/2026 — Fundo imobiliário de fundos (FoF), que investe em cotas de outros FIIs para diversificação. Indicadores extraídos: distribuível de R$ 0,74; DY anualizado de 12,49%. Fonte: relatório no Fundos.NET, ref. 31/07/2026. (Resumo automático.)",
-   "pontos_atencao": "desempenho e taxas dos FIIs investidos e dupla camada de custos. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
-   "analise_qual_id": "1302606",
+   "pontos_atencao": "desempenho e taxas dos FIIs investidos e dupla camada de custos. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira. Fato relevante (17/09/2026): ...restou igualmente aprovada a liquidação do Fundo, nos termos do item 7.4 do Anexo I ao Regulamento, a ser realizada após a conclusão da operação de subscrição, com a co...",
+   "analise_qual_id": "1302606|fr:1323244",
    "cotas": 4020635,
    "cotacao_em": "2026-09-18",
-   "fr_count_90d": 0
+   "fr_count_90d": 1,
+   "fatos_relevantes": [
+    {
+     "data": "17/09/2026",
+     "risco": true,
+     "resumo": "...restou igualmente aprovada a liquidação do Fundo, nos termos do item 7.4 do Anexo I ao Regulamento, a ser realizada após a conclusão da operação de subscrição, com a co..."
+    }
+   ]
   },
   {
    "ticker": "SNFZ11",
@@ -11231,9 +11243,9 @@
    "descricao": "Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Gerido pela Suno — gestora ligada à casa de análise Suno, administrado por BTG Pactual. Patrimônio de R$ 70 mi, liquidez baixa (~R$ 0.2 mi/dia).",
    "analise": "Negocia a 1.00x o valor patrimonial — prêmio de 13% frente à mediana do segmento (0.88). Dividend yield (12m) de 15.8%, acima da mediana dos pares (14.5%); supera 72% do segmento. Retorno de 14.5% em 12 meses (top 41% do segmento). Liquidez baixa (~R$ 0.2 mi/dia). Cotação a 100% da máxima de 52 semanas. Base comparativa: 65 pares do segmento Papel (CRI). Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa.",
-   "analise_qual": "Relatório de 30/06/2026 — Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Indicadores extraídos: Dividend Yield of 32%; CDI + 6%. Fonte: relatório no Fundos.NET, ref. 30/06/2026. (Resumo automático.)",
-   "pontos_atencao": "crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa.",
-   "analise_qual_id": "1268613|fr:1293917",
+   "analise_qual": "Relatório de 31/07/2026 — Fundo imobiliário de papel, dedicado a Certificados de Recebíveis Imobiliários (CRI) em busca de renda mensal. Indicadores extraídos: distribuível de R$ 0,4951; Yield IMA-B e de 29,15%; CDI + 5,5%. Fonte: relatório no Fundos.NET, ref. 31/07/2026. (Resumo automático.)",
+   "pontos_atencao": "Indicadores de atenção no relatório: LTV médio de 55,68%. Riscos estruturais: crédito dos CRIs (inadimplência/PDD), marcação a mercado e oscilação de juros e indexadores (CDI/IPCA). Liquidez reduzida em bolsa.",
+   "analise_qual_id": "1318630|fr:1293917",
    "cotas": 7418243,
    "cotacao_em": "2026-09-18",
    "fr_count_90d": 1,
@@ -11429,24 +11441,24 @@
    "analise": "Negocia a 0.84x o valor patrimonial — prêmio de 5% frente à mediana do segmento (0.80). Dividend yield (12m) de 13.9%, acima da mediana dos pares (11.2%); supera 83% do segmento. Retorno de 10.1% em 12 meses (abaixo da mediana do segmento). Liquidez média (~R$ 1.9 mi/dia). Cotação a 91% da máxima de 52 semanas. Base comparativa: 100 pares do segmento Tijolo. Análise quantitativa automática — não é recomendação.",
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual": "Relatório de maio/2026: Tellus Properties FII (TEPP11), FII de lajes corporativas (escritórios), gestão Tellus. Distribuição de R$ 0,131/cota no mês (resultado gerado de apenas R$ 0,076/cota — distribui bem acima do gerado). Vacância física de 5,69%. Fonte: Relatório Gerencial Tellus, ref. maio/2026.",
-   "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira. Volume atipico de 5 fatos relevantes nos ultimos 90 dias (possivel evento em curso).",
+   "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira. Volume atipico de 6 fatos relevantes nos ultimos 90 dias (possivel evento em curso).",
    "analise_qual_id": "manual-rg-202605",
    "cotas": 49616923,
    "cotacao_em": "2026-09-18",
    "fatos_relevantes": [
     {
-     "data": "18/08/2026",
+     "data": "16/09/2026",
      "risco": false,
      "resumo": "TELLUS PROPERTIES - FUNDO DE INVESTIMENTO IMOBILIÁRIO - RESPONSABILIDADE LIMITADA CNPJ nº 26.681.370/0001-25 - Código de Negociação na B3: TEPP11 (“Classe”) FATO RELEVANTE A"
     },
     {
-     "data": "28/07/2026",
+     "data": "18/08/2026",
      "risco": false,
      "resumo": "TELLUS PROPERTIES - FUNDO DE INVESTIMENTO IMOBILIÁRIO - RESPONSABILIDADE LIMITADA CNPJ nº 26.681.370/0001-25 - Código de Negociação na B3: TEPP11 (“Classe”) FATO RELEVANTE A"
     }
    ],
-   "fr_count_90d": 5,
-   "sinais_id": "1306307|fr:1296274+1266395"
+   "fr_count_90d": 6,
+   "sinais_id": "1306307|fr:1322497+1296274"
   },
   {
    "ticker": "TGAR11",
@@ -11801,18 +11813,18 @@
    "cotacao_em": "2026-09-18",
    "fatos_relevantes": [
     {
-     "data": "11/09/2026",
+     "data": "16/09/2026",
      "risco": false,
-     "resumo": "TRX REAL ESTATE FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA CNPJ sob o nº 28.548.288/0001-52 Código de Negociação das Cotas na B3: TRXF11 FATO RELEVANTE TRXF1"
+     "resumo": "TRX REAL ESTATE FUNDO DE INVESTIMENTO IMOBILIÁRIO – RESPONSABILIDADE LIMITADA CNPJ sob o nº 28.548.288/0001-52 Código de Negociação das Cotas na B3: TRXF11 FATO RELEVANTE APE"
     },
     {
-     "data": "31/08/2026",
+     "data": "16/09/2026",
      "risco": false,
-     "resumo": "TRX REAL ESTATE FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA CNPJ sob o nº 28.548.288/0001-52 Código de Negociação das Cotas na B3: TRXF11 FATO RELEVANTE TRXF"
+     "resumo": "TRX REAL ESTATE FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA CNPJ sob o nº 28.548.288/0001-52 Código de Negociação das Cotas na B3: TRXF11 E TRX REAL ESTATE II"
     }
    ],
    "fr_count_90d": 13,
-   "sinais_id": "1309800|fr:1316624+1304485"
+   "sinais_id": "1309800|fr:1322396+1322394"
   },
   {
    "ticker": "TRXY11",
@@ -12891,22 +12903,22 @@
    "risco": "Riscos típicos: vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
    "analise_qual": "Relatório de 31/08/2026 — Fundo imobiliário de tijolo do segmento Shopping Center, que detém imóveis físicos para geração de renda por aluguel. Indicadores extraídos: distribuição foi de R$ 0,70. Fonte: relatório no Fundos.NET, ref. 31/08/2026. (Resumo automático.)",
    "pontos_atencao": "vacância e inadimplência de inquilinos, concentração em poucos imóveis/locatários e ciclo imobiliário. Liquidez reduzida em bolsa. Desconto frente ao VP pode refletir percepção de risco ou de qualidade da carteira.",
-   "analise_qual_id": "1312303|fr:1268491+1165604",
+   "analise_qual_id": "1312303|fr:1318958+1268491",
    "cotas": 2098800,
    "cotacao_em": "2026-09-18",
    "fatos_relevantes": [
     {
-     "data": "29/07/2026",
+     "data": "14/09/2026",
      "risco": false,
      "resumo": "FATO RELEVANTE FUNDO DE INVESTIMENTO IMOBILIÁRIO VOTORANTIM SHOPPING RESPONSABILIDADE LIMITADA CNPJ nº 23.740.595/0001-17 Código de negociação B3: VSHO11 A TIVIO CAPITAL DISTRIBUI"
     },
     {
-     "data": "16/04/2026",
+     "data": "29/07/2026",
      "risco": false,
-     "resumo": "FATO RELEVANTE FUNDO DE INVESTIMENTO IMOBILIÁRIO VOTORANTIM SHOPPING CNPJ nº 23.740.595/0001-17 A TIVIO CAPITAL DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A., inscrita no CNPJ s"
+     "resumo": "FATO RELEVANTE FUNDO DE INVESTIMENTO IMOBILIÁRIO VOTORANTIM SHOPPING RESPONSABILIDADE LIMITADA CNPJ nº 23.740.595/0001-17 Código de negociação B3: VSHO11 A TIVIO CAPITAL DISTRIBUI"
     }
    ],
-   "fr_count_90d": 1
+   "fr_count_90d": 2
   },
   {
    "ticker": "VSLH11",
@@ -13477,18 +13489,18 @@
    "cotacao_em": "2026-09-18",
    "fatos_relevantes": [
     {
-     "data": "13/08/2026",
+     "data": "18/09/2026",
      "risco": false,
      "resumo": "XP MALLS FUNDO DE INVESTIMENTO IMOBILIÁRIO – FII CNPJ nº 28.757.546/0001-00 – Código de Negociação B3: XPML11 FATO RELEVANTE A XP INVESTIMENTOS CORRETORA DE CÂMBIO, TÍTULOS E"
     },
     {
-     "data": "04/05/2026",
+     "data": "14/09/2026",
      "risco": false,
-     "resumo": "XP MALLS FUNDO DE INVESTIMENTO IMOBILIÁRIO – FII CNPJ nº 28.757.546/0001-00 – Código de Negociação B3: XPML11 FATO RELEVANTE A XP INVESTIMENTOS CORRETORA DE CÂMBIO, TÍTULOS E"
+     "resumo": "XP MALLS FUNDO DE INVESTIMENTO IMOBILIÁRIO – FII – RESPONSABILIDADE LIMITADA CNPJ nº 28.757.546/0001-00 Código ISIN: BRXPMLCTF000 Código de Negociação na B3 S.A. – Brasil, Bolsa, Balc"
     }
    ],
-   "fr_count_90d": 1,
-   "sinais_id": "1312452|fr:1289959+1179371"
+   "fr_count_90d": 3,
+   "sinais_id": "1312452|fr:1324186+1319388"
   },
   {
    "ticker": "XPSF11",
