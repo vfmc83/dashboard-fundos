@@ -78238,5 +78238,65 @@
   "dataEntrega": "21/09/2026 21:07",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1325529&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "BBIG11",
+  "cnpj": "54375187000137",
+  "id": "1325571",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "22/09/2026 09:21",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1325571&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "RBRX11",
+  "cnpj": "41088458000121",
+  "id": "1325591",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "22/09/2026 09:39",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1325591&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "RBRY11",
+  "cnpj": "30166700000111",
+  "id": "1325592",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "22/09/2026 09:40",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1325592&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "SMRE11",
+  "cnpj": "53730029000195",
+  "id": "1325566",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "22/09/2026 09:13",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1325566&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "TOPP11",
+  "cnpj": "56805391000176",
+  "id": "1325590",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "22/09/2026 09:38",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1325590&cvm=true",
+  "arquivo": null
  }
 ]
