@@ -78442,5 +78442,17 @@
   "dataEntrega": "22/09/2026 20:10",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1326286&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "BTRA11",
+  "cnpj": "41076607000132",
+  "id": "1326358",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "23/09/2026 09:35",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1326358&cvm=true",
+  "arquivo": null
  }
 ]
