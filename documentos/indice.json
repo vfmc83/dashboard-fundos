@@ -78658,5 +78658,101 @@
   "dataEntrega": "23/09/2026 18:09",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1327050&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "CPOF11",
+  "cnpj": "48916699000160",
+  "id": "1327276",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "23/09/2026",
+  "dataEntrega": "24/09/2026 09:16",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1327276&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "HGLG11",
+  "cnpj": "11728688000147",
+  "id": "1327262",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "23/09/2026 21:35",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1327262&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "HGRE11",
+  "cnpj": "09072017000129",
+  "id": "1327264",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "23/09/2026",
+  "dataEntrega": "23/09/2026 21:49",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1327264&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "RBRS11",
+  "cnpj": "36517660000191",
+  "id": "1327269",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "24/09/2026 08:42",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1327269&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "TRXF11",
+  "cnpj": "28548288000152",
+  "id": "1327296",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "24/09/2026",
+  "dataEntrega": "24/09/2026 09:45",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1327296&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "TRXF11",
+  "cnpj": "28548288000152",
+  "id": "1327292",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "24/09/2026",
+  "dataEntrega": "24/09/2026 09:41",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1327292&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "TRXF11",
+  "cnpj": "28548288000152",
+  "id": "1327290",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "24/09/2026",
+  "dataEntrega": "24/09/2026 09:39",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1327290&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "TRXF11",
+  "cnpj": "28548288000152",
+  "id": "1327288",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "24/09/2026",
+  "dataEntrega": "24/09/2026 09:37",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1327288&cvm=true",
+  "arquivo": null
  }
 ]
