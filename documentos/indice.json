@@ -78910,5 +78910,41 @@
   "dataEntrega": "24/09/2026 17:05",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1327638&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "BBGO11",
+  "cnpj": "42592257000120",
+  "id": "1328594",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "25/09/2026 12:24",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1328594&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "LSAG11",
+  "cnpj": "42592476000109",
+  "id": "1328649",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "25/09/2026 13:08",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1328649&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "TRXF11",
+  "cnpj": "28548288000152",
+  "id": "1328120",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "25/09/2026",
+  "dataEntrega": "25/09/2026 09:24",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1328120&cvm=true",
+  "arquivo": null
  }
 ]
