@@ -79018,5 +79018,29 @@
   "dataEntrega": "25/09/2026 15:41",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1328766&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "AFHI11",
+  "cnpj": "36642293000158",
+  "id": "1329243",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "25/09/2026 22:27",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1329243&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "TRXF11",
+  "cnpj": "28548288000152",
+  "id": "1329467",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "28/09/2026",
+  "dataEntrega": "28/09/2026 10:00",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1329467&cvm=true",
+  "arquivo": null
  }
 ]
