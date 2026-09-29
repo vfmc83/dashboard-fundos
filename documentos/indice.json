@@ -79246,5 +79246,65 @@
   "dataEntrega": "28/09/2026 20:09",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1331503&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "KNCR11",
+  "cnpj": "16706958000132",
+  "id": "1331887",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "28/09/2026",
+  "dataEntrega": "29/09/2026 09:34",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1331887&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "RNGO11",
+  "cnpj": "15006286000190",
+  "id": "1331852",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/08/2026",
+  "dataEntrega": "29/09/2026 08:08",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1331852&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "WHGR11",
+  "cnpj": "41256643000188",
+  "id": "1332067",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "29/09/2026 11:01",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1332067&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "XPCA11",
+  "cnpj": "41269527000101",
+  "id": "1332070",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "29/09/2026 11:01",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1332070&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "XPSF11",
+  "cnpj": "30983020000190",
+  "id": "1332073",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "29/09/2026 11:03",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1332073&cvm=true",
+  "arquivo": null
  }
 ]
