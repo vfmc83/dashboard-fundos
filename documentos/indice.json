@@ -79414,5 +79414,41 @@
   "dataEntrega": "29/09/2026 18:38",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1333389&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "HABT11",
+  "cnpj": "30578417000105",
+  "id": "1333643",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "30/09/2026 00:03",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1333643&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "RBVA11",
+  "cnpj": "15576907000170",
+  "id": "1333648",
+  "categoria": "Outras Informações",
+  "tipo": "Relatório gerencial em inglês",
+  "especie": "",
+  "dataReferencia": "30/08/2026",
+  "dataEntrega": "30/09/2026 08:14",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1333648&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "XPCI11",
+  "cnpj": "28516301000191",
+  "id": "1333639",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "30/09/2026 00:01",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1333639&cvm=true",
+  "arquivo": null
  }
 ]
