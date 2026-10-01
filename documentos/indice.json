@@ -79582,5 +79582,77 @@
   "dataEntrega": "30/09/2026 19:45",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1336582&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "BTCI11",
+  "cnpj": "09552812000114",
+  "id": "1336894",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/09/2026",
+  "dataEntrega": "30/09/2026 23:13",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1336894&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "BTLG11",
+  "cnpj": "11839593000109",
+  "id": "1336846",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/09/2026",
+  "dataEntrega": "30/09/2026 22:13",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1336846&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "CLIN11",
+  "cnpj": "49005348000160",
+  "id": "1336907",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/09/2026",
+  "dataEntrega": "30/09/2026 23:20",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1336907&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "FATN11",
+  "cnpj": "30567216000102",
+  "id": "1336927",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "01/10/2026 07:18",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1336927&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "JCCJ11",
+  "cnpj": "50701686000116",
+  "id": "1337053",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "01/10/2026 11:10",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1337053&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "OIAG11",
+  "cnpj": "41218352000103",
+  "id": "1337063",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "01/10/2026 11:29",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1337063&cvm=true",
+  "arquivo": null
  }
 ]
