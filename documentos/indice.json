@@ -79954,5 +79954,65 @@
   "dataEntrega": "01/10/2026 19:31",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1338187&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "BRCR11",
+  "cnpj": "08924783000101",
+  "id": "1338354",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/09/2026",
+  "dataEntrega": "02/10/2026 08:54",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1338354&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "TEPP11",
+  "cnpj": "26681370000125",
+  "id": "1338526",
+  "categoria": "Outras Informações",
+  "tipo": "Relatório gerencial em inglês",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "02/10/2026 11:18",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1338526&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "TEPP11",
+  "cnpj": "26681370000125",
+  "id": "675132",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/05/2024",
+  "dataEntrega": "06/06/2024 18:15",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=675132&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "TVRI11",
+  "cnpj": "14410722000129",
+  "id": "919199",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/05/2025",
+  "dataEntrega": "06/06/2025 19:55",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=919199&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "TVRI11",
+  "cnpj": "14410722000129",
+  "id": "909333",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/04/2025",
+  "dataEntrega": "21/05/2025 10:54",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=909333&cvm=true",
+  "arquivo": null
  }
 ]
