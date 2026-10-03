@@ -80014,5 +80014,53 @@
   "dataEntrega": "21/05/2025 10:54",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=909333&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "BBIG11",
+  "cnpj": "54375187000137",
+  "id": "1339155",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "02/10/2026",
+  "dataEntrega": "02/10/2026 18:16",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1339155&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "GCRA11",
+  "cnpj": "37037297000170",
+  "id": "1339115",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "02/10/2026 17:50",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1339115&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "KORE11",
+  "cnpj": "52219978000142",
+  "id": "1339146",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/09/2026",
+  "dataEntrega": "02/10/2026 18:07",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1339146&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "MXRF11",
+  "cnpj": "97521225000125",
+  "id": "1339341",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "02/10/2026 19:47",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1339341&cvm=true",
+  "arquivo": null
  }
 ]
