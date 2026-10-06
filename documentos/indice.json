@@ -80254,5 +80254,17 @@
   "dataEntrega": "05/10/2026 18:04",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1340353&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "XPCI11",
+  "cnpj": "28516301000191",
+  "id": "1340964",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "06/10/2026 14:58",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1340964&cvm=true",
+  "arquivo": null
  }
 ]
