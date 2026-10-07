@@ -80362,5 +80362,29 @@
   "dataEntrega": "06/10/2026 19:57",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1341498&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "BTAG11",
+  "cnpj": "40771109000147",
+  "id": "1341677",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/09/2026",
+  "dataEntrega": "07/10/2026 09:24",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1341677&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "BTAG11",
+  "cnpj": "40771109000147",
+  "id": "1341674",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "07/10/2026 09:22",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1341674&cvm=true",
+  "arquivo": null
  }
 ]
