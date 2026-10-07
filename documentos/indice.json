@@ -80266,5 +80266,101 @@
   "dataEntrega": "06/10/2026 14:58",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1340964&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "INRD11",
+  "cnpj": "34835191000123",
+  "id": "1341607",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "06/10/2026",
+  "dataEntrega": "06/10/2026 20:50",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1341607&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "ITIP11",
+  "cnpj": "36312772000106",
+  "id": "1341608",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "06/10/2026",
+  "dataEntrega": "06/10/2026 20:52",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1341608&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "JCCJ11",
+  "cnpj": "50701686000116",
+  "id": "1341606",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "06/10/2026",
+  "dataEntrega": "06/10/2026 20:49",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1341606&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "RZZR11",
+  "cnpj": "35652278000128",
+  "id": "1341502",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "06/10/2026 19:59",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1341502&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "SEQR11",
+  "cnpj": "09517273000182",
+  "id": "1341600",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "06/10/2026",
+  "dataEntrega": "06/10/2026 20:18",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1341600&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "TRXF11",
+  "cnpj": "28548288000152",
+  "id": "1341443",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/09/2026",
+  "dataEntrega": "06/10/2026 19:16",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1341443&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "VGHF11",
+  "cnpj": "36771692000119",
+  "id": "1341429",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "06/10/2026 18:50",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1341429&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "VGIP11",
+  "cnpj": "34197811000146",
+  "id": "1341498",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/08/2026",
+  "dataEntrega": "06/10/2026 19:57",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1341498&cvm=true",
+  "arquivo": null
  }
 ]
