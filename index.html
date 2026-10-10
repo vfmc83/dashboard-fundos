@@ -724,6 +724,14 @@ function App(){
   },[]);
 
   const fundos=useMemo(()=>data?computeScores(data.fundos):[],[data]);
+  // Link direto: dashboard-fundos.vercel.app/#TICKER abre a ficha do fundo (usado pelo Painel Gerencial)
+  useEffect(()=>{
+    if(!fundos.length)return;
+    const abrir=()=>{const t=decodeURIComponent((window.location.hash||'').slice(1)).trim().toUpperCase();
+      if(!t)return;const f=fundos.find(x=>x.ticker===t);if(f){setSel(f);window.scrollTo(0,0);}};
+    abrir();window.addEventListener('hashchange',abrir);
+    return ()=>window.removeEventListener('hashchange',abrir);
+  },[fundos]);
   const contagem=useMemo(()=>{const c={Todos:fundos.length};ORDEM_CLASSE.forEach(k=>c[k]=fundos.filter(f=>f.classe===k).length);return c;},[fundos]);
   const subclasses=useMemo(()=>classe==='Todos'?[]:[...new Set(fundos.filter(f=>f.classe===classe).map(f=>f.subclasse))].sort(),[fundos,classe]);
   const segmentos=useMemo(()=>sub!=='Tijolo'?[]:[...new Set(fundos.filter(f=>f.subclasse==='Tijolo'&&f.segmento_btg).map(f=>f.segmento_btg))].sort(),[fundos,sub]);
@@ -762,7 +770,7 @@ function App(){
 
   if(erro)return <div><Header/><div className="err"><h2>Ops.</h2><p style={{color:'var(--neutro)'}}>{erro}</p></div></div>;
   if(!data)return <div><Header/><div className="err"><p style={{color:'var(--neutro)'}}>Carregando universo…</p></div></div>;
-  if(sel)return <div><Header/><Ficha f={sel} onBack={()=>setSel(null)} todos={fundos} docs={docs}/><Footer meta={data.meta}/></div>;
+  if(sel)return <div><Header/><Ficha f={sel} onBack={()=>{setSel(null);if(window.location.hash)history.replaceState(null,'',window.location.pathname+window.location.search);}} todos={fundos} docs={docs}/><Footer meta={data.meta}/></div>;
 
   const cmpList=fundos.filter(f=>comparar.has(f.ticker));
   const fltAtivos=(fPvp[0]>0||fPvp[1]<2.5?1:0)+(fDy[0]>0||fDy[1]<0.3?1:0)+(fRet[0]>-0.4||fRet[1]<0.6?1:0)+(fVm>0?1:0)+(fScore[0]>0||fScore[1]<100?1:0);
