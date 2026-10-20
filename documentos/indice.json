@@ -82414,5 +82414,17 @@
   "dataEntrega": "22/11/2024 18:20",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=785938&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "HLOG11",
+  "cnpj": "27486542000172",
+  "id": "1354305",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/09/2026",
+  "dataEntrega": "19/10/2026 17:04",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1354305&cvm=true",
+  "arquivo": null
  }
 ]
