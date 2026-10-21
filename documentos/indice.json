@@ -82618,5 +82618,17 @@
   "dataEntrega": "20/10/2026 18:30",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1355284&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "PLCA11",
+  "cnpj": "41272747000186",
+  "id": "1355516",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/09/2026",
+  "dataEntrega": "20/10/2026 22:31",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1355516&cvm=true",
+  "arquivo": null
  }
 ]
