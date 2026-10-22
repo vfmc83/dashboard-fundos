@@ -82630,5 +82630,89 @@
   "dataEntrega": "20/10/2026 22:31",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1355516&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "JSRE11",
+  "cnpj": "13371132000171",
+  "id": "1355753",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/09/2026",
+  "dataEntrega": "21/10/2026 16:17",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1355753&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "LVBI11",
+  "cnpj": "30629603000118",
+  "id": "1356177",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/09/2026",
+  "dataEntrega": "21/10/2026 19:33",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1356177&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "PCIP11",
+  "cnpj": "28729197000113",
+  "id": "1356052",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/09/2026",
+  "dataEntrega": "21/10/2026 18:32",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1356052&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "RBRP11",
+  "cnpj": "21408063000151",
+  "id": "1356053",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/09/2026",
+  "dataEntrega": "21/10/2026 18:33",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1356053&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "RBVA11",
+  "cnpj": "15576907000170",
+  "id": "1356195",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/09/2026",
+  "dataEntrega": "21/10/2026 19:50",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1356195&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "RPRI11",
+  "cnpj": "42502842000191",
+  "id": "1356175",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/09/2026",
+  "dataEntrega": "21/10/2026 19:30",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1356175&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "TOPP11",
+  "cnpj": "56805391000176",
+  "id": "1356180",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/09/2026",
+  "dataEntrega": "21/10/2026 19:34",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1356180&cvm=true",
+  "arquivo": null
  }
 ]
