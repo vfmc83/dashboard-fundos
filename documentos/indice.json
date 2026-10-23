@@ -83122,5 +83122,53 @@
   "dataEntrega": "22/10/2026 18:32",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1356811&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "APXM11",
+  "cnpj": "43010485000107",
+  "id": "1357032",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "22/10/2026",
+  "dataEntrega": "22/10/2026 21:53",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1357032&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "BTRA11",
+  "cnpj": "41076607000132",
+  "id": "1357266",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/09/2026",
+  "dataEntrega": "23/10/2026 11:33",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1357266&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "HGLG11",
+  "cnpj": "11728688000147",
+  "id": "1357030",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "22/10/2026",
+  "dataEntrega": "22/10/2026 21:45",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1357030&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "RBRS11",
+  "cnpj": "36517660000191",
+  "id": "1357045",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/09/2026",
+  "dataEntrega": "23/10/2026 08:41",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1357045&cvm=true",
+  "arquivo": null
  }
 ]
