@@ -83302,5 +83302,17 @@
   "dataEntrega": "23/10/2026 19:21",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1358199&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "ZAGH11",
+  "cnpj": "45188066000195",
+  "id": "1358369",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/09/2026",
+  "dataEntrega": "26/10/2026 09:22",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1358369&cvm=true",
+  "arquivo": null
  }
 ]
