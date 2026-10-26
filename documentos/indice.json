@@ -83314,5 +83314,17 @@
   "dataEntrega": "26/10/2026 09:22",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1358369&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "JSCR11",
+  "cnpj": "54866214000174",
+  "id": "1358573",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/09/2026",
+  "dataEntrega": "26/10/2026 14:54",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1358573&cvm=true",
+  "arquivo": null
  }
 ]
