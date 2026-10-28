@@ -83722,5 +83722,41 @@
   "dataEntrega": "27/10/2026 18:29",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1359759&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "BBGO11",
+  "cnpj": "42592257000120",
+  "id": "1360074",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/09/2026",
+  "dataEntrega": "28/10/2026 11:16",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1360074&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "VGRI11",
+  "cnpj": "53656482000107",
+  "id": "1360043",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "28/10/2026",
+  "dataEntrega": "28/10/2026 10:31",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1360043&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "VGRI11",
+  "cnpj": "53656482000107",
+  "id": "1359947",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "28/10/2026",
+  "dataEntrega": "28/10/2026 08:26",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1359947&cvm=true",
+  "arquivo": null
  }
 ]
