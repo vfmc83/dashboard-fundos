@@ -83914,5 +83914,17 @@
   "dataEntrega": "28/10/2026 17:00",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1360713&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "CPSH11",
+  "cnpj": "47896665000199",
+  "id": "1361222",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/09/2026",
+  "dataEntrega": "29/10/2026 10:54",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1361222&cvm=true",
+  "arquivo": null
  }
 ]
