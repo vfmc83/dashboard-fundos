@@ -84130,5 +84130,41 @@
   "dataEntrega": "29/10/2026 18:17",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1362881&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "APXM11",
+  "cnpj": "43010485000107",
+  "id": "1363807",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "22/10/2026",
+  "dataEntrega": "30/10/2026 12:32",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1363807&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "CCME11",
+  "cnpj": "43010844000126",
+  "id": "1363359",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "30/10/2026",
+  "dataEntrega": "30/10/2026 09:30",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1363359&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "FIIB11",
+  "cnpj": "14217108000145",
+  "id": "1364720",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/09/2026",
+  "dataEntrega": "30/10/2026 14:45",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1364720&cvm=true",
+  "arquivo": null
  }
 ]
