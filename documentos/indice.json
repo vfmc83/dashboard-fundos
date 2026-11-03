@@ -84454,5 +84454,17 @@
   "dataEntrega": "31/10/2026 22:53",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1366819&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "HTMX11",
+  "cnpj": "08706065000169",
+  "id": "1366961",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/10/2026",
+  "dataEntrega": "03/11/2026 09:39",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1366961&cvm=true",
+  "arquivo": null
  }
 ]
