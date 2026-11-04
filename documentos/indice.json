@@ -84466,5 +84466,77 @@
   "dataEntrega": "03/11/2026 09:39",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1366961&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "AZPL11",
+  "cnpj": "51890054000100",
+  "id": "1367700",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/09/2026",
+  "dataEntrega": "03/11/2026 18:32",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1367700&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "BTLG11",
+  "cnpj": "11839593000109",
+  "id": "1368029",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "03/11/2026",
+  "dataEntrega": "03/11/2026 21:48",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1368029&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "BTLG11",
+  "cnpj": "11839593000109",
+  "id": "1368016",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "03/11/2026",
+  "dataEntrega": "03/11/2026 21:33",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1368016&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "MXRF11",
+  "cnpj": "97521225000125",
+  "id": "1367646",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/09/2026",
+  "dataEntrega": "03/11/2026 18:04",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1367646&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "RECT11",
+  "cnpj": "32274163000159",
+  "id": "1367869",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "03/11/2026",
+  "dataEntrega": "03/11/2026 19:36",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1367869&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "TRBL11",
+  "cnpj": "16671412000193",
+  "id": "1367670",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "03/11/2026",
+  "dataEntrega": "03/11/2026 18:21",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1367670&cvm=true",
+  "arquivo": null
  }
 ]
