@@ -84538,5 +84538,65 @@
   "dataEntrega": "03/11/2026 18:21",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1367670&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "KORE11",
+  "cnpj": "52219978000142",
+  "id": "1368108",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/10/2026",
+  "dataEntrega": "04/11/2026 09:25",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1368108&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "RCRB11",
+  "cnpj": "03683056000186",
+  "id": "1368597",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "04/11/2026",
+  "dataEntrega": "04/11/2026 15:02",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1368597&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "RCRB11",
+  "cnpj": "03683056000186",
+  "id": "1368105",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "04/11/2026",
+  "dataEntrega": "04/11/2026 09:24",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1368105&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "RNGO11",
+  "cnpj": "15006286000190",
+  "id": "1368064",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "03/11/2026",
+  "dataEntrega": "03/11/2026 23:55",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1368064&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "RNGO11",
+  "cnpj": "15006286000190",
+  "id": "1368063",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "03/11/2026",
+  "dataEntrega": "03/11/2026 23:55",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1368063&cvm=true",
+  "arquivo": null
  }
 ]
