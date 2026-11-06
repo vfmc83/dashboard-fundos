@@ -84802,5 +84802,89 @@
   "dataEntrega": "04/11/2026 19:07",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1369015&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "GARE11",
+  "cnpj": "37295919000160",
+  "id": "1370249",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "05/11/2026",
+  "dataEntrega": "05/11/2026 18:30",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1370249&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "HCTR11",
+  "cnpj": "30248180000196",
+  "id": "1370260",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/09/2026",
+  "dataEntrega": "05/11/2026 18:39",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1370260&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "INLG11",
+  "cnpj": "34598181000111",
+  "id": "1370254",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "05/11/2026",
+  "dataEntrega": "05/11/2026 18:35",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1370254&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "JGPX11",
+  "cnpj": "42888292000190",
+  "id": "1370565",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "05/11/2026",
+  "dataEntrega": "05/11/2026 21:56",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1370565&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "KFOF11",
+  "cnpj": "30091444000140",
+  "id": "1370330",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/10/2026",
+  "dataEntrega": "05/11/2026 19:08",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1370330&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "VPPR11",
+  "cnpj": "30654849000140",
+  "id": "1370256",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/09/2026",
+  "dataEntrega": "05/11/2026 18:36",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1370256&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "ZAVI11",
+  "cnpj": "40575940000123",
+  "id": "1370258",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/09/2026",
+  "dataEntrega": "05/11/2026 18:38",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1370258&cvm=true",
+  "arquivo": null
  }
 ]
