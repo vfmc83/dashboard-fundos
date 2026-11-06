@@ -84886,5 +84886,41 @@
   "dataEntrega": "05/11/2026 18:38",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1370258&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "AAZQ11",
+  "cnpj": "44625826000111",
+  "id": "1370980",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/10/2026",
+  "dataEntrega": "06/11/2026 14:02",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1370980&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "HREC11",
+  "cnpj": "35507262000121",
+  "id": "1370641",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "06/11/2026",
+  "dataEntrega": "06/11/2026 09:13",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1370641&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "XPSF11",
+  "cnpj": "30983020000190",
+  "id": "1370984",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/09/2026",
+  "dataEntrega": "06/11/2026 14:04",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1370984&cvm=true",
+  "arquivo": null
  }
 ]
