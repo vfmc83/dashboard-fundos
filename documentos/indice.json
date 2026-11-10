@@ -85534,5 +85534,53 @@
   "dataEntrega": "09/11/2026 19:41",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1373305&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "ABCP11",
+  "cnpj": "01201140000190",
+  "id": "1373664",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/10/2026",
+  "dataEntrega": "10/11/2026 10:18",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1373664&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "CPLG11",
+  "cnpj": "52371756000140",
+  "id": "1373612",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "10/11/2026",
+  "dataEntrega": "10/11/2026 08:22",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1373612&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "RBIR11",
+  "cnpj": "31161410000148",
+  "id": "1373884",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/09/2026",
+  "dataEntrega": "10/11/2026 11:57",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1373884&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "SHPH11",
+  "cnpj": "03507519000159",
+  "id": "1373610",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/10/2026",
+  "dataEntrega": "10/11/2026 07:26",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1373610&cvm=true",
+  "arquivo": null
  }
 ]
