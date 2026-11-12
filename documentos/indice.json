@@ -85798,5 +85798,17 @@
   "dataEntrega": "11/11/2026 19:22",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1377517&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "LIFE11",
+  "cnpj": "39753295000102",
+  "id": "1377866",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/09/2026",
+  "dataEntrega": "12/11/2026 08:58",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1377866&cvm=true",
+  "arquivo": null
  }
 ]
