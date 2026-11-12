@@ -85750,5 +85750,53 @@
   "dataEntrega": "11/11/2026 09:49",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1375423&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "BIME11",
+  "cnpj": "41081356000184",
+  "id": "1377438",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/09/2026",
+  "dataEntrega": "11/11/2026 18:49",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1377438&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "BNFS11",
+  "cnpj": "15570431000160",
+  "id": "1377248",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "11/11/2026",
+  "dataEntrega": "11/11/2026 18:10",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1377248&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "PMLL11",
+  "cnpj": "26499833000132",
+  "id": "1377511",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "11/11/2026",
+  "dataEntrega": "11/11/2026 19:15",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1377511&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "VVCR11",
+  "cnpj": "23120027000113",
+  "id": "1377517",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "11/11/2026",
+  "dataEntrega": "11/11/2026 19:22",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1377517&cvm=true",
+  "arquivo": null
  }
 ]
