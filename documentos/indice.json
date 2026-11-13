@@ -85822,5 +85822,17 @@
   "dataEntrega": "12/11/2026 19:29",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1380620&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "IRIM11",
+  "cnpj": "41076564000195",
+  "id": "1381643",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/10/2026",
+  "dataEntrega": "13/11/2026 10:15",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1381643&cvm=true",
+  "arquivo": null
  }
 ]
