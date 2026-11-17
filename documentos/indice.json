@@ -86242,5 +86242,41 @@
   "dataEntrega": "16/11/2026 18:21",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1387150&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "CYCR11",
+  "cnpj": "36501233000115",
+  "id": "1387236",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/10/2026",
+  "dataEntrega": "16/11/2026 19:18",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1387236&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "PLCA11",
+  "cnpj": "41272747000186",
+  "id": "1387376",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/10/2026",
+  "dataEntrega": "16/11/2026 21:57",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1387376&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "TVRI11",
+  "cnpj": "14410722000129",
+  "id": "1387262",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "16/11/2026",
+  "dataEntrega": "16/11/2026 19:39",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1387262&cvm=true",
+  "arquivo": null
  }
 ]
