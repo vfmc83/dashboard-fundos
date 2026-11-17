@@ -86278,5 +86278,29 @@
   "dataEntrega": "16/11/2026 19:39",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1387262&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "AFHF11",
+  "cnpj": "60077386000161",
+  "id": "1387442",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "16/11/2026",
+  "dataEntrega": "17/11/2026 09:57",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1387442&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "ITIT11",
+  "cnpj": "36293425000183",
+  "id": "1387829",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/10/2026",
+  "dataEntrega": "17/11/2026 17:02",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1387829&cvm=true",
+  "arquivo": null
  }
 ]
