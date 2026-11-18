@@ -86374,5 +86374,17 @@
   "dataEntrega": "17/11/2026 18:37",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1387957&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "JSAF11",
+  "cnpj": "42085661000107",
+  "id": "1388523",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/10/2026",
+  "dataEntrega": "18/11/2026 17:24",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1388523&cvm=true",
+  "arquivo": null
  }
 ]
