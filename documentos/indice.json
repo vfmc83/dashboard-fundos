@@ -86302,5 +86302,77 @@
   "dataEntrega": "17/11/2026 17:02",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1387829&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "ALZR11",
+  "cnpj": "28737771000185",
+  "id": "1388132",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/10/2026",
+  "dataEntrega": "17/11/2026 20:51",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1388132&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "KISU11",
+  "cnpj": "36669660000107",
+  "id": "1388146",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "17/11/2026",
+  "dataEntrega": "17/11/2026 22:29",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1388146&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "OXRL11",
+  "cnpj": "58561237000121",
+  "id": "1387928",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "17/11/2026",
+  "dataEntrega": "17/11/2026 18:13",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1387928&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "SNFF11",
+  "cnpj": "40011225000168",
+  "id": "1388145",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "17/11/2026",
+  "dataEntrega": "17/11/2026 22:29",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1388145&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "SNME11",
+  "cnpj": "52227760000130",
+  "id": "1388000",
+  "categoria": "Outras Informações",
+  "tipo": "Relatório gerencial em inglês",
+  "especie": "",
+  "dataReferencia": "30/09/2026",
+  "dataEntrega": "17/11/2026 19:20",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1388000&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "TVRI11",
+  "cnpj": "14410722000129",
+  "id": "1387957",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "17/11/2026",
+  "dataEntrega": "17/11/2026 18:37",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1387957&cvm=true",
+  "arquivo": null
  }
 ]
