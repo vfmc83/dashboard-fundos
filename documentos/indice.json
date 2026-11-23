@@ -86758,5 +86758,53 @@
   "dataEntrega": "19/11/2026 18:30",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1389427&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "BTRA11",
+  "cnpj": "41076607000132",
+  "id": "1389742",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/10/2026",
+  "dataEntrega": "23/11/2026 09:50",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1389742&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "OIAG11",
+  "cnpj": "41218352000103",
+  "id": "1390008",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/10/2026",
+  "dataEntrega": "23/11/2026 15:56",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1390008&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "VRTM11",
+  "cnpj": "51870412000113",
+  "id": "1389957",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/10/2026",
+  "dataEntrega": "23/11/2026 15:30",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1389957&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "XPCA11",
+  "cnpj": "41269527000101",
+  "id": "1389869",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/10/2026",
+  "dataEntrega": "23/11/2026 14:15",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1389869&cvm=true",
+  "arquivo": null
  }
 ]
