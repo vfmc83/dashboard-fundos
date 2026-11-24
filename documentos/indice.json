@@ -86998,5 +86998,41 @@
   "dataEntrega": "23/11/2026 18:45",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1390220&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "HGLG11",
+  "cnpj": "11728688000147",
+  "id": "1390465",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/10/2026",
+  "dataEntrega": "23/11/2026 21:31",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1390465&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "PMLL11",
+  "cnpj": "26499833000132",
+  "id": "1390466",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/10/2026",
+  "dataEntrega": "23/11/2026 21:32",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1390466&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "RBRP11",
+  "cnpj": "21408063000151",
+  "id": "1390467",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/10/2026",
+  "dataEntrega": "23/11/2026 21:40",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1390467&cvm=true",
+  "arquivo": null
  }
 ]
