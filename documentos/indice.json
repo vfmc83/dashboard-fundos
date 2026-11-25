@@ -87250,5 +87250,65 @@
   "dataEntrega": "24/11/2026 10:21",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1390527&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "BIME11",
+  "cnpj": "41081356000184",
+  "id": "1391201",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/10/2026",
+  "dataEntrega": "24/11/2026 22:10",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1391201&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "FGAA11",
+  "cnpj": "42405905000191",
+  "id": "1391099",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/10/2026",
+  "dataEntrega": "24/11/2026 19:53",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1391099&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "HLOG11",
+  "cnpj": "27486542000172",
+  "id": "1391088",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "24/11/2026",
+  "dataEntrega": "24/11/2026 19:30",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1391088&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "PCIP11",
+  "cnpj": "28729197000113",
+  "id": "1391102",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/10/2026",
+  "dataEntrega": "24/11/2026 20:01",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1391102&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "VILG11",
+  "cnpj": "24853044000122",
+  "id": "1391199",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/10/2026",
+  "dataEntrega": "24/11/2026 22:06",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1391199&cvm=true",
+  "arquivo": null
  }
 ]
