@@ -87382,5 +87382,65 @@
   "dataEntrega": "25/11/2026 18:03",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1391986&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "MAXR11",
+  "cnpj": "11274415000170",
+  "id": "1392068",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "25/11/2026",
+  "dataEntrega": "25/11/2026 19:10",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1392068&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "RCRB11",
+  "cnpj": "03683056000186",
+  "id": "1392193",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/10/2026",
+  "dataEntrega": "25/11/2026 23:30",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1392193&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "SNAG11",
+  "cnpj": "28152777000190",
+  "id": "1392086",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/10/2026",
+  "dataEntrega": "25/11/2026 19:38",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1392086&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "SNFZ11",
+  "cnpj": "53313475000102",
+  "id": "1392190",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/10/2026",
+  "dataEntrega": "25/11/2026 22:13",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1392190&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "TOPP11",
+  "cnpj": "56805391000176",
+  "id": "1392076",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/10/2026",
+  "dataEntrega": "25/11/2026 19:23",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1392076&cvm=true",
+  "arquivo": null
  }
 ]
