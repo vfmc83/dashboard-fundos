@@ -87442,5 +87442,65 @@
   "dataEntrega": "25/11/2026 19:23",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1392076&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "BBIG11",
+  "cnpj": "54375187000137",
+  "id": "1392881",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/10/2026",
+  "dataEntrega": "26/11/2026 14:45",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1392881&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "EXES11",
+  "cnpj": "41076851000103",
+  "id": "1393299",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "26/11/2026",
+  "dataEntrega": "26/11/2026 18:26",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1393299&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "KISU11",
+  "cnpj": "36669660000107",
+  "id": "1393297",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "26/11/2026",
+  "dataEntrega": "26/11/2026 18:25",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1393297&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "SNFF11",
+  "cnpj": "40011225000168",
+  "id": "1393295",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "26/11/2026",
+  "dataEntrega": "26/11/2026 18:24",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1393295&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "TVRI11",
+  "cnpj": "14410722000129",
+  "id": "1392206",
+  "categoria": "Fato Relevante",
+  "tipo": "",
+  "especie": "",
+  "dataReferencia": "26/11/2026",
+  "dataEntrega": "26/11/2026 08:46",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1392206&cvm=true",
+  "arquivo": null
  }
 ]
