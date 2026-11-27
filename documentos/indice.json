@@ -87622,5 +87622,53 @@
   "dataEntrega": "26/11/2026 19:07",
   "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1393362&cvm=true",
   "arquivo": null
+ },
+ {
+  "ticker": "EXES11",
+  "cnpj": "41076851000103",
+  "id": "1393737",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/10/2026",
+  "dataEntrega": "27/11/2026 10:59",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1393737&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "FIIB11",
+  "cnpj": "14217108000145",
+  "id": "1394709",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "31/10/2026",
+  "dataEntrega": "27/11/2026 16:56",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1394709&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "GCRA11",
+  "cnpj": "37037297000170",
+  "id": "1393930",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/10/2026",
+  "dataEntrega": "27/11/2026 12:07",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1393930&cvm=true",
+  "arquivo": null
+ },
+ {
+  "ticker": "GSFI11",
+  "cnpj": "11769604000113",
+  "id": "1394600",
+  "categoria": "Relatórios",
+  "tipo": "Relatório Gerencial",
+  "especie": "",
+  "dataReferencia": "30/09/2026",
+  "dataEntrega": "27/11/2026 16:27",
+  "url": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1394600&cvm=true",
+  "arquivo": null
  }
 ]
